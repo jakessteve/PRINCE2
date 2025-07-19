@@ -1,3 +1,10 @@
+/* --- Universal Box Sizing --- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /* --- General Body and Typography --- */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -5,8 +12,7 @@ body {
     margin: 0;
     background-color: #f4f4f9;
     color: #2c3e50;
-    padding: 20px;
-    font-size: 16px;
+    padding: 20px 40px;
 }
 
 h1,
@@ -14,7 +20,7 @@ h2,
 h3 {
     color: #2c3e50;
     border-bottom: 2px solid #3498db;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     margin-top: 0;
 }
 
@@ -22,33 +28,31 @@ h3 {
 .page-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    max-width: 1200px;
-    margin: 0 auto;
+    gap: 20px;
 }
 
 .main-content {
     flex: 4;
-    min-width: 280px;
+    min-width: 300px;
     order: 1;
 }
 
 .sidebar {
     flex: 1;
-    min-width: 260px;
+    min-width: 280px;
     position: sticky;
-    top: 10px;
-    max-height: calc(100vh - 20px);
+    top: 20px;
+    max-height: calc(100vh - 40px);
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     order: 2;
 }
 
 /* --- Reusable Box Style --- */
 .sidebar-group {
     background: #ffffff;
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex-shrink: 0;
@@ -58,7 +62,6 @@ h3 {
 .sidebar h2,
 .sidebar h3 {
     text-align: center;
-    font-size: 1.4em;
 }
 
 .sidebar h2.pass {
@@ -72,23 +75,23 @@ h3 {
 /* --- Weekly Index --- */
 #week-index-container {
     flex-grow: 1;
-    min-height: 120px;
+    min-height: 150px;
     display: flex;
     flex-direction: column;
 }
 
 #week-index {
     overflow-y: auto;
-    padding-right: 8px;
+    padding-right: 10px;
     list-style-type: none;
     padding-left: 0;
     margin: 0;
     flex-grow: 1;
-    max-height: 350px;
+    max-height: 400px;
 }
 
 #week-index li {
-    padding: 4px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -96,7 +99,7 @@ h3 {
     text-decoration: none;
     color: #3498db;
     display: block;
-    padding: 8px;
+    padding: 10px;
     border-radius: 6px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -104,6 +107,7 @@ h3 {
 #week-index a:hover {
     background-color: #1e90ff;
     color: #ffffff;
+    text-decoration: none;
 }
 
 #week-index a.active-week {
@@ -116,11 +120,12 @@ h3 {
 #week-index a.active-week:hover {
     background-color: #1e90ff;
     color: #ffffff;
+    text-decoration: none;
 }
 
 /* --- Custom Scrollbar Styling --- */
 #week-index::-webkit-scrollbar {
-    width: 6px;
+    width: 8px;
 }
 
 #week-index::-webkit-scrollbar-track {
@@ -143,20 +148,19 @@ h3 {
     top: 0;
     background-color: #f4f4f9;
     z-index: 10;
-    padding: 15px 0;
-    font-size: 1.8em;
+    padding-top: 20px;
 }
 
 .question-block {
-    margin-bottom: 20px;
-    padding-bottom: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #ecf0f1;
 }
 
 .question-block p {
     font-weight: bold;
-    font-size: 1.05em;
-    margin-bottom: 12px;
+    font-size: 1.1em;
+    margin-bottom: 15px;
     color: #34495e;
 }
 
@@ -166,8 +170,8 @@ h3 {
 }
 
 .question-block li {
-    margin-bottom: 8px;
-    padding: 6px;
+    margin-bottom: 10px;
+    padding: 8px;
     border-radius: 5px;
     border-left: 3px solid transparent;
     transition: background-color 0.3s, border-left 0.3s;
@@ -180,11 +184,10 @@ h3 {
 label {
     cursor: pointer;
     display: block;
-    font-size: 0.95em;
 }
 
 input[type="radio"] {
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 .question-block li.selected-answer {
@@ -196,15 +199,14 @@ input[type="radio"] {
 .btn {
     background-color: #3498db;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 25px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 18px;
     display: block;
     width: 100%;
-    max-width: 300px;
-    margin: 15px auto;
+    margin-top: 20px;
     text-align: center;
     transition: background-color 0.3s;
 }
@@ -220,7 +222,8 @@ input[type="radio"] {
 
 .btn-final-test {
     background-color: #f39c12;
-    margin-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .btn-final-test:hover:not(:disabled) {
@@ -229,10 +232,10 @@ input[type="radio"] {
 
 /* Timer styles */
 #timer {
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     line-height: 1.2;
     transition: color 0.5s ease;
 }
@@ -253,20 +256,20 @@ input[type="radio"] {
 }
 
 #question-counter {
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-align: center;
-    margin-bottom: 15px;
-    line-height: 1.4;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 /* --- Result Containers --- */
 #score-container,
 #analysis-container,
 #all-answers-container {
-    margin-top: 25px;
-    padding: 15px;
+    margin-top: 30px;
+    padding: 20px;
     background-color: #ffffff;
-    border-left: 4px solid #3498db;
+    border-left: 5px solid #3498db;
     border-radius: 5px;
 }
 
@@ -274,33 +277,9 @@ input[type="radio"] {
     border-left-color: #e74c3c;
 }
 
-#score-container .score-correct {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #2ecc71;
-}
-
-#score-container .score-total {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-#score-container .pass-rate {
-    color: #2ecc71;
-}
-
-#score-container .fail-rate {
-    color: #e74c3c;
-}
-
-#score-container .fail-count {
-    color: #e74c3c;
-}
-
 .answer-item {
-    padding: 12px;
-    margin-bottom: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
     background-color: #f8f9fa;
     border-left: 3px solid #3498db;
     border-radius: 4px;
@@ -311,8 +290,8 @@ input[type="radio"] {
 }
 
 .answer-item p {
-    margin: 4px 0;
-    line-height: 1.4;
+    margin: 5px 0;
+    line-height: 1.5;
 }
 
 .answer-item .rationale-text {
@@ -325,13 +304,13 @@ input[type="radio"] {
 
 /* --- Control Box Enhancements --- */
 #question-counter .answered-count {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     color: #2ecc71;
 }
 
 #question-counter .total-count {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     color: #2c3e50;
 }
@@ -364,169 +343,123 @@ input[type="radio"] {
 }
 
 /* --- Responsive Design --- */
-@media (max-width: 1024px) {
-    .page-container {
-        flex-direction: column;
-        gap: 10px;
+@media (max-width: 900px) {
+
+    /* Remove body padding and apply it to children to fix sticky issues */
+    body {
+        padding: 0;
     }
 
-    .sidebar {
-        position: relative;
-        top: 0;
-        order: 0;
-        min-width: 100%;
-        max-height: none;
+    .page-container {
+        flex-direction: column;
+        gap: 0;
+        /* Control gap with section padding instead */
     }
 
     .main-content {
         order: 1;
-        min-width: 100%;
-    }
-
-    #main-title {
-        padding: 10px 0;
-        font-size: 1.6em;
-    }
-
-    #week-index-container {
-        max-height: 250px;
-    }
-
-    #week-index {
-        max-height: 240px;
-    }
-
-    .btn {
-        max-width: 100%;
-    }
-
-    #timer {
-        font-size: 2em;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        padding: 15px;
-        font-size: 14px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-size: 1.3em;
-    }
-
-    .sidebar-group {
-        padding: 15px;
-    }
-
-    #week-index a {
-        padding: 6px;
-        font-size: 0.9em;
-    }
-
-    .question-block p {
-        font-size: 1em;
-    }
-
-    label {
-        font-size: 0.9em;
-    }
-
-    .btn {
-        padding: 8px 15px;
-        font-size: 0.9em;
-    }
-
-    #timer {
-        font-size: 1.8em;
-    }
-
-    #question-counter {
-        font-size: 1em;
-    }
-
-    #score-container,
-    #analysis-container,
-    #all-answers-container {
-        padding: 12px;
-    }
-
-    .answer-item {
-        padding: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        padding: 10px;
-        font-size: 13px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-size: 1.2em;
+        padding: 20px;
     }
 
     .sidebar {
-        min-width: 100%;
+        position: sticky;
+        top: 0;
+        order: 0;
+        max-height: none;
+        padding: 10px 20px;
+        background-color: #f4f4f9;
+        z-index: 20;
+        gap: 10px;
     }
 
-    .sidebar-group {
-        padding: 10px;
+    #main-title {
+        padding-top: 0;
     }
 
     #week-index-container {
-        max-height: 200px;
+        max-height: 300px;
     }
 
     #week-index {
-        max-height: 190px;
+        max-height: 288px;
+    }
+}
+
+/* --- Mobile Specific Enhancements (Phones) --- */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 15px;
+        /* Tighter padding for main content on small screens */
     }
 
-    #week-index a {
-        padding: 5px;
-        font-size: 0.85em;
+    .sidebar {
+        padding: 5px 15px;
+        /* Tighter padding for sidebar on small screens */
     }
 
-    .question-block {
-        margin-bottom: 15px;
-        padding-bottom: 10px;
+    #sidebar-title {
+        display: none;
     }
 
-    .question-block p {
-        font-size: 0.95em;
+    #controls-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 10px;
+        gap: 10px;
     }
 
-    label {
-        font-size: 0.85em;
-    }
-
-    input[type="radio"] {
-        margin-right: 8px;
-    }
-
-    .btn {
-        padding: 7px 12px;
-        font-size: 0.85em;
+    #controls-box>* {
+        margin: 0;
     }
 
     #timer {
         font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        line-height: 1;
+        white-space: nowrap;
+        flex-shrink: 0;
     }
 
     #question-counter {
-        font-size: 0.9em;
+        font-size: 0.8em;
+        text-align: center;
+        line-height: 1.2;
+        white-space: nowrap;
+        flex-grow: 1;
     }
 
-    #score-container .score-correct,
-    #score-container .score-total {
-        font-size: 1.1em;
+    #start-btn,
+    #finish-btn {
+        padding: 8px 12px;
+        font-size: 0.9em;
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: auto;
     }
 
-    .answer-item p {
-        font-size: 0.9em;
+    /* UPDATED: Specific styles for the Start button to handle two lines */
+    #start-btn {
+        line-height: 1.2;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    #main-title {
+        position: static;
+        padding-top: 10px;
+    }
+
+    /* Adjust height of weekly quiz box on mobile */
+    #week-index-container {
+        min-height: 380px;
+    }
+
+    /* Allow week list to fill its taller container */
+    #week-index {
+        max-height: none;
     }
 }
