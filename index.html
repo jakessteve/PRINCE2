@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRINCE2 Foundation Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="main-content">
+            <h1 id="main-title">PRINCE2 Foundation Quiz</h1>
+            <div id="quiz-wrapper">
+                <div id="welcome-message">
+                    <h2>Welcome to the PRINCE2 Quiz</h2>
+                    <p>Please select a week from the index on the right, or click the button to start a test.</p>
+                </div>
+                <form id="quiz-form"></form>
+                <div id="score-container" class="hidden"></div>
+                <div id="analysis-container" class="hidden">
+                    <h2>Analysis of Incorrect Answers</h2>
+                    <div id="analysis-content"></div>
+                </div>
+                <div id="all-answers-container" class="hidden">
+                    <h2>Correct Answers Summary</h2>
+                    <div id="all-answers-content"></div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-group" id="controls-box">
+                <h2 id="sidebar-title">Controls</h2>
+                <div id="timer">00:00</div>
+                <div id="question-counter">Select a Week to Begin</div>
+                <button id="start-btn" class="btn hidden">Start Test</button>
+                <button id="finish-btn" class="btn hidden">Finish Test</button>
+            </div>
+            <div class="sidebar-group" id="week-index-container">
+                <button id="start-final-test-btn" class="btn btn-final-test">Start Final Test</button>
+                <h3>Weekly Quiz</h3>
+                <ul id="week-index"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="data/quiz_bank_final.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
