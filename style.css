@@ -239,6 +239,15 @@ input[type="radio"] {
     background-color: #e67e22;
 }
 
+.btn-failed-test {
+    background-color: #c0392b;
+    margin-bottom: 10px;
+}
+
+.btn-failed-test:hover:not(:disabled) {
+    background-color: #a93226;
+}
+
 .btn-restart {
     background-color: #2ecc71;
 }
