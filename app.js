@@ -6,6 +6,7 @@ const quizApp = {
     initialTotalTime: 0,
     isTestActive: false,
     isTestFinished: false,
+    failedQuestionsStorageKey: 'prince2FailedQuestions',
 
     quizBankData: window.QUIZ_BANK,
 
@@ -22,6 +23,7 @@ const quizApp = {
         startBtn: document.getElementById('start-btn'),
         finishBtn: document.getElementById('finish-btn'),
         startFinalTestBtn: document.getElementById('start-final-test-btn'),
+        startFailedTestBtn: document.getElementById('start-failed-test-btn'),
         timerEl: document.getElementById('timer'),
         counterEl: document.getElementById('question-counter'),
         sidebarTitle: document.getElementById('sidebar-title'),
@@ -65,6 +67,10 @@ const quizApp = {
             this.selectAndPrepareQuiz('final', true);
         });
 
+        this.elements.startFailedTestBtn.addEventListener('click', () => {
+            this.selectAndPrepareQuiz('failed', true);
+        });
+
         this.elements.quizForm.addEventListener('change', (event) => {
             this.updateCounter();
             this.highlightSelection(event.target);
@@ -74,9 +80,18 @@ const quizApp = {
         this.elements.expandResultsBtn.addEventListener('click', () => this.toggleFullscreen());
     },
 
+    getFailedCounts() {
+        const counts = localStorage.getItem(this.failedQuestionsStorageKey);
+        return counts ? JSON.parse(counts) : {};
+    },
+
+    saveFailedCounts(counts) {
+        localStorage.setItem(this.failedQuestionsStorageKey, JSON.stringify(counts));
+    },
+
     showCustomConfirm(message, onConfirm) {
         const dialog = document.createElement('div');
-        dialog.className = 'custom-dialog'; // Use the existing .custom-dialog class
+        dialog.className = 'custom-dialog';
         dialog.innerHTML = `
             <p>${message}</p>
             <button id="confirm-yes" style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px;">Yes</button>
@@ -136,9 +151,11 @@ const quizApp = {
         this.startTime = null;
         this.initialTotalTime = 0;
         this.isTestActive = false;
+        this.isTestFinished = false;
 
         history.pushState({}, '', `?week=${quizId}`);
         const isFinalTest = quizId === 'final';
+        const isFailedTest = quizId === 'failed';
 
         if (isFinalTest) {
             const finalTestQuestions = [];
@@ -165,24 +182,59 @@ const quizApp = {
             this.shuffleArray(finalTestQuestions);
             this.quizData = finalTestQuestions.slice(0, 60);
 
+        } else if (isFailedTest) {
+            const failedCounts = this.getFailedCounts();
+            let allQuestions = [];
+            Object.values(this.quizBankData).forEach(week => {
+                allQuestions = allQuestions.concat(week);
+            });
+
+            const uniqueQuestions = new Map();
+            allQuestions.forEach(q => {
+                if (!uniqueQuestions.has(q.question)) {
+                    uniqueQuestions.set(q.question, q);
+                }
+            });
+
+            const questionsWithFailCount = Array.from(uniqueQuestions.values()).map(q => {
+                return { ...q, failCount: failedCounts[q.question] || 0 };
+            });
+
+            const failedQuestionsPool = questionsWithFailCount
+                .filter(q => q.failCount > 5)
+                .sort((a, b) => b.failCount - a.failCount);
+
+            this.quizData = failedQuestionsPool.slice(0, 60);
+
+            if (this.quizData.length === 0) {
+                this.showCustomAlert("Not enough questions have been failed more than 5 times to generate this test.");
+                this.prepareQuizScreen();
+                this.updateActiveWeekLink(null);
+                this.elements.startBtn.classList.add('hidden');
+                return;
+            }
         } else {
             this.quizData = this.quizBankData[quizId];
         }
 
-        if (!this.quizData || this.quizData.length === 0) {
+        if (!this.quizData || this.quizData.length === 0 && !isFailedTest) {
             this.showCustomAlert(`Error: Could not find quiz data for "${quizId}".`);
             return;
         }
 
         this.elements.mainTitle.textContent = isFinalTest
             ? 'PRINCE2 Foundation - Final Test'
-            : `PRINCE2 Foundation Quiz - Week ${quizId}`;
+            : isFailedTest
+                ? 'PRINCE2 Foundation - Most Failed Questions'
+                : `PRINCE2 Foundation Quiz - Week ${quizId}`;
         this.prepareQuizScreen();
         this.updateActiveWeekLink(quizId);
 
         this.elements.startBtn.innerHTML = isFinalTest
             ? 'Start Final Test'
-            : `Start Test<br>Week ${quizId}`;
+            : isFailedTest
+                ? 'Start Failed Test'
+                : `Start Test<br>Week ${quizId}`;
 
         this.updateCounter();
         if (autoStart) {
@@ -471,6 +523,11 @@ const quizApp = {
                         <p><strong>Correct Answer:</strong> <span class="correct-answer-text">${item.answer.toUpperCase()} - ${item.options[item.answer]}</span></p>
                         <p class="rationale-text"><strong>Rationale:</strong> ${item.reasoning}</p>
                     </div>`;
+
+                const failedCounts = this.getFailedCounts();
+                const questionId = item.question;
+                failedCounts[questionId] = (failedCounts[questionId] || 0) + 1;
+                this.saveFailedCounts(failedCounts);
             }
         });
 
