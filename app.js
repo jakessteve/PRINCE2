@@ -541,7 +541,7 @@ const quizApp = {
 
     disableInputs() {
         this.elements.quizForm.querySelectorAll('input').forEach(input => input.disabled = true);
-        this.elements.finishBtn.textContent = 'Restart this Test';
+        this.elements.finishBtn.textContent = 'Restart Test';
         this.elements.finishBtn.classList.add('btn-restart');
     },
 
