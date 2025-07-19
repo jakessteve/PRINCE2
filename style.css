@@ -512,11 +512,19 @@ body.explanation-active #expand-results-btn {
     position: fixed;
     top: 15px;
     right: 15px;
+    z-index: 1001;
+    /* Ensure button is above other content */
 }
 
 /* Hide other content when explanation is active */
 body.explanation-active .sidebar,
-body.explanation-active .main-header>h1,
-body.explanation-active #quiz-wrapper>*:not(.fullscreen-explanation) {
+body.explanation-active #quiz-form,
+/* Hide quiz form */
+body.explanation-active #welcome-message,
+/* Hide welcome message */
+body.explanation-active #score-container
+
+/* Hide score container */
+    {
     display: none !important;
 }

@@ -72,6 +72,7 @@ const quizApp = {
     toggleFullscreen() {
         this.elements.quizWrapper.classList.toggle('fullscreen-explanation');
         this.elements.body.classList.toggle('explanation-active');
+        this.elements.mainTitle.classList.toggle('hidden'); // Toggle visibility of main title
     },
 
     selectAndPrepareQuiz(quizId, autoStart = false) {
@@ -440,6 +441,7 @@ const quizApp = {
         // Reset any fullscreen views
         this.elements.quizWrapper.classList.remove('fullscreen-explanation');
         this.elements.body.classList.remove('explanation-active');
+        this.elements.mainTitle.classList.remove('hidden'); // Ensure main title is visible on reset
 
         this.elements.timerEl.innerHTML = '00:00';
         this.elements.timerEl.classList.remove('warn', 'danger');
