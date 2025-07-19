@@ -46,10 +46,10 @@ const quizApp = {
         this.elements.finishBtn.addEventListener('click', () => {
             const unansweredCount = this.quizData.length - this.elements.quizForm.querySelectorAll('input[type="radio"]:checked').length;
             if (unansweredCount > 0) {
-                const confirmFinish = confirm(`There are ${unansweredCount} questions not answered. Are you sure you want to finish the test?`);
-                if (confirmFinish) {
+                // Using a custom modal/dialog instead of alert for better UX and compatibility
+                this.showCustomConfirm(`There are ${unansweredCount} questions not answered. Are you sure you want to finish the test?`, () => {
                     this.finish();
-                }
+                });
             } else {
                 this.finish();
             }
@@ -69,6 +69,58 @@ const quizApp = {
         this.elements.expandResultsBtn.addEventListener('click', () => this.toggleFullscreen());
     },
 
+    // Custom confirm dialog function
+    showCustomConfirm(message, onConfirm) {
+        const dialog = document.createElement('div');
+        dialog.style.cssText = `
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 2000;
+            text-align: center;
+            max-width: 300px;
+            font-family: sans-serif;
+            color: #2c3e50;
+        `;
+        dialog.innerHTML = `
+            <p>${message}</p>
+            <button id="confirm-yes" style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px;">Yes</button>
+            <button id="confirm-no" style="background-color: #e74c3c; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;">No</button>
+        `;
+        document.body.appendChild(dialog);
+
+        const overlay = document.createElement('div');
+        overlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1999;
+        `;
+        document.body.appendChild(overlay);
+
+        const closeDialog = () => {
+            document.body.removeChild(dialog);
+            document.body.removeChild(overlay);
+        };
+
+        document.getElementById('confirm-yes').addEventListener('click', () => {
+            onConfirm();
+            closeDialog();
+        });
+
+        document.getElementById('confirm-no').addEventListener('click', () => {
+            closeDialog();
+        });
+    },
+
     toggleFullscreen() {
         this.elements.quizWrapper.classList.toggle('fullscreen-explanation');
         this.elements.body.classList.toggle('explanation-active');
@@ -77,12 +129,16 @@ const quizApp = {
 
     selectAndPrepareQuiz(quizId, autoStart = false) {
         if (this.isTestActive) {
-            if (!confirm('A test is in progress. Are you sure you want to quit?')) {
-                return;
-            }
-            this.finish(true);
+            this.showCustomConfirm('A test is in progress. Are you sure you want to quit?', () => {
+                this.finish(true);
+                this.resetAndLoadQuiz(quizId, autoStart);
+            });
+        } else {
+            this.resetAndLoadQuiz(quizId, autoStart);
         }
+    },
 
+    resetAndLoadQuiz(quizId, autoStart) {
         this.resetResultContainers();
         this.quizData = [];
         this.shuffledData = [];
@@ -124,7 +180,8 @@ const quizApp = {
         }
 
         if (!this.quizData || this.quizData.length === 0) {
-            alert(`Error: Could not find quiz data for "${quizId}".`);
+            // Using a custom alert for consistency
+            this.showCustomAlert(`Error: Could not find quiz data for "${quizId}".`);
             return;
         }
 
@@ -142,6 +199,48 @@ const quizApp = {
         if (autoStart) {
             this.start();
         }
+    },
+
+    // Custom alert dialog function
+    showCustomAlert(message) {
+        const dialog = document.createElement('div');
+        dialog.style.cssText = `
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 2000;
+            text-align: center;
+            max-width: 300px;
+            font-family: sans-serif;
+            color: #2c3e50;
+        `;
+        dialog.innerHTML = `
+            <p>${message}</p>
+            <button id="alert-ok" style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;">OK</button>
+        `;
+        document.body.appendChild(dialog);
+
+        const overlay = document.createElement('div');
+        overlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1999;
+        `;
+        document.body.appendChild(overlay);
+
+        document.getElementById('alert-ok').addEventListener('click', () => {
+            document.body.removeChild(dialog);
+            document.body.removeChild(overlay);
+        });
     },
 
     highlightSelection(targetInput) {
@@ -238,7 +337,7 @@ const quizApp = {
 
     start() {
         if (!this.quizData || this.quizData.length === 0) {
-            alert("Please select a quiz from the index first!");
+            this.showCustomAlert("Please select a quiz from the index first!");
             return;
         }
         this.isTestActive = true;
@@ -315,24 +414,27 @@ const quizApp = {
         clearInterval(this.timerInterval);
         this.isTestActive = false;
 
-        this.elements.expandResultsBtn.classList.remove('hidden'); // Show on results screen
-        this.elements.weekIndexContainer.classList.remove('hidden');
-        this.elements.weekIndexContainer.style.display = '';
+        // Defer non-critical DOM updates to allow click handler to finish faster
+        requestAnimationFrame(() => {
+            this.elements.expandResultsBtn.classList.remove('hidden'); // Show on results screen
+            this.elements.weekIndexContainer.classList.remove('hidden');
+            this.elements.weekIndexContainer.style.display = '';
 
-        const results = forceFailed
-            ? { score: 0, total: this.quizData.length, answeredCount: 0 }
-            : this.displayResultsAndGetScore();
+            const results = forceFailed
+                ? { score: 0, total: this.quizData.length, answeredCount: 0 }
+                : this.displayResultsAndGetScore();
 
-        this.disableInputs();
-        this.updateSidebarOnFinish(results);
+            this.disableInputs();
+            this.updateSidebarOnFinish(results);
 
-        const params = new URLSearchParams(window.location.search);
-        const week = params.get('week');
-        this.elements.mainTitle.textContent = week
-            ? `PRINCE2 Foundation Quiz - Week ${week}`
-            : 'PRINCE2 Foundation Quiz';
+            const params = new URLSearchParams(window.location.search);
+            const week = params.get('week');
+            this.elements.mainTitle.textContent = week
+                ? `PRINCE2 Foundation Quiz - Week ${week}`
+                : 'PRINCE2 Foundation Quiz';
 
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     },
 
     updateSidebarOnFinish(results) {
