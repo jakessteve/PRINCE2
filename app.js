@@ -5,6 +5,7 @@ const quizApp = {
     startTime: null,
     initialTotalTime: 0,
     isTestActive: false,
+    isTestFinished: false,
 
     quizBankData: window.QUIZ_BANK,
 
@@ -18,8 +19,6 @@ const quizApp = {
         scoreContainer: document.getElementById('score-container'),
         analysisContainer: document.getElementById('analysis-container'),
         analysisContent: document.getElementById('analysis-content'),
-        allAnswersContainer: document.getElementById('all-answers-container'),
-        allAnswersContent: document.getElementById('all-answers-content'),
         startBtn: document.getElementById('start-btn'),
         finishBtn: document.getElementById('finish-btn'),
         startFinalTestBtn: document.getElementById('start-final-test-btn'),
@@ -44,14 +43,21 @@ const quizApp = {
     bindEvents() {
         this.elements.startBtn.addEventListener('click', () => this.start());
         this.elements.finishBtn.addEventListener('click', () => {
-            const unansweredCount = this.quizData.length - this.elements.quizForm.querySelectorAll('input[type="radio"]:checked').length;
-            if (unansweredCount > 0) {
-                // Using a custom modal/dialog instead of alert for better UX and compatibility
-                this.showCustomConfirm(`There are ${unansweredCount} questions not answered. Are you sure you want to finish the test?`, () => {
-                    this.finish();
-                });
+            if (this.isTestFinished) {
+                const params = new URLSearchParams(window.location.search);
+                const week = params.get('week');
+                if (week) {
+                    this.selectAndPrepareQuiz(week, true);
+                }
             } else {
-                this.finish();
+                const unansweredCount = this.quizData.length - this.elements.quizForm.querySelectorAll('input[type="radio"]:checked').length;
+                if (unansweredCount > 0) {
+                    this.showCustomConfirm(`There are ${unansweredCount} questions not answered. Are you sure you want to finish the test?`, () => {
+                        this.finish();
+                    });
+                } else {
+                    this.finish();
+                }
             }
         });
 
@@ -65,28 +71,12 @@ const quizApp = {
         });
         window.addEventListener('popstate', () => this.handleURLChange());
 
-        // Add event listener for the single expand button
         this.elements.expandResultsBtn.addEventListener('click', () => this.toggleFullscreen());
     },
 
-    // Custom confirm dialog function
     showCustomConfirm(message, onConfirm) {
         const dialog = document.createElement('div');
-        dialog.style.cssText = `
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            z-index: 2000;
-            text-align: center;
-            max-width: 300px;
-            font-family: sans-serif;
-            color: #2c3e50;
-        `;
+        dialog.className = 'custom-dialog'; // Use the existing .custom-dialog class
         dialog.innerHTML = `
             <p>${message}</p>
             <button id="confirm-yes" style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px;">Yes</button>
@@ -124,7 +114,7 @@ const quizApp = {
     toggleFullscreen() {
         this.elements.quizWrapper.classList.toggle('fullscreen-explanation');
         this.elements.body.classList.toggle('explanation-active');
-        this.elements.mainTitle.classList.toggle('hidden'); // Toggle visibility of main title
+        this.elements.mainTitle.classList.toggle('hidden');
     },
 
     selectAndPrepareQuiz(quizId, autoStart = false) {
@@ -180,7 +170,6 @@ const quizApp = {
         }
 
         if (!this.quizData || this.quizData.length === 0) {
-            // Using a custom alert for consistency
             this.showCustomAlert(`Error: Could not find quiz data for "${quizId}".`);
             return;
         }
@@ -201,24 +190,9 @@ const quizApp = {
         }
     },
 
-    // Custom alert dialog function
     showCustomAlert(message) {
         const dialog = document.createElement('div');
-        dialog.style.cssText = `
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            z-index: 2000;
-            text-align: center;
-            max-width: 300px;
-            font-family: sans-serif;
-            color: #2c3e50;
-        `;
+        dialog.className = 'custom-dialog';
         dialog.innerHTML = `
             <p>${message}</p>
             <button id="alert-ok" style="background-color: #3498db; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;">OK</button>
@@ -267,7 +241,7 @@ const quizApp = {
         this.elements.startBtn.classList.remove('hidden');
         this.elements.finishBtn.classList.add('hidden');
         this.elements.counterEl.classList.remove('hidden');
-        this.elements.expandResultsBtn.classList.add('hidden'); // Hide on prepare screen
+        this.elements.expandResultsBtn.classList.add('hidden');
 
         this.elements.sidebarTitle.classList.remove('pass', 'fail');
         this.elements.timerEl.classList.remove('warn', 'danger');
@@ -281,7 +255,7 @@ const quizApp = {
         this.elements.startBtn.classList.add('hidden');
         this.elements.finishBtn.classList.add('hidden');
         this.elements.counterEl.classList.add('hidden');
-        this.elements.expandResultsBtn.classList.add('hidden'); // Hide on welcome screen
+        this.elements.expandResultsBtn.classList.add('hidden');
 
         const params = new URLSearchParams(window.location.search);
         const week = params.get('week');
@@ -341,10 +315,12 @@ const quizApp = {
             return;
         }
         this.isTestActive = true;
+        this.isTestFinished = false;
         this.elements.startBtn.classList.add('hidden');
         this.elements.finishBtn.classList.remove('hidden');
         this.elements.finishBtn.disabled = false;
         this.elements.finishBtn.textContent = 'Finish Test';
+        this.elements.finishBtn.classList.remove('btn-restart');
         this.elements.quizForm.classList.remove('hidden');
         this.startTime = new Date();
 
@@ -413,10 +389,10 @@ const quizApp = {
     finish(forceFailed = false) {
         clearInterval(this.timerInterval);
         this.isTestActive = false;
+        this.isTestFinished = true;
 
-        // Defer non-critical DOM updates to allow click handler to finish faster
         requestAnimationFrame(() => {
-            this.elements.expandResultsBtn.classList.remove('hidden'); // Show on results screen
+            this.elements.expandResultsBtn.classList.remove('hidden');
             this.elements.weekIndexContainer.classList.remove('hidden');
             this.elements.weekIndexContainer.style.display = '';
 
@@ -477,7 +453,6 @@ const quizApp = {
 
         let score = 0;
         let analysisHTML = '';
-        let allAnswersHTML = '';
         const answeredCount = this.elements.quizForm.querySelectorAll('input[type="radio"]:checked').length;
 
         this.shuffledData.forEach((item, index) => {
@@ -497,29 +472,20 @@ const quizApp = {
                         <p class="rationale-text"><strong>Rationale:</strong> ${item.reasoning}</p>
                     </div>`;
             }
-
-            allAnswersHTML += `
-                <div class="answer-item">
-                    <p><strong>Question ${index + 1}:</strong> ${item.question}</p>
-                    <p><strong>Correct Answer: ${item.answer.toUpperCase()}</strong> - ${item.options[item.answer]}</p>
-                    <p class="rationale-text"><strong>Rationale:</strong> ${item.reasoning}</p>
-                </div>`;
         });
 
         if (analysisHTML) {
             this.elements.analysisContent.innerHTML = analysisHTML;
             this.elements.analysisContainer.classList.remove('hidden');
         }
-        this.elements.allAnswersContainer.classList.remove('hidden');
-        this.elements.allAnswersContent.innerHTML = allAnswersHTML;
 
         return { score, total: this.shuffledData.length, answeredCount };
     },
 
     disableInputs() {
         this.elements.quizForm.querySelectorAll('input').forEach(input => input.disabled = true);
-        this.elements.finishBtn.disabled = true;
-        this.elements.finishBtn.textContent = 'Test Completed';
+        this.elements.finishBtn.textContent = 'Restart this Test';
+        this.elements.finishBtn.classList.add('btn-restart');
     },
 
     updateCounter() {
@@ -532,18 +498,15 @@ const quizApp = {
     resetResultContainers() {
         this.elements.scoreContainer.classList.add('hidden');
         this.elements.analysisContainer.classList.add('hidden');
-        this.elements.allAnswersContainer.classList.add('hidden');
         this.elements.scoreContainer.innerHTML = '';
         this.elements.analysisContent.innerHTML = '';
-        this.elements.allAnswersContent.innerHTML = '';
         this.elements.quizForm.innerHTML = '';
         this.elements.sidebarTitle.textContent = 'Controls';
         this.elements.sidebarTitle.classList.remove('pass', 'fail');
 
-        // Reset any fullscreen views
         this.elements.quizWrapper.classList.remove('fullscreen-explanation');
         this.elements.body.classList.remove('explanation-active');
-        this.elements.mainTitle.classList.remove('hidden'); // Ensure main title is visible on reset
+        this.elements.mainTitle.classList.remove('hidden');
 
         this.elements.timerEl.innerHTML = '00:00';
         this.elements.timerEl.classList.remove('warn', 'danger');
