@@ -1,3 +1,10 @@
+/* --- Universal Box Sizing --- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /* --- General Body and Typography --- */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -81,8 +88,6 @@ h3 {
     margin: 0;
     flex-grow: 1;
     max-height: 400px;
-    /* UPDATED: Was 300px */
-    /* Fixed height for scrollable content */
 }
 
 #week-index li {
@@ -219,7 +224,6 @@ input[type="radio"] {
     background-color: #f39c12;
     margin-top: 0;
     margin-bottom: 10px;
-    /* Space below the button */
 }
 
 .btn-final-test:hover:not(:disabled) {
@@ -273,30 +277,6 @@ input[type="radio"] {
     border-left-color: #e74c3c;
 }
 
-#score-container .score-correct {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #2ecc71;
-}
-
-#score-container .score-total {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-#score-container .pass-rate {
-    color: #2ecc71;
-}
-
-#score-container .fail-rate {
-    color: #e74c3c;
-}
-
-#score-container .fail-count {
-    color: #e74c3c;
-}
-
 .answer-item {
     padding: 15px;
     margin-bottom: 15px;
@@ -340,7 +320,6 @@ input[type="radio"] {
     font-weight: bold;
 }
 
-/* UPDATED: New color classes for the result breakdown */
 .result-correct {
     color: #2ecc71;
 }
@@ -353,38 +332,44 @@ input[type="radio"] {
     color: #7f8c8d;
 }
 
-/* --- UPDATED: New styles for analysis answers --- */
 .your-answer-text {
     color: #c0392b;
-    /* Dark Red */
     font-weight: bold;
 }
 
 .correct-answer-text {
     color: #2980b9;
-    /* Dark Blue */
     font-weight: bold;
 }
 
 /* --- Responsive Design --- */
 @media (max-width: 900px) {
+
+    /* Remove body padding and apply it to children to fix sticky issues */
     body {
-        padding: 20px;
+        padding: 0;
     }
 
     .page-container {
         flex-direction: column;
-    }
-
-    .sidebar {
-        position: sticky;
-        top: 20px;
-        order: 0;
-        max-height: calc(100vh - 40px);
+        gap: 0;
+        /* Control gap with section padding instead */
     }
 
     .main-content {
         order: 1;
+        padding: 20px;
+    }
+
+    .sidebar {
+        position: sticky;
+        top: 0;
+        order: 0;
+        max-height: none;
+        padding: 10px 20px;
+        background-color: #f4f4f9;
+        z-index: 20;
+        gap: 10px;
     }
 
     #main-title {
@@ -397,7 +382,84 @@ input[type="radio"] {
 
     #week-index {
         max-height: 288px;
-        /* UPDATED: Was 250px */
-        /* Adjusted for smaller screens */
+    }
+}
+
+/* --- Mobile Specific Enhancements (Phones) --- */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 15px;
+        /* Tighter padding for main content on small screens */
+    }
+
+    .sidebar {
+        padding: 5px 15px;
+        /* Tighter padding for sidebar on small screens */
+    }
+
+    #sidebar-title {
+        display: none;
+    }
+
+    #controls-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 10px;
+        gap: 10px;
+    }
+
+    #controls-box>* {
+        margin: 0;
+    }
+
+    #timer {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        line-height: 1;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    #question-counter {
+        font-size: 0.8em;
+        text-align: center;
+        line-height: 1.2;
+        white-space: nowrap;
+        flex-grow: 1;
+    }
+
+    #start-btn,
+    #finish-btn {
+        padding: 8px 12px;
+        font-size: 0.9em;
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: auto;
+    }
+
+    /* UPDATED: Specific styles for the Start button to handle two lines */
+    #start-btn {
+        line-height: 1.2;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    #main-title {
+        position: static;
+        padding-top: 10px;
+    }
+
+    /* Adjust height of weekly quiz box on mobile */
+    #week-index-container {
+        min-height: 380px;
+    }
+
+    /* Allow week list to fill its taller container */
+    #week-index {
+        max-height: none;
     }
 }
