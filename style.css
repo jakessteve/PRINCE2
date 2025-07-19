@@ -382,6 +382,88 @@ input[type="radio"] {
 
     #week-index {
         max-height: 288px;
+<<<<<<< HEAD
+    }
+}
+
+/* --- Mobile Specific Enhancements (Phones) --- */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 15px;
+        /* Tighter padding for main content on small screens */
+    }
+
+    .sidebar {
+        padding: 5px 15px;
+        /* Tighter padding for sidebar on small screens */
+    }
+
+    #sidebar-title {
+        display: none;
+    }
+
+    #controls-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 10px;
+        gap: 10px;
+    }
+
+    #controls-box>* {
+        margin: 0;
+    }
+
+    #timer {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: left;
+        line-height: 1;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    #question-counter {
+        font-size: 0.8em;
+        text-align: center;
+        line-height: 1.2;
+        white-space: nowrap;
+        flex-grow: 1;
+    }
+
+    #start-btn,
+    #finish-btn {
+        padding: 8px 12px;
+        font-size: 0.9em;
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: auto;
+    }
+
+    /* UPDATED: Specific styles for the Start button to handle two lines */
+    #start-btn {
+        line-height: 1.2;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    #main-title {
+        position: static;
+        padding-top: 10px;
+    }
+
+    /* Adjust height of weekly quiz box on mobile */
+    #week-index-container {
+        min-height: 380px;
+    }
+
+    /* Allow week list to fill its taller container */
+    #week-index {
+        max-height: none;
+=======
+>>>>>>> b16d94bb9927e6f85303a6b0155cc439c8eaf9b6
     }
 }
 
