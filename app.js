@@ -9,9 +9,11 @@ const quizApp = {
     quizBankData: window.QUIZ_BANK,
 
     elements: {
+        body: document.body,
         mainTitle: document.getElementById('main-title'),
-        welcomeMessage: document.getElementById('welcome-message'),
+        expandResultsBtn: document.getElementById('expand-results-btn'),
         quizWrapper: document.getElementById('quiz-wrapper'),
+        welcomeMessage: document.getElementById('welcome-message'),
         quizForm: document.getElementById('quiz-form'),
         scoreContainer: document.getElementById('score-container'),
         analysisContainer: document.getElementById('analysis-container'),
@@ -62,6 +64,14 @@ const quizApp = {
             this.highlightSelection(event.target);
         });
         window.addEventListener('popstate', () => this.handleURLChange());
+
+        // Add event listener for the single expand button
+        this.elements.expandResultsBtn.addEventListener('click', () => this.toggleFullscreen());
+    },
+
+    toggleFullscreen() {
+        this.elements.quizWrapper.classList.toggle('fullscreen-explanation');
+        this.elements.body.classList.toggle('explanation-active');
     },
 
     selectAndPrepareQuiz(quizId, autoStart = false) {
@@ -88,29 +98,25 @@ const quizApp = {
             let remainingPool = [];
             const weeks = Object.keys(this.quizBankData);
 
-            // 1. Pick one random question from each week to guarantee coverage
             weeks.forEach(week => {
                 const weekQuestions = [...this.quizBankData[week]];
                 if (weekQuestions.length > 0) {
                     this.shuffleArray(weekQuestions);
-                    finalTestQuestions.push(weekQuestions.shift()); // Add one question to the final list
-                    remainingPool = remainingPool.concat(weekQuestions); // Add the rest to the remaining pool
+                    finalTestQuestions.push(weekQuestions.shift());
+                    remainingPool = remainingPool.concat(weekQuestions);
                 }
             });
 
-            // 2. Calculate how many more questions are needed to reach 60
             const questionsNeeded = 60 - finalTestQuestions.length;
 
-            // 3. Fill the remainder with questions from the remaining pool
             if (questionsNeeded > 0 && remainingPool.length > 0) {
                 this.shuffleArray(remainingPool);
                 const additionalQuestions = remainingPool.slice(0, questionsNeeded);
                 finalTestQuestions.push(...additionalQuestions);
             }
 
-            // 4. Shuffle the final list of questions and assign it
             this.shuffleArray(finalTestQuestions);
-            this.quizData = finalTestQuestions.slice(0, 60); // Ensure it's exactly 60
+            this.quizData = finalTestQuestions.slice(0, 60);
 
         } else {
             this.quizData = this.quizBankData[quizId];
@@ -127,7 +133,6 @@ const quizApp = {
         this.prepareQuizScreen();
         this.updateActiveWeekLink(quizId);
 
-        // UPDATED: Use innerHTML to allow for a line break in the button text
         this.elements.startBtn.innerHTML = isFinalTest
             ? 'Start Final Test'
             : `Start Test<br>Week ${quizId}`;
@@ -157,18 +162,15 @@ const quizApp = {
     },
 
     prepareQuizScreen() {
-        this.elements.welcomeMessage.classList.add('hidden');
+        this.elements.welcomeMessage.classList.remove('hidden');
         this.elements.quizForm.classList.add('hidden');
         this.elements.startBtn.classList.remove('hidden');
         this.elements.finishBtn.classList.add('hidden');
         this.elements.counterEl.classList.remove('hidden');
+        this.elements.expandResultsBtn.classList.add('hidden'); // Hide on prepare screen
 
-        this.elements.sidebarTitle.textContent = 'Controls';
         this.elements.sidebarTitle.classList.remove('pass', 'fail');
-        this.elements.timerEl.innerHTML = "00:00";
         this.elements.timerEl.classList.remove('warn', 'danger');
-
-        this.resetResultContainers();
 
         this.elements.weekIndexContainer.classList.remove('hidden');
     },
@@ -179,6 +181,8 @@ const quizApp = {
         this.elements.startBtn.classList.add('hidden');
         this.elements.finishBtn.classList.add('hidden');
         this.elements.counterEl.classList.add('hidden');
+        this.elements.expandResultsBtn.classList.add('hidden'); // Hide on welcome screen
+
         const params = new URLSearchParams(window.location.search);
         const week = params.get('week');
         this.elements.mainTitle.textContent = week
@@ -310,6 +314,7 @@ const quizApp = {
         clearInterval(this.timerInterval);
         this.isTestActive = false;
 
+        this.elements.expandResultsBtn.classList.remove('hidden'); // Show on results screen
         this.elements.weekIndexContainer.classList.remove('hidden');
         this.elements.weekIndexContainer.style.display = '';
 
@@ -322,7 +327,6 @@ const quizApp = {
 
         const params = new URLSearchParams(window.location.search);
         const week = params.get('week');
-        this.updateActiveWeekLink(week);
         this.elements.mainTitle.textContent = week
             ? `PRINCE2 Foundation Quiz - Week ${week}`
             : 'PRINCE2 Foundation Quiz';
@@ -419,7 +423,7 @@ const quizApp = {
         const total = this.quizData ? this.quizData.length : 0;
         const answeredCount = this.elements.quizForm.querySelectorAll('input[type="radio"]:checked').length;
         const unansweredCount = total - answeredCount;
-        this.elements.counterEl.innerHTML = `Questions Answered: <span class="answered-count">${answeredCount}</span> / <span class="total-count">${total}</span><br>Unanswered: <span class="unanswered-count">${unansweredCount}</span>`;
+        this.elements.counterEl.innerHTML = `Answered: <span class="answered-count">${answeredCount}</span>/<span class="total-count">${total}</span><br>Unanswered: <span class="unanswered-count">${unansweredCount}</span>`;
     },
 
     resetResultContainers() {
@@ -433,7 +437,10 @@ const quizApp = {
         this.elements.sidebarTitle.textContent = 'Controls';
         this.elements.sidebarTitle.classList.remove('pass', 'fail');
 
-        // ADDED: Reset timer and counter to their pre-test state
+        // Reset any fullscreen views
+        this.elements.quizWrapper.classList.remove('fullscreen-explanation');
+        this.elements.body.classList.remove('explanation-active');
+
         this.elements.timerEl.innerHTML = '00:00';
         this.elements.timerEl.classList.remove('warn', 'danger');
         this.elements.counterEl.innerHTML = 'Select a Week to Begin';

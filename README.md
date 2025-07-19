@@ -4,6 +4,8 @@
 
 A dynamic, single-page quiz application built with vanilla JavaScript to help users prepare for the PRINCE2 Foundation exam. The app features weekly quizzes and a comprehensive final test simulator.
 
+![PRINCE2 Quiz Screenshot](https://i.imgur.com/image_a7681e.png)
+
 ## 🚀 Live Demo
 
 Test your knowledge now: **[https://jakessteve.github.io/PRINCE2/](https://jakessteve.github.io/PRINCE2/)**

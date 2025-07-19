@@ -143,12 +143,19 @@ h3 {
 }
 
 /* --- Main Content & Quiz --- */
-#main-title {
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     position: sticky;
     top: 0;
     background-color: #f4f4f9;
     z-index: 10;
     padding-top: 20px;
+}
+
+#main-title {
+    padding-top: 0;
 }
 
 .question-block {
@@ -372,7 +379,8 @@ input[type="radio"] {
         gap: 10px;
     }
 
-    #main-title {
+    .main-header {
+        position: static;
         padding-top: 0;
     }
 
@@ -382,7 +390,6 @@ input[type="radio"] {
 
     #week-index {
         max-height: 288px;
-<<<<<<< HEAD
     }
 }
 
@@ -390,12 +397,10 @@ input[type="radio"] {
 @media (max-width: 600px) {
     .main-content {
         padding: 15px;
-        /* Tighter padding for main content on small screens */
     }
 
     .sidebar {
         padding: 5px 15px;
-        /* Tighter padding for sidebar on small screens */
     }
 
     #sidebar-title {
@@ -441,7 +446,6 @@ input[type="radio"] {
         width: auto;
     }
 
-    /* UPDATED: Specific styles for the Start button to handle two lines */
     #start-btn {
         line-height: 1.2;
         text-align: center;
@@ -449,99 +453,70 @@ input[type="radio"] {
         padding-bottom: 6px;
     }
 
-    #main-title {
-        position: static;
-        padding-top: 10px;
-    }
-
-    /* Adjust height of weekly quiz box on mobile */
     #week-index-container {
-        min-height: 380px;
+        min-height: 608px;
     }
 
-    /* Allow week list to fill its taller container */
     #week-index {
         max-height: none;
-=======
->>>>>>> b16d94bb9927e6f85303a6b0155cc439c8eaf9b6
     }
 }
 
-/* --- Mobile Specific Enhancements (Phones) --- */
-@media (max-width: 600px) {
-    .main-content {
-        padding: 15px;
-        /* Tighter padding for main content on small screens */
-    }
+/* --- Fullscreen Explanation Styles --- */
+#expand-results-btn {
+    width: 36px;
+    height: 36px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+}
 
-    .sidebar {
-        padding: 5px 15px;
-        /* Tighter padding for sidebar on small screens */
-    }
+#expand-results-btn:hover {
+    background-color: #bdc3c7;
+}
 
-    #sidebar-title {
-        display: none;
-    }
+#expand-results-btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3'/%3E%3C/svg%3E");
+    background-size: contain;
+    transform: translate(-50%, -50%);
+}
 
-    #controls-box {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 8px 10px;
-        gap: 10px;
-    }
+.fullscreen-explanation {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: #ffffff;
+    overflow-y: auto;
+    padding: 20px;
+}
 
-    #controls-box>* {
-        margin: 0;
-    }
+/* Change icon when fullscreen */
+body.explanation-active #expand-results-btn::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 6 6 18M6 6l12 12'/%3E%3C/svg%3E");
+}
 
-    #timer {
-        font-size: 1.5em;
-        font-weight: bold;
-        text-align: left;
-        line-height: 1;
-        white-space: nowrap;
-        flex-shrink: 0;
-    }
+/* Position the button correctly when fullscreen */
+body.explanation-active #expand-results-btn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
 
-    #question-counter {
-        font-size: 0.8em;
-        text-align: center;
-        line-height: 1.2;
-        white-space: nowrap;
-        flex-grow: 1;
-    }
-
-    #start-btn,
-    #finish-btn {
-        padding: 8px 12px;
-        font-size: 0.9em;
-        flex-grow: 0;
-        flex-shrink: 0;
-        width: auto;
-    }
-
-    /* UPDATED: Specific styles for the Start button to handle two lines */
-    #start-btn {
-        line-height: 1.2;
-        text-align: center;
-        padding-top: 6px;
-        padding-bottom: 6px;
-    }
-
-    #main-title {
-        position: static;
-        padding-top: 10px;
-    }
-
-    /* Adjust height of weekly quiz box on mobile */
-    #week-index-container {
-        min-height: 380px;
-    }
-
-    /* Allow week list to fill its taller container */
-    #week-index {
-        max-height: none;
-    }
+/* Hide other content when explanation is active */
+body.explanation-active .sidebar,
+body.explanation-active .main-header>h1,
+body.explanation-active #quiz-wrapper>*:not(.fullscreen-explanation) {
+    display: none !important;
 }
