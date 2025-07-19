@@ -76,6 +76,7 @@ h3 {
 #week-index-container {
     flex-grow: 1;
     min-height: 150px;
+    /* Adjusted min-height for container */
     display: flex;
     flex-direction: column;
 }
@@ -88,6 +89,7 @@ h3 {
     margin: 0;
     flex-grow: 1;
     max-height: 400px;
+    /* Set max-height for the scrollable list */
 }
 
 #week-index li {
@@ -386,10 +388,12 @@ input[type="radio"] {
 
     #week-index-container {
         max-height: 300px;
+        /* Adjusted for smaller screens */
     }
 
     #week-index {
         max-height: 288px;
+        /* Adjusted for smaller screens */
     }
 }
 
@@ -454,11 +458,15 @@ input[type="radio"] {
     }
 
     #week-index-container {
-        min-height: 608px;
+        min-height: auto;
+        /* Allow the container to shrink to fit content */
+        max-height: 400px;
+        /* Increased to 150% of 250px (375px) and rounded up for better fit */
     }
 
     #week-index {
-        max-height: none;
+        max-height: 375px;
+        /* Increased to 150% of 250px */
     }
 }
 
@@ -518,13 +526,38 @@ body.explanation-active #expand-results-btn {
 
 /* Hide other content when explanation is active */
 body.explanation-active .sidebar,
-body.explanation-active #quiz-form,
-/* Hide quiz form */
 body.explanation-active #welcome-message,
-/* Hide welcome message */
-body.explanation-active #score-container
-
-/* Hide score container */
-    {
+body.explanation-active #quiz-form,
+body.explanation-active #score-container {
     display: none !important;
+}
+
+/* Custom Dialog Styling */
+.custom-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px 40px;
+    /* Further adjusted padding for a more rectangular shape */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+    text-align: center;
+    max-width: 400px;
+    /* Default max-width for larger screens */
+    width: 90%;
+    /* Default width for responsiveness */
+    font-family: sans-serif;
+    color: #2c3e50;
+}
+
+@media (max-width: 600px) {
+    .custom-dialog {
+        width: 90vw;
+        /* 90% of viewport width on mobile */
+        max-width: 90vw;
+        /* Ensure it doesn't exceed 90vw even if content is smaller */
+    }
 }
