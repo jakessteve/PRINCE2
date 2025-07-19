@@ -126,9 +126,12 @@ const quizApp = {
             : `PRINCE2 Foundation Quiz - Week ${quizId}`;
         this.prepareQuizScreen();
         this.updateActiveWeekLink(quizId);
-        this.elements.startBtn.textContent = isFinalTest
+
+        // UPDATED: Use innerHTML to allow for a line break in the button text
+        this.elements.startBtn.innerHTML = isFinalTest
             ? 'Start Final Test'
-            : `Start Test Week ${quizId}`;
+            : `Start Test<br>Week ${quizId}`;
+
         this.updateCounter();
         if (autoStart) {
             this.start();
@@ -158,7 +161,7 @@ const quizApp = {
         this.elements.quizForm.classList.add('hidden');
         this.elements.startBtn.classList.remove('hidden');
         this.elements.finishBtn.classList.add('hidden');
-        this.elements.questionCounter.classList.remove('hidden');
+        this.elements.counterEl.classList.remove('hidden');
 
         this.elements.sidebarTitle.textContent = 'Controls';
         this.elements.sidebarTitle.classList.remove('pass', 'fail');
@@ -175,7 +178,7 @@ const quizApp = {
         this.elements.quizForm.classList.add('hidden');
         this.elements.startBtn.classList.add('hidden');
         this.elements.finishBtn.classList.add('hidden');
-        this.elements.questionCounter.classList.add('hidden');
+        this.elements.counterEl.classList.add('hidden');
         const params = new URLSearchParams(window.location.search);
         const week = params.get('week');
         this.elements.mainTitle.textContent = week
@@ -186,7 +189,7 @@ const quizApp = {
         this.elements.sidebarTitle.classList.remove('pass', 'fail');
         this.elements.timerEl.innerHTML = '00:00';
         this.elements.timerEl.classList.remove('warn', 'danger');
-        this.elements.questionCounter.textContent = 'Select a Week to Begin';
+        this.elements.counterEl.textContent = 'Select a Week to Begin';
 
         this.resetResultContainers();
 
