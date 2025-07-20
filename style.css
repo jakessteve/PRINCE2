@@ -64,6 +64,18 @@ h3 {
     text-align: center;
 }
 
+#sidebar-title {
+    display: none;
+    /* Hide by default as it's initially empty */
+    border-bottom: none;
+}
+
+#sidebar-title.pass,
+#sidebar-title.fail {
+    display: block;
+    /* Make it visible only when showing Pass/Fail status */
+}
+
 .sidebar h2.pass {
     color: #2ecc71;
 }
