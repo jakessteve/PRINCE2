@@ -315,7 +315,7 @@ const quizApp = {
             ? `PRINCE2 Foundation Quiz - Week ${week}`
             : 'PRINCE2 Foundation Quiz';
 
-        this.elements.sidebarTitle.textContent = 'Controls';
+        this.elements.sidebarTitle.textContent = '';
         this.elements.sidebarTitle.classList.remove('pass', 'fail');
         this.elements.timerEl.innerHTML = '00:00';
         this.elements.timerEl.classList.remove('warn', 'danger');
@@ -558,7 +558,7 @@ const quizApp = {
         this.elements.scoreContainer.innerHTML = '';
         this.elements.analysisContent.innerHTML = '';
         this.elements.quizForm.innerHTML = '';
-        this.elements.sidebarTitle.textContent = 'Controls';
+        this.elements.sidebarTitle.textContent = '';
         this.elements.sidebarTitle.classList.remove('pass', 'fail');
 
         this.elements.quizWrapper.classList.remove('fullscreen-explanation');
