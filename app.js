@@ -442,6 +442,7 @@ const quizApp = {
         clearInterval(this.timerInterval);
         this.isTestActive = false;
         this.isTestFinished = true;
+        this.elements.body.classList.add('is-test-finished');
 
         requestAnimationFrame(() => {
             this.elements.expandResultsBtn.classList.remove('hidden');
@@ -483,7 +484,7 @@ const quizApp = {
             this.elements.sidebarTitle.classList.add('pass');
         }
 
-        this.elements.timerEl.innerHTML = `<span class="timer-label">Total Time:</span>${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        this.elements.timerEl.innerHTML = `<div class="timer-wrapper"><span class="timer-label">Total Time:</span>${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}</div>`;
 
         const correctCount = results.score;
         const incorrectCount = results.answeredCount - results.score;
@@ -493,9 +494,11 @@ const quizApp = {
         const unansweredClass = unansweredCount > 0 ? 'result-incorrect' : 'result-neutral';
 
         this.elements.counterEl.innerHTML = `
-            <span class="result-correct">Correct Answers: ${correctCount}/${results.total}</span><br>
-            <span class="${incorrectClass}">Incorrect Answers: ${incorrectCount}/${results.total}</span><br>
-            <span class="${unansweredClass}">Unanswered: ${unansweredCount}/${results.total}</span>
+            <div class="test-result-summary">
+                <span class="result-correct">Correct Answers: ${correctCount}/${results.total}</span><br>
+                <span class="${incorrectClass}">Incorrect Answers: ${incorrectCount}/${results.total}</span><br>
+                <span class="${unansweredClass}">Unanswered: ${unansweredCount}/${results.total}</span>
+            </div>
         `;
     },
 
@@ -553,6 +556,7 @@ const quizApp = {
     },
 
     resetResultContainers() {
+        this.elements.body.classList.remove('is-test-finished');
         this.elements.scoreContainer.classList.add('hidden');
         this.elements.analysisContainer.classList.add('hidden');
         this.elements.scoreContainer.innerHTML = '';

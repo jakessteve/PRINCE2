@@ -497,6 +497,30 @@ input[type="radio"] {
         max-height: 375px;
         /* Increased to 150% of 250px */
     }
+
+    body.is-test-finished #timer .timer-wrapper {
+        display: none;
+    }
+
+    body.is-test-finished #sidebar-title {
+        display: block;
+        text-align: left;
+        font-size: 1.2em;
+        flex-grow: 0;
+        flex-basis: auto;
+        order: 1;
+        border-bottom: none;
+    }
+
+    body.is-test-finished #question-counter {
+        order: 2;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    body.is-test-finished #finish-btn {
+        order: 3;
+    }
 }
 
 /* --- Fullscreen Explanation Styles --- */
