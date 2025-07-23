@@ -1,3 +1,5 @@
+"use strict";
+
 const quizApp = {
     quizData: [],
     shuffledData: [],

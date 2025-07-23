@@ -1,30 +1,50 @@
-/* --- Universal Box Sizing --- */
+:root {
+    --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --color-primary: #3498db;
+    --color-primary-dark: #2980b9;
+    --color-secondary: #f39c12;
+    --color-secondary-dark: #e67e22;
+    --color-danger: #e74c3c;
+    --color-danger-dark: #c0392b;
+    --color-success: #2ecc71;
+    --color-success-dark: #27ae60;
+    --color-warning: #fbc02d;
+    --color-neutral: #95a5a6;
+    --color-text: #2c3e50;
+    --color-text-light: #7f8c8d;
+    --color-background: #f4f4f9;
+    --color-white: #ffffff;
+    --color-light-gray: #ecf0f1;
+    --shadow-main: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --border-radius-sm: 4px;
+    --border-radius-md: 6px;
+    --border-radius-lg: 8px;
+}
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
-/* --- General Body and Typography --- */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--font-primary);
     line-height: 1.6;
     margin: 0;
-    background-color: #f4f4f9;
-    color: #2c3e50;
+    background-color: var(--color-background);
+    color: var(--color-text);
     padding: 20px 40px;
 }
 
 h1,
 h2,
 h3 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-primary);
     padding-bottom: 10px;
     margin-top: 0;
 }
 
-/* --- Layout Containers --- */
 .page-container {
     display: flex;
     flex-wrap: wrap;
@@ -49,16 +69,14 @@ h3 {
     order: 2;
 }
 
-/* --- Reusable Box Style --- */
 .sidebar-group {
-    background: #ffffff;
+    background: var(--color-white);
     padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-main);
     flex-shrink: 0;
 }
 
-/* --- Sidebar Specifics --- */
 .sidebar h2,
 .sidebar h3 {
     text-align: center;
@@ -66,29 +84,25 @@ h3 {
 
 #sidebar-title {
     display: none;
-    /* Hide by default as it's initially empty */
     border-bottom: none;
 }
 
 #sidebar-title.pass,
 #sidebar-title.fail {
     display: block;
-    /* Make it visible only when showing Pass/Fail status */
 }
 
 .sidebar h2.pass {
-    color: #2ecc71;
+    color: var(--color-success);
 }
 
 .sidebar h2.fail {
-    color: #e74c3c;
+    color: var(--color-danger);
 }
 
-/* --- Weekly Index --- */
 #week-index-container {
     flex-grow: 1;
     min-height: 150px;
-    /* Adjusted min-height for container */
     display: flex;
     flex-direction: column;
 }
@@ -101,7 +115,6 @@ h3 {
     margin: 0;
     flex-grow: 1;
     max-height: 400px;
-    /* Set max-height for the scrollable list */
 }
 
 #week-index li {
@@ -111,59 +124,50 @@ h3 {
 
 #week-index a {
     text-decoration: none;
-    color: #3498db;
+    color: var(--color-primary);
     display: block;
     padding: 10px;
-    border-radius: 6px;
+    border-radius: var(--border-radius-md);
     transition: background-color 0.3s, color 0.3s;
 }
 
 #week-index a:hover {
-    background-color: #1e90ff;
-    color: #ffffff;
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
     text-decoration: none;
 }
 
 #week-index a.active-week {
-    background-color: #187bcd;
-    color: #ffffff;
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
     font-weight: bold;
-    border-radius: 6px;
 }
 
-#week-index a.active-week:hover {
-    background-color: #1e90ff;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* --- Custom Scrollbar Styling --- */
 #week-index::-webkit-scrollbar {
     width: 8px;
 }
 
 #week-index::-webkit-scrollbar-track {
-    background: #f4f4f9;
-    border-radius: 4px;
+    background: var(--color-background);
+    border-radius: var(--border-radius-sm);
 }
 
 #week-index::-webkit-scrollbar-thumb {
-    background: #3498db;
-    border-radius: 4px;
+    background: var(--color-primary);
+    border-radius: var(--border-radius-sm);
 }
 
 #week-index::-webkit-scrollbar-thumb:hover {
-    background: #2980b9;
+    background: var(--color-primary-dark);
 }
 
-/* --- Main Content & Quiz --- */
 .main-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     position: sticky;
     top: 0;
-    background-color: #f4f4f9;
+    background-color: var(--color-background);
     z-index: 10;
     padding-top: 20px;
 }
@@ -175,7 +179,7 @@ h3 {
 .question-block {
     margin-bottom: 25px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ecf0f1;
+    border-bottom: 1px solid var(--color-light-gray);
 }
 
 .question-block p {
@@ -193,13 +197,13 @@ h3 {
 .question-block li {
     margin-bottom: 10px;
     padding: 8px;
-    border-radius: 5px;
+    border-radius: var(--border-radius-sm);
     border-left: 3px solid transparent;
     transition: background-color 0.3s, border-left 0.3s;
 }
 
 .question-block li:hover {
-    background-color: #ecf0f1;
+    background-color: var(--color-light-gray);
 }
 
 label {
@@ -213,16 +217,15 @@ input[type="radio"] {
 
 .question-block li.selected-answer {
     background-color: #fffde7;
-    border-left: 3px solid #fbc02d;
+    border-left: 3px solid var(--color-warning);
 }
 
-/* --- Buttons & Controls --- */
 .btn {
-    background-color: #3498db;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-white);
     padding: 12px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--border-radius-sm);
     cursor: pointer;
     font-size: 18px;
     display: block;
@@ -233,26 +236,26 @@ input[type="radio"] {
 }
 
 .btn:hover:not(:disabled) {
-    background-color: #2980b9;
+    background-color: var(--color-primary-dark);
 }
 
 .btn:disabled {
-    background-color: #95a5a6;
+    background-color: var(--color-neutral);
     cursor: not-allowed;
 }
 
 .btn-final-test {
-    background-color: #f39c12;
+    background-color: var(--color-secondary);
     margin-top: 0;
     margin-bottom: 10px;
 }
 
 .btn-final-test:hover:not(:disabled) {
-    background-color: #e67e22;
+    background-color: var(--color-secondary-dark);
 }
 
 .btn-failed-test {
-    background-color: #c0392b;
+    background-color: var(--color-danger-dark);
     margin-bottom: 10px;
 }
 
@@ -261,15 +264,13 @@ input[type="radio"] {
 }
 
 .btn-restart {
-    background-color: #2ecc71;
+    background-color: var(--color-success);
 }
 
 .btn-restart:hover:not(:disabled) {
-    background-color: #27ae60;
+    background-color: var(--color-success-dark);
 }
 
-
-/* Timer styles */
 #timer {
     font-size: 3em;
     font-weight: bold;
@@ -280,18 +281,18 @@ input[type="radio"] {
 }
 
 #timer.warn {
-    color: #fbc02d;
+    color: var(--color-warning);
 }
 
 #timer.danger {
-    color: #e74c3c;
+    color: var(--color-danger);
 }
 
 #timer .timer-label {
     display: block;
     font-size: 0.4em;
     font-weight: normal;
-    color: #7f8c8d;
+    color: var(--color-text-light);
 }
 
 #question-counter {
@@ -301,30 +302,29 @@ input[type="radio"] {
     line-height: 1.5;
 }
 
-/* --- Result Containers --- */
 #score-container,
 #analysis-container {
     margin-top: 30px;
     padding: 20px;
-    background-color: #ffffff;
-    border-left: 5px solid #3498db;
-    border-radius: 5px;
+    background-color: var(--color-white);
+    border-left: 5px solid var(--color-primary);
+    border-radius: var(--border-radius-sm);
 }
 
 #analysis-container {
-    border-left-color: #e74c3c;
+    border-left-color: var(--color-danger);
 }
 
 .answer-item {
     padding: 15px;
     margin-bottom: 15px;
     background-color: #f8f9fa;
-    border-left: 3px solid #3498db;
-    border-radius: 4px;
+    border-left: 3px solid var(--color-primary);
+    border-radius: var(--border-radius-sm);
 }
 
 #analysis-container .answer-item {
-    border-left-color: #e74c3c;
+    border-left-color: var(--color-danger);
 }
 
 .answer-item p {
@@ -340,17 +340,16 @@ input[type="radio"] {
     display: none;
 }
 
-/* --- Control Box Enhancements --- */
 #question-counter .answered-count {
     font-size: 1.5em;
     font-weight: bold;
-    color: #2ecc71;
+    color: var(--color-success);
 }
 
 #question-counter .total-count {
     font-size: 1.5em;
     font-weight: bold;
-    color: #2c3e50;
+    color: var(--color-text);
 }
 
 #question-counter .unanswered-count {
@@ -359,31 +358,28 @@ input[type="radio"] {
 }
 
 .result-correct {
-    color: #2ecc71;
+    color: var(--color-success);
 }
 
 .result-incorrect {
-    color: #e74c3c;
+    color: var(--color-danger);
 }
 
 .result-neutral {
-    color: #7f8c8d;
+    color: var(--color-text-light);
 }
 
 .your-answer-text {
-    color: #c0392b;
+    color: var(--color-danger-dark);
     font-weight: bold;
 }
 
 .correct-answer-text {
-    color: #2980b9;
+    color: var(--color-primary-dark);
     font-weight: bold;
 }
 
-/* --- Responsive Design --- */
 @media (max-width: 900px) {
-
-    /* Remove body padding and apply it to children to fix sticky issues */
     body {
         padding: 0;
     }
@@ -391,7 +387,6 @@ input[type="radio"] {
     .page-container {
         flex-direction: column;
         gap: 0;
-        /* Control gap with section padding instead */
     }
 
     .main-content {
@@ -405,7 +400,7 @@ input[type="radio"] {
         order: 0;
         max-height: none;
         padding: 10px 20px;
-        background-color: #f4f4f9;
+        background-color: var(--color-background);
         z-index: 20;
         gap: 10px;
     }
@@ -417,16 +412,13 @@ input[type="radio"] {
 
     #week-index-container {
         max-height: 300px;
-        /* Adjusted for smaller screens */
     }
 
     #week-index {
         max-height: 288px;
-        /* Adjusted for smaller screens */
     }
 }
 
-/* --- Mobile Specific Enhancements (Phones) --- */
 @media (max-width: 600px) {
     .main-content {
         padding: 15px;
@@ -449,7 +441,7 @@ input[type="radio"] {
         gap: 10px;
     }
 
-    #controls-box>* {
+    #controls-box > * {
         margin: 0;
     }
 
@@ -488,14 +480,11 @@ input[type="radio"] {
 
     #week-index-container {
         min-height: auto;
-        /* Allow the container to shrink to fit content */
         max-height: 400px;
-        /* Increased to 150% of 250px (375px) and rounded up for better fit */
     }
 
     #week-index {
         max-height: 375px;
-        /* Increased to 150% of 250px */
     }
 
     body.is-test-finished #timer .timer-wrapper {
@@ -523,11 +512,10 @@ input[type="radio"] {
     }
 }
 
-/* --- Fullscreen Explanation Styles --- */
 #expand-results-btn {
     width: 36px;
     height: 36px;
-    background-color: #ecf0f1;
+    background-color: var(--color-light-gray);
     border: 1px solid #bdc3c7;
     border-radius: 50%;
     cursor: pointer;
@@ -558,26 +546,22 @@ input[type="radio"] {
     width: 100%;
     height: 100%;
     z-index: 1000;
-    background-color: #ffffff;
+    background-color: var(--color-white);
     overflow-y: auto;
     padding: 20px;
 }
 
-/* Change icon when fullscreen */
 body.explanation-active #expand-results-btn::before {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 6 6 18M6 6l12 12'/%3E%3C/svg%3E");
 }
 
-/* Position the button correctly when fullscreen */
 body.explanation-active #expand-results-btn {
     position: fixed;
     top: 15px;
     right: 15px;
     z-index: 1001;
-    /* Ensure button is above other content */
 }
 
-/* Hide other content when explanation is active */
 body.explanation-active .sidebar,
 body.explanation-active #welcome-message,
 body.explanation-active #quiz-form,
@@ -585,32 +569,26 @@ body.explanation-active #score-container {
     display: none !important;
 }
 
-/* Custom Dialog Styling */
 .custom-dialog {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: var(--color-white);
     padding: 10px 40px;
-    /* Further adjusted padding for a more rectangular shape */
-    border-radius: 8px;
+    border-radius: var(--border-radius-lg);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     z-index: 2000;
     text-align: center;
     max-width: 400px;
-    /* Default max-width for larger screens */
     width: 90%;
-    /* Default width for responsiveness */
     font-family: sans-serif;
-    color: #2c3e50;
+    color: var(--color-text);
 }
 
 @media (max-width: 600px) {
     .custom-dialog {
         width: 90vw;
-        /* 90% of viewport width on mobile */
         max-width: 90vw;
-        /* Ensure it doesn't exceed 90vw even if content is smaller */
     }
 }

@@ -11,42 +11,43 @@
 
 <body>
     <div class="page-container">
-        <div class="main-content">
-            <div class="main-header">
+        <main class="main-content">
+            <header class="main-header">
                 <h1 id="main-title">PRINCE2 Foundation Quiz</h1>
                 <button id="expand-results-btn" class="btn-expand hidden" aria-label="Expand Results"></button>
-            </div>
-            <div id="quiz-wrapper">
+            </header>
+            <section id="quiz-wrapper" aria-live="polite">
                 <div id="welcome-message">
                     <h2>Welcome to the PRINCE2 Quiz</h2>
                 </div>
                 <form id="quiz-form"></form>
                 <div id="score-container" class="hidden"></div>
-                <div id="analysis-container" class="hidden">
-                    <h2>Analysis of Incorrect Answers</h2>
+                <section id="analysis-container" class="hidden" aria-labelledby="analysis-title">
+                    <h2 id="analysis-title">Analysis of Incorrect Answers</h2>
                     <div id="analysis-content"></div>
-                </div>
-            </div>
-        </div>
-        <div class="sidebar">
-            <div class="sidebar-group" id="controls-box">
-                <h2 id="sidebar-title"></h2>
-                <div id="timer">00:00</div>
+                </section>
+            </section>
+        </main>
+        <aside class="sidebar">
+            <section class="sidebar-group" id="controls-box" aria-labelledby="controls-title">
+                <h2 id="sidebar-title" class="hidden">Test Status</h2>
+                <div id="timer" role="timer" aria-live="off">00:00</div>
                 <div id="question-counter">Select a Week to Begin</div>
                 <button id="start-btn" class="btn hidden">Start Test</button>
                 <button id="finish-btn" class="btn hidden">Finish Test</button>
-            </div>
-            <div class="sidebar-group" id="week-index-container">
+            </section>
+            <nav class="sidebar-group" id="week-index-container" aria-labelledby="weekly-quiz-title">
                 <button id="start-final-test-btn" class="btn btn-final-test">Start Final Test</button>
                 <button id="start-failed-test-btn" class="btn btn-failed-test">Most 60 Failed Questions</button>
-                <h3>Weekly Quiz</h3>
+                <h3 id="weekly-quiz-title">Weekly Quiz</h3>
                 <ul id="week-index"></ul>
-            </div>
-        </div>
+            </nav>
+        </aside>
     </div>
 
-    <script src="data/quiz_bank_final.js"></script>
-    <script src="app.js"></script>
+    <script src="data/quiz_bank_final.js" defer></script>
+    <script src="app.js" defer></script>
 </body>
+>>>>>>> 15903e4 (feat: update mobile view of test result page)
 
 </html>
