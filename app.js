@@ -9,7 +9,7 @@ const quizApp = {
         await buildWeekIndex(selectAndPrepareQuiz);
         bindEvents();
         if (!window.location.search) {
-            selectAndPrepareQuiz('1', true);
+            selectAndPrepareQuiz('1', false);
         }
         handleURLChange();
     },
