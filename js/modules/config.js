@@ -6,7 +6,6 @@ export const elements = {
     expandResultsBtn: document.getElementById('expand-results-btn'),
     closeFullscreenBtn: document.getElementById('close-fullscreen-btn'),
     quizWrapper: document.getElementById('quiz-wrapper'),
-    welcomeMessage: document.getElementById('welcome-message'),
     quizForm: document.getElementById('quiz-form'),
     scoreContainer: document.getElementById('score-container'),
     analysisContainer: document.getElementById('analysis-container'),
