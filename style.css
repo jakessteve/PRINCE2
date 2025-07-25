@@ -1,3 +1,6 @@
+/* ==========================================================================
+   1. Root Variables
+   ========================================================================== */
 :root {
     --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --color-primary: #3498db;
@@ -21,6 +24,9 @@
     --border-radius-lg: 8px;
 }
 
+/* ==========================================================================
+   2. Base Styles
+   ========================================================================== */
 *,
 *::before,
 *::after {
@@ -45,6 +51,9 @@ h3 {
     margin-top: 0;
 }
 
+/* ==========================================================================
+   3. Layout
+   ========================================================================== */
 .page-container {
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +78,24 @@ h3 {
     order: 2;
 }
 
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-background);
+    z-index: 10;
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   4. Components
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   4.1. Sidebar
+   -------------------------------------------------------------------------- */
 .sidebar-group {
     background: var(--color-white);
     padding: 25px;
@@ -100,6 +127,9 @@ h3 {
     color: var(--color-danger);
 }
 
+/* --------------------------------------------------------------------------
+   4.2. Week Index
+   -------------------------------------------------------------------------- */
 #week-index-container {
     flex-grow: 1;
     min-height: 150px;
@@ -161,21 +191,9 @@ h3 {
     background: var(--color-primary-dark);
 }
 
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: sticky;
-    top: 0;
-    background-color: var(--color-background);
-    z-index: 10;
-    padding-top: 20px;
-}
-
-#main-title {
-    padding-top: 0;
-}
-
+/* --------------------------------------------------------------------------
+   4.3. Question Block
+   -------------------------------------------------------------------------- */
 .question-block {
     margin-bottom: 25px;
     padding-bottom: 20px;
@@ -206,20 +224,14 @@ h3 {
     background-color: var(--color-light-gray);
 }
 
-label {
-    cursor: pointer;
-    display: block;
-}
-
-input[type="radio"] {
-    margin-right: 12px;
-}
-
 .question-block li.selected-answer {
     background-color: #fffde7;
     border-left: 3px solid var(--color-warning);
 }
 
+/* --------------------------------------------------------------------------
+   4.4. Buttons
+   -------------------------------------------------------------------------- */
 .btn {
     background-color: var(--color-primary);
     color: var(--color-white);
@@ -271,6 +283,65 @@ input[type="radio"] {
     background-color: var(--color-success-dark);
 }
 
+#expand-results-btn {
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-light-gray);
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+}
+
+#expand-results-btn:hover {
+    background-color: #bdc3c7;
+}
+
+#expand-results-btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3'/%3E%3C/svg%3E");
+    background-size: contain;
+    transform: translate(-50%, -50%);
+}
+
+.btn-close-fullscreen {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-light-gray);
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.btn-close-fullscreen:hover {
+    background-color: #bdc3c7;
+}
+
+.btn-close-fullscreen::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 6 6 18M6 6l12 12'/%3E%3C/svg%3E");
+    background-size: contain;
+    transform: translate(-50%, -50%);
+}
+
+/* --------------------------------------------------------------------------
+   4.5. Timer & Counter
+   -------------------------------------------------------------------------- */
 #timer {
     font-size: 3em;
     font-weight: bold;
@@ -302,6 +373,26 @@ input[type="radio"] {
     line-height: 1.5;
 }
 
+#question-counter .answered-count {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-success);
+}
+
+#question-counter .total-count {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+#question-counter .unanswered-count {
+    color: #d4a017;
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------
+   4.6. Results & Analysis
+   -------------------------------------------------------------------------- */
 #score-container,
 #analysis-container {
     margin-top: 30px;
@@ -336,27 +427,6 @@ input[type="radio"] {
     font-style: italic;
 }
 
-.hidden {
-    display: none;
-}
-
-#question-counter .answered-count {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: var(--color-success);
-}
-
-#question-counter .total-count {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: var(--color-text);
-}
-
-#question-counter .unanswered-count {
-    color: #d4a017;
-    font-weight: bold;
-}
-
 .result-correct {
     color: var(--color-success);
 }
@@ -379,6 +449,59 @@ input[type="radio"] {
     font-weight: bold;
 }
 
+/* --------------------------------------------------------------------------
+   4.7. Custom Dialog
+   -------------------------------------------------------------------------- */
+.custom-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-white);
+    padding: 10px 40px;
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 2000;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    font-family: sans-serif;
+    color: var(--color-text);
+}
+
+/* ==========================================================================
+   5. Utility Classes
+   ========================================================================== */
+.hidden {
+    display: none;
+}
+
+/* ==========================================================================
+   6. State Modifiers
+   ========================================================================== */
+.fullscreen-explanation {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: var(--color-white);
+    overflow-y: auto;
+    padding: 20px;
+}
+
+
+body.explanation-active .sidebar,
+body.explanation-active #welcome-message,
+body.explanation-active #quiz-form,
+body.explanation-active #score-container {
+    display: none !important;
+}
+
+/* ==========================================================================
+   7. Media Queries
+   ========================================================================== */
 @media (max-width: 900px) {
     body {
         padding: 0;
@@ -510,83 +633,7 @@ input[type="radio"] {
     body.is-test-finished #finish-btn {
         order: 3;
     }
-}
 
-#expand-results-btn {
-    width: 36px;
-    height: 36px;
-    background-color: var(--color-light-gray);
-    border: 1px solid #bdc3c7;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative;
-    flex-shrink: 0;
-}
-
-#expand-results-btn:hover {
-    background-color: #bdc3c7;
-}
-
-#expand-results-btn::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 16px;
-    height: 16px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3'/%3E%3C/svg%3E");
-    background-size: contain;
-    transform: translate(-50%, -50%);
-}
-
-.fullscreen-explanation {
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    background-color: var(--color-white);
-    overflow-y: auto;
-    padding: 20px;
-}
-
-body.explanation-active #expand-results-btn::before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 6 6 18M6 6l12 12'/%3E%3C/svg%3E");
-}
-
-body.explanation-active #expand-results-btn {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    z-index: 1001;
-}
-
-body.explanation-active .sidebar,
-body.explanation-active #welcome-message,
-body.explanation-active #quiz-form,
-body.explanation-active #score-container {
-    display: none !important;
-}
-
-.custom-dialog {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: var(--color-white);
-    padding: 10px 40px;
-    border-radius: var(--border-radius-lg);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    z-index: 2000;
-    text-align: center;
-    max-width: 400px;
-    width: 90%;
-    font-family: sans-serif;
-    color: var(--color-text);
-}
-
-@media (max-width: 600px) {
     .custom-dialog {
         width: 90vw;
         max-width: 90vw;
