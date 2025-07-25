@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the primary purpose of the 'Controlling a Stage' (CS) process in PRINCE2?",
+        "options": {
+            "a": "To enable the Project Board to exercise overall control and make key decisions.",
+            "b": "To manage each stage on a day-to-day basis, ensuring the stage remains within tolerance and dealing with issues.",
+            "c": "To enable the Project Board to authorize the project or a stage.",
+            "d": "To pass responsibility for work or product delivery formally to a Team Manager or team members."
+        },
+        "answer": "b",
+        "reasoning": "The purpose of the Controlling a Stage process is for the Project Manager to assign work, monitor progress, deal with issues, and report progress to the Project Board."
+    },
+    {
+        "question": "Which of the following is an objective of the 'Managing Product Delivery' (MP) process?",
+        "options": {
+            "a": "To approve work packages and monitor overall stage progress.",
+            "b": "To manage risks and issues that arise during a stage.",
+            "c": "To create the project plan and define project controls.",
+            "d": "To ensure that products are created, quality checked, and delivered within the agreed tolerances."
+        },
+        "answer": "d",
+        "reasoning": "The MP process ensures that products assigned to the team are delivered according to the specifications in the Work Package."
+    },
+    {
+        "question": "Which management product is created by the Project Manager to pass responsibility for delivering products to a Team Manager, specifying time, cost, and quality tolerances?",
+        "options": {
+            "a": "Stage Plan.",
+            "b": "Checkpoint Report.",
+            "c": "Work Package.",
+            "d": "Product Description."
+        },
+        "answer": "c",
+        "reasoning": "A Work Package is the formal agreement between the Project Manager and a Team Manager to deliver one or more products."
+    },
+    {
+        "question": "According to PRINCE2, who is primarily responsible for producing the 'Checkpoint Report'?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "Project Assurance.",
+            "c": "The Team Manager (or team members).",
+            "d": "The Executive."
+        },
+        "answer": "c",
+        "reasoning": "The Team Manager provides regular progress updates to the Project Manager via Checkpoint Reports."
+    },
+    {
+        "question": "The 'Highlight Report' is a key management product used in 'Controlling a Stage'. What is its primary purpose?",
+        "options": {
+            "a": "To document detailed daily activities and informal issues.",
+            "b": "To inform the Project Board of stage progress, key issues, and risks at a predefined frequency.",
+            "c": "To provide a formal record of quality management activities undertaken.",
+            "d": "To trigger the Project Board's decision to authorize the next stage."
+        },
+        "answer": "b",
+        "reasoning": "The Highlight Report provides the Project Board with a summary of the stage status at intervals they agree on."
+    },
+    {
+        "question": "When a Project Manager forecasts that the current stage is set to exceed its agreed tolerances, which management product should be produced and sent to the Project Board?",
+        "options": {
+            "a": "An Issue Report.",
+            "b": "An Exception Report.",
+            "c": "A Highlight Report.",
+            "d": "A Stage Plan."
+        },
+        "answer": "b",
+        "reasoning": "An Exception Report is created to inform the Project Board of a forecast breach of stage (or project) tolerances."
+    },
+    {
+        "question": "In which PRINCE2 process are the 'Issue Register' and 'Risk Register' maintained and updated with new information as the project progresses?",
+        "options": {
+            "a": "Starting Up a Project.",
+            "b": "Initiating a Project.",
+            "c": "Controlling a Stage.",
+            "d": "Managing a Stage Boundary."
+        },
+        "answer": "c",
+        "reasoning": "The Controlling a Stage process includes the day-to-day activities of managing issues and risks, which involves updating these registers."
+    },
+    {
+        "question": "The 'Daily Log' is used by the Project Manager to record informal issues, personal actions, and significant events that are not captured elsewhere. When is it typically set up?",
+        "options": {
+            "a": "During the 'Initiating a Project' process.",
+            "b": "During the 'Starting Up a Project' process.",
+            "c": "At the beginning of each management stage.",
+            "d": "Only when formal registers are full."
+        },
+        "answer": "a",
+        "reasoning": "The Daily Log is set up by the Project Manager during the Initiating a Project process."
+    },
+    {
+        "question": "Which activity within the 'Directing a Project' (DP) process allows the Project Board to provide guidance and respond to requests for advice from the Project Manager during a stage?",
+        "options": {
+            "a": "Authorize initiation.",
+            "b": "Authorize a stage or exception plan.",
+            "c": "Give ad hoc direction.",
+            "d": "Authorize project closure."
+        },
+        "answer": "c",
+        "reasoning": "Giving ad hoc direction is the activity for ongoing guidance from the Project Board."
+    },
+    {
+        "question": "Which of the following activities are part of the 'Controlling a Stage' (CS) process? 1. Authorize a Work Package. 2. Review Work Package Status. 3. Receive Completed Work Packages. 4. Refine the Business Case.",
+        "options": {
+            "a": "1, 2, and 3 only.",
+            "b": "1, 2, and 4 only.",
+            "c": "1, 3, and 4 only.",
+            "d": "All of the above."
+        },
+        "answer": "a",
+        "reasoning": "Authorizing, reviewing status, and receiving completed Work Packages are all core activities of the Project Manager within the Controlling a Stage process. Refining the Business Case happens in Initiating a Project."
+    },
+    {
+        "question": "Which of the following activities are part of the 'Managing Product Delivery' (MP) process? 1. Accept a Work Package. 2. Execute a Work Package. 3. Deliver a Work Package. 4. Capture and Examine Issues and Risks.",
+        "options": {
+            "a": "1, 2, and 3 only.",
+            "b": "1, 2, and 4 only.",
+            "c": "1, 3, and 4 only.",
+            "d": "All of the above."
+        },
+        "answer": "a",
+        "reasoning": "The MP process consists of three activities: Accept, Execute, and Deliver a Work Package. Capturing issues and risks is a Project Manager activity in CS."
+    },
+    {
+        "question": "The Project Manager sets tolerances for Team Managers when delegating work. In which management product are these work package tolerances defined?",
+        "options": {
+            "a": "Stage Plan.",
+            "b": "Highlight Report.",
+            "c": "Work Package.",
+            "d": "Quality Register."
+        },
+        "answer": "c",
+        "reasoning": "Work package tolerances are defined within the Work Package itself."
+    },
+    {
+        "question": "What is the typical flow of control and reporting between the Project Manager and Team Manager during a stage?",
+        "options": {
+            "a": "Project Manager sends Highlight Report to Team Manager, Team Manager sends Checkpoint Report to Project Manager.",
+            "b": "Project Manager authorizes Work Package to Team Manager, Team Manager sends Checkpoint Report to Project Manager.",
+            "c": "Team Manager sends Work Package to Project Manager, Project Manager sends Highlight Report to Team Manager.",
+            "d": "Project Manager sends Stage Plan to Team Manager, Team Manager sends End Stage Report to Project Manager."
+        },
+        "answer": "b",
+        "reasoning": "The Project Manager authorizes a Work Package, and the Team Manager reports progress via Checkpoint Reports."
+    },
+    {
+        "question": "When a Team Manager forecasts that a Work Package will exceed its agreed tolerances, what is the required action to inform the Project Manager?",
+        "options": {
+            "a": "Produce an Exception Report.",
+            "b": "Raise an Issue.",
+            "c": "Update the Checkpoint Report.",
+            "d": "Request a new Work Package from the Project Manager."
+        },
+        "answer": "b",
+        "reasoning": "A forecast deviation from Work Package tolerance is an issue that must be raised immediately to the Project Manager."
+    },
+    {
+        "question": "Which statement is TRUE regarding the 'Quality Register' in the context of 'Controlling a Stage' and 'Managing Product Delivery'?",
+        "options": {
+            "a": "It is created during 'Controlling a Stage'.",
+            "b": "It tracks risks identified during product delivery.",
+            "c": "It is maintained to reflect updates on planned quality activities, especially for work packages.",
+            "d": "It is used to approve completed products by the Project Manager."
+        },
+        "answer": "c",
+        "reasoning": "The Quality Register is a dynamic log of all quality activities, which is updated as work progresses."
+    },
+    {
+        "question": "During the 'Review Work Package Status' activity of the 'Controlling a Stage' process, what does the Project Manager primarily do?",
+        "options": {
+            "a": "Authorize new work packages for the team.",
+            "b": "Collect and review progress information from Checkpoint Reports and update the stage plan.",
+            "c": "Hand over completed products to the customer or operations.",
+            "d": "Decide on corrective actions for escalated issues and risks."
+        },
+        "answer": "b",
+        "reasoning": "This activity is about monitoring progress by reviewing Checkpoint Reports and updating the stage plan's actuals."
+    },
+    {
+        "question": "Which type of control in PRINCE2 is characterized by taking place at predefined periodic intervals, such as producing monthly highlight reports?",
+        "options": {
+            "a": "Event-driven control.",
+            "b": "Time-driven control.",
+            "c": "Exception control.",
+            "d": "Product-based control."
+        },
+        "answer": "b",
+        "reasoning": "Time-driven controls, like regular reports, occur at predefined intervals."
+    },
+    {
+        "question": "The 'Controlling a Stage' process involves checking the ongoing viability of the Business Case. How frequently is this typically done?",
+        "options": {
+            "a": "At the beginning of each work package.",
+            "b": "Periodically throughout the stage.",
+            "c": "Only when an exception is raised.",
+            "d": "At the end of the project only."
+        },
+        "answer": "b",
+        "reasoning": "The Project Manager periodically reviews the Business Case as part of reviewing the stage status."
+    },
+    {
+        "question": "What is the purpose of the 'Review the Management Stage Status' activity within the 'Controlling a Stage' process?",
+        "options": {
+            "a": "To authorize the Project Manager to proceed with the next stage.",
+            "b": "To make key decisions on how to deal with forecast deviations from tolerance.",
+            "c": "To formally accept completed specialist products from the Team Manager.",
+            "d": "To refine the Business Case for the entire project."
+        },
+        "answer": "a",
+        "reasoning": "This activity allows the Project Manager to assess progress and decide if an exception needs to be raised before seeking authorization to proceed."
+    },
+    {
+        "question": "Which of the following is NOT a type of issue formally managed in PRINCE2, as covered in Week 3 processes?",
+        "options": {
+            "a": "Request for Change.",
+            "b": "Off-specification.",
+            "c": "Problem/Concern.",
+            "d": "Risk."
+        },
+        "answer": "d",
+        "reasoning": "Risks are managed separately in the Risk Register. A risk is an uncertain event, whereas an issue has already happened."
+    }
+]

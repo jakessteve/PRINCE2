@@ -1,0 +1,189 @@
+[
+    {
+        "question": "Which of the following best defines a 'project' according to PRINCE2?",
+        "options": {
+            "a": "A routine operation or ongoing activity that produces a standard output.",
+            "b": "A temporary organization created for the purpose of delivering one or more business products according to an agreed Business Case.",
+            "c": "A collection of ongoing activities managed by a permanent team to achieve strategic objectives.",
+            "d": "Any work that involves a budget and a deadline."
+        },
+        "answer": "b",
+        "reasoning": "PRINCE2 defines a project as a temporary organization with a specific purpose and lifecycle, distinguishing it from permanent, ongoing business operations."
+    },
+    {
+        "question": "Which of the following is NOT one of the five characteristics that distinguish a project from 'business as usual' (BAU) in PRINCE2?",
+        "options": {
+            "a": "Change.",
+            "b": "Temporary.",
+            "c": "Recurring.",
+            "d": "Unique."
+        },
+        "answer": "c",
+        "reasoning": "Projects are temporary and unique, not recurring. 'Recurring' is a characteristic of business as usual."
+    },
+    {
+        "question": "A project is described as 'cross-functional' in PRINCE2 because it often involves which of the following?",
+        "options": {
+            "a": "Work that is carried out by a single, dedicated functional department.",
+            "b": "Activities that bring little change to an organization.",
+            "c": "Several groups of people from different functional divisions or even different organizations working together.",
+            "d": "Tasks that are predictable and recurring within a single organizational structure."
+        },
+        "answer": "c",
+        "reasoning": "Cross-functional teams bring together diverse skills and perspectives from different parts of an organization to achieve the project's objectives."
+    },
+    {
+        "question": "According to PRINCE2, which of the following is NOT one of the six aspects of project performance that needs to be managed?",
+        "options": {
+            "a": "Costs.",
+            "b": "Timescales.",
+            "c": "Contracts.",
+            "d": "Benefits."
+        },
+        "answer": "c",
+        "reasoning": "The six aspects are Costs, Timescales, Quality, Scope, Risk, and Benefits. Contracts are a mechanism for managing suppliers, not a core performance aspect."
+    },
+    {
+        "question": "What is the primary purpose of the 'Benefits' aspect of project performance in PRINCE2?",
+        "options": {
+            "a": "To determine the duration over which the project will be executed.",
+            "b": "To establish the objectives for the expected return on the project.",
+            "c": "To control the financial expenditure of the project.",
+            "d": "To define the measurable attributes of the project's outputs."
+        },
+        "answer": "b",
+        "reasoning": "The Benefits aspect focuses on the value the project will deliver, which justifies the investment."
+    },
+    {
+        "question": "Which of the following correctly lists the four integrated elements of PRINCE2?",
+        "options": {
+            "a": "Roles, Products, Reports, and Techniques.",
+            "b": "Principles, Themes, Processes, and the Project Environment.",
+            "c": "Stages, Plans, Risks, and Quality.",
+            "d": "Business Case, Organization, Quality, and Plans."
+        },
+        "answer": "b",
+        "reasoning": "PRINCE2 is structured around these four integrated elements: the guiding Principles, the knowledge-based Themes, the activity-based Processes, and tailoring to the Project Environment."
+    },
+    {
+        "question": "What does PRINCE2 primarily NOT provide guidance on?",
+        "options": {
+            "a": "Project management roles and responsibilities.",
+            "b": "Detailed techniques like critical path analysis or earned value analysis.",
+            "c": "How to manage project stages.",
+            "d": "The continuous business justification of a project."
+        },
+        "answer": "b",
+        "reasoning": "PRINCE2 is a method, not a collection of specific techniques. It tells you what needs to be done, but not the detailed 'how' of specialist tools."
+    },
+    {
+        "question": "For a project to be considered a 'PRINCE2 project', which of the following must be true as a minimum?",
+        "options": {
+            "a": "It must use only PRINCE2's recommended techniques.",
+            "b": "It must strictly follow all PRINCE2 processes without any tailoring.",
+            "c": "It must be possible to demonstrate that all seven PRINCE2 principles are being applied.",
+            "d": "It must omit any PRINCE2 themes that are not directly relevant to the project's industry."
+        },
+        "answer": "c",
+        "reasoning": "Applying the seven principles is the mandatory, universal foundation of any PRINCE2 project. They cannot be omitted."
+    },
+    {
+        "question": "Which of the following is a key benefit of using PRINCE2?",
+        "options": {
+            "a": "It provides a common project vocabulary that aids communication.",
+            "b": "It offers a prescribed set of tools for specialist product development.",
+            "c": "It focuses extensively on individual leadership and motivational skills.",
+            "d": "It guarantees project success without requiring active management."
+        },
+        "answer": "a",
+        "reasoning": "A common vocabulary reduces misunderstandings and improves communication among the project team and stakeholders."
+    },
+    {
+        "question": "The PRINCE2 principle 'Continued Business Justification' primarily ensures what throughout the project lifecycle?",
+        "options": {
+            "a": "That all project risks are avoided.",
+            "b": "That the project remains viable and desirable.",
+            "c": "That every decision is made by the Project Board.",
+            "d": "That the project manager is solely responsible for project benefits."
+        },
+        "answer": "b",
+        "reasoning": "This principle ensures that there is always a valid reason to continue with the project, and if the justification disappears, the project should be stopped."
+    },
+    {
+        "question": "Which PRINCE2 principle emphasizes drawing upon knowledge from previous projects, whether successful or unsuccessful?",
+        "options": {
+            "a": "Focus on Products.",
+            "b": "Manage by Exception.",
+            "c": "Learn from Experience.",
+            "d": "Tailor to Suit the Project."
+        },
+        "answer": "c",
+        "reasoning": "Learning from experience is a core principle that involves capturing and applying lessons throughout the project lifecycle."
+    },
+    {
+        "question": "The principle of 'Defined Roles and Responsibilities' in PRINCE2 is crucial because it ensures which of the following?",
+        "options": {
+            "a": "That project team members can fulfill any role as needed.",
+            "b": "That the Project Manager is the sole decision-maker for all project aspects.",
+            "c": "That a clear accountability structure is established and all necessary responsibilities are assigned.",
+            "d": "That external stakeholders are excluded from project decision-making."
+        },
+        "answer": "c",
+        "reasoning": "A clear structure ensures everyone knows what is expected of them and who is accountable for what, which prevents confusion and gaps in responsibility."
+    },
+    {
+        "question": "Which PRINCE2 principle is implemented by dividing the project into manageable and controllable segments, with review points at the end of each segment?",
+        "options": {
+            "a": "Focus on Products.",
+            "b": "Manage by Stages.",
+            "c": "Tailor to Suit the Project.",
+            "d": "Continued Business Justification."
+        },
+        "answer": "b",
+        "reasoning": "Managing by stages allows the Project Board to assess the project's viability at key decision points before committing to the next block of work."
+    },
+    {
+        "question": "The 'Manage by Exception' principle in PRINCE2 aims to do which of the following?",
+        "options": {
+            "a": "Ensure that the project manager escalates every minor deviation to the Project Board.",
+            "b": "Provide for the efficient and economic use of senior management time.",
+            "c": "Eliminate all risks and issues from the project.",
+            "d": "Allow the project to proceed without any formal reviews until completion."
+        },
+        "answer": "b",
+        "reasoning": "Senior management sets tolerances and is only involved if those tolerances are forecast to be exceeded, which makes efficient use of their time."
+    },
+    {
+        "question": "The PRINCE2 principle 'Focus on Products' ensures what primary outcome for the project?",
+        "options": {
+            "a": "That all project activities are completed on time.",
+            "b": "That the project management team is clear about what outputs will be created and does no more work than necessary to deliver them.",
+            "c": "That the project adheres strictly to a predetermined set of technical specifications without deviation.",
+            "d": "That the project primarily delivers intangible benefits rather than tangible products."
+        },
+        "answer": "b",
+        "reasoning": "This principle ensures the project delivers what is required and avoids 'scope creep' by focusing on the agreed-upon outputs and their quality criteria."
+    },
+    {
+        "question": "When tailoring PRINCE2 to suit a project, which statement is true about its application?",
+        "options": {
+            "a": "Tailoring means omitting any PRINCE2 processes or themes that seem irrelevant to the project.",
+            "b": "The flexibility of PRINCE2 allows it to be adapted to the project's environment, size, complexity, importance, team capability, and risk.",
+            "c": "All PRINCE2 recommended techniques must be used, regardless of project context.",
+            "d": "Tailoring is solely the responsibility of the Project Board and does not involve the Project Manager."
+        },
+        "answer": "b",
+        "reasoning": "Tailoring is a key principle that ensures the amount of project management applied is appropriate for the scale and nature of the project."
+    },
+    {
+        "question": "What is NOT a situation that PRINCE2 can be tailored for, as mentioned in the provided sources?",
+        "options": {
+            "a": "Simple projects.",
+            "b": "Projects operating within a programme environment.",
+            "c": "Business as usual (BAU) activities.",
+            "d": "Commercial customer/supplier environments."
+        },
+        "answer": "c",
+        "reasoning": "PRINCE2 is a project management method and is not designed for managing ongoing, routine business as usual (BAU) activities."
+    }
+]

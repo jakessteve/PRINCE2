@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the primary purpose of the 'Business Case Theme' in PRINCE2?",
+        "options": {
+            "a": "To ensure that project products meet required specifications and expectations.",
+            "b": "To establish mechanisms to monitor and compare actual achievements against those planned.",
+            "c": "To establish mechanisms to judge whether the project is (and remains) desirable, viable, and achievable, thereby supporting continued business justification.",
+            "d": "To define the means of delivering the project's products."
+        },
+        "answer": "c",
+        "reasoning": "The Business Case theme provides the mechanism to judge if the project remains desirable, viable, and achievable throughout its lifecycle."
+    },
+    {
+        "question": "Which of the following describes an 'Output' in the context of PRINCE2?",
+        "options": {
+            "a": "The measurable improvement resulting from an outcome.",
+            "b": "The result of the change derived from using the project’s outputs.",
+            "c": "Any of the project's specialist products that are handed over to a user or users.",
+            "d": "An outcome from the project that would be perceived as negative by one or more stakeholders."
+        },
+        "answer": "c",
+        "reasoning": "An output is a specialist product delivered by the project."
+    },
+    {
+        "question": "According to PRINCE2, which of the following is a purpose of the 'Benefits Management Approach'?",
+        "options": {
+            "a": "To document the justification for the project.",
+            "b": "To define the project's overall scope and requirements.",
+            "c": "To describe how and when the project's benefits will be reviewed and measured.",
+            "d": "To provide a record of all formal issues raised during the project."
+        },
+        "answer": "c",
+        "reasoning": "This document defines the scope, timing, and responsibilities for benefits measurement."
+    },
+    {
+        "question": "Who is primarily responsible for ensuring that the benefits forecast in the Business Case represent value for money and align with the organization's objectives?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "The Senior User.",
+            "c": "The Executive.",
+            "d": "Corporate, Programme Management, or the Customer."
+        },
+        "answer": "c",
+        "reasoning": "The Executive is the ultimate owner of the Business Case and is responsible for its viability."
+    },
+    {
+        "question": "When is the 'Outline Business Case' typically refined into a 'Detailed Business Case'?",
+        "options": {
+            "a": "During the 'Starting Up a Project' process.",
+            "b": "During the 'Initiating a Project' process.",
+            "c": "At the end of each management stage.",
+            "d": "During the 'Controlling a Stage' process."
+        },
+        "answer": "b",
+        "reasoning": "The detailed Business Case is developed during the Initiating a Project process as part of creating the PID."
+    },
+    {
+        "question": "Which PRINCE2 principle does the 'Business Case Theme' primarily help to implement by ensuring the justification for the project remains valid throughout its life?",
+        "options": {
+            "a": "Manage by Stages.",
+            "b": "Learn from Experience.",
+            "c": "Defined Roles and Responsibilities.",
+            "d": "Continued Business Justification."
+        },
+        "answer": "d",
+        "reasoning": "The Business Case is the tool used to document and maintain the continued business justification."
+    },
+    {
+        "question": "A situation where the project will result in a decrease in current sales due to the introduction of a new product is an example of which concept in PRINCE2?",
+        "options": {
+            "a": "A threat.",
+            "b": "A dis-benefit.",
+            "c": "An off-specification.",
+            "d": "A problem/concern."
+        },
+        "answer": "b",
+        "reasoning": "A dis-benefit is a measurable negative outcome perceived by one or more stakeholders."
+    },
+    {
+        "question": "Which of the following is a minimum requirement for applying the 'Business Case Theme' in a PRINCE2 project?",
+        "options": {
+            "a": "To split the project into at least two management stages.",
+            "b": "To define a method for baselining products.",
+            "c": "To record all quality activities carried out during the project.",
+            "d": "To identify actions to ensure that the project's outcomes are achieved."
+        },
+        "answer": "d",
+        "reasoning": "This is part of benefits management, which is a minimum requirement of the theme."
+    },
+    {
+        "question": "The 'Business Case' includes sections for 'Expected Benefits' and 'Expected Dis-benefits'. Which of the following is typically documented under 'Expected Benefits'?",
+        "options": {
+            "a": "Financing the project means no budget for other initiatives.",
+            "b": "A 20-percent increase in productivity due to automation.",
+            "c": "The current system is difficult to use and attracts few users.",
+            "d": "The duration over which the benefits will be measured."
+        },
+        "answer": "b",
+        "reasoning": "This is a measurable, positive improvement resulting from the project's outcome."
+    },
+    {
+        "question": "The 'Business Case' is typically reviewed and potentially updated at several points during the project lifecycle. Which of these is a key review point?",
+        "options": {
+            "a": "When creating the Project Mandate.",
+            "b": "When delivering specialist products.",
+            "c": "At the end of each management stage.",
+            "d": "Only when an Exception Report is raised."
+        },
+        "answer": "c",
+        "reasoning": "The end of each management stage is a formal commitment point where the Project Board must verify the Business Case."
+    },
+    {
+        "question": "What is the difference between an 'Outcome' and a 'Benefit' in PRINCE2?",
+        "options": {
+            "a": "An outcome is the final product delivered, while a benefit is its measurable value.",
+            "b": "An outcome is a result of change from using outputs, while a benefit is a measurable improvement from that outcome.",
+            "c": "An outcome is a negative impact, while a benefit is a positive one.",
+            "d": "Outcomes are always tangible, while benefits are always intangible."
+        },
+        "answer": "b",
+        "reasoning": "The sequence is: Output (product) -> Outcome (result of change) -> Benefit (measurable improvement)."
+    },
+    {
+        "question": "The process of continually assessing whether the project is (still) worthwhile is known as which activity in the 'Business Case' lifecycle?",
+        "options": {
+            "a": "Develop.",
+            "b": "Verify.",
+            "c": "Maintain.",
+            "d": "Confirm."
+        },
+        "answer": "c",
+        "reasoning": "Maintaining the business case involves keeping it updated with actuals and forecasts throughout the project."
+    },
+    {
+        "question": "Which document explicitly describes the arrangements for measuring the achievement of benefits post-project?",
+        "options": {
+            "a": "Business Case.",
+            "b": "Project Plan.",
+            "c": "Benefits Management Approach.",
+            "d": "End Project Report."
+        },
+        "answer": "c",
+        "reasoning": "The Benefits Management Approach defines how and when benefits will be measured and reviewed."
+    },
+    {
+        "question": "When tailoring the 'Business Case Theme' for a project that is part of a programme, what is a key consideration?",
+        "options": {
+            "a": "Each project's Business Case must be entirely separate and not refer to the programme's Business Case.",
+            "b": "The project's Business Case should be aligned with the overall programme's Business Case, potentially by being reduced in content.",
+            "c": "The Business Case Theme can be omitted if a programme Business Case exists.",
+            "d": "The Project Manager is solely responsible for creating the Business Case, independent of programme influence."
+        },
+        "answer": "b",
+        "reasoning": "A project's business case within a programme should align with and support the programme's business case."
+    },
+    {
+        "question": "Which role is responsible for the overall viability of the project and ensuring that the project delivers value for money?",
+        "options": {
+            "a": "Project Manager.",
+            "b": "Senior User.",
+            "c": "Senior Supplier.",
+            "d": "Executive."
+        },
+        "answer": "d",
+        "reasoning": "The Executive is ultimately accountable for the project's success and owns the Business Case."
+    },
+    {
+        "question": "The 'Business Case' should be kept updated with actual costs and benefits and with current forecasts. This activity is referred to as:",
+        "options": {
+            "a": "Develop.",
+            "b": "Verify.",
+            "c": "Maintain.",
+            "d": "Confirm."
+        },
+        "answer": "c",
+        "reasoning": "'Maintain' refers to the ongoing activity of keeping the Business Case as a living document."
+    },
+    {
+        "question": "Which of the following is NOT a characteristic of a 'Benefit' in PRINCE2?",
+        "options": {
+            "a": "Measurable.",
+            "b": "Expressed against the situation prior to the project.",
+            "c": "Always realized during the project itself.",
+            "d": "Aligned with corporate, programme management, or customer benefits."
+        },
+        "answer": "c",
+        "reasoning": "Benefits are often realized after the project has closed."
+    },
+    {
+        "question": "The 'Business Case' also contains a 'Major Risks' section. What is the purpose of this section?",
+        "options": {
+            "a": "To provide a detailed risk register for the project.",
+            "b": "To summarize key threats and opportunities that could affect the project's viability.",
+            "c": "To document all risk responses planned for the project.",
+            "d": "To define the project's overall risk appetite."
+        },
+        "answer": "b",
+        "reasoning": "This section provides a summary of the key risks that affect the business justification."
+    },
+    {
+        "question": "What is an example of 'Confirming' benefits in PRINCE2?",
+        "options": {
+            "a": "The Executive drafting the outline Business Case.",
+            "b": "The Project Board reviewing the justification for the project at a stage boundary.",
+            "c": "The Senior User providing a statement of the achievement of benefits during a post-project benefit review.",
+            "d": "The Project Manager updating the Business Case with actual costs during a stage."
+        },
+        "answer": "c",
+        "reasoning": "Confirming benefits is the post-project activity of checking that the forecast benefits have actually been realized."
+    },
+    {
+        "question": "Which of the following statements is TRUE regarding the funding of benefits realization?",
+        "options": {
+            "a": "Benefits realization actions are funded from the Risk Budget.",
+            "b": "Benefits realization actions are funded from the Change Budget.",
+            "c": "Benefits realization actions are typically funded from the project budget, but their achievement often occurs post-project.",
+            "d": "The Benefits Management Approach provides the budget for benefits realization."
+        },
+        "answer": "c",
+        "reasoning": "The project must produce outputs capable of achieving the benefits, but the actual realization may happen after the project closes and be funded by business-as-usual budgets."
+    }
+]

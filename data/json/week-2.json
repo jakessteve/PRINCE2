@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the primary purpose of the 'Starting Up a Project' (SU) process in PRINCE2?",
+        "options": {
+            "a": "To manage each stage on a day-to-day basis.",
+            "b": "To establish whether the project is viable and worthwhile and to prevent poorly conceived projects from being initiated.",
+            "c": "To provide authority to start the project and its subsequent stages.",
+            "d": "To refine the business case and prepare detailed plans for the entire project."
+        },
+        "answer": "b",
+        "reasoning": "The SU process is a pre-project step to ensure that the prerequisites for initiating a project are in place."
+    },
+    {
+        "question": "Which of the following management products is *created* during the 'Starting Up a Project' process?",
+        "options": {
+            "a": "Project Initiation Documentation (PID).",
+            "b": "Quality Management Approach.",
+            "c": "Project Brief.",
+            "d": "Risk Register."
+        },
+        "answer": "c",
+        "reasoning": "The Project Brief is assembled during SU to provide a foundation for project initiation."
+    },
+    {
+        "question": "According to PRINCE2, which activity involves identifying and reviewing lessons from similar previous projects to apply to the current project, as part of the 'Starting Up a Project' process?",
+        "options": {
+            "a": "Prepare the outline business case.",
+            "b": "Design and appoint the project management team.",
+            "c": "Capture previous lessons.",
+            "d": "Select the project approach and assemble the project brief."
+        },
+        "answer": "c",
+        "reasoning": "Capturing previous lessons is a specific activity within the Starting Up a Project process."
+    },
+    {
+        "question": "During the 'Starting Up a Project' process, who is primarily responsible for preparing the outline business case?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "The Executive.",
+            "c": "The Senior User.",
+            "d": "Project Support."
+        },
+        "answer": "b",
+        "reasoning": "The Executive is responsible for creating the outline business case, often with input from others."
+    },
+    {
+        "question": "Which of the following are objectives of the 'Starting Up a Project' process? 1. To ensure that the project management team roles have been allocated. 2. To provide a common understanding of why the project is being done. 3. To ensure that the work for project initiation is planned. 4. To create the Project Plan for the entire project.",
+        "options": {
+            "a": "1, 2, and 3.",
+            "b": "1, 3, and 4.",
+            "c": "2 and 4 only.",
+            "d": "1, 2, 3, and 4."
+        },
+        "answer": "a",
+        "reasoning": "The objectives include allocating roles, ensuring a common understanding, and planning the initiation stage. A detailed Project Plan is created later in the Initiating a Project process."
+    },
+    {
+        "question": "The 'Project Brief' is assembled during the 'Starting Up a Project' process. Which of the following elements are typically included in the Project Brief? 1. Outline Business Case. 2. Project Product Description. 3. Project Approach. 4. Detailed Project Plan.",
+        "options": {
+            "a": "1, 2, and 3 only.",
+            "b": "1, 2, and 4 only.",
+            "c": "1, 3, and 4 only.",
+            "d": "All of the above."
+        },
+        "answer": "a",
+        "reasoning": "The Project Brief includes the outline Business Case, Project Product Description, and Project Approach. The detailed Project Plan is not part of the brief."
+    },
+    {
+        "question": "What is the purpose of the 'Initiating a Project' (IP) process in PRINCE2?",
+        "options": {
+            "a": "To ensure that there are solid foundations on which to deliver the project, enabling the organization to understand the work to be done.",
+            "b": "To provide management direction and control throughout the project lifecycle.",
+            "c": "To enable the Project Board to authorize the initiation stage.",
+            "d": "To assign and monitor work packages on a day-to-day basis."
+        },
+        "answer": "a",
+        "reasoning": "The IP process establishes the solid foundations for the project before committing to significant spend."
+    },
+    {
+        "question": "During the 'Initiating a Project' process, which four management approaches are prepared to define how specific aspects of the project will be managed?",
+        "options": {
+            "a": "Business Case, Quality, Risk, and Communication.",
+            "b": "Quality, Risk, Change Control, and Communication Management.",
+            "c": "Plans, Quality, Risk, and Benefits.",
+            "d": "Organization, Progress, Quality, and Plans."
+        },
+        "answer": "b",
+        "reasoning": "These four approaches (for Quality, Risk, Change Control, and Communication) are key components of the PID."
+    },
+    {
+        "question": "The 'Risk Register' and 'Issue Register' are first set up and populated during which PRINCE2 process?",
+        "options": {
+            "a": "Starting Up a Project.",
+            "b": "Initiating a Project.",
+            "c": "Controlling a Stage.",
+            "d": "Managing a Stage Boundary."
+        },
+        "answer": "b",
+        "reasoning": "These registers are formally set up as part of creating the solid foundations during the Initiating a Project process."
+    },
+    {
+        "question": "In the 'Initiating a Project' process, the Project Manager works to 'Refine the Business Case'. What does this activity primarily involve?",
+        "options": {
+            "a": "Creating a new, high-level view of the project's justification.",
+            "b": "Detailing the outline business case to provide a more comprehensive justification for the project.",
+            "c": "Confirming that the project's benefits have been realized post-project.",
+            "d": "Reviewing the business case for ongoing viability at the end of each stage."
+        },
+        "answer": "b",
+        "reasoning": "This activity expands on the outline business case created in SU to form the detailed business case within the PID."
+    },
+    {
+        "question": "What is the primary output of the 'Initiating a Project' process?",
+        "options": {
+            "a": "The Project Brief.",
+            "b": "The Project Plan.",
+            "c": "The Project Initiation Documentation (PID).",
+            "d": "The Benefits Management Approach."
+        },
+        "answer": "c",
+        "reasoning": "The PID is the main management product of the IP process, consolidating all key information."
+    },
+    {
+        "question": "Which management product is described as setting out the procedures, responsibilities, and tools and techniques necessary to ensure that the project delivers what users expect, and is prepared during the 'Initiating a Project' process?",
+        "options": {
+            "a": "Project Product Description.",
+            "b": "Quality Register.",
+            "c": "Quality Management Approach.",
+            "d": "Configuration Item Record."
+        },
+        "answer": "c",
+        "reasoning": "This is the definition of the Quality Management Approach."
+    },
+    {
+        "question": "According to PRINCE2, the 'Project Plan' created during the 'Initiating a Project' process should include which of the following?",
+        "options": {
+            "a": "Only the schedule and budget for the project.",
+            "b": "Details on assumptions, prerequisites, product descriptions for products within scope, and tolerances.",
+            "c": "Just the high-level delivery dates and the overall project approach.",
+            "d": "An aggregated list of all work packages to be delivered throughout the project."
+        },
+        "answer": "b",
+        "reasoning": "The Project Plan is comprehensive and includes details like assumptions, prerequisites, and product descriptions."
+    },
+    {
+        "question": "The 'Directing a Project' (DP) process enables the Project Board to provide authority for the project. Which activity within this process is concerned with giving guidance to the Project Manager during a stage?",
+        "options": {
+            "a": "Authorize initiation.",
+            "b": "Authorize a stage or exception plan.",
+            "c": "Give ad hoc direction.",
+            "d": "Authorize project closure."
+        },
+        "answer": "c",
+        "reasoning": "Giving ad hoc direction is how the Project Board provides ongoing guidance between formal stage boundaries."
+    },
+    {
+        "question": "What is the purpose of the 'Authorize initiation' activity within the 'Directing a Project' process?",
+        "options": {
+            "a": "To confirm the Project Manager's appointment and responsibilities.",
+            "b": "To approve the Project Brief and the Initiation Stage Plan, allowing the project to proceed to the Initiating a Project process.",
+            "c": "To allocate work packages to the Project Manager.",
+            "d": "To secure funding for the entire project lifecycle."
+        },
+        "answer": "b",
+        "reasoning": "This activity is the formal gateway from the SU process into the IP process."
+    },
+    {
+        "question": "Which statement is true regarding the relationship between the 'Project Brief' and the 'Project Initiation Documentation' (PID)?",
+        "options": {
+            "a": "The Project Brief is a high-level document created in SU, while the PID is a detailed document developed in IP based on the Project Brief.",
+            "b": "The Project Brief is an output of IP, and the PID is an output of SU.",
+            "c": "They are interchangeable terms for the same project documentation.",
+            "d": "The PID is a summary of the Project Brief for senior management."
+        },
+        "answer": "a",
+        "reasoning": "The Project Brief is the precursor to the more detailed PID."
+    },
+    {
+        "question": "Which PRINCE2 principle is heavily supported by the 'Capture previous lessons' activity in the 'Starting Up a Project' process?",
+        "options": {
+            "a": "Continued Business Justification.",
+            "b": "Manage by Exception.",
+            "c": "Learn from Experience.",
+            "d": "Focus on Products."
+        },
+        "answer": "c",
+        "reasoning": "This activity directly implements the 'Learn from Experience' principle at the very start of the project."
+    },
+    {
+        "question": "During the 'Initiating a Project' process, the Project Manager defines how the project will handle variations from baselined products and issues. This is documented in the 'Change Control Approach'. Which principle does this activity primarily support?",
+        "options": {
+            "a": "Manage by Stages.",
+            "b": "Defined Roles and Responsibilities.",
+            "c": "Tailor to Suit the Project Environment.",
+            "d": "Continued Business Justification."
+        },
+        "answer": "c",
+        "reasoning": "Defining the Change Control Approach is a form of tailoring the project's controls to its specific needs and environment."
+    },
+    {
+        "question": "When is the initial 'Stage Plan for the Initiation Stage' created in a PRINCE2 project?",
+        "options": {
+            "a": "During the 'Initiating a Project' process.",
+            "b": "During the 'Starting Up a Project' process.",
+            "c": "During the 'Directing a Project' process.",
+            "d": "During the 'Managing a Stage Boundary' process."
+        },
+        "answer": "b",
+        "reasoning": "The plan for the initiation stage is created during SU so the Project Board can approve the work needed to create the PID."
+    },
+    {
+        "question": "Which of the following statements about the 'Daily Log' is TRUE?",
+        "options": {
+            "a": "It is a formal register for all project issues and risks.",
+            "b": "It is created during the 'Initiating a Project' process.",
+            "c": "It is used by the Project Manager to record informal issues, personal actions, and significant events not captured elsewhere.",
+            "d": "Its format and composition are strictly defined by PRINCE2."
+        },
+        "answer": "c",
+        "reasoning": "The Daily Log is an informal diary for the Project Manager. Formal issues and risks go in their respective registers."
+    }
+]

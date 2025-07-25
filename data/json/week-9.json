@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the primary purpose of the Progress Theme in PRINCE2?",
+        "options": {
+            "a": "To identify, assess, and control proposed modifications to the project's products.",
+            "b": "To establish mechanisms to monitor and compare actual achievements against planned, provide a forecast for project objectives, and control unacceptable deviations.",
+            "c": "To define the means of delivering the project's products and establishing a baseline against which progress can be measured.",
+            "d": "To identify, assess, and control uncertainty throughout the project, thereby improving the ability of the project to succeed."
+        },
+        "answer": "b",
+        "reasoning": "The Progress theme is about monitoring what has been done against what was planned and controlling any deviations."
+    },
+    {
+        "question": "Which of the following is an objective of the Progress Theme?",
+        "options": {
+            "a": "To ensure that the project is delivering value for money throughout its lifecycle.",
+            "b": "To provide a forecast for the project's continued viability.",
+            "c": "To define how the project will verify that products are fit for purpose.",
+            "d": "To establish the project's structure of accountability and responsibility."
+        },
+        "answer": "b",
+        "reasoning": "Forecasting the project objectives is a key part of progress control, which supports assessing continued viability."
+    },
+    {
+        "question": "How does the Progress Theme primarily help to control the work of a project?",
+        "options": {
+            "a": "By setting a common project vocabulary for all stakeholders.",
+            "b": "By ensuring a continued business justification for the project.",
+            "c": "By using tolerances to delegate authority and a variety of reports to monitor progress.",
+            "d": "By facilitating communication through the establishment of a controlled flow of information."
+        },
+        "answer": "c",
+        "reasoning": "The use of tolerances and reporting are the core mechanisms for progress control in PRINCE2."
+    },
+    {
+        "question": "In PRINCE2, what does 'tolerance' refer to?",
+        "options": {
+            "a": "The accepted variation from the project's baseline.",
+            "b": "The maximum allowable deviation from an agreed plan before an exception is raised.",
+            "c": "A fund set aside for implementing agreed risk responses.",
+            "d": "A predefined periodic interval for reporting progress."
+        },
+        "answer": "b",
+        "reasoning": "Tolerance is the permissible deviation from a plan's target before it needs to be escalated."
+    },
+    {
+        "question": "Who is primarily responsible for setting stage tolerances for the Project Manager?",
+        "options": {
+            "a": "Corporate, Programme Management, or the Customer.",
+            "b": "The Project Board.",
+            "c": "The Project Manager.",
+            "d": "The Team Manager."
+        },
+        "answer": "b",
+        "reasoning": "The Project Board sets the tolerances for each management stage."
+    },
+    {
+        "question": "Which of the following types of tolerance are *not* typically set at the stage or work package level in PRINCE2?",
+        "options": {
+            "a": "Time and Cost tolerances.",
+            "b": "Scope and Risk tolerances.",
+            "c": "Quality and Benefits tolerances.",
+            "d": "All tolerance types are set at all three levels (project, stage, work package)."
+        },
+        "answer": "d",
+        "reasoning": "PRINCE2 defines six tolerance areas (Time, Cost, Quality, Scope, Risk, Benefits) that can be set at all three levels."
+    },
+    {
+        "question": "What is a 'risk tolerance' in PRINCE2?",
+        "options": {
+            "a": "The maximum financial amount allocated to the risk budget.",
+            "b": "A threshold level of risk that, if exceeded, needs to be escalated to the next level of management.",
+            "c": "The amount of time allowed for risk response implementation.",
+            "d": "The percentage of identified risks that must have a planned response."
+        },
+        "answer": "b",
+        "reasoning": "Risk tolerance defines the threshold of aggregated risk exposure that the project can handle before it becomes an exception."
+    },
+    {
+        "question": "When a Project Manager delegates work to a Team Manager using a Work Package, what type of tolerance does the Project Manager set for the Team Manager?",
+        "options": {
+            "a": "Project tolerances.",
+            "b": "Stage tolerances.",
+            "c": "Work package tolerances.",
+            "d": "Delivery tolerances."
+        },
+        "answer": "c",
+        "reasoning": "The Project Manager sets tolerances for the Work Package they authorize."
+    },
+    {
+        "question": "What is an 'exception' in the context of PRINCE2 progress management?",
+        "options": {
+            "a": "A new risk that arises as a result of a risk response.",
+            "b": "A proposal for a change to a baseline.",
+            "c": "A situation where a deviation beyond the agreed tolerance levels is forecast.",
+            "d": "A product that should be provided but currently is not."
+        },
+        "answer": "c",
+        "reasoning": "An exception is a forecast breach of the agreed tolerances."
+    },
+    {
+        "question": "If a Team Manager forecasts that a Work Package will exceed its agreed tolerances, what is the required action in PRINCE2?",
+        "options": {
+            "a": "The Team Manager must immediately produce an Exception Report to the Project Board.",
+            "b": "The Team Manager must immediately raise an Issue to the Project Manager.",
+            "c": "The Team Manager should take corrective action independently to bring the Work Package back within tolerance.",
+            "d": "The Team Manager must update the Lessons Log with the deviation."
+        },
+        "answer": "b",
+        "reasoning": "A forecast deviation from Work Package tolerance is an issue that must be raised to the Project Manager."
+    },
+    {
+        "question": "Who is responsible for raising an Exception Report when a stage is forecast to exceed its tolerances?",
+        "options": {
+            "a": "The Project Board.",
+            "b": "Corporate, Programme Management, or the Customer.",
+            "c": "The Project Manager.",
+            "d": "The Project Assurance role."
+        },
+        "answer": "c",
+        "reasoning": "The Project Manager produces the Exception Report for the Project Board."
+    },
+    {
+        "question": "What is the purpose of an 'Exception Plan' in PRINCE2?",
+        "options": {
+            "a": "To document the justification for an exceptional project that doesn't follow standard procedures.",
+            "b": "To replace a stage plan or project plan that is forecast to exceed tolerance.",
+            "c": "To outline the options for dealing with unexpected issues that are within tolerance.",
+            "d": "To provide a high-level summary of the overall risk exposure of the project."
+        },
+        "answer": "b",
+        "reasoning": "An Exception Plan, if approved, replaces the plan that was in exception and becomes the new baseline."
+    },
+    {
+        "question": "Which of the following is an example of an 'event-driven control' in PRINCE2?",
+        "options": {
+            "a": "Producing a weekly Highlight Report.",
+            "b": "Receiving a monthly Checkpoint Report.",
+            "c": "Conducting an End Stage Assessment at the end of a management stage.",
+            "d": "Reviewing the Daily Log every morning."
+        },
+        "answer": "c",
+        "reasoning": "An End Stage Assessment is triggered by a specific event: the end of a stage."
+    },
+    {
+        "question": "What is a key characteristic that differentiates 'time-driven controls' from 'event-driven controls' in PRINCE2?",
+        "options": {
+            "a": "Time-driven controls focus on financial aspects, while event-driven controls focus on quality.",
+            "b": "Time-driven controls occur at predefined periodic intervals, while event-driven controls occur when a specific event happens.",
+            "c": "Time-driven controls are formal, while event-driven controls are informal.",
+            "d": "Time-driven controls are implemented by the Project Manager, while event-driven controls are implemented by the Project Board."
+        },
+        "answer": "b",
+        "reasoning": "Time-driven controls are regular (e.g., weekly reports), while event-driven controls are triggered by an event (e.g., stage end, exception)."
+    },
+    {
+        "question": "Which management product is an example of a time-driven control?",
+        "options": {
+            "a": "End Stage Report.",
+            "b": "Exception Report.",
+            "c": "Highlight Report.",
+            "d": "Issue Report."
+        },
+        "answer": "c",
+        "reasoning": "Highlight Reports are produced at a frequency agreed with the Project Board (e.g., weekly, monthly)."
+    },
+    {
+        "question": "How does the principle of 'Manage by Exception' relate to tolerances in PRINCE2?",
+        "options": {
+            "a": "It ensures that the Project Manager documents all minor deviations in the Daily Log.",
+            "b": "It prevents any deviations from the plan by setting strict, inflexible tolerances.",
+            "c": "It allows higher management to delegate authority by setting tolerances, only requiring escalation when those tolerances are forecast to be breached.",
+            "d": "It mandates that all six tolerance types must be formally tracked at every management level."
+        },
+        "answer": "c",
+        "reasoning": "This principle enables efficient use of senior management time by delegating authority via tolerances."
+    },
+    {
+        "question": "Which of the following is a minimum requirement for applying the Progress Theme in PRINCE2?",
+        "options": {
+            "a": "To hold weekly progress review meetings with all stakeholders.",
+            "b": "To define its approach to controlling progress in the Project Initiation Documentation.",
+            "c": "To use a specific project management software tool for tracking progress.",
+            "d": "To ensure that every identified issue generates an Issue Report."
+        },
+        "answer": "b",
+        "reasoning": "The PID must define the project's approach to progress control."
+    },
+    {
+        "question": "When reviewing progress against a plan, the Project Manager collects and reviews information from which of the following?",
+        "options": {
+            "a": "Quality Register and Risk Register.",
+            "b": "Checkpoint Reports.",
+            "c": "Stage Plan.",
+            "d": "All of the above."
+        },
+        "answer": "d",
+        "reasoning": "The Project Manager must review all relevant information, including registers and reports, against the Stage Plan baseline."
+    },
+    {
+        "question": "What is a 'Work Package' primarily used for in the context of Progress?",
+        "options": {
+            "a": "To provide a high-level overview of the project to the Project Board.",
+            "b": "To define the financial budget for the entire stage.",
+            "c": "To delegate work and responsibility for delivering specialist products from the Project Manager to a Team Manager or team member.",
+            "d": "To record lessons learned during a specific period of work."
+        },
+        "answer": "c",
+        "reasoning": "A Work Package is the mechanism for the Project Manager to delegate work to a team."
+    },
+    {
+        "question": "Which management product does the Project Manager use to report regular progress to the Project Board?",
+        "options": {
+            "a": "Checkpoint Report.",
+            "b": "End Stage Report.",
+            "c": "Highlight Report.",
+            "d": "Exception Report."
+        },
+        "answer": "c",
+        "reasoning": "The Highlight Report is the regular, time-driven report from the Project Manager to the Project Board."
+    }
+]

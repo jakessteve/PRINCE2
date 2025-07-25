@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which PRINCE2 principle is primarily supported when the Project Board sets defined limits on time, cost, and scope for the Project Manager to operate within for a stage?",
+        "options": {
+            "a": "Continued business justification",
+            "b": "Learn from experience",
+            "c": "Manage by exception",
+            "d": "Manage by stages"
+        },
+        "answer": "c",
+        "reasoning": "The 'Manage by exception' principle involves delegating authority from one management level to the next by defining constraints, known as tolerances. If the lower level forecasts that they cannot meet these constraints, they must escalate the situation."
+    },
+    {
+        "question": "Which management product is primarily used by the Project Manager to record informal issues, events, and personal actions that are not formally managed within the project's registers?",
+        "options": {
+            "a": "Issue Register",
+            "b": "Daily Log",
+            "c": "Risk Register",
+            "d": "Lessons Log"
+        },
+        "answer": "b",
+        "reasoning": "The Daily Log is primarily used by the Project Manager to record informal issues, events, and personal actions that are not formally captured by the other PRINCE2 registers or logs."
+    },
+    {
+        "question": "Which activity within the Initiating a Project process is responsible for compiling all the documentation developed during initiation that will be used to gain Project Board approval to proceed?",
+        "options": {
+            "a": "Prepare the Business Case",
+            "b": "Create the Project Plan",
+            "c": "Assemble the Project Initiation Documentation (PID)",
+            "d": "Set up the Project Controls"
+        },
+        "answer": "c",
+        "reasoning": "The 'Assemble the Project Initiation Documentation (PID)' is the final activity in the Initiating a Project process. It involves compiling all the documentation developed during initiation for Project Board approval."
+    },
+    {
+        "question": "A project encounters a situation where a potential issue could either lead to a significant cost saving (opportunity) or a substantial financial loss (threat), and the Project Board decides to involve a third-party partner to share the costs or benefits. Which PRINCE2 risk response type is being applied?",
+        "options": {
+            "a": "Exploit",
+            "b": "Transfer",
+            "c": "Share",
+            "d": "Accept"
+        },
+        "answer": "c",
+        "reasoning": "The 'Share' risk response is applied when two parties share the costs if the situation turns into a threat and the benefits if the situation becomes an opportunity."
+    },
+    {
+        "question": "A Project Manager is creating a Work Package for an internal team to develop a new software module. To save time, they decide to use the exact same formal Work Package template that is used for external commercial suppliers. Is this an appropriate application of PRINCE2 tailoring, and why or why not?",
+        "options": {
+            "a": "Yes, because using a consistent Work Package format ensures adherence to PRINCE2 standards for all teams.",
+            "b": "Yes, because the Work Package outlines should be used as a checklist, regardless of the team type.",
+            "c": "No, because Work Packages for internal teams are likely to be less formal than those for external suppliers.",
+            "d": "No, because Work Packages should only be used for external suppliers, not internal teams."
+        },
+        "answer": "c",
+        "reasoning": "PRINCE2 emphasizes tailoring the method to suit the project's circumstances. Using a highly formal template designed for external suppliers on an internal team might introduce unnecessary bureaucracy."
+    }
+]

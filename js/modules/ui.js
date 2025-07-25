@@ -1,4 +1,4 @@
-import { elements, QUIZ_BANK } from './config.js';
+import { elements } from './config.js';
 import { state } from './state.js';
 import { getFailedCounts, saveFailedCounts } from './storage.js';
 
@@ -121,23 +121,31 @@ export function updateActiveWeekLink(activeWeek) {
     });
 }
 
-export function buildWeekIndex(selectAndPrepareQuizCallback) {
-    const weekNumbers = Object.keys(QUIZ_BANK).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
-    elements.weekIndex.innerHTML = '';
-    weekNumbers.forEach(weekNum => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = `?week=${weekNum}`;
-        a.textContent = `Week ${weekNum}`;
-        a.addEventListener('click', (e) => {
-            e.preventDefault();
-            elements.weekIndex.querySelectorAll('a').forEach(link => link.classList.remove('active-week'));
-            a.classList.add('active-week');
-            selectAndPrepareQuizCallback(weekNum);
+export async function buildWeekIndex(selectAndPrepareQuizCallback) {
+    try {
+        const response = await fetch('data/manifest.json');
+        const { quizzes: weekNumbers } = await response.json();
+
+        weekNumbers.sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+        elements.weekIndex.innerHTML = '';
+        weekNumbers.forEach(weekNum => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = `?week=${weekNum}`;
+            a.textContent = `Week ${weekNum}`;
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                elements.weekIndex.querySelectorAll('a').forEach(link => link.classList.remove('active-week'));
+                a.classList.add('active-week');
+                selectAndPrepareQuizCallback(String(weekNum));
+            });
+            li.appendChild(a);
+            elements.weekIndex.appendChild(li);
         });
-        li.appendChild(a);
-        elements.weekIndex.appendChild(li);
-    });
+    } catch (error) {
+        console.error('Failed to build week index:', error);
+        elements.weekIndex.innerHTML = '<li>Could not load quiz index.</li>';
+    }
 }
 
 export function updateSidebarOnFinish(results) {

@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is a primary purpose of the Managing a Stage Boundary process?",
+        "options": {
+            "a": "To enable the Project Board to be accountable for the project’s success.",
+            "b": "To provide management direction and control throughout the project.",
+            "c": "To prepare sufficient information to allow the Project Board to authorize the next stage or an Exception Plan.",
+            "d": "To assign and monitor work packages."
+        },
+        "answer": "c",
+        "reasoning": "The purpose of Managing a Stage Boundary is to provide the Project Board with the necessary information to review the current stage's success and approve the next one."
+    },
+    {
+        "question": "Which of the following is an objective of the Managing a Stage Boundary process?",
+        "options": {
+            "a": "To ensure that the business justification for initiating the project is in place.",
+            "b": "To assure the Project Board that all products in the current stage have been approved.",
+            "c": "To provide accurate progress information to the Project Manager at an agreed frequency.",
+            "d": "To coordinate an area of work that will deliver one or more of the project’s products."
+        },
+        "answer": "b",
+        "reasoning": "A key objective is to assure the Project Board that products planned for the current stage have been completed and approved."
+    },
+    {
+        "question": "In which PRINCE2 process does the Project Board typically authorize the next management stage?",
+        "options": {
+            "a": "Controlling a Stage.",
+            "b": "Managing a Stage Boundary.",
+            "c": "Directing a Project.",
+            "d": "Initiating a Project."
+        },
+        "answer": "c",
+        "reasoning": "The Project Board authorizes stages within the Directing a Project process, based on information provided by the Managing a Stage Boundary process."
+    },
+    {
+        "question": "Which of the following activities is performed by the Project Manager during the Managing a Stage Boundary process?",
+        "options": {
+            "a": "Executing a Work Package.",
+            "b": "Receiving completed Work Packages.",
+            "c": "Planning the next stage.",
+            "d": "Authorizing a Work Package."
+        },
+        "answer": "c",
+        "reasoning": "Planning the next stage is a key activity for the Project Manager in this process. The other options are part of Controlling a Stage or Managing Product Delivery."
+    },
+    {
+        "question": "When is an Exception Plan typically produced?",
+        "options": {
+            "a": "When a Work Package is forecast to exceed its tolerances.",
+            "b": "As an alternative to a Stage Plan when a stage is forecast to exceed its tolerances.",
+            "c": "At the beginning of the project to outline the overall project strategy.",
+            "d": "At regular time-driven intervals to report stage progress."
+        },
+        "answer": "b",
+        "reasoning": "An Exception Plan replaces a plan that is in exception and is produced during the Managing a Stage Boundary process if requested by the Project Board."
+    },
+    {
+        "question": "Which management product is an output of the Managing a Stage Boundary process and provides a summary of the stage's performance?",
+        "options": {
+            "a": "Highlight Report.",
+            "b": "Checkpoint Report.",
+            "c": "End Stage Report.",
+            "d": "Lessons Report."
+        },
+        "answer": "c",
+        "reasoning": "The End Stage Report is created by the Project Manager to report on the performance of the stage that is finishing."
+    },
+    {
+        "question": "When planning the next management stage, which Project Initiation Documentation (PID) components might the Project Manager review and potentially update? 1. Business Case. 2. Project Plan. 3. Risk Management Approach. 4. Quality Management Approach.",
+        "options": {
+            "a": "1, 2, and 3 only.",
+            "b": "1, 3, and 4 only.",
+            "c": "2, 3, and 4 only.",
+            "d": "1, 2, 3, and 4."
+        },
+        "answer": "d",
+        "reasoning": "All components of the PID should be reviewed and updated if necessary to reflect the latest project status and forecasts."
+    },
+    {
+        "question": "Who is primarily responsible for updating the project plan with actual progress and future forecasts at the end of a management stage?",
+        "options": {
+            "a": "The Project Board.",
+            "b": "The Project Manager.",
+            "c": "Project Assurance.",
+            "d": "The Team Manager."
+        },
+        "answer": "b",
+        "reasoning": "The Project Manager updates the project plan with the actuals from the completed stage."
+    },
+    {
+        "question": "Which of the following is a decision the Project Board might make in response to an Exception Report?",
+        "options": {
+            "a": "Increase the work package tolerances.",
+            "b": "Request the Project Manager to produce a Checkpoint Report.",
+            "c": "Instruct the Project Manager to produce an Exception Plan.",
+            "d": "Cease all work on the project immediately without further review."
+        },
+        "answer": "c",
+        "reasoning": "If the Project Board wants to consider a recovery plan, they will ask the Project Manager to create an Exception Plan."
+    },
+    {
+        "question": "The Directing a Project process activity 'Give Ad Hoc Direction' includes the Project Board reviewing which report from the Project Manager?",
+        "options": {
+            "a": "End Stage Report.",
+            "b": "Exception Report.",
+            "c": "Highlight Report.",
+            "d": "Checkpoint Report."
+        },
+        "answer": "c",
+        "reasoning": "The Highlight Report is the regular progress report to the Project Board, which they review to provide ad hoc direction."
+    },
+    {
+        "question": "Which of the following management products is NOT created or updated as part of the Managing a Stage Boundary process?",
+        "options": {
+            "a": "Product Status Account.",
+            "b": "Quality Register.",
+            "c": "Daily Log.",
+            "d": "Issue Register."
+        },
+        "answer": "c",
+        "reasoning": "The Daily Log is used in the Controlling a Stage process for day-to-day management, not typically updated as part of the end stage process."
+    },
+    {
+        "question": "What is the primary objective of the 'Report management stage end' activity within the Managing a Stage Boundary process?",
+        "options": {
+            "a": "To gain approval for new Work Packages.",
+            "b": "To inform the Project Board about the performance of the current stage.",
+            "c": "To prepare a detailed plan for the next stage's specialist products.",
+            "d": "To formally close any outstanding issues or risks."
+        },
+        "answer": "b",
+        "reasoning": "This activity involves the Project Manager creating the End Stage Report to inform the board."
+    },
+    {
+        "question": "During the 'Authorize a Stage or Exception Plan' activity, the Project Board reviews the plan to ensure it is feasible and achievable. They also review the product descriptions for the products to be delivered. What is the main concern regarding these product descriptions?",
+        "options": {
+            "a": "That they contain sufficient technical details for the Team Managers.",
+            "b": "That they conform to corporate standards for documentation.",
+            "c": "That they deliver fit for purpose products.",
+            "d": "That they are baselined and controlled appropriately."
+        },
+        "answer": "c",
+        "reasoning": "The Project Board's main concern is that the products defined will meet the project's objectives and be fit for purpose."
+    },
+    {
+        "question": "When should a Project Manager consider reviewing lessons identified during the current management stage, as part of the Managing a Stage Boundary process?",
+        "options": {
+            "a": "Only at the very end of the project, as part of project closure.",
+            "b": "At every review of management stage status, especially for longer projects.",
+            "c": "Never, as lessons are the responsibility of corporate or programme management.",
+            "d": "Only if a severe exception has occurred during the stage."
+        },
+        "answer": "b",
+        "reasoning": "Lessons should be reviewed regularly to ensure they are applied to later stages and future projects."
+    },
+    {
+        "question": "Which PRINCE2 role is responsible for making decisions on escalated issues, with particular focus on safeguarding the expected benefits?",
+        "options": {
+            "a": "The Executive.",
+            "b": "The Project Manager.",
+            "c": "The Senior User.",
+            "d": "The Senior Supplier."
+        },
+        "answer": "c",
+        "reasoning": "The Senior User represents the interests of those who will use the project's products and is therefore responsible for specifying and safeguarding the benefits."
+    },
+    {
+        "question": "If the Project Board is giving ad-hoc direction, and a request for change cannot be implemented within the limits delegated to the change authority, what might the Project Board request from the Project Manager?",
+        "options": {
+            "a": "A Highlight Report.",
+            "b": "A Checkpoint Report.",
+            "c": "An Exception Plan.",
+            "d": "An End Stage Report."
+        },
+        "answer": "c",
+        "reasoning": "If a change would cause a forecast breach of tolerance, it's an exception, and an Exception Plan would be required."
+    },
+    {
+        "question": "Which of the following is a key input for the 'Plan the next management stage' activity?",
+        "options": {
+            "a": "The current Work Package status.",
+            "b": "The Project Brief.",
+            "c": "The components of the PID (Project Initiation Documentation).",
+            "d": "The Daily Log."
+        },
+        "answer": "c",
+        "reasoning": "The PID, especially the Project Plan and various approaches, provides the context and baseline for creating the next Stage Plan."
+    },
+    {
+        "question": "A Project Manager is preparing for an end stage assessment. What should they ensure about all the products planned for the current management stage?",
+        "options": {
+            "a": "They are ready to be handed over to the customer.",
+            "b": "They are complete and approved, or carried forward into the next stage.",
+            "c": "They have met all their quality tolerances, with no exceptions.",
+            "d": "Their operational and maintenance organizations are ready to take responsibility."
+        },
+        "answer": "b",
+        "reasoning": "All products for the stage must be accounted for—either completed and approved or formally agreed to be carried forward."
+    },
+    {
+        "question": "What is a key difference between the final management stage and other delivery stages in PRINCE2 regarding their conclusion?",
+        "options": {
+            "a": "The Project Manager uses the Directing a Project process to close the final stage.",
+            "b": "The Project Manager uses the Managing a Stage Boundary process to close the final stage.",
+            "c": "The Project Manager uses the Closing a Project process to prepare for the end of the project instead of Managing a Stage Boundary.",
+            "d": "The Project Board directly manages the final stage, bypassing the Project Manager."
+        },
+        "answer": "c",
+        "reasoning": "Instead of preparing for another stage, the Project Manager invokes the Closing a Project process near the end of the final stage."
+    },
+    {
+        "question": "Who is responsible for ensuring that the project remains focused on the corporate, programme management or customer objectives set, and remains justified in accordance with its business case, as part of the 'Give Ad Hoc Direction' activity?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "Project Assurance.",
+            "c": "The Project Board.",
+            "d": "The Senior User."
+        },
+        "answer": "c",
+        "reasoning": "This is a core responsibility of the Project Board throughout the project."
+    }
+]

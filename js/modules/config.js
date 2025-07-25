@@ -1,5 +1,4 @@
 export const FAILED_QUESTIONS_STORAGE_KEY = 'prince2FailedQuestions';
-export const QUIZ_BANK = window.QUIZ_BANK;
 
 export const elements = {
     body: document.body,
