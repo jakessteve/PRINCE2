@@ -18,7 +18,7 @@ export function updateCounter() {
 
 export function disableInputs() {
     elements.quizForm.querySelectorAll('input').forEach(input => input.disabled = true);
-    elements.finishBtn.textContent = 'Restart Test';
+    elements.finishBtn.innerHTML = 'Restart<br>Test';
     elements.finishBtn.classList.add('btn-restart');
 }
 

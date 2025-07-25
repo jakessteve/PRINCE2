@@ -157,10 +157,10 @@ export function updateSidebarOnFinish(results) {
 
     const passThreshold = 85;
     if (results.forceFailed || percentage < passThreshold) {
-        elements.sidebarTitle.textContent = `Failed (${percentage}%)`;
+        elements.sidebarTitle.innerHTML = `Failed<br>(${percentage}%)`;
         elements.sidebarTitle.classList.add('fail');
     } else {
-        elements.sidebarTitle.textContent = `Pass (${percentage}%)`;
+        elements.sidebarTitle.innerHTML = `Pass<br>(${percentage}%)`;
         elements.sidebarTitle.classList.add('pass');
     }
 
