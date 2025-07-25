@@ -74,7 +74,6 @@ export function toggleFullscreen() {
 }
 
 export function prepareQuizScreen() {
-    elements.welcomeMessage.classList.remove('hidden');
     elements.quizForm.classList.add('hidden');
     elements.startBtn.classList.remove('hidden');
     elements.finishBtn.classList.add('hidden');
@@ -88,7 +87,6 @@ export function prepareQuizScreen() {
 }
 
 export function showWelcomeScreen() {
-    elements.welcomeMessage.classList.remove('hidden');
     elements.quizForm.classList.add('hidden');
     elements.startBtn.classList.add('hidden');
     elements.finishBtn.classList.add('hidden');
