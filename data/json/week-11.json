@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is a primary purpose of the Controlling a Stage process in PRINCE2?",
+        "options": {
+            "a": "To enable the Project Board to be accountable for the project’s success.",
+            "b": "To provide management direction and control throughout the project.",
+            "c": "To monitor the work to be done and deal with issues throughout a stage.",
+            "d": "To ensure that the prerequisites for initiating the project are in place."
+        },
+        "answer": "c",
+        "reasoning": "The purpose of Controlling a Stage is for the Project Manager to monitor the day-to-day work within a stage and manage any issues that arise."
+    },
+    {
+        "question": "Which of the following is a purpose of the Managing Product Delivery process?",
+        "options": {
+            "a": "To coordinate an area of work that will deliver one or more of the project’s products.",
+            "b": "To prepare sufficient information to allow the Project Board to authorize the next stage.",
+            "c": "To provide a fixed point in time when the acceptance of the project’s products is confirmed.",
+            "d": "To report to the Project Board on the progress of the stage."
+        },
+        "answer": "a",
+        "reasoning": "Managing Product Delivery coordinates the work of teams to create the specialist products as defined in a Work Package."
+    },
+    {
+        "question": "In which PRINCE2 process does the Project Manager formally delegate responsibility for work or delivery to a Team Manager or team member?",
+        "options": {
+            "a": "Initiating a Project.",
+            "b": "Controlling a Stage.",
+            "c": "Managing Product Delivery.",
+            "d": "Managing a Stage Boundary."
+        },
+        "answer": "b",
+        "reasoning": "The Project Manager authorizes a Work Package to delegate work, which is a key activity in the Controlling a Stage process."
+    },
+    {
+        "question": "During which PRINCE2 process are specialist products created?",
+        "options": {
+            "a": "Initiating a Project.",
+            "b": "Controlling a Stage.",
+            "c": "Managing Product Delivery.",
+            "d": "Managing a Stage Boundary."
+        },
+        "answer": "c",
+        "reasoning": "The actual hands-on creation of specialist products is done by the teams within the Managing Product Delivery process."
+    },
+    {
+        "question": "Which of the following is typically included in a Work Package?",
+        "options": {
+            "a": "Project-level tolerances for cost and time.",
+            "b": "The Project Product Description.",
+            "c": "Problem handling and escalation arrangements.",
+            "d": "A detailed list of all project risks."
+        },
+        "answer": "c",
+        "reasoning": "A Work Package must define the constraints and communication lines for the team, including how to handle problems and escalate issues."
+    },
+    {
+        "question": "What is the primary purpose of a Checkpoint Report?",
+        "options": {
+            "a": "To provide a regular update on stage progress to the Project Board.",
+            "b": "To summarize the status of the Work Package to the Project Manager at a defined frequency.",
+            "c": "To document deviations from the plan that require Project Board attention.",
+            "d": "To formally request changes to baselined products."
+        },
+        "answer": "b",
+        "reasoning": "The Checkpoint Report is used by the Team Manager to report the status of a Work Package to the Project Manager."
+    },
+    {
+        "question": "A Checkpoint Report is derived from which of the following? 1. Work Package. 2. Team plan and actuals. 3. Previous Checkpoint Report. 4. Stage Plan.",
+        "options": {
+            "a": "1, 2, and 3.",
+            "b": "1, 2, and 4.",
+            "c": "1, 3, and 4.",
+            "d": "2, 3, and 4."
+        },
+        "answer": "a",
+        "reasoning": "The report is based on the assigned work (Work Package), progress against the plan (team plan and actuals), and may reference the last report for continuity."
+    },
+    {
+        "question": "Who is primarily responsible for creating the Highlight Report, which provides regular progress updates to the Project Board throughout a management stage?",
+        "options": {
+            "a": "The Team Manager.",
+            "b": "The Project Manager.",
+            "c": "The Project Board.",
+            "d": "Project Assurance."
+        },
+        "answer": "b",
+        "reasoning": "The Project Manager creates the Highlight Report for the Project Board to keep them informed of stage progress."
+    },
+    {
+        "question": "If a Work Package is forecast to exceed its agreed tolerances, what is the *first* action the Team Manager should take?",
+        "options": {
+            "a": "Produce an Exception Report and send it to the Project Manager.",
+            "b": "Inform the Project Manager by raising an issue.",
+            "c": "Cease all work on the Work Package immediately.",
+            "d": "Update the Stage Plan with the new forecast."
+        },
+        "answer": "b",
+        "reasoning": "A forecast deviation against Work Package tolerances is an issue that the Team Manager must immediately raise to the Project Manager."
+    },
+    {
+        "question": "Which of the following management products are regularly maintained by the Project Manager during the Controlling a Stage process? 1. Quality Register. 2. Risk Register. 3. Issue Register. 4. Daily Log.",
+        "options": {
+            "a": "1, 2, and 3 only.",
+            "b": "1, 2, and 4 only.",
+            "c": "1, 3, and 4 only.",
+            "d": "1, 2, 3, and 4."
+        },
+        "answer": "d",
+        "reasoning": "The Project Manager uses all four of these management products to manage the day-to-day activities of the stage."
+    },
+    {
+        "question": "What is the purpose of the 'Review Management Stage Status' activity within the Controlling a Stage process?",
+        "options": {
+            "a": "To delegate work packages to Team Managers.",
+            "b": "To obtain approvals for completed products.",
+            "c": "To periodically review the overall situation of the stage and decide what to do next.",
+            "d": "To escalate issues and risks to the Project Board when tolerances are threatened."
+        },
+        "answer": "c",
+        "reasoning": "This activity allows the Project Manager to assess the health of the stage against the plan and decide if any corrective action or escalation is needed."
+    },
+    {
+        "question": "When does a Team Manager typically produce a Team Plan?",
+        "options": {
+            "a": "At the beginning of the project, during the Starting Up a Project process.",
+            "b": "When accepting a Work Package from the Project Manager.",
+            "c": "At the end of each management stage, as part of the Managing a Stage Boundary process.",
+            "d": "When the project is forecast to exceed its tolerances, as part of an Exception Plan."
+        },
+        "answer": "b",
+        "reasoning": "A Team Plan, if required, is created by the Team Manager after accepting a Work Package to detail how the work will be executed."
+    },
+    {
+        "question": "Which role is primarily responsible for the 'Execute a Work Package' activity within the Managing Product Delivery process?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "The Team Manager or Team Member.",
+            "c": "Project Assurance.",
+            "d": "The Senior Supplier."
+        },
+        "answer": "b",
+        "reasoning": "The Team Manager or team members are responsible for executing the work defined in the Work Package."
+    },
+    {
+        "question": "The 'Authorize a Work Package' activity is part of which PRINCE2 process?",
+        "options": {
+            "a": "Directing a Project.",
+            "b": "Initiating a Project.",
+            "c": "Controlling a Stage.",
+            "d": "Managing a Stage Boundary."
+        },
+        "answer": "c",
+        "reasoning": "Authorizing Work Packages is a key activity for the Project Manager within the Controlling a Stage process."
+    },
+    {
+        "question": "The Controlling a Stage process primarily describes the work of which PRINCE2 role?",
+        "options": {
+            "a": "The Project Board.",
+            "b": "The Project Manager.",
+            "c": "The Team Manager.",
+            "d": "The Senior User."
+        },
+        "answer": "b",
+        "reasoning": "Controlling a Stage is the main day-to-day process for the Project Manager."
+    },
+    {
+        "question": "In the Managing Product Delivery process, who is responsible for obtaining approvals for completed products?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "Project Assurance.",
+            "c": "The Team Manager or Team Member.",
+            "d": "The Senior User."
+        },
+        "answer": "c",
+        "reasoning": "The team is responsible for ensuring the products they create meet the quality criteria and getting them approved before delivery."
+    },
+    {
+        "question": "The Project Manager performs the 'Capture and Examine Issues and Risks' activity within the Controlling a Stage process. This activity incorporates which initial steps of the Issue and Change Control Procedure and Risk Management Procedure?",
+        "options": {
+            "a": "Issue and Change Control: Capture and Assess; Risk Management: Identify, Assess, and Plan.",
+            "b": "Issue and Change Control: Propose and Decide; Risk Management: Implement and Communicate.",
+            "c": "Issue and Change Control: Implement; Risk Management: Communicate.",
+            "d": "Issue and Change Control: Capture; Risk Management: Identify and Assess."
+        },
+        "answer": "d",
+        "reasoning": "This activity involves the initial steps of capturing and examining issues, and identifying and assessing risks before deciding on further action."
+    },
+    {
+        "question": "During the 'Review Work Package Status' activity of the Controlling a Stage process, what is updated with actuals to date, forecasts, and adjustments?",
+        "options": {
+            "a": "The Project Plan.",
+            "b": "The Business Case.",
+            "c": "The Stage Plan.",
+            "d": "The Highlight Report."
+        },
+        "answer": "c",
+        "reasoning": "The Stage Plan is the baseline against which the Project Manager tracks actuals and updates forecasts for the current stage."
+    },
+    {
+        "question": "Which of the following is an objective of the Managing Product Delivery process?",
+        "options": {
+            "a": "To ensure that the Team Manager and the teams understand the expected effort, time, and cost needed to deliver the products.",
+            "b": "To ensure that the various ways to deliver the project are evaluated.",
+            "c": "To define how quality management will be carried out during the project.",
+            "d": "To request authorization to start the next stage of the project."
+        },
+        "answer": "a",
+        "reasoning": "This ensures there is a clear and accepted agreement on the work to be done as defined in the Work Package."
+    },
+    {
+        "question": "Which statement best describes the relationship between the Controlling a Stage and Managing Product Delivery processes?",
+        "options": {
+            "a": "Controlling a Stage happens before Managing Product Delivery and provides its inputs.",
+            "b": "Managing Product Delivery happens before Controlling a Stage and provides its inputs.",
+            "c": "Controlling a Stage manages the stage, including delegating work, while Managing Product Delivery delivers the specialist products.",
+            "d": "They are independent processes and can occur at any time during the project."
+        },
+        "answer": "c",
+        "reasoning": "There is an interface between the Project Manager (Controlling a Stage) who delegates work, and the Team Manager (Managing Product Delivery) who executes it."
+    }
+]

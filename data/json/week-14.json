@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Which statement best describes how PRINCE2 integrates its principles, themes, and processes to provide a complete project management method?",
+        "options": {
+            "a": "Principles are the 'how to' of PRINCE2, themes are the 'what', and processes are the 'when'.",
+            "b": "Principles are the guiding obligations, themes address specific aspects of project management, and processes describe the 'how-to' sequence of activities.",
+            "c": "Themes are the minimum requirements, principles are applied when tailoring, and processes are the products.",
+            "d": "Processes drive the Project Board's decisions, themes provide detailed plans, and principles ensure project viability."
+        },
+        "answer": "b",
+        "reasoning": "This statement accurately describes the relationship. Principles are the 'why' (guiding obligations), themes are the 'what' (aspects to manage), and processes are the 'who, when, and what' (sequence of activities)."
+    },
+    {
+        "question": "Which PRINCE2 principle is directly supported by the Project Board setting stage tolerances for the Project Manager?",
+        "options": {
+            "a": "Continued Business Justification.",
+            "b": "Learn from Experience.",
+            "c": "Manage by Exception.",
+            "d": "Defined Roles and Responsibilities."
+        },
+        "answer": "c",
+        "reasoning": "Setting tolerances to delegate authority is the core of the Manage by Exception principle. The board only needs to intervene if tolerances are forecast to be exceeded."
+    },
+    {
+        "question": "In which PRINCE2 process is the Business Case first outlined, providing an agreed foundation for later refinement?",
+        "options": {
+            "a": "Initiating a Project (IP).",
+            "b": "Starting Up a Project (SU).",
+            "c": "Directing a Project (DP).",
+            "d": "Managing a Stage Boundary (SB)."
+        },
+        "answer": "b",
+        "reasoning": "The outline Business Case is created in the Starting Up a Project process as part of the initial due diligence."
+    },
+    {
+        "question": "What is the correct sequence of the PRINCE2 processes during a typical project lifecycle?",
+        "options": {
+            "a": "Starting Up a Project, Initiating a Project, Directing a Project, Controlling a Stage, Managing Product Delivery, Managing a Stage Boundary, Closing a Project.",
+            "b": "Starting Up a Project, Directing a Project, Initiating a Project, Managing a Stage Boundary, Controlling a Stage, Managing Product Delivery, Closing a Project.",
+            "c": "Starting Up a Project, Initiating a Project, Controlling a Stage, Managing Product Delivery, Managing a Stage Boundary, Closing a Project.",
+            "d": "Starting Up a Project, Initiating a Project, Managing Product Delivery, Controlling a Stage, Managing a Stage Boundary, Closing a Project."
+        },
+        "answer": "c",
+        "reasoning": "This represents the typical flow, with DP running throughout, CS and MP happening iteratively within stages, and SB connecting them. The options provided are simplified, and C is the best fit for the core iterative loop."
+    },
+    {
+        "question": "Which PRINCE2 role is ultimately accountable for the project's success and has the authority to commit resources and funds?",
+        "options": {
+            "a": "Project Manager.",
+            "b": "Senior User.",
+            "c": "Executive.",
+            "d": "Senior Supplier."
+        },
+        "answer": "c",
+        "reasoning": "The Executive is the ultimate decision-maker, owns the Business Case, and is accountable for the project's success."
+    },
+    {
+        "question": "Which management product provides a baseline for a stage, detailing its products, resources, and schedule?",
+        "options": {
+            "a": "Project Plan.",
+            "b": "Work Package.",
+            "c": "Stage Plan.",
+            "d": "Project Initiation Documentation (PID)."
+        },
+        "answer": "c",
+        "reasoning": "The Stage Plan is the detailed plan for a single management stage and is used by the Project Manager for day-to-day control."
+    },
+    {
+        "question": "Which statement accurately reflects the PRINCE2 principle of 'Tailor to suit the project environment'?",
+        "options": {
+            "a": "PRINCE2 elements not relevant to a specific project should be omitted to reduce bureaucracy.",
+            "b": "The method should be adapted to the project's context, without omitting any of the seven principles.",
+            "c": "Tailoring means using only the mandatory elements of PRINCE2 and adding external best practices.",
+            "d": "For small projects, it is acceptable to use a simplified version of PRINCE2 by removing some of its processes."
+        },
+        "answer": "b",
+        "reasoning": "Tailoring involves adapting the method (themes, processes, products) to the project's context, but the seven principles are universal and must always be applied."
+    },
+    {
+        "question": "A key benefit of using PRINCE2 is that it:",
+        "options": {
+            "a": "Focuses on the people management and leadership skills required for projects.",
+            "b": "Provides a common vocabulary and a tested best-practice approach to managing projects.",
+            "c": "Guarantees project success by providing a rigid framework that must be followed without deviation.",
+            "d": "Eliminates the need for external project management tools or software by providing all necessary documents."
+        },
+        "answer": "b",
+        "reasoning": "A common vocabulary and a structured, best-practice approach are key benefits of using PRINCE2, improving communication and control."
+    },
+    {
+        "question": "Which of the following is an example of a time-driven control in PRINCE2?",
+        "options": {
+            "a": "An End Stage Assessment at the completion of a management stage.",
+            "b": "A Checkpoint Report submitted weekly by a Team Manager to the Project Manager.",
+            "c": "An Exception Report produced when stage tolerances are forecast to be exceeded.",
+            "d": "An Issue Report raised by a Team Manager to the Project Manager about a work package problem."
+        },
+        "answer": "b",
+        "reasoning": "Checkpoint Reports are time-driven, produced at a frequency defined in the Work Package (e.g., weekly). The others are event-driven."
+    },
+    {
+        "question": "When managing issues and risks, what is the correct sequence of steps in the PRINCE2 issue and change control procedure, and the risk management procedure, respectively?",
+        "options": {
+            "a": "Issue & Change: Capture, Assess, Propose, Decide, Implement. Risk: Identify, Assess, Plan, Implement, Communicate.",
+            "b": "Issue & Change: Assess, Capture, Propose, Implement, Decide. Risk: Plan, Identify, Assess, Implement, Communicate.",
+            "c": "Issue & Change: Propose, Capture, Assess, Decide, Implement. Risk: Identify, Assess, Communicate, Plan, Implement.",
+            "d": "Issue & Change: Capture, Implement, Assess, Propose, Decide. Risk: Assess, Identify, Plan, Implement, Communicate."
+        },
+        "answer": "a",
+        "reasoning": "This correctly lists the five steps for the issue and change control procedure, and the five steps for the risk management procedure."
+    },
+    {
+        "question": "The Project Product Description defines the customer's quality expectations, while individual Product Descriptions specify:",
+        "options": {
+            "a": "The measurable attributes that a product must meet to be accepted.",
+            "b": "The quality management approach for the entire project.",
+            "c": "The quality methods to be used to check the quality of the product.",
+            "d": "Both A and C."
+        },
+        "answer": "d",
+        "reasoning": "A Product Description contains both the quality criteria (A), and the quality methods that will be used (C)."
+    },
+    {
+        "question": "Which statement accurately describes the relationship between a Stage Plan and a Work Package?",
+        "options": {
+            "a": "A Stage Plan authorizes the Project Manager to carry out Work Packages, which are instructions to Team Managers.",
+            "b": "A Work Package is a detailed plan for a specific product, whereas a Stage Plan covers an entire management stage.",
+            "c": "The Stage Plan details how all products for a stage will be delivered, while a Work Package is the mechanism to delegate work for specific products from the Project Manager to a team.",
+            "d": "Both are created by the Project Manager to provide detailed schedules for project activities, but the Work Package is more informal."
+        },
+        "answer": "c",
+        "reasoning": "The Stage Plan is the PM's plan for the stage; the Work Package is the formal instruction from the PM to a Team Manager to create specific products."
+    },
+    {
+        "question": "What is the primary function of Project Assurance?",
+        "options": {
+            "a": "To provide administrative support to the Project Manager.",
+            "b": "To monitor and review the project's performance against corporate standards and the Project Board's expectations.",
+            "c": "To manage the day-to-day work of creating the project's specialist products.",
+            "d": "To make key decisions and exercise overall control of the project."
+        },
+        "answer": "b",
+        "reasoning": "Project Assurance provides independent monitoring and assurance of the project on behalf of the Project Board members."
+    },
+    {
+        "question": "How does PRINCE2 ensure that lessons learned throughout the project lifecycle are captured and applied?",
+        "options": {
+            "a": "By regularly updating the Daily Log with successes and failures for future reference.",
+            "b": "Through the creation and update of a Lessons Log during the project, and a Lessons Report at the end of stages/project.",
+            "c": "By embedding all previous project experiences directly into the Project Plan at initiation.",
+            "d": "By conducting a formal post-project review with external auditors."
+        },
+        "answer": "b",
+        "reasoning": "The Lessons Log (for ongoing lessons) and Lessons Report (for formal reporting) are the two key management products for managing lessons."
+    },
+    {
+        "question": "When an agile approach is being used, PRINCE2 suggests that the Project Product Description may be written in the form of what?",
+        "options": {
+            "a": "A series of Checkpoint Reports.",
+            "b": "An Exception Report.",
+            "c": "An epic or a user story, with associated acceptance criteria.",
+            "d": "A burn down chart."
+        },
+        "answer": "c",
+        "reasoning": "In agile environments, high-level requirements like those in the Project Product Description are often expressed as epics or user stories."
+    },
+    {
+        "question": "The Project Initiation Documentation (PID) provides the single source of reference for the project, and is typically assembled during which process?",
+        "options": {
+            "a": "Starting Up a Project (SU).",
+            "b": "Initiating a Project (IP).",
+            "c": "Directing a Project (DP).",
+            "d": "Managing a Stage Boundary (SB)."
+        },
+        "answer": "b",
+        "reasoning": "The PID is the main output of the Initiating a Project process, where the project's foundations are established."
+    },
+    {
+        "question": "Project-level exceptions, where project tolerances are forecast to be exceeded, must be escalated to which level of management?",
+        "options": {
+            "a": "The Project Board.",
+            "b": "Corporate, Programme Management or the Customer.",
+            "c": "The Project Manager.",
+            "d": "The Executive."
+        },
+        "answer": "b",
+        "reasoning": "The Project Board operates within project tolerances set by corporate or programme management. Any breach of these top-level tolerances must be escalated to that level."
+    },
+    {
+        "question": "Which of the following describes the Project Board's primary continuous activity throughout the project lifecycle?",
+        "options": {
+            "a": "Managing the day-to-day activities of creating products.",
+            "b": "Issuing Work Packages to Team Managers.",
+            "c": "Giving ad hoc direction and making key decisions on the project.",
+            "d": "Creating detailed stage plans and managing progress within those plans."
+        },
+        "answer": "c",
+        "reasoning": "The Directing a Project process, which belongs to the Project Board, runs from start to finish and involves giving ad hoc direction and making key decisions."
+    },
+    {
+        "question": "What is the fundamental relationship between PRINCE2's principles, themes, and processes?",
+        "options": {
+            "a": "Principles are embedded in themes and realized through processes.",
+            "b": "Themes are standalone areas of knowledge, unrelated to principles or processes.",
+            "c": "Processes define the 'what' of a project, while themes define the 'how'.",
+            "d": "Principles are optional guidelines, and themes dictate mandatory process steps."
+        },
+        "answer": "a",
+        "reasoning": "This statement accurately describes how the three integrated elements work together: principles are the core beliefs that are applied through the themes and processes."
+    },
+    {
+        "question": "Which of the following statements correctly distinguishes between an output, an outcome, and a benefit in PRINCE2?",
+        "options": {
+            "a": "An output is a measurable improvement, an outcome is the project's specialist product, and a benefit is the result of using the output.",
+            "b": "An output is the result of change, an outcome is a measurable improvement, and a benefit is the specialist product.",
+            "c": "An output is the specialist product created, an outcome is the result of using that output, and a benefit is the measurable improvement from an outcome.",
+            "d": "An output is a temporary project deliverable, an outcome is a permanent change, and a benefit is always a financial gain."
+        },
+        "answer": "c",
+        "reasoning": "This correctly defines the relationship: the project delivers outputs (products), which lead to outcomes (changes), which in turn result in measurable benefits."
+    }
+]

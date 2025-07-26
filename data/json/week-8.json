@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the primary purpose of the Risk Theme in PRINCE2?",
+        "options": {
+            "a": "To identify, assess, and control proposed modifications to the project's products.",
+            "b": "To define the means of delivering the project's products and establishing a baseline against which progress can be measured.",
+            "c": "To identify, assess, and control uncertainty throughout the project, thereby improving the ability of the project to succeed.",
+            "d": "To establish a structure of accountability and responsibility for the project management team."
+        },
+        "answer": "c",
+        "reasoning": "The Risk theme's purpose is to manage uncertainty to improve the chances of project success."
+    },
+    {
+        "question": "In PRINCE2, how is a 'risk' defined?",
+        "options": {
+            "a": "A certain event that will affect the project in a positive or negative way.",
+            "b": "A certain event that will affect the project in a negative way.",
+            "c": "An uncertain event that will affect the project in a positive or negative way.",
+            "d": "An uncertain event that will affect the project in a negative way only."
+        },
+        "answer": "c",
+        "reasoning": "A risk is an uncertain event that, if it occurs, will have an effect on the achievement of objectives. It can be positive (opportunity) or negative (threat)."
+    },
+    {
+        "question": "Which of the following correctly represents the components used to describe a risk in PRINCE2?",
+        "options": {
+            "a": "Risk mitigation, risk response, risk budget.",
+            "b": "Risk cause, risk event, risk effect.",
+            "c": "Risk probability, risk impact, risk proximity.",
+            "d": "Risk owner, risk actionee, risk register."
+        },
+        "answer": "b",
+        "reasoning": "A risk is described by its cause (the source), the event (the uncertainty), and the effect (the impact on objectives)."
+    },
+    {
+        "question": "What is the main purpose of the 'Risk Register' in PRINCE2?",
+        "options": {
+            "a": "To define the project's approach to managing threats and opportunities.",
+            "b": "To provide a record of all identified risks and their status throughout the project.",
+            "c": "To summarize the overall risk exposure of the project to the Project Board.",
+            "d": "To detail the risk responses that have been implemented."
+        },
+        "answer": "b",
+        "reasoning": "The Risk Register is a log of all identified risks, along with their analysis, status, and history."
+    },
+    {
+        "question": "What does the 'Risk Management Approach' in PRINCE2 primarily outline?",
+        "options": {
+            "a": "The individual risks identified for the project.",
+            "b": "How the project management team will manage threats and opportunities throughout the project.",
+            "c": "The financial budget allocated for unexpected cost overruns.",
+            "d": "The lessons learned from previous projects related to risk."
+        },
+        "answer": "b",
+        "reasoning": "It describes the specific risk management techniques, procedures, roles, and responsibilities for the project."
+    },
+    {
+        "question": "Which of the following is a minimum requirement for applying the Risk Theme in PRINCE2?",
+        "options": {
+            "a": "To use a specific technique like Expected Monetary Value to assess risks.",
+            "b": "To maintain a Risk Register to record and track risks.",
+            "c": "To ensure that every identified threat is allocated a risk actionee.",
+            "d": "To conduct monthly risk review workshops with the project team."
+        },
+        "answer": "b",
+        "reasoning": "Maintaining a Risk Register is a minimum requirement for managing risks in a PRINCE2 project."
+    },
+    {
+        "question": "What are the five steps of the PRINCE2 recommended risk management procedure?",
+        "options": {
+            "a": "Identify, Assess, Plan, Control, Report.",
+            "b": "Capture, Assess, Propose, Decide, Implement.",
+            "c": "Identify, Assess, Plan, Implement, Communicate.",
+            "d": "Analyze, Evaluate, Respond, Monitor, Review."
+        },
+        "answer": "c",
+        "reasoning": "The five steps are Identify, Assess, Plan, Implement, with Communicate running in parallel to all four."
+    },
+    {
+        "question": "Who is primarily responsible for managing, monitoring, and controlling all aspects of a particular risk in PRINCE2?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "The Project Board.",
+            "c": "The Risk Owner.",
+            "d": "The Risk Actionee."
+        },
+        "answer": "c",
+        "reasoning": "The Risk Owner is responsible for managing a specific risk."
+    },
+    {
+        "question": "In PRINCE2, what is the role of a 'Risk Actionee'?",
+        "options": {
+            "a": "An individual responsible for identifying all risks within a project.",
+            "b": "An individual assigned to carry out a specific risk response action.",
+            "c": "An individual responsible for setting the project's risk appetite.",
+            "d": "An individual responsible for managing and monitoring the overall risk register."
+        },
+        "answer": "b",
+        "reasoning": "The Risk Actionee is the person who carries out the planned risk response."
+    },
+    {
+        "question": "Which risk response option ensures that an opportunity will definitely happen, often by implementing its cause?",
+        "options": {
+            "a": "Enhance.",
+            "b": "Share.",
+            "c": "Exploit.",
+            "d": "Accept."
+        },
+        "answer": "c",
+        "reasoning": "Exploit is a proactive response to an opportunity to ensure it is realized."
+    },
+    {
+        "question": "Which risk response option aims to make an uncertain threat certain by removing its cause?",
+        "options": {
+            "a": "Reduce.",
+            "b": "Transfer.",
+            "c": "Avoid.",
+            "d": "Prepare Contingent Plans."
+        },
+        "answer": "c",
+        "reasoning": "The Avoid response seeks to eliminate the threat completely by removing its cause."
+    },
+    {
+        "question": "When dealing with a threat, which risk response involves preparing a plan to be carried out only if the threat actually occurs?",
+        "options": {
+            "a": "Reduce.",
+            "b": "Avoid.",
+            "c": "Transfer.",
+            "d": "Prepare Contingent Plans."
+        },
+        "answer": "d",
+        "reasoning": "This is the definition of preparing a contingent plan."
+    },
+    {
+        "question": "Which risk response option for a threat involves a third party gaining a cost benefit, but the primary risk taker gains another benefit?",
+        "options": {
+            "a": "Accept.",
+            "b": "Share.",
+            "c": "Transfer.",
+            "d": "Reduce."
+        },
+        "answer": "c",
+        "reasoning": "Transfer moves the financial impact of a threat to a third party, often for a premium (e.g., insurance)."
+    },
+    {
+        "question": "When both a customer and a supplier agree to equally share the costs if a situation turns into a threat and the benefits if it becomes an opportunity, what risk response type are they applying?",
+        "options": {
+            "a": "Transfer.",
+            "b": "Share.",
+            "c": "Exploit.",
+            "d": "Accept."
+        },
+        "answer": "b",
+        "reasoning": "Share is a response for both threats and opportunities where both costs and benefits are shared between parties."
+    },
+    {
+        "question": "What is the term for a new risk that occurs as a result of invoking a risk response to an initially identified risk?",
+        "options": {
+            "a": "Inherent risk.",
+            "b": "Residual risk.",
+            "c": "Secondary risk.",
+            "d": "Tertiary risk."
+        },
+        "answer": "c",
+        "reasoning": "A secondary risk is a new risk created by the implementation of a risk response."
+    },
+    {
+        "question": "In the 'Assess' step of the risk management procedure, what does 'proximity' refer to?",
+        "options": {
+            "a": "The likelihood of the risk occurring.",
+            "b": "The time factor of the risk (i.e., when the risk may occur).",
+            "c": "The potential impact of the risk on the project objectives.",
+            "d": "The physical location where the risk might manifest."
+        },
+        "answer": "b",
+        "reasoning": "Proximity relates to the timing of the risk – how close to the present moment it is likely to occur."
+    },
+    {
+        "question": "What is the purpose of a 'Risk Budget' in PRINCE2?",
+        "options": {
+            "a": "To fund the identification and assessment of individual risks.",
+            "b": "To fund unexpected cost overruns in the project budget.",
+            "c": "To provide a fund for implementing agreed risk responses (countermeasures).",
+            "d": "To cover the cost of project assurance activities related to risk."
+        },
+        "answer": "c",
+        "reasoning": "A risk budget is a sum of money set aside specifically to pay for the planned risk responses."
+    },
+    {
+        "question": "In the risk management procedure, why does the 'Communicate' step operate in parallel with the other steps?",
+        "options": {
+            "a": "Because it is the final step, summarizing all risk activities.",
+            "b": "Because outputs from any of the other steps may need to be communicated to stakeholders at any point.",
+            "c": "Because it is an optional step that can be performed at any time.",
+            "d": "Because it is primarily a Project Board responsibility, independent of the Project Manager's daily activities."
+        },
+        "answer": "b",
+        "reasoning": "Communication is continuous and happens throughout the risk management procedure, not just at the end."
+    },
+    {
+        "question": "During which step of the risk management procedure would the project management team determine if the overall 'risk exposure' of the project remains within the organization's risk appetite?",
+        "options": {
+            "a": "Identify.",
+            "b": "Assess (Evaluate).",
+            "c": "Plan.",
+            "d": "Implement."
+        },
+        "answer": "b",
+        "reasoning": "The 'Evaluate' part of the Assess step involves aggregating all risks to understand the overall risk exposure."
+    },
+    {
+        "question": "Which of the following is the key consideration when selecting a risk response in the 'Plan' step of the risk management procedure?",
+        "options": {
+            "a": "Ensuring the response completely eliminates the risk.",
+            "b": "Selecting the most expensive response to guarantee effectiveness.",
+            "c": "Balancing the cost of implementing the response against the probability and impact of the risk occurring.",
+            "d": "Delegating the response to the lowest possible management level."
+        },
+        "answer": "c",
+        "reasoning": "A risk response should be cost-effective, meaning its cost should be appropriate for the size of the risk it is addressing."
+    }
+]

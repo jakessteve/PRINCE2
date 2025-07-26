@@ -1,0 +1,662 @@
+[
+    {
+        "question": "Which management product is used to document project-level risk tolerances?",
+        "options": {
+            "a": "Project plan",
+            "b": "Risk management approach",
+            "c": "Risk register",
+            "d": "Project controls"
+        },
+        "answer": "a",
+        "reasoning": "Project-level tolerances, including those for risk, are defined and documented in the Project Plan."
+    },
+    {
+        "question": "Which of the following is a purpose of the controlling a stage process?",
+        "options": {
+            "a": "To make key decisions on the project but delegate day-to-day management to the proj-ect manager",
+            "b": "To determine whether the project is viable and worthwhile",
+            "c": "To monitor the work to be done and deal with issues",
+            "d": "To produce an exception plan to show how the project can recover from a forecast breach in tolerance"
+        },
+        "answer": "c",
+        "reasoning": "The Controlling a Stage process is the day-to-day work of the Project Manager to monitor work, manage issues, and report progress."
+    },
+    {
+        "question": "Which of the following is a purpose of the managing product delivery process?",
+        "options": {
+            "a": "To coordinate an area of work that will deliver one or more of the project’s products",
+            "b": "To report to the project board on the progress of the stage",
+            "c": "To prepare sufficient information to allow the project board to authorize the next stage",
+            "d": "To provide a fixed point at which the acceptance of the project’s products is confirmed"
+        },
+        "answer": "a",
+        "reasoning": "The Managing Product Delivery process coordinates the work of the team to create the specialist products."
+    },
+    {
+        "question": "If the project or stage requires re-planning due to an exception situation, which process may be invoked?",
+        "options": {
+            "a": "Initiating a project",
+            "b": "Controlling a stage",
+            "c": "Managing a stage boundary",
+            "d": "Closing a project"
+        },
+        "answer": "c",
+        "reasoning": "When an Exception Plan is required, the Managing a Stage Boundary process is used to create it."
+    },
+    {
+        "question": "Tailoring PRINCE2 can involve which of the following? 1. Adapting the themes to work with relevant corporate policies 2. Substituting organizational project terms to replace PRINCE2 terminology 3. Adapting the principles to suit the environment 4. Not creating a business case when launching a project to comply with mandatory regulations",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1 and 4"
+        },
+        "answer": "a",
+        "reasoning": "Themes can be adapted and terminology can be substituted, but principles must always be applied and a business case is mandatory."
+    },
+    {
+        "question": "Which of the following is a purpose of the closing a project process? 1. To provide a fixed point in time to hand over responsibility for the project’s products to the operational team 2. To enable the project manager to prepare for a premature close 3. To manage the products in the early phases of their operational life 4. To realize all the post-project benefits from the project",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1 and 4"
+        },
+        "answer": "a",
+        "reasoning": "Closing a Project provides a fixed point for handover and can be invoked for premature closure. Managing products and realizing benefits are post-project activities."
+    },
+    {
+        "question": "Which of the following PRINCE2 principles does the business case theme primarily help to implement?",
+        "options": {
+            "a": "Defined roles and responsibilities",
+            "b": "Manage by stage",
+            "c": "Focus on products",
+            "d": "Continued business justification"
+        },
+        "answer": "d",
+        "reasoning": "The Business Case theme is the mechanism for implementing the Continued Business Justification principle."
+    },
+    {
+        "question": "An uncertain event that could have a favorable impact on the project is known as [?].",
+        "options": {
+            "a": "An issue",
+            "b": "An opportunity",
+            "c": "A threat",
+            "d": "A concession"
+        },
+        "answer": "b",
+        "reasoning": "A positive risk is called an opportunity."
+    },
+    {
+        "question": "Which of the following is a reason that PRINCE2 provides three levels of plans?",
+        "options": {
+            "a": "To overcome the planning horizon problem",
+            "b": "To create detailed plans at the beginning of the project",
+            "c": "To enable the use of Gantt charts",
+            "d": "To provide the three roles on the project board with a plan that aligns with each of their interests"
+        },
+        "answer": "a",
+        "reasoning": "The different levels of plans (Project, Stage, Team) allow for detailed short-term planning and high-level long-term planning, addressing the planning horizon."
+    },
+    {
+        "question": "Which of the following are purposes of the quality theme? 1. To ensure that the project’s products meet business expectations 2. To define the means of delivering the project’s products 3. To define how to assess changes to the project baselines 4. To enable the desired benefits to be realized",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1 and 4"
+        },
+        "answer": "d",
+        "reasoning": "The Quality theme ensures products meet expectations (1) which in turn enables benefits to be realized (4). Defining the means of delivery is the Plans theme."
+    },
+    {
+        "question": "Which theme ensures that there is an effective strategy to manage communication flows to and from stakeholders?",
+        "options": {
+            "a": "Business case theme",
+            "b": "Organization theme",
+            "c": "Plans theme",
+            "d": "Quality theme"
+        },
+        "answer": "b",
+        "reasoning": "The Organization theme includes defining the communication management approach."
+    },
+    {
+        "question": "Which PRINCE2 process prevents poorly conceived projects from being initiated?",
+        "options": {
+            "a": "Starting up a project",
+            "b": "Initiating a project",
+            "c": "Directing a project",
+            "d": "Controlling a stage"
+        },
+        "answer": "a",
+        "reasoning": "Starting up a Project is the pre-project process that performs due diligence to ensure the project is viable."
+    },
+    {
+        "question": "The purpose of the [?] process is to gain an understanding of the work to deliver the project’s products before committing a significant sum of money.",
+        "options": {
+            "a": "Starting up a project",
+            "b": "Initiating a project",
+            "c": "Controlling a stage",
+            "d": "Managing product delivery"
+        },
+        "answer": "b",
+        "reasoning": "The Initiating a Project process builds the solid foundation (the PID) before the main project spend is committed."
+    },
+    {
+        "question": "Which of the following is a purpose of the directing a project process?",
+        "options": {
+            "a": "To provide information to answer whether the project is viable and worthwhile",
+            "b": "To enable the organization to understand the work needed to deliver the project’s products",
+            "c": "To enable the project board to be accountable for the project by making key decisions",
+            "d": "To provide a fixed point at which the acceptance of the project’s products is confirmed"
+        },
+        "answer": "c",
+        "reasoning": "The Directing a Project process is how the Project Board exercises its authority and accountability."
+    },
+    {
+        "question": "Which of the following is NOT a purpose of the organization theme?",
+        "options": {
+            "a": "To define the responsibilities for directing the project",
+            "b": "To ensure that there is business, user, and supplier stakeholder representation on the project management team",
+            "c": "To facilitate communication by defining the means of delivering the products",
+            "d": "To ensure that clearly defined accountability exists at each level of management"
+        },
+        "answer": "c",
+        "reasoning": "Defining the means of delivering products is the purpose of the Plans theme, not the Organization theme."
+    },
+    {
+        "question": "Which response to a risk would be implemented only if the threat occurs?",
+        "options": {
+            "a": "Avoid",
+            "b": "Reduce",
+            "c": "Prepare contingent plans",
+            "d": "Transfer"
+        },
+        "answer": "c",
+        "reasoning": "A contingent plan is prepared in advance but only implemented if the risk it relates to actually materializes."
+    },
+    {
+        "question": "Which of the following statements represents a time in the project when the business case would be reviewed? 1. During an impact assessment of a risk 2. During the appointment of the executive 3. During the creation of the project mandate 4. During an end stage assessment",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1 and 4"
+        },
+        "answer": "d",
+        "reasoning": "The business case is reviewed when a risk's impact is assessed and formally at the end of each stage."
+    },
+    {
+        "question": "Which of the following are objectives of the closing a project process? 1. To assess all the benefits from the project 2. To review the forecast post-project benefits and update if necessary 3. To review the planned details for post-project benefit reviews 4. To create a plan to show how and when to measure the project’s benefits",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1 and 4"
+        },
+        "answer": "b",
+        "reasoning": "Closing a Project reviews the forecast benefits and the plans to measure them post-project. Assessing all benefits happens after the project closes."
+    },
+    {
+        "question": "Which of the following statements describes a risk actionee?",
+        "options": {
+            "a": "An individual assigned to carry out a risk response action",
+            "b": "An individual responsible for managing and monitoring a particular risk",
+            "c": "An individual responsible for the project’s risk management approach",
+            "d": "An individual responsible for regularly identifying, assessing, and controlling project risks"
+        },
+        "answer": "a",
+        "reasoning": "A risk actionee is the person tasked with implementing a specific risk response."
+    },
+    {
+        "question": "Which is an objective of the managing a stage boundary process?",
+        "options": {
+            "a": "To record experience learned in the current stage that might help manage later stages or projects",
+            "b": "To evaluate the various ways the project can be delivered",
+            "c": "To delegate work packages to the teams for the next stage",
+            "d": "To deliver the next stage’s products to expectations and within tolerances"
+        },
+        "answer": "a",
+        "reasoning": "Recording lessons in a Lessons Report is a key objective of preparing for the next stage."
+    },
+    {
+        "question": "Which is an objective of the managing product delivery process?",
+        "options": {
+            "a": "To ensure that the business case for the project is kept under review",
+            "b": "To assure the project board that all products in the current stage have been approved",
+            "c": "To provide accurate information regarding the project to corporate or programme management",
+            "d": "To provide accurate progress information to the project manager at an agreed frequency"
+        },
+        "answer": "d",
+        "reasoning": "The Team Manager provides progress information to the Project Manager via Checkpoint Reports."
+    },
+    {
+        "question": "Which process captures issues and analyzes their impact on the project?",
+        "options": {
+            "a": "Directing a project",
+            "b": "Controlling a stage",
+            "c": "Managing a stage boundary",
+            "d": "Managing product delivery"
+        },
+        "answer": "b",
+        "reasoning": "Capturing and examining issues and risks is a day-to-day activity for the Project Manager within the Controlling a Stage process."
+    },
+    {
+        "question": "Which of the following are purposes of the risk theme? 1. To define the project’s structure of accountability 2. To identify, assess, and control uncertainty 3. To provide a systematic approach to managing opportunities 4. To identify, assess, and control potential changes",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1 and 4"
+        },
+        "answer": "b",
+        "reasoning": "The risk theme is about managing uncertainty, which includes both threats and opportunities."
+    },
+    {
+        "question": "Which of the following roles represents the business interest on the project?",
+        "options": {
+            "a": "Executive",
+            "b": "Senior user",
+            "c": "Senior supplier",
+            "d": "Project manager"
+        },
+        "answer": "a",
+        "reasoning": "The Executive represents the business interest and is responsible for the Business Case."
+    },
+    {
+        "question": "When conducting an impact analysis on an issue, which of the following factors should the project manager consider? 1. The impact of the issue on the wider programme or corporate environment 2. The supplier’s perspective on the issue 3. The probability that the issue will occur 4. The position of the person who raised the issue",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1 and 4"
+        },
+        "answer": "a",
+        "reasoning": "Impact analysis must consider the impact on the business, user, and supplier interests, including the wider context. Probability does not apply to an issue as it has already occurred."
+    },
+    {
+        "question": "Which product is sometimes known as the project manager’s diary?",
+        "options": {
+            "a": "Project initiation documentation",
+            "b": "Daily log",
+            "c": "Issue register",
+            "d": "Risk register"
+        },
+        "answer": "b",
+        "reasoning": "The Daily Log is used to record informal items and actions, like a diary."
+    },
+    {
+        "question": "Which process is invoked from the controlling a stage process toward the end of the final stage?",
+        "options": {
+            "a": "Starting up a project",
+            "b": "Initiating a project",
+            "c": "Managing a stage boundary",
+            "d": "Closing a project"
+        },
+        "answer": "d",
+        "reasoning": "Instead of starting another Stage Boundary process, the Closing a Project process is invoked near the end of the final stage."
+    },
+    {
+        "question": "Which role applies the activities of the managing product delivery process?",
+        "options": {
+            "a": "Project manager",
+            "b": "Team manager",
+            "c": "Executive",
+            "d": "Senior user"
+        },
+        "answer": "b",
+        "reasoning": "The Managing Product Delivery process is the work of the Team Manager and the team."
+    },
+    {
+        "question": "In a three-stage project, when should the managing a stage boundary NOT be undertaken?",
+        "options": {
+            "a": "At or close to the end of the initiation stage",
+            "b": "At or close to the end of the final delivery stage",
+            "c": "At or close to the end of the first delivery stage",
+            "d": "After a request from the project board for an exception plan"
+        },
+        "answer": "b",
+        "reasoning": "At the end of the final stage, the Closing a Project process is used instead of Managing a Stage Boundary."
+    },
+    {
+        "question": "Which of the following is NOT an example of a follow-on action recommendation that might be made during the closing a project process?",
+        "options": {
+            "a": "Planned benefits reviews",
+            "b": "Outstanding issues",
+            "c": "Further development",
+            "d": "New threats to the project’s products"
+        },
+        "answer": "d",
+        "reasoning": "New threats relate to risks for an ongoing concern, not a recommendation for action on a closed project's products. Planned reviews, outstanding issues, and further development are valid recommendations."
+    },
+    {
+        "question": "Which of the following statements applies to the terms output, outcome, and benefit? 1. An outcome is the result of using a project’s output. 2. An output is a measurable improvement. 3. A benefit is the measurable improvement resulting from an outcome. 4. The project initiation documentation is an output.",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1, 3 and 4"
+        },
+        "answer": "d",
+        "reasoning": "An outcome results from an output (1), a benefit is a measurable improvement from an outcome (3), and the PID is a type of output (4)."
+    },
+    {
+        "question": "Which of the following statements does NOT describe an activity in the assess step of the risk management procedure?",
+        "options": {
+            "a": "Assess the net effect of all the identified threats and opportunities on a project.",
+            "b": "Estimate the likelihood of a particular risk.",
+            "c": "Understand how the impact of a risk might vary over time.",
+            "d": "Review the corporate risk management procedures for possible inclusion in the risk management approach."
+        },
+        "answer": "d",
+        "reasoning": "Reviewing corporate procedures is part of defining the Risk Management Approach, not assessing individual risks."
+    },
+    {
+        "question": "Which plan might be created at the same time that the project manager is creating a stage plan?",
+        "options": {
+            "a": "Programme plan",
+            "b": "Quality plan",
+            "c": "Exception plan",
+            "d": "Team plan"
+        },
+        "answer": "d",
+        "reasoning": "The Project Manager creates the Stage Plan, and in parallel, a Team Manager may be creating a more detailed Team Plan for a work package."
+    },
+    {
+        "question": "Which of the quality review technique roles coordinates and tracks work to correct a prod-uct following a review?",
+        "options": {
+            "a": "Chair",
+            "b": "Presenter",
+            "c": "Reviewer",
+            "d": "Administrator"
+        },
+        "answer": "d",
+        "reasoning": "The Administrator is responsible for administrative support, including tracking follow-up actions."
+    },
+    {
+        "question": "Which of the following is NOT true of project support?",
+        "options": {
+            "a": "The project manager may take on the role of project support.",
+            "b": "Project support may provide administrative services during a project.",
+            "c": "Project support will monitor the management of the project to check that it is appropriate.",
+            "d": "Project support may be provided by a corporate project office."
+        },
+        "answer": "c",
+        "reasoning": "Monitoring the management of the project is a Project Assurance function, not Project Support."
+    },
+    {
+        "question": "Which of the following is an objective of the starting up a project process?",
+        "options": {
+            "a": "To provide management direction and control throughout the project",
+            "b": "To provide a common understanding of how risks will be identified, assessed, and controlled",
+            "c": "To focus attention on the delivery of the project’s specialist products",
+            "d": "To ensure that the work for project initiation is planned"
+        },
+        "answer": "d",
+        "reasoning": "A key objective of SU is to create the Initiation Stage Plan."
+    },
+    {
+        "question": "Which of the following are objectives of the initiating a project process? 1. To ensure that time is not wasted initiating a project based on unsound assumptions 2. To ensure that the work required for project initiation is planned 3. To describe how baselines will be established and controlled 4. To ensure that there is a common understanding of how the corporate project management method will be tailored to suit the project",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1 and 4"
+        },
+        "answer": "c",
+        "reasoning": "Describing baselines and tailoring are key objectives of IP. (1) and (2) are objectives of the SU process."
+    },
+    {
+        "question": "Which of the following PRINCE2 processes provides authority to close the project?",
+        "options": {
+            "a": "Starting up a project",
+            "b": "Initiating a project",
+            "c": "Closing a project",
+            "d": "Directing a project"
+        },
+        "answer": "d",
+        "reasoning": "The 'Authorize project closure' activity is part of the Directing a Project process."
+    },
+    {
+        "question": "Which of the following budgets should be used to fund the identification and analysis of individual risks?",
+        "options": {
+            "a": "Risk budget",
+            "b": "Project budget",
+            "c": "Change budget",
+            "d": "Cost tolerance"
+        },
+        "answer": "b",
+        "reasoning": "Risk management activities are part of the project's work, and so are funded from the overall project budget. The Risk Budget is for responses, not analysis."
+    },
+    {
+        "question": "Which of the following roles represents the interests of those designing, developing, or procuring the project’s products?",
+        "options": {
+            "a": "Executive",
+            "b": "Senior supplier",
+            "c": "Senior user",
+            "d": "Corporate, programme management, or the customer"
+        },
+        "answer": "b",
+        "reasoning": "The Senior Supplier represents the interests of those who will supply the project's products."
+    },
+    {
+        "question": "Which management product defines the quality standards to be applied throughout the project?",
+        "options": {
+            "a": "Change control approach",
+            "b": "Product descriptions",
+            "c": "Quality register",
+            "d": "Quality management approach"
+        },
+        "answer": "d",
+        "reasoning": "The Quality Management Approach defines the overall strategy for quality."
+    },
+    {
+        "question": "What is the first task in the recommended approach to defining and analyzing products?",
+        "options": {
+            "a": "Writing product descriptions",
+            "b": "Writing a project product description",
+            "c": "Creating the product breakdown structure",
+            "d": "Creating the product flow diagram"
+        },
+        "answer": "b",
+        "reasoning": "The first step is to write the Project Product Description to define the final output."
+    },
+    {
+        "question": "Which of the following does NOT describe a PRINCE2 approach for measuring the impact of a risk?",
+        "options": {
+            "a": "Understand the potential effect of a risk on the project’s schedule.",
+            "b": "Understand the time factor of the risk.",
+            "c": "Understand how the project’s budgets might be affected by the risk.",
+            "d": "Understand both the pre-response and post-response levels of the impact of a risk."
+        },
+        "answer": "b",
+        "reasoning": "The time factor (proximity) is about *when* a risk might occur, not a measure of its impact."
+    },
+    {
+        "question": "What should drive decision-making in a PRINCE2 project?",
+        "options": {
+            "a": "The corporate budget",
+            "b": "The business case",
+            "c": "The time available",
+            "d": "The preferences of the senior stakeholders"
+        },
+        "answer": "b",
+        "reasoning": "The Business Case provides the justification for the project and should drive all major decisions."
+    },
+    {
+        "question": "How might the PRINCE2 processes be tailored to suit the project environment?",
+        "options": {
+            "a": "By omitting the starting up a project process on a project that is short of time",
+            "b": "By substituting an industry-specific lifecycle model for PRINCE2 during technical projects",
+            "c": "By using only a programme management process when the project is part of a programme",
+            "d": "By changing the responsibilities for performing the activities"
+        },
+        "answer": "d",
+        "reasoning": "Activities within processes can be combined or their responsibilities can be adapted as part of tailoring."
+    },
+    {
+        "question": "Which management product is used to capture and maintain information on all the threats identified during a project?",
+        "options": {
+            "a": "Risk management approach",
+            "b": "Issue register",
+            "c": "Issue report",
+            "d": "Risk register"
+        },
+        "answer": "d",
+        "reasoning": "The Risk Register captures all identified risks, both threats and opportunities."
+    },
+    {
+        "question": "How does the managing a stage boundary process help to implement the principle of man-agement by exception?",
+        "options": {
+            "a": "By proposing tolerances for the upcoming management stage",
+            "b": "By creating a lessons report detailing experience that might help other projects",
+            "c": "By providing the project board with sufficient information on the continued business justification of the project",
+            "d": "By creating any new product descriptions necessary for the next management stage"
+        },
+        "answer": "a",
+        "reasoning": "The Project Manager proposes stage tolerances in the next Stage Plan, which allows the Project Board to manage by exception."
+    },
+    {
+        "question": "Which process shows external suppliers who are not using PRINCE2 how they can inter-face with the PRINCE2 method?",
+        "options": {
+            "a": "Starting up a project",
+            "b": "Controlling a stage",
+            "c": "Managing a stage boundary",
+            "d": "Managing product delivery"
+        },
+        "answer": "d",
+        "reasoning": "Managing Product Delivery provides the formal interface between the Project Manager and external teams."
+    },
+    {
+        "question": "Which management product does the project manager use to define the frequency and for-mat of progress reports from the team?",
+        "options": {
+            "a": "Work package",
+            "b": "Communication management approach",
+            "c": "Stage plan",
+            "d": "Team plan"
+        },
+        "answer": "a",
+        "reasoning": "The reporting arrangements, including frequency, are defined in the Work Package."
+    },
+    {
+        "question": "Which of the following would NOT be potentially considered when defining the manage-ment stages of a project?",
+        "options": {
+            "a": "Programme activities",
+            "b": "The availability of senior stakeholders",
+            "c": "The amount of risk in the project",
+            "d": "The planning horizon during the project"
+        },
+        "answer": "b",
+        "reasoning": "While stakeholder availability is important for meetings, it's not a primary driver for defining the length and number of management stages."
+    },
+    {
+        "question": "Which of the following aspects are used to describe a risk? 1. Risk mitigation 2. Risk cause 3. Risk event 4. Risk effect",
+        "options": {
+            "a": "1, 2, 3",
+            "b": "1, 2, 4",
+            "c": "1, 3, 4",
+            "d": "2, 3, 4"
+        },
+        "answer": "d",
+        "reasoning": "A risk is described by its cause, the uncertain event, and its effect on objectives. Mitigation is a type of response."
+    },
+    {
+        "question": "Which of the following would NOT trigger an event-driven control?",
+        "options": {
+            "a": "The end of a stage has arrived.",
+            "b": "The scheduled day of the month to create the regular progress report has arrived.",
+            "c": "An exception occurs, and an exception report has been written.",
+            "d": "The project manager has completed the project initiation documentation."
+        },
+        "answer": "b",
+        "reasoning": "A scheduled, regular report is a time-driven control, not an event-driven one."
+    },
+    {
+        "question": "Which role is primarily responsible for the activities in the controlling a stage process?",
+        "options": {
+            "a": "Executive",
+            "b": "Senior user",
+            "c": "Project manager",
+            "d": "Team manager"
+        },
+        "answer": "c",
+        "reasoning": "Controlling a Stage is the day-to-day work of the Project Manager."
+    },
+    {
+        "question": "Which management product would the team manager review to understand with whom he might need to liaise during the delivery of specialist products?",
+        "options": {
+            "a": "Project initiation documentation",
+            "b": "Highlight report",
+            "c": "Work package",
+            "d": "Checkpoint report"
+        },
+        "answer": "c",
+        "reasoning": "The Work Package contains the interfaces and communication requirements for the team."
+    },
+    {
+        "question": "Which plans may be created or updated during the managing a stage boundary process? 1. Programme plan 2. Stage plan 3. Exception plan 4. Team plan",
+        "options": {
+            "a": "1 and 2",
+            "b": "2 and 3",
+            "c": "3 and 4",
+            "d": "1 and 4"
+        },
+        "answer": "b",
+        "reasoning": "The main outputs are the next Stage Plan or, if necessary, an Exception Plan."
+    },
+    {
+        "question": "Which of the PRINCE2 principles is implemented by the closing a project process and pro-vides a fixed point at which acceptance for the project’s outputs are confirmed?",
+        "options": {
+            "a": "Continued business justification",
+            "b": "Focus on products",
+            "c": "Manage by exception",
+            "d": "Manage by stage"
+        },
+        "answer": "d",
+        "reasoning": "The Closing a Project process acts as the final stage boundary, implementing the Manage by Stage principle."
+    },
+    {
+        "question": "Which of the following is NOT a characteristic of a benefit?",
+        "options": {
+            "a": "Measurable",
+            "b": "Assigned",
+            "c": "Aligned to corporate objectives and strategy",
+            "d": "Perceived as negative by stakeholders"
+        },
+        "answer": "d",
+        "reasoning": "A benefit is perceived as positive; a negative impact is a dis-benefit."
+    },
+    {
+        "question": "Which of the following management products describes how uncertainty will be managed on the project?",
+        "options": {
+            "a": "Risk register",
+            "b": "Change control approach",
+            "c": "Risk management approach",
+            "d": "Issue report"
+        },
+        "answer": "c",
+        "reasoning": "The Risk Management Approach defines the project's strategy for managing risk."
+    },
+    {
+        "question": "Which of the tasks of the approach to defining and analyzing products creates an overall description of the main outputs of the project?",
+        "options": {
+            "a": "Writing product descriptions",
+            "b": "Writing a project product description",
+            "c": "Creating a product breakdown structure",
+            "d": "Creating a product flow diagram"
+        },
+        "answer": "b",
+        "reasoning": "The Project Product Description defines the project's final product."
+    },
+    {
+        "question": "Which of the following describes the relationship between customer quality expectations and acceptance criteria?",
+        "options": {
+            "a": "Customer quality expectations are defined in the product descriptions, whereas accep-tance criteria are defined in the project product description.",
+            "b": "Customer quality expectations describe the quality expected of the project’s product, whereas acceptance criteria are a prioritized list of measurable criteria needed before a customer will accept the project’s product.",
+            "c": "Customer quality expectations come from the customer, whereas acceptance criteria come from the operations and maintenance teams.",
+            "d": "Customer quality expectations are agreed to at the beginning of the project, whereas acceptance criteria are agreed to at the end of the project."
+        },
+        "answer": "b",
+        "reasoning": "Customer Quality Expectations are high-level desires, which are refined into specific, measurable Acceptance Criteria."
+    }
+]

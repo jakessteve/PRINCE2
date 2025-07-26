@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the primary purpose of the Quality Theme in PRINCE2?",
+        "options": {
+            "a": "To identify, assess, and control uncertainty throughout the project.",
+            "b": "To establish a structure of accountability for the project management team.",
+            "c": "To ensure that the project's products meet business expectations and are fit for purpose.",
+            "d": "To define the means of delivering the products and providing a baseline against which progress can be measured."
+        },
+        "answer": "c",
+        "reasoning": "The Quality theme's purpose is to define and implement the system that will ensure products are fit for purpose and meet business expectations."
+    },
+    {
+        "question": "Which of the following best describes the purpose of a 'Product Description' in PRINCE2?",
+        "options": {
+            "a": "To summarize the quality activities planned for the project.",
+            "b": "To define the measurable attributes and quality criteria for a specific product.",
+            "c": "To outline the overall outputs of the project and the quality expected of those outputs.",
+            "d": "To list all identified risks associated with the product's development."
+        },
+        "answer": "b",
+        "reasoning": "A Product Description provides detailed information about a specific product, including its purpose, composition, and its measurable quality criteria."
+    },
+    {
+        "question": "In PRINCE2, what is the main purpose of the 'Project Product Description'?",
+        "options": {
+            "a": "To describe how individual products will be checked for quality during development.",
+            "b": "To provide a detailed breakdown of all specialist products to be created by the project.",
+            "c": "To define the project's overall scope and main outputs, including the customer's quality expectations and acceptance criteria for the project's end product.",
+            "d": "To detail the schedule for the delivery of all products within a specific management stage."
+        },
+        "answer": "c",
+        "reasoning": "The Project Product Description is a special Product Description that defines what the entire project must deliver in order to gain acceptance from the customer."
+    },
+    {
+        "question": "What does the 'Quality Management Approach' in PRINCE2 primarily describe?",
+        "options": {
+            "a": "How the project team will manage communication with stakeholders.",
+            "b": "How risks and opportunities will be identified, assessed, and controlled throughout the project.",
+            "c": "How the project will ensure that its products meet the required quality standards and are fit for purpose.",
+            "d": "How proposed changes to the project's products will be controlled."
+        },
+        "answer": "c",
+        "reasoning": "The Quality Management Approach describes the project's strategy and procedures for ensuring quality."
+    },
+    {
+        "question": "What is the main purpose of the 'Quality Register' in PRINCE2?",
+        "options": {
+            "a": "To record all quality checks that have taken place and provide a pointer to associated quality records.",
+            "b": "To document the project's overall quality policy and standards.",
+            "c": "To list all identified quality issues that have arisen during the project.",
+            "d": "To serve as a repository for quality lessons learned from previous projects."
+        },
+        "answer": "a",
+        "reasoning": "The Quality Register is a diary of all the quality events planned and their results, such as quality checks."
+    },
+    {
+        "question": "Which of the following is a minimum requirement for applying the Quality Theme in PRINCE2?",
+        "options": {
+            "a": "To define how to identify ways of eliminating causes of unsatisfactory performance.",
+            "b": "To ensure that the project uses the Quality Review Technique for all key products.",
+            "c": "To maintain records of quality activities and quality management decisions.",
+            "d": "To appoint a dedicated Project Assurance role for every project."
+        },
+        "answer": "c",
+        "reasoning": "Maintaining quality records is a minimum requirement to demonstrate that quality activities have been properly conducted and provide an audit trail."
+    },
+    {
+        "question": "In PRINCE2, what is the distinction between 'Quality Planning' and 'Quality Control'?",
+        "options": {
+            "a": "Quality Planning focuses on 'how' products will be checked, while Quality Control focuses on 'what' quality is required.",
+            "b": "Quality Planning defines the quality criteria and methods, while Quality Control involves carrying out checks and documenting results.",
+            "c": "Quality Planning is performed by the Project Manager, while Quality Control is performed by Team Managers.",
+            "d": "Quality Planning occurs at the start of the project, while Quality Control occurs only at the end."
+        },
+        "answer": "b",
+        "reasoning": "Quality Planning is about defining the project's products and the methods to check them, while Quality Control is the implementation of those methods and checks."
+    },
+    {
+        "question": "What is the primary difference between 'Project Assurance' and 'Quality Assurance' in PRINCE2?",
+        "options": {
+            "a": "Project Assurance is a Project Board responsibility, while Quality Assurance is an external, independent check.",
+            "b": "Project Assurance is concerned with product quality, while Quality Assurance is concerned with process compliance.",
+            "c": "Project Assurance is focused on the project's specialist products, while Quality Assurance is focused on management products.",
+            "d": "Project Assurance ensures the project adheres to organizational quality standards, while Quality Assurance ensures products meet acceptance criteria."
+        },
+        "answer": "a",
+        "reasoning": "Project Assurance is part of the project management team, providing assurance for the Project Board. Quality Assurance is independent of the project team, often at a corporate or programme level."
+    },
+    {
+        "question": "Which statement accurately describes the relationship between 'Customer Quality Expectations' and 'Acceptance Criteria' in PRINCE2?",
+        "options": {
+            "a": "Customer Quality Expectations are measurable statements, while Acceptance Criteria are high-level descriptions.",
+            "b": "Customer Quality Expectations are provided by the customer, and Acceptance Criteria are derived from them to be measurable.",
+            "c": "Both are synonymous terms used interchangeably in PRINCE2.",
+            "d": "Customer Quality Expectations are for internal use, while Acceptance Criteria are for external stakeholders."
+        },
+        "answer": "b",
+        "reasoning": "Acceptance Criteria are a prioritized list of measurable definitions of what must be delivered for the final product to be accepted, derived from the broader customer's quality expectations."
+    },
+    {
+        "question": "What is the purpose of the 'Quality Review Technique' in PRINCE2?",
+        "options": {
+            "a": "To continuously monitor the daily operational performance of products after project completion.",
+            "b": "To provide a structured method for inspecting products, particularly documents, against their quality criteria.",
+            "c": "To identify lessons learned regarding quality management for future projects.",
+            "d": "To assess the overall quality management system of the organization."
+        },
+        "answer": "b",
+        "reasoning": "It is a structured review technique designed to assess whether a product, particularly a document, is complete and conforms to its quality criteria."
+    },
+    {
+        "question": "Who is primarily responsible for defining the measurable 'Acceptance Criteria' for the project's end product in PRINCE2?",
+        "options": {
+            "a": "The Project Manager, with input from the Senior Users and the Executive.",
+            "b": "The Project Board, based on the Project Manager's recommendations.",
+            "c": "The Quality Assurance team, ensuring compliance with external standards.",
+            "d": "The Team Manager, as part of the work package agreement."
+        },
+        "answer": "a",
+        "reasoning": "The Project Manager documents the acceptance criteria in the Project Product Description, in consultation with the customer and other stakeholders."
+    },
+    {
+        "question": "In PRINCE2, what does the term 'Quality' refer to?",
+        "options": {
+            "a": "The inherent excellence or superiority of a product compared to others.",
+            "b": "The degree to which a set of inherent characteristics of a product fulfils requirements.",
+            "c": "The luxury or premium features included in a product.",
+            "d": "The cost-effectiveness and efficiency of producing a product."
+        },
+        "answer": "b",
+        "reasoning": "This is the formal definition of quality, focusing on meeting the stated requirements for a product."
+    },
+    {
+        "question": "Where are 'Quality Tolerances' for a product typically specified in PRINCE2?",
+        "options": {
+            "a": "In the Quality Register.",
+            "b": "In the Project Product Description.",
+            "c": "In the Product Description for that specific product.",
+            "d": "In the Quality Management Approach."
+        },
+        "answer": "c",
+        "reasoning": "Quality tolerances, which specify the acceptable range of quality criteria, are detailed in the Product Description for that specific product."
+    },
+    {
+        "question": "Which management product in PRINCE2 specifies the quality activities to be implemented during the development of a product, for review and approval on completion?",
+        "options": {
+            "a": "Quality Register.",
+            "b": "Quality Management Approach.",
+            "c": "Product Description.",
+            "d": "Work Package."
+        },
+        "answer": "c",
+        "reasoning": "The Product Description details the quality methods to be used to check a product's quality."
+    },
+    {
+        "question": "Who among the following provides a quality assurance function and details of any established corporate quality management approach that needs to be followed by the project management team?",
+        "options": {
+            "a": "The Executive.",
+            "b": "The Project Manager.",
+            "c": "Corporate, Programme Management, or the Customer.",
+            "d": "Project Assurance."
+        },
+        "answer": "c",
+        "reasoning": "The corporate or programme organization is responsible for providing the project with its quality assurance function and any corporate standards."
+    },
+    {
+        "question": "In PRINCE2, what must be maintained to provide evidence that quality activities have occurred?",
+        "options": {
+            "a": "Issue Register.",
+            "b": "Risk Register.",
+            "c": "Quality Records.",
+            "d": "Lessons Log."
+        },
+        "answer": "c",
+        "reasoning": "Quality records are the evidence that planned quality activities, such as tests and reviews, have been carried out."
+    },
+    {
+        "question": "What are the two primary types of quality methods defined in PRINCE2?",
+        "options": {
+            "a": "Formal and Informal Methods.",
+            "b": "Predictive and Adaptive Methods.",
+            "c": "In-process and Appraisal Methods.",
+            "d": "Preventative and Corrective Methods."
+        },
+        "answer": "c",
+        "reasoning": "In-process methods embed quality during the creation of the product, while appraisal methods check the finished product against its criteria."
+    },
+    {
+        "question": "During which PRINCE2 process is the 'Quality Management Approach' typically created?",
+        "options": {
+            "a": "Starting up a Project (SU).",
+            "b": "Initiating a Project (IP).",
+            "c": "Controlling a Stage (CS).",
+            "d": "Managing a Stage Boundary (SB)."
+        },
+        "answer": "b",
+        "reasoning": "The Quality Management Approach is created as part of the Project Initiation Documentation (PID) during the Initiating a Project process."
+    },
+    {
+        "question": "Which of the following statements is TRUE regarding the updating of the 'Project Product Description' in PRINCE2?",
+        "options": {
+            "a": "It is created at the start of the project and never updated.",
+            "b": "It can develop iteratively as the project proceeds, especially when an agile approach is used.",
+            "c": "It is updated only when project-level tolerances are exceeded.",
+            "d": "It is refined into detailed product descriptions at the end of each stage."
+        },
+        "answer": "b",
+        "reasoning": "While baselined in the PID, the Project Product Description may be updated with approval via change control, which is common in agile environments."
+    },
+    {
+        "question": "Which section of a 'Checkpoint Report' includes information about quality activities?",
+        "options": {
+            "a": "Work Package Tolerance Status.",
+            "b": "Issues and Risks Update.",
+            "c": "Products completed during the reporting period.",
+            "d": "Quality management activities carried out during the period and planned for the next reporting period."
+        },
+        "answer": "d",
+        "reasoning": "The Checkpoint Report has a specific section for the Team Manager to report on quality management activities related to the Work Package."
+    }
+]

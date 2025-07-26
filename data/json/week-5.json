@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Which of the following statements best describes a purpose of the 'Plans Theme' in PRINCE2?",
+        "options": {
+            "a": "To establish mechanisms to judge whether the project is desirable, viable, and achievable.",
+            "b": "To provide a baseline against which progress can be measured.",
+            "c": "To establish an effective approach for communication with stakeholders.",
+            "d": "To define how the project will verify that products are fit for purpose."
+        },
+        "answer": "b",
+        "reasoning": "A key purpose of the Plans theme is to provide a baseline for control and progress measurement."
+    },
+    {
+        "question": "Which of the following is NOT one of the four types of plans described in PRINCE2?",
+        "options": {
+            "a": "Project Plan.",
+            "b": "Management Plan.",
+            "c": "Stage Plan.",
+            "d": "Exception Plan."
+        },
+        "answer": "b",
+        "reasoning": "'Management Plan' is not a PRINCE2 plan type. The types are Project, Stage, Team, and Exception Plans."
+    },
+    {
+        "question": "What problem does PRINCE2's three levels of plans (Project, Stage, Exception) primarily help to overcome?",
+        "options": {
+            "a": "The challenge of detailed planning for operational and maintenance activities post-project.",
+            "b": "The difficulty of planning accurately far into the future due to uncertainty.",
+            "c": "The issue of securing adequate funding for the entire project upfront.",
+            "d": "The need for constant re-planning due to daily issues and changes."
+        },
+        "answer": "b",
+        "reasoning": "The different levels of plans help overcome the 'planning horizon' problem by allowing for detailed short-term planning (Stage Plan) and high-level long-term planning (Project Plan)."
+    },
+    {
+        "question": "What is the primary purpose of the 'Project Plan' in PRINCE2?",
+        "options": {
+            "a": "To provide a detailed plan for the day-to-day management of a specific stage.",
+            "b": "To show the overall work, timescales, and costs for the entire project.",
+            "c": "To authorize a Team Manager to carry out a Work Package.",
+            "d": "To detail actions to recover from a forecast deviation from project tolerances."
+        },
+        "answer": "b",
+        "reasoning": "The Project Plan provides a high-level overview of the entire project, used by the Project Board as a baseline for control."
+    },
+    {
+        "question": "Which type of plan provides the detailed plan for a management stage and is used by the Project Manager to control the stage?",
+        "options": {
+            "a": "Project Plan.",
+            "b": "Stage Plan.",
+            "c": "Team Plan.",
+            "d": "Exception Plan."
+        },
+        "answer": "b",
+        "reasoning": "The Stage Plan is the day-to-day plan for the Project Manager for a specific management stage."
+    },
+    {
+        "question": "Who is typically responsible for creating a 'Team Plan' in PRINCE2?",
+        "options": {
+            "a": "The Project Board.",
+            "b": "The Project Manager.",
+            "c": "The Team Manager.",
+            "d": "Corporate, Programme Management, or the Customer."
+        },
+        "answer": "c",
+        "reasoning": "A Team Plan, if required, is created by the Team Manager to plan the execution of a Work Package."
+    },
+    {
+        "question": "When is an 'Exception Plan' typically created in a PRINCE2 project?",
+        "options": {
+            "a": "At the very beginning of the project to outline initial strategy.",
+            "b": "When a management stage is forecast to exceed its agreed tolerances.",
+            "c": "At the end of the project to review overall performance.",
+            "d": "To detail the work for specialist product development within a Work Package."
+        },
+        "answer": "b",
+        "reasoning": "An Exception Plan is created to show how the project can recover from a forecast breach of tolerances."
+    },
+    {
+        "question": "A PRINCE2 plan should cover which of the following? 1. Activities to create products. 2. Activities for assurance and quality management. 3. Activities for risk management and change control. 4. Activities for communication and other project controls.",
+        "options": {
+            "a": "1 and 2 only.",
+            "b": "1, 2, and 3 only.",
+            "c": "2, 3, and 4 only.",
+            "d": "All of the above."
+        },
+        "answer": "d",
+        "reasoning": "A PRINCE2 plan must cover not just the specialist work but also all the necessary management and control activities."
+    },
+    {
+        "question": "Which of the following statements is true regarding the relationship between PRINCE2 plans?",
+        "options": {
+            "a": "A Project Plan is derived from a Stage Plan.",
+            "b": "An Exception Plan replaces the Project Plan or a Stage Plan that is forecast to be breached.",
+            "c": "A Team Plan is a high-level summary of the Project Plan.",
+            "d": "The Project Plan is continually updated with fine detail throughout the project and replaces Stage Plans."
+        },
+        "answer": "b",
+        "reasoning": "If approved, an Exception Plan will replace the plan that was in exception and become the new baseline."
+    },
+    {
+        "question": "When tailoring the 'Plans Theme' in a PRINCE2 project, what is a key consideration?",
+        "options": {
+            "a": "Whether to omit the creation of certain plan types for small projects.",
+            "b": "How to align the project's stage ends with key decision points or milestones in a wider programme.",
+            "c": "Always using a Gantt chart format for all plans regardless of project size.",
+            "d": "Limiting plans to only include scheduling information."
+        },
+        "answer": "b",
+        "reasoning": "Aligning stage boundaries with programme milestones is a key consideration when tailoring plans in a programme environment."
+    },
+    {
+        "question": "Which statement is true about 'Team Plans' in PRINCE2?",
+        "options": {
+            "a": "They must always strictly follow the PRINCE2 format.",
+            "b": "They are always created by the Project Manager.",
+            "c": "They may not necessarily follow the PRINCE2 format, especially from external suppliers.",
+            "d": "They are only required for projects using an agile delivery approach."
+        },
+        "answer": "c",
+        "reasoning": "Team plans are optional and their format is not prescribed by PRINCE2, allowing flexibility for teams and suppliers."
+    },
+    {
+        "question": "Which section of a PRINCE2 plan would typically include the amount of money set aside to fund changes to the plan's products or scope?",
+        "options": {
+            "a": "Schedule.",
+            "b": "Control.",
+            "c": "Budgets.",
+            "d": "Plan Description."
+        },
+        "answer": "c",
+        "reasoning": "The budget section should include provisions for change and risk response costs."
+    },
+    {
+        "question": "What does a 'Product Checklist' in PRINCE2 primarily show?",
+        "options": {
+            "a": "A list of all identified risks for the plan.",
+            "b": "A list of the major products of a plan, plus key dates in their delivery.",
+            "c": "A hierarchy of products and their components.",
+            "d": "The sequence of activities to deliver the products."
+        },
+        "answer": "b",
+        "reasoning": "A Product Checklist lists the major products of a plan along with their key delivery dates."
+    },
+    {
+        "question": "Which of the following statements is TRUE regarding 'Management Stages' and 'Delivery Steps' in PRINCE2?",
+        "options": {
+            "a": "Management stages can overlap, but delivery steps cannot.",
+            "b": "Delivery steps and management stages always end at the same time.",
+            "c": "A delivery step can run over multiple management stages.",
+            "d": "A management stage can have only one delivery step running within it."
+        },
+        "answer": "c",
+        "reasoning": "A delivery step (technical phase) can span multiple management stages, which are for control purposes."
+    },
+    {
+        "question": "One of the purposes of the Plans Theme is to establish whether the targets for time and cost are achievable. This relates to which quality criterion for a plan?",
+        "options": {
+            "a": "The plan conforms to required corporate standards.",
+            "b": "The plan is achievable.",
+            "c": "The plan incorporates lessons from previous projects.",
+            "d": "The plan supports the quality management approach."
+        },
+        "answer": "b",
+        "reasoning": "A key quality criterion for any plan is that it must be achievable."
+    },
+    {
+        "question": "If a Project Manager raises an 'Exception Report' forecasting a breach of stage tolerances, what might the Project Board request in response?",
+        "options": {
+            "a": "A new Project Plan.",
+            "b": "A revised Business Case.",
+            "c": "An Exception Plan to replace the forecast-to-be-breached plan.",
+            "d": "An updated Risk Register."
+        },
+        "answer": "c",
+        "reasoning": "In response to an Exception Report, the Project Board will typically request an Exception Plan."
+    },
+    {
+        "question": "In the context of PRINCE2's product-based planning, what defines an 'External Product'?",
+        "options": {
+            "a": "A product created by an external supplier and therefore outside the project's control.",
+            "b": "A product that already exists or is being created or updated outside the scope of the plan, but is required as an input.",
+            "c": "Any product that is not part of the project's specialist outputs.",
+            "d": "A product that is delivered to external stakeholders."
+        },
+        "answer": "b",
+        "reasoning": "An external product is one that the plan is dependent on but is created outside the scope of the plan."
+    },
+    {
+        "question": "Which of the following is a fundamental philosophy behind the PRINCE2 approach to plans?",
+        "options": {
+            "a": "Activity-based planning.",
+            "b": "Just-in-time planning.",
+            "c": "Product-based planning.",
+            "d": "Resource-driven planning."
+        },
+        "answer": "c",
+        "reasoning": "PRINCE2's planning approach is fundamentally product-based, focusing on the outputs first."
+    },
+    {
+        "question": "Beyond creating specialist products, a PRINCE2 plan also includes activities for:",
+        "options": {
+            "a": "Only budget and financial management.",
+            "b": "Only time and resource allocation.",
+            "c": "Assurance, quality management, risk management, and change control.",
+            "d": "Only communication with the Project Board."
+        },
+        "answer": "c",
+        "reasoning": "A plan must include all management activities, not just the work to create the specialist products."
+    },
+    {
+        "question": "When a project involves a commercial customer/supplier environment, what is a key consideration for planning?",
+        "options": {
+            "a": "The supplier's plan must strictly follow the PRINCE2 Stage Plan format.",
+            "b": "The customer's Project Manager should not inspect the supplier's detailed plans.",
+            "c": "The contract should specify what information the supplier needs to provide in their plans and the customer's inspection rights.",
+            "d": "The supplier's plan should omit any quality or risk management activities."
+        },
+        "answer": "c",
+        "reasoning": "In a commercial setting, planning interfaces and reporting requirements should be defined in the contract."
+    }
+]

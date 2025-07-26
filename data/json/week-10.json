@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the primary purpose of the Daily Log in PRINCE2?",
+        "options": {
+            "a": "To provide a record of formal issues and risks for escalation to the Project Board.",
+            "b": "To summarize the status of work packages for the Project Manager.",
+            "c": "To record informal issues, events, and personal actions that are not captured by other registers or logs.",
+            "d": "To detail lessons learned for future projects."
+        },
+        "answer": "c",
+        "reasoning": "The Daily Log acts as the Project Manager's diary for informal matters not captured in formal registers."
+    },
+    {
+        "question": "Which management product is used to collate experience that may be useful for input into the project’s strategies and plans?",
+        "options": {
+            "a": "Daily Log",
+            "b": "Lessons Log",
+            "c": "Lessons Report",
+            "d": "Quality Register"
+        },
+        "answer": "b",
+        "reasoning": "The Lessons Log is a running log used to capture and track lessons as they are identified throughout the project."
+    },
+    {
+        "question": "What is the primary purpose of the Lessons Report?",
+        "options": {
+            "a": "To summarize the overall performance of a project at its closure.",
+            "b": "To provide a high-level overview of the benefits realization plan.",
+            "c": "To pass on useful experience to those responsible for quality improvement within an organization or for managing future projects.",
+            "d": "To document deviations from the plan that require Project Board attention."
+        },
+        "answer": "c",
+        "reasoning": "A Lessons Report is a formal document created to pass on lessons that can be applied to other projects or to corporate standards."
+    },
+    {
+        "question": "Which management product is a set of information about one or more required products, collated by the Project Manager to formally pass responsibility for work or delivery to a Team Manager or team member?",
+        "options": {
+            "a": "Stage Plan",
+            "b": "Project Product Description",
+            "c": "Work Package",
+            "d": "Product Description"
+        },
+        "answer": "c",
+        "reasoning": "This is the definition of a Work Package, which is used to delegate work."
+    },
+    {
+        "question": "A Checkpoint Report is typically derived from which of the following? 1. Work package 2. Team plan and actuals 3. Previous checkpoint report 4. Stage plan",
+        "options": {
+            "a": "1, 2, and 3",
+            "b": "1, 2, and 4",
+            "c": "1, 3, and 4",
+            "d": "2, 3, and 4"
+        },
+        "answer": "a",
+        "reasoning": "A Checkpoint Report is based on the current work package, the team's progress against their plan, and may reference the previous report."
+    },
+    {
+        "question": "Who is the primary recipient of a Highlight Report?",
+        "options": {
+            "a": "The Team Manager",
+            "b": "The Project Board",
+            "c": "The Project Assurance",
+            "d": "Corporate, Programme Management, or the Customer (unless specified otherwise)"
+        },
+        "answer": "b",
+        "reasoning": "The Highlight Report is the Project Manager's regular progress report to the Project Board."
+    },
+    {
+        "question": "What is the primary purpose of the End Stage Report?",
+        "options": {
+            "a": "To summarize the overall project performance at its conclusion.",
+            "b": "To enable the Project Board to evaluate the performance of a management stage.",
+            "c": "To inform the Project Manager about work package progress.",
+            "d": "To provide a forecast for the project's continued viability beyond the current stage."
+        },
+        "answer": "b",
+        "reasoning": "The End Stage Report summarizes performance of the current stage to allow the Project Board to authorize the next one."
+    },
+    {
+        "question": "Who is responsible for creating the End Project Report?",
+        "options": {
+            "a": "The Project Board",
+            "b": "The Project Manager",
+            "c": "Corporate, Programme Management, or the Customer",
+            "d": "The Senior User"
+        },
+        "answer": "b",
+        "reasoning": "The Project Manager creates the End Project Report for the Project Board."
+    },
+    {
+        "question": "When does a Project Manager typically produce an Exception Report?",
+        "options": {
+            "a": "When the project is formally closed at its completion.",
+            "b": "When a Work Package is forecast to exceed its tolerances.",
+            "c": "When a management stage is forecast to exceed its tolerances.",
+            "d": "At predefined periodic intervals to report on stage progress."
+        },
+        "answer": "c",
+        "reasoning": "An Exception Report is created when a STAGE or PROJECT is forecast to exceed tolerance. A Work Package exception is raised as an issue first."
+    },
+    {
+        "question": "Which of the following statements about the Daily Log is TRUE?",
+        "options": {
+            "a": "It is used for all issues and risks, formal or informal.",
+            "b": "Issues recorded in the Daily Log are typically transferred to the Issue Register when they become formal or need formal action.",
+            "c": "It is typically submitted to the Project Board on a weekly basis.",
+            "d": "It replaces the need for a separate Issue Register and Risk Register on small projects."
+        },
+        "answer": "b",
+        "reasoning": "Informal issues in the Daily Log can be formalized by transferring them to the Issue Register."
+    },
+    {
+        "question": "Which of the following is *NOT* typically included in a Work Package?",
+        "options": {
+            "a": "Reporting arrangements",
+            "b": "Project-level tolerances",
+            "c": "Product Descriptions for the products to be delivered",
+            "d": "Problem handling and escalation arrangements"
+        },
+        "answer": "b",
+        "reasoning": "A Work Package contains work package tolerances, not project-level tolerances."
+    },
+    {
+        "question": "Who is responsible for producing the Checkpoint Report?",
+        "options": {
+            "a": "The Project Manager",
+            "b": "The Team Manager or Team Member",
+            "c": "The Project Board",
+            "d": "Project Assurance"
+        },
+        "answer": "b",
+        "reasoning": "The Team Manager provides progress updates to the Project Manager via Checkpoint Reports."
+    },
+    {
+        "question": "Which of the following information is typically included in a Highlight Report? 1. Work packages in execution 2. Project and management stage tolerance status 3. Detailed cost breakdowns of individual activities 4. Key issues and risks",
+        "options": {
+            "a": "1, 2, and 3",
+            "b": "1, 2, and 4",
+            "c": "1, 3, and 4",
+            "d": "2, 3, and 4"
+        },
+        "answer": "b",
+        "reasoning": "A Highlight report is a summary for the board; it includes tolerance status, key issues/risks, and what work packages are in progress, but not detailed cost breakdowns."
+    },
+    {
+        "question": "Which management product does the Project Manager use to report to the Project Board at the end of a management stage?",
+        "options": {
+            "a": "Highlight Report",
+            "b": "Exception Report",
+            "c": "End Stage Report",
+            "d": "Checkpoint Report"
+        },
+        "answer": "c",
+        "reasoning": "The End Stage Report is the formal report at the end of a stage."
+    },
+    {
+        "question": "Identify the missing word(s) in the following sentence: The Project Manager will create an Exception Report to notify the Project Board of a stage-level or project-level exception and to outline ____ to respond to the situation.",
+        "options": {
+            "a": "an Exception Plan",
+            "b": "recommended options",
+            "c": "corrective actions taken",
+            "d": "the root cause of the deviation"
+        },
+        "answer": "b",
+        "reasoning": "The Exception Report outlines the situation and provides recommended options for the Project Board to consider."
+    },
+    {
+        "question": "Which of the following is a minimum requirement for applying the Progress Theme in PRINCE2?",
+        "options": {
+            "a": "The use of a specific project management software tool.",
+            "b": "All project progress reporting must be time-driven.",
+            "c": "Tolerances must be set and monitored for at least time and cost.",
+            "d": "Weekly review meetings must be held with the Project Board."
+        },
+        "answer": "c",
+        "reasoning": "Setting and monitoring tolerances for time and cost is a minimum requirement for progress control."
+    },
+    {
+        "question": "Where are lessons identified during the current project *first* recorded?",
+        "options": {
+            "a": "Lessons Report",
+            "b": "End Stage Report",
+            "c": "Lessons Log",
+            "d": "Daily Log"
+        },
+        "answer": "c",
+        "reasoning": "The Lessons Log is the project diary for lessons, updated throughout the project."
+    },
+    {
+        "question": "Which of the following are typically included in an End Project Report? 1. A review of the project's performance against its objectives 2. Lessons learned during the project 3. Follow-on action recommendations 4. A detailed plan for the operational support of the products",
+        "options": {
+            "a": "1, 2, and 3",
+            "b": "1, 2, and 4",
+            "c": "1, 3, and 4",
+            "d": "2, 3, and 4"
+        },
+        "answer": "a",
+        "reasoning": "The End Project Report reviews performance, lessons, and makes recommendations for any outstanding work."
+    },
+    {
+        "question": "A Work Package primarily forms an agreement between which two roles?",
+        "options": {
+            "a": "Project Board and Project Manager",
+            "b": "Project Manager and Team Manager (or Team Member)",
+            "c": "Team Manager and Project Assurance",
+            "d": "Senior User and Senior Supplier"
+        },
+        "answer": "b",
+        "reasoning": "It's the formal delegation of work from the Project Manager to the Team Manager."
+    },
+    {
+        "question": "Which management product does the Project Manager use to provide regular progress updates to the Project Board throughout a management stage?",
+        "options": {
+            "a": "Checkpoint Report",
+            "b": "End Stage Report",
+            "c": "Highlight Report",
+            "d": "Exception Report"
+        },
+        "answer": "c",
+        "reasoning": "The Highlight Report is the regular, time-driven report to the Project Board."
+    }
+]

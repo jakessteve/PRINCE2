@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Which of the following best describes the fundamental philosophy behind PRINCE2's approach to plans?",
+        "options": {
+            "a": "Activity-based planning.",
+            "b": "Resource-driven planning.",
+            "c": "Product-based planning.",
+            "d": "Time-constrained planning."
+        },
+        "answer": "c",
+        "reasoning": "PRINCE2's planning is product-based, focusing on what needs to be created before how it will be created."
+    },
+    {
+        "question": "Which of the following is NOT one of the seven steps in PRINCE2's recommended approach to planning?",
+        "options": {
+            "a": "Designing a plan.",
+            "b": "Reviewing lessons learned.",
+            "c": "Preparing the schedule.",
+            "d": "Documenting the plan."
+        },
+        "answer": "b",
+        "reasoning": "While learning from experience is a principle, 'Reviewing lessons learned' is not one of the seven formal steps of the planning approach itself. Lessons are an input to the first step, 'Design the plan'."
+    },
+    {
+        "question": "What is the first task in PRINCE2's recommended approach to defining and analyzing products?",
+        "options": {
+            "a": "Creating the product breakdown structure.",
+            "b": "Writing product descriptions.",
+            "c": "Creating the product flow diagram.",
+            "d": "Writing a project product description."
+        },
+        "answer": "d",
+        "reasoning": "The process starts with understanding the final product of the project by writing the Project Product Description."
+    },
+    {
+        "question": "What does a 'Product Breakdown Structure' primarily illustrate in PRINCE2?",
+        "options": {
+            "a": "The sequence in which products will be delivered.",
+            "b": "The hierarchy of all the products required for a plan.",
+            "c": "A list of activities required to create products.",
+            "d": "The resources required to deliver the products."
+        },
+        "answer": "b",
+        "reasoning": "A PBS shows a hierarchical decomposition of all the products to be produced."
+    },
+    {
+        "question": "What is the main purpose of a 'Product Flow Diagram' in PRINCE2?",
+        "options": {
+            "a": "To show the hierarchical structure of products.",
+            "b": "To illustrate the sequence and dependencies of product creation.",
+            "c": "To detail the quality criteria for each product.",
+            "d": "To list all identified risks for product delivery."
+        },
+        "answer": "b",
+        "reasoning": "A PFD shows the flow of product creation and the dependencies between them."
+    },
+    {
+        "question": "Which of the following statements is true regarding 'Management Stages' and 'Delivery Steps' in PRINCE2?",
+        "options": {
+            "a": "Management stages can overlap, but delivery steps cannot.",
+            "b": "Delivery steps and management stages always end at the same time.",
+            "c": "A delivery step can run over multiple management stages.",
+            "d": "A management stage can have only one delivery step running within it."
+        },
+        "answer": "c",
+        "reasoning": "A delivery step (technical phase) can span multiple management stages, which are points of control for the Project Board."
+    },
+    {
+        "question": "In PRINCE2, what defines an 'External Product'?",
+        "options": {
+            "a": "A product created by an external supplier and therefore outside the project's control.",
+            "b": "A product that already exists or is being created or updated outside the scope of the plan, but is required as an input to the plan.",
+            "c": "Any product that is delivered to external stakeholders.",
+            "d": "A product that is not part of the project's specialist outputs."
+        },
+        "answer": "b",
+        "reasoning": "An external product is something the plan depends on but does not create."
+    },
+    {
+        "question": "Which of the following is a key factor to consider when structuring a project into management stages in PRINCE2?",
+        "options": {
+            "a": "The number of team managers involved in the project.",
+            "b": "The type of specialist products being created.",
+            "c": "The overall level of risk in the project.",
+            "d": "The preferred project management software."
+        },
+        "answer": "c",
+        "reasoning": "High-risk portions of a project may warrant shorter management stages for tighter control."
+    },
+    {
+        "question": "Who ultimately approves the definition of management stages for a PRINCE2 project?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "The Project Board.",
+            "c": "The Executive.",
+            "d": "Corporate, Programme Management, or the Customer."
+        },
+        "answer": "b",
+        "reasoning": "The Project Board is responsible for approving the overall Project Plan, which includes the definition of management stages."
+    },
+    {
+        "question": "Which problem does PRINCE2's 'Manage by Stages' principle primarily help to address?",
+        "options": {
+            "a": "The challenge of managing daily operational tasks within a project.",
+            "b": "The difficulty of planning accurately far into the future due to uncertainty, known as the planning horizon problem.",
+            "c": "The issue of securing adequate funding for the entire project upfront.",
+            "d": "The need for constant re-planning due to daily issues and changes."
+        },
+        "answer": "b",
+        "reasoning": "Managing by stages allows for detailed planning of the near future (the current stage) and high-level planning for the distant future, overcoming the planning horizon problem."
+    },
+    {
+        "question": "Which of the following information is typically included in a 'Product Description' in PRINCE2?",
+        "options": {
+            "a": "The list of all identified risks for the product.",
+            "b": "The product's measurable quality criteria.",
+            "c": "The detailed schedule for creating the product.",
+            "d": "The budget allocated for the product's development."
+        },
+        "answer": "b",
+        "reasoning": "Measurable quality criteria are a key component of a Product Description, defining what makes the product acceptable."
+    },
+    {
+        "question": "Which of the following statements is TRUE regarding the relationship between 'Delivery Steps' and 'Management Stages' in PRINCE2?",
+        "options": {
+            "a": "Delivery steps are always contained within a single management stage.",
+            "b": "Management stages are typically driven by a common set of specialist skills.",
+            "c": "A delivery step can extend across multiple management stages.",
+            "d": "Management stages and delivery steps are synonymous terms."
+        },
+        "answer": "c",
+        "reasoning": "Delivery steps relate to the technical work, which can span multiple management control points (stages)."
+    },
+    {
+        "question": "Which of the following is a minimum requirement for applying the 'Plans Theme' in PRINCE2?",
+        "options": {
+            "a": "To use a Gantt chart format for all project plans.",
+            "b": "To create a Product Breakdown Structure for every management stage.",
+            "c": "To ensure the project has at least two management stages.",
+            "d": "To define all activities down to the lowest level of detail at the start of the project."
+        },
+        "answer": "c",
+        "reasoning": "A PRINCE2 project must have at least two management stages: the initiation stage and at least one delivery stage."
+    },
+    {
+        "question": "After 'Identifying Activities and Dependencies', what is the next step in PRINCE2's recommended approach to planning?",
+        "options": {
+            "a": "Designing a plan.",
+            "b": "Preparing estimates.",
+            "c": "Defining and analyzing the products.",
+            "d": "Analyzing risks to a plan."
+        },
+        "answer": "b",
+        "reasoning": "Once activities are known, the next step is to estimate the effort, time, and resources required for them."
+    },
+    {
+        "question": "A PRINCE2 plan can take various formats. Which of the following is a recognized format?",
+        "options": {
+            "a": "Oral report.",
+            "b": "Spreadsheet.",
+            "c": "Daily Log entry.",
+            "d": "Issue report."
+        },
+        "answer": "b",
+        "reasoning": "A plan can be a standalone document, a spreadsheet, or data within a project management tool."
+    },
+    {
+        "question": "In the context of PRINCE2's product-based planning, which of the following is considered a 'product' rather than an 'activity'?",
+        "options": {
+            "a": "Choosing the potential suppliers.",
+            "b": "Review tender responses.",
+            "c": "Selected design.",
+            "d": "Preparing estimates."
+        },
+        "answer": "c",
+        "reasoning": "'Selected design' is a noun, representing a tangible or intangible output, making it a product."
+    },
+    {
+        "question": "How does the 'Manage by Stages' principle assist in overcoming the 'planning horizon' problem in PRINCE2?",
+        "options": {
+            "a": "By allowing detailed planning for the entire project at its outset.",
+            "b": "By focusing on product delivery instead of activities.",
+            "c": "By enabling detailed planning for the current stage, with high-level planning for future stages.",
+            "d": "By continuously updating the Project Plan throughout the project's life."
+        },
+        "answer": "c",
+        "reasoning": "This approach breaks down the planning effort, allowing for detailed, accurate planning for the immediate stage while maintaining a high-level view of the more distant future."
+    },
+    {
+        "question": "Which of the following would typically be found in the 'Schedule' section of a PRINCE2 plan?",
+        "options": {
+            "a": "Risks identified for the plan.",
+            "b": "The amount of money budgeted for the plan's work.",
+            "c": "The sequence of activities and assigned resources.",
+            "d": "Any assumptions made during planning."
+        },
+        "answer": "c",
+        "reasoning": "The schedule section contains the Gantt chart or similar, showing the sequence of activities and their dependencies."
+    },
+    {
+        "question": "When structuring management stages for a project that is part of a wider programme, what is a key consideration?",
+        "options": {
+            "a": "Ensuring each stage lasts for a fixed duration, regardless of work content.",
+            "b": "Aligning project stage ends with key decision points or milestones in the programme.",
+            "c": "Maximizing the number of stages to increase control.",
+            "d": "Minimizing stakeholder involvement in stage boundary reviews."
+        },
+        "answer": "b",
+        "reasoning": "Aligning stage ends with programme milestones ensures that the project's progress reporting fits into the wider programme's control framework."
+    },
+    {
+        "question": "When are 'quality criteria' typically specified for a product within PRINCE2's planning process?",
+        "options": {
+            "a": "In the Project Product Description at the start of the project.",
+            "b": "In the Product Description for each product during the 'defining and analyzing products' step.",
+            "c": "In the Quality Register when quality checks are performed.",
+            "d": "In the Work Package when delegating work to a team."
+        },
+        "answer": "b",
+        "reasoning": "The quality criteria for a specific product are a key part of its Product Description."
+    }
+]

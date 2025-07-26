@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRINCE2 Foundation Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <div class="page-container">
+        <main class="main-content">
+            <header class="main-header">
+                <h1 id="main-title">PRINCE2 Foundation Quiz</h1>
+                <button id="expand-results-btn" class="btn-expand hidden" aria-label="Expand Results"></button>
+            </header>
+            <section id="quiz-wrapper" aria-live="polite">
+                <form id="quiz-form"></form>
+                <div id="score-container" class="hidden"></div>
+                <section id="analysis-container" class="hidden" aria-labelledby="analysis-title">
+                    <button id="close-fullscreen-btn" class="btn-close-fullscreen hidden"
+                        aria-label="Close full screen"></button>
+                    <h2 id="analysis-title">Analysis of Incorrect Answers</h2>
+                    <div id="analysis-content"></div>
+                </section>
+            </section>
+        </main>
+        <aside class="sidebar">
+            <section class="sidebar-group" id="controls-box" aria-labelledby="controls-title">
+                <h2 id="sidebar-title" class="hidden">Test Status</h2>
+                <div id="timer" role="timer" aria-live="off">00:00</div>
+                <div id="question-counter">Select a Week to Begin</div>
+                <button id="start-btn" class="btn hidden">Start Test</button>
+                <button id="finish-btn" class="btn hidden">Finish Test</button>
+            </section>
+            <nav class="sidebar-group" id="week-index-container" aria-labelledby="weekly-quiz-title">
+                <div class="special-test-buttons">
+                    <button id="start-final-test-btn" class="btn btn-final-test">Start Final Test</button>
+                    <button id="start-failed-test-btn" class="btn btn-failed-test">Most 60 Failed Questions</button>
+                </div>
+                <h3 id="weekly-quiz-title">Weekly Quiz</h3>
+                <ul id="week-index" data-testid="week-index"></ul>
+            </nav>
+        </aside>
+    </div>
+
+    <script src="js/main.js" type="module" defer></script>
+</body>
+
+</html>

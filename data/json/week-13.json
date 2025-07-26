@@ -1,0 +1,222 @@
+[
+    {
+        "question": "What is the primary purpose of the Closing a Project (CP) process?",
+        "options": {
+            "a": "To provide the Project Board with sufficient information to authorize the next stage.",
+            "b": "To manage the day-to-day work of creating the project's specialist products.",
+            "c": "To provide a fixed point at which acceptance of the project's products is confirmed and to ensure the project has a clear end.",
+            "d": "To ensure that the project remains viable and justifiable throughout its life."
+        },
+        "answer": "c",
+        "reasoning": "The Closing a Project process provides a controlled end to the project, confirming acceptance of its products."
+    },
+    {
+        "question": "Which of the following is an objective of the Closing a Project process?",
+        "options": {
+            "a": "To ensure that the business justification for initiating the project is in place.",
+            "b": "To prepare a detailed plan for the next stage's specialist products.",
+            "c": "To hand over responsibility for the project's products to the operational and maintenance teams.",
+            "d": "To allocate work packages to the teams for the final stage."
+        },
+        "answer": "c",
+        "reasoning": "A key objective is to ensure the recipients of the project's products are in a position to own and use them after handover."
+    },
+    {
+        "question": "When is the Closing a Project process typically invoked?",
+        "options": {
+            "a": "At the end of every management stage.",
+            "b": "When the Project Board authorizes an Exception Plan.",
+            "c": "Towards the end of the final management stage or upon premature closure.",
+            "d": "After the Project Manager has received all completed Work Packages."
+        },
+        "answer": "c",
+        "reasoning": "This process is used at the end of the project, whether that end is planned or premature."
+    },
+    {
+        "question": "Which management product is created or updated as part of the Closing a Project process and provides an evaluation of the project's performance?",
+        "options": {
+            "a": "End Stage Report.",
+            "b": "Highlight Report.",
+            "c": "End Project Report.",
+            "d": "Checkpoint Report."
+        },
+        "answer": "c",
+        "reasoning": "The End Project Report summarizes the project's performance for the Project Board."
+    },
+    {
+        "question": "What is a primary purpose of the End Project Report?",
+        "options": {
+            "a": "To authorize the next management stage.",
+            "b": "To provide a summary of the stage's performance against its plan.",
+            "c": "To provide an evaluation of how the project performed against its objectives and to summarize lessons learned and follow-on action recommendations.",
+            "d": "To report on specialist products completed during a reporting period."
+        },
+        "answer": "c",
+        "reasoning": "This is the core definition of the End Project Report's purpose, evaluating performance and noting lessons."
+    },
+    {
+        "question": "Which of the following activities is typically performed by the Project Manager during the Closing a Project process?",
+        "options": {
+            "a": "Authorizing a Work Package.",
+            "b": "Reviewing the management stage status.",
+            "c": "Handing over products to the customer or operations and maintenance teams.",
+            "d": "Giving ad hoc direction to the Project Manager."
+        },
+        "answer": "c",
+        "reasoning": "Handing over products is a key activity for the Project Manager in this process."
+    },
+    {
+        "question": "If a project is prematurely closed, what might the Project Board request to salvage value?",
+        "options": {
+            "a": "A Highlight Report.",
+            "b": "An End Stage Report.",
+            "c": "An Exception Plan.",
+            "d": "A Checkpoint Report."
+        },
+        "answer": "c",
+        "reasoning": "In a premature closure, an Exception Plan might be requested to detail any recovery actions or alternative options."
+    },
+    {
+        "question": "What must the Project Manager ensure about all the products planned for the project when preparing for project closure?",
+        "options": {
+            "a": "They have been approved and the operational and maintenance organizations are ready to take responsibility for them.",
+            "b": "They are ready to be handed over to the Project Board for final assessment.",
+            "c": "Their benefits have been fully realized before the project closes.",
+            "d": "Any outstanding issues related to them have been escalated to corporate management."
+        },
+        "answer": "a",
+        "reasoning": "This ensures a smooth transition of the project's products into their operational life."
+    },
+    {
+        "question": "Which PRINCE2 role is responsible for making the final decision to close the project?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "The Executive.",
+            "c": "The Project Board.",
+            "d": "Corporate, Programme Management or the Customer."
+        },
+        "answer": "c",
+        "reasoning": "The Project Board provides the formal authorization to close the project."
+    },
+    {
+        "question": "The activity 'Recommend Project Closure' is performed by which role?",
+        "options": {
+            "a": "Project Board.",
+            "b": "Project Manager.",
+            "c": "Corporate, Programme Management or the Customer.",
+            "d": "Project Assurance."
+        },
+        "answer": "b",
+        "reasoning": "The Project Manager prepares the necessary information and makes the recommendation for closure to the Project Board."
+    },
+    {
+        "question": "Which management product contains a summary of what went well, what went badly, and recommendations for future projects?",
+        "options": {
+            "a": "End Project Report.",
+            "b": "Lessons Log.",
+            "c": "Lessons Report.",
+            "d": "End Stage Report."
+        },
+        "answer": "c",
+        "reasoning": "The Lessons Report formally documents lessons that can be applied to other projects."
+    },
+    {
+        "question": "The Directing a Project (DP) process at the end of the project is used by the Project Board for what key activity?",
+        "options": {
+            "a": "Authorizing the production of specialist products.",
+            "b": "Reviewing Work Package status.",
+            "c": "Authorizing the closure of the project.",
+            "d": "Raising exceptions to corporate management."
+        },
+        "answer": "c",
+        "reasoning": "The 'Authorize project closure' activity is part of the DP process."
+    },
+    {
+        "question": "Which of the following management products serves as a key reference for defining what products need to be accepted during the 'Hand over products' activity in the Closing a Project process?",
+        "options": {
+            "a": "Project Brief.",
+            "b": "Daily Log.",
+            "c": "Project Product Description.",
+            "d": "Stage Plan."
+        },
+        "answer": "c",
+        "reasoning": "The Project Product Description contains the customer's quality expectations and acceptance criteria."
+    },
+    {
+        "question": "What is the purpose of 'Follow-on Action Recommendations' created during the Closing a Project process?",
+        "options": {
+            "a": "To document a summary of the project's performance against its plan.",
+            "b": "To detail any outstanding issues, known product errors, or risks for the products after project closure.",
+            "c": "To provide a plan for the next management stage.",
+            "d": "To report on lessons learned that can be applied to other projects."
+        },
+        "answer": "b",
+        "reasoning": "This document lists any remaining actions or items that need to be addressed after the project is formally closed."
+    },
+    {
+        "question": "Which management product outlines how post-project benefits will be reviewed and measured?",
+        "options": {
+            "a": "Business Case.",
+            "b": "Project Plan.",
+            "c": "Benefits Management Approach.",
+            "d": "End Project Report."
+        },
+        "answer": "c",
+        "reasoning": "This is the primary purpose of the Benefits Management Approach."
+    },
+    {
+        "question": "During planned project closure, which management products are typically updated to reflect actual performance data against initial forecasts? 1. Project Plan 2. Business Case 3. Benefits Management Approach 4. Quality Register",
+        "options": {
+            "a": "1, 2, and 3 only.",
+            "b": "1, 3, and 4 only.",
+            "c": "2, 3, and 4 only.",
+            "d": "1, 2, 3, and 4."
+        },
+        "answer": "a",
+        "reasoning": "The Project Plan, Business Case, and Benefits Management Approach are all updated with final performance data. The Quality Register is a log, not a baseline document to be updated in this way."
+    },
+    {
+        "question": "Which of the following describes a key difference between planned and premature project closure?",
+        "options": {
+            "a": "Planned closure always involves a full benefits review, while premature closure does not.",
+            "b": "Premature closure requires Project Board approval, while planned closure does not.",
+            "c": "Premature closure focuses on salvaging any value, while planned closure focuses on formal handover and evaluation.",
+            "d": "Planned closure occurs at the end of the final stage, while premature closure can occur at any point in the project."
+        },
+        "answer": "c",
+        "reasoning": "Premature closure is an exception condition that requires a focus on salvaging value and documenting the state of the project."
+    },
+    {
+        "question": "Who is responsible for notifying corporate, programme management, or the customer that the project has formally closed?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "The Project Board.",
+            "c": "Project Assurance.",
+            "d": "Project Support."
+        },
+        "answer": "b",
+        "reasoning": "After authorizing closure, the Project Board is responsible for this formal notification."
+    },
+    {
+        "question": "Which of the following management products is used to record management actions that need to be put in place after project closure to ensure the project's outcomes are achieved?",
+        "options": {
+            "a": "Benefits Management Approach.",
+            "b": "Follow-on Action Recommendations.",
+            "c": "End Project Report.",
+            "d": "Lessons Report."
+        },
+        "answer": "b",
+        "reasoning": "This is the specific purpose of the Follow-on Action Recommendations."
+    },
+    {
+        "question": "During the 'Hand over products' activity, what assurance should the Project Manager seek regarding the products being transferred?",
+        "options": {
+            "a": "That they are baselined and stored in the configuration library.",
+            "b": "That they have been approved and meet all quality criteria or approved concessions.",
+            "c": "That their associated risks have been fully resolved.",
+            "d": "That future funding for their operational use is secured."
+        },
+        "answer": "b",
+        "reasoning": "The products must be formally approved as meeting their quality criteria before handover."
+    }
+]
