@@ -58,6 +58,10 @@ export async function getQuizData(quizId) {
             .filter(q => q.failCount > 5)
             .sort((a, b) => b.failCount - a.failCount);
 
+        if (failedQuestionsPool.length < 10) {
+            return [];
+        }
+
         return failedQuestionsPool.slice(0, 60);
     } else {
         return await fetchQuizData(quizId);

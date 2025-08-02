@@ -4,7 +4,7 @@ import { showCustomAlert, prepareQuizScreen, updateActiveWeekLink, showWelcomeSc
 import { buildQuiz, updateCounter } from './dom-utils.js';
 import { shuffleArray } from '../utils/array-utils.js';
 import { startTimer, finish } from './timer.js';
-import { getFailedCounts } from '../services/storage-service.js';
+import { getQuizData } from '../services/data-service.js';
 
 export async function selectAndPrepareQuiz(quizId, autoStart = false) {
     const { isTestActive } = getState();
@@ -36,72 +36,15 @@ export async function resetAndLoadQuiz(quizId, autoStart) {
     const isFailedTest = quizId === 'failed';
 
     try {
-        if (isFinalTest) {
-            const manifestRes = await fetch('data/manifest.json');
-            const { quizzes: weeks } = await manifestRes.json();
+        const quizData = await getQuizData(quizId);
+        setState({ quizData });
 
-            const allWeekPromises = weeks.map(week => fetch(`data/json/week-${week}.json`).then(res => res.json()));
-            const allWeeksData = await Promise.all(allWeekPromises);
-
-            const finalTestQuestions = [];
-            let remainingPool = [];
-
-            allWeeksData.forEach(weekQuestions => {
-                if (weekQuestions.length > 0) {
-                    shuffleArray(weekQuestions);
-                    finalTestQuestions.push(weekQuestions.shift());
-                    remainingPool = remainingPool.concat(weekQuestions);
-                }
-            });
-
-            const questionsNeeded = 60 - finalTestQuestions.length;
-
-            if (questionsNeeded > 0 && remainingPool.length > 0) {
-                shuffleArray(remainingPool);
-                const additionalQuestions = remainingPool.slice(0, questionsNeeded);
-                finalTestQuestions.push(...additionalQuestions);
-            }
-
-            shuffleArray(finalTestQuestions);
-            setState({ quizData: finalTestQuestions.slice(0, 60) });
-
-        } else if (isFailedTest) {
-            const failedCounts = getFailedCounts();
-
-            const manifestRes = await fetch('data/manifest.json');
-            const { quizzes: weeks } = await manifestRes.json();
-
-            const allWeekPromises = weeks.map(week => fetch(`data/json/week-${week}.json`).then(res => res.json()));
-            const allWeeksData = await Promise.all(allWeekPromises);
-            let allQuestions = allWeeksData.flat();
-
-            const uniqueQuestions = new Map();
-            allQuestions.forEach(q => {
-                if (!uniqueQuestions.has(q.question)) {
-                    uniqueQuestions.set(q.question, q);
-                }
-            });
-
-            const questionsWithFailCount = Array.from(uniqueQuestions.values()).map(q => {
-                return { ...q, failCount: failedCounts[q.question] || 0 };
-            });
-
-            const failedQuestionsPool = questionsWithFailCount
-                .filter(q => q.failCount > 5)
-                .sort((a, b) => b.failCount - a.failCount);
-
-            setState({ quizData: failedQuestionsPool.slice(0, 60) });
-            const { quizData } = getState();
-            if (quizData.length === 0) {
-                showCustomAlert("Not enough questions have been failed more than 5 times to generate this test.");
-                prepareQuizScreen();
-                updateActiveWeekLink(null);
-                domElements.startBtn.classList.add('hidden');
-                return;
-            }
-        } else {
-            const res = await fetch(`data/json/week-${quizId}.json`);
-            setState({ quizData: await res.json() });
+        if (isFailedTest && quizData.length === 0) {
+            showCustomAlert("Not enough questions have been failed more than 5 times to generate this test.");
+            prepareQuizScreen();
+            updateActiveWeekLink(null);
+            domElements.startBtn.classList.add('hidden');
+            return;
         }
     } catch (error) {
         console.error("Failed to load quiz data:", error);
