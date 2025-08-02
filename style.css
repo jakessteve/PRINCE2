@@ -240,8 +240,8 @@ body.is-test-finished .sidebar-group#controls-box {
 }
 
 .question-block li.selected-answer {
-    background-color: rgba(0, 71, 171, 0.15);
-    border-left: 3px solid var(--color-primary);
+    background-color: rgba(255, 215, 0, 0.5);
+    border-left: 3px solid goldenrod;
 }
 
 /* --------------------------------------------------------------------------
