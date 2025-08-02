@@ -1,2 +1,3 @@
 # Ignore the .roo directory
 .roo/
+node_modules/

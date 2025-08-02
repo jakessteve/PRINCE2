@@ -1,16 +1,22 @@
 import { shuffleArray } from '../utils/array-utils.js';
 import { getFailedCounts } from './storage-service.js';
 
+let allQuizzesCache = null;
+
 async function fetchQuizData(quizId) {
     const res = await fetch(`data/json/week-${quizId}.json`);
     return await res.json();
 }
 
 async function fetchAllWeeksData() {
+    if (allQuizzesCache) {
+        return allQuizzesCache;
+    }
     const manifestRes = await fetch('data/manifest.json');
     const { quizzes: weeks } = await manifestRes.json();
     const allWeekPromises = weeks.map(week => fetch(`data/json/week-${week}.json`).then(res => res.json()));
-    return await Promise.all(allWeekPromises);
+    allQuizzesCache = await Promise.all(allWeekPromises);
+    return allQuizzesCache;
 }
 
 export async function getQuizData(quizId) {
@@ -21,9 +27,10 @@ export async function getQuizData(quizId) {
 
         allWeeksData.forEach(weekQuestions => {
             if (weekQuestions.length > 0) {
-                shuffleArray(weekQuestions);
-                finalTestQuestions.push(weekQuestions.shift());
-                remainingPool = remainingPool.concat(weekQuestions);
+                const shuffledWeekQuestions = [...weekQuestions]; // Create a shallow copy to avoid modifying original cached array
+                shuffleArray(shuffledWeekQuestions);
+                finalTestQuestions.push(shuffledWeekQuestions.shift());
+                remainingPool = remainingPool.concat(shuffledWeekQuestions);
             }
         });
 
