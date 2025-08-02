@@ -1,222 +1,275 @@
 [
     {
-        "question": "What is a primary purpose of the Controlling a Stage process in PRINCE2?",
+        "question": "What is the primary purpose of the 'Initiating a Project' (IP) process?",
         "options": {
-            "a": "To enable the Project Board to be accountable for the project’s success.",
-            "b": "To provide management direction and control throughout the project.",
-            "c": "To monitor the work to be done and deal with issues throughout a stage.",
-            "d": "To ensure that the prerequisites for initiating the project are in place."
+            "a": "To determine whether the project is viable and worthwhile.",
+            "b": "To create the Project Brief and Outline Business Case.",
+            "c": "To establish a solid foundation for the project.",
+            "d": "To make key decisions in and exercise overall control over the project."
         },
         "answer": "c",
-        "reasoning": "The purpose of Controlling a Stage is for the Project Manager to monitor the day-to-day work within a stage and manage any issues that arise."
+        "reasoning": "To establish a solid foundation for the project is correct because the Initiating a Project (IP) process aims to build a comprehensive and agreed-upon basis for the project before significant resources are committed. It's about setting up the project controls and planning in detail."
     },
     {
-        "question": "Which of the following is a purpose of the Managing Product Delivery process?",
+        "question": "What is the main output of the IP process?",
         "options": {
-            "a": "To coordinate an area of work that will deliver one or more of the project’s products.",
-            "b": "To prepare sufficient information to allow the Project Board to authorize the next stage.",
-            "c": "To provide a fixed point in time when the acceptance of the project’s products is confirmed.",
-            "d": "To report to the Project Board on the progress of the stage."
-        },
-        "answer": "a",
-        "reasoning": "Managing Product Delivery coordinates the work of teams to create the specialist products as defined in a Work Package."
-    },
-    {
-        "question": "In which PRINCE2 process does the Project Manager formally delegate responsibility for work or delivery to a Team Manager or team member?",
-        "options": {
-            "a": "Initiating a Project.",
-            "b": "Controlling a Stage.",
-            "c": "Managing Product Delivery.",
-            "d": "Managing a Stage Boundary."
+            "a": "The Project Brief.",
+            "b": "The Project Initiation Documentation (PID).",
+            "c": "The End Stage Report.",
+            "d": "The Daily Log."
         },
         "answer": "b",
-        "reasoning": "The Project Manager authorizes a Work Package to delegate work, which is a key activity in the Controlling a Stage process."
+        "reasoning": "The Project Initiation Documentation (PID) is correct. The IP process culminates in the creation of the PID, which serves as the comprehensive 'contract' or blueprint for the project."
     },
     {
-        "question": "During which PRINCE2 process are specialist products created?",
+        "question": "What is the key decision made by the Project Board in the 'Directing a Project' (DP) process to authorize the project itself?",
         "options": {
-            "a": "Initiating a Project.",
-            "b": "Controlling a Stage.",
-            "c": "Managing Product Delivery.",
-            "d": "Managing a Stage Boundary."
+            "a": "Authorize Initiation.",
+            "b": "Authorize the Next Stage.",
+            "c": "Authorize Project Closure.",
+            "d": "Authorize the Project."
+        },
+        "answer": "d",
+        "reasoning": "Authorize the Project is correct. After the 'Initiating a Project' (IP) process, the Project Manager presents the Project Initiation Documentation (PID) to the Project Board, who then makes the key decision to formally 'Authorize the Project' based on the PID's detailed plan and justification."
+    },
+    {
+        "question": "Why is the PID considered a 'contract' between the Project Board and the Project Manager?",
+        "options": {
+            "a": "Because it is a legally binding document signed by all stakeholders.",
+            "b": "Because it details the financial terms and conditions of the project.",
+            "c": "Because it is a comprehensive and agreed-upon blueprint for how the project will be managed.",
+            "d": "Because it defines the Project Manager's authority to make changes without Project Board approval."
         },
         "answer": "c",
-        "reasoning": "The actual hands-on creation of specialist products is done by the teams within the Managing Product Delivery process."
+        "reasoning": "Because it is a comprehensive and agreed-upon blueprint for how the project will be managed is correct. The PID captures all the essential information about the project's purpose, scope, plans, controls, and management structure, serving as a mutual agreement and baseline for the Project Board and Project Manager. It's a 'contract' in the sense of a shared understanding and commitment."
     },
     {
-        "question": "Which of the following is typically included in a Work Package?",
+        "question": "Which management product is created during the IP process to define how quality will be managed?",
         "options": {
-            "a": "Project-level tolerances for cost and time.",
-            "b": "The Project Product Description.",
-            "c": "Problem handling and escalation arrangements.",
-            "d": "A detailed list of all project risks."
+            "a": "Quality Register.",
+            "b": "Project Product Description.",
+            "c": "Quality Management Approach.",
+            "d": "Product Descriptions."
         },
         "answer": "c",
-        "reasoning": "A Work Package must define the constraints and communication lines for the team, including how to handle problems and escalate issues."
+        "reasoning": "Quality Management Approach is correct. The Quality Management Approach is created during the 'Initiating a Project' (IP) process and defines how and when the quality register is reviewed and updated, and generally how quality will be managed and controlled within the project."
     },
     {
-        "question": "What is the primary purpose of a Checkpoint Report?",
+        "question": "Who is responsible for preparing the 'Project Plan' in the IP process?",
         "options": {
-            "a": "To provide a regular update on stage progress to the Project Board.",
-            "b": "To summarize the status of the Work Package to the Project Manager at a defined frequency.",
-            "c": "To document deviations from the plan that require Project Board attention.",
-            "d": "To formally request changes to baselined products."
+            "a": "The Executive.",
+            "b": "The Senior User.",
+            "c": "The Project Manager.",
+            "d": "Project Assurance."
+        },
+        "answer": "c",
+        "reasoning": "The Project Manager is correct. The Project Manager is responsible for refining the outline business case into the detailed business case and preparing the Project Plan during the 'Initiating a Project' (IP) process. This plan details the work and resources needed to deliver the project's products."
+    },
+    {
+        "question": "What is the purpose of the 'Risk Management Approach' created during the IP process?",
+        "options": {
+            "a": "To provide a record of all identified risks.",
+            "b": "To define how risks will be identified, assessed, and controlled throughout the project.",
+            "c": "To allocate a budget for all potential risk responses.",
+            "d": "To list all the threats and opportunities for the project."
         },
         "answer": "b",
-        "reasoning": "The Checkpoint Report is used by the Team Manager to report the status of a Work Package to the Project Manager."
+        "reasoning": "To define how risks will be identified, assessed, and controlled throughout the project is correct. The Risk Management Approach, created in the 'Initiating a Project' (IP) process, specifies the procedures, responsibilities, tools, and techniques the project management team will use to manage threats and opportunities."
     },
     {
-        "question": "A Checkpoint Report is derived from which of the following? 1. Work Package. 2. Team plan and actuals. 3. Previous Checkpoint Report. 4. Stage Plan.",
+        "question": "Which document defines the project's approach to communication among project stakeholders?",
         "options": {
-            "a": "1, 2, and 3.",
-            "b": "1, 2, and 4.",
-            "c": "1, 3, and 4.",
-            "d": "2, 3, and 4."
+            "a": "Highlight Report.",
+            "b": "Issue Register.",
+            "c": "Communication Management Approach.",
+            "d": "Daily Log."
         },
-        "answer": "a",
-        "reasoning": "The report is based on the assigned work (Work Package), progress against the plan (team plan and actuals), and may reference the last report for continuity."
+        "answer": "c",
+        "reasoning": "Communication Management Approach is correct. This management product, created during the 'Initiating a Project' (IP) process, outlines how the project will manage communication flows to and from all stakeholders, both within and outside the project management team."
     },
     {
-        "question": "Who is primarily responsible for creating the Highlight Report, which provides regular progress updates to the Project Board throughout a management stage?",
+        "question": "What is the purpose of the 'Change Control Approach' created during the IP process?",
         "options": {
-            "a": "The Team Manager.",
-            "b": "The Project Manager.",
+            "a": "To define how quality will be managed on the project.",
+            "b": "To manage uncertainty and respond to risks.",
+            "c": "To describe how changes to baselines and issues will be controlled.",
+            "d": "To define the project's scope and acceptance criteria."
+        },
+        "answer": "c",
+        "reasoning": "To describe how changes to baselines and issues will be controlled is correct. The Change Control Approach, developed during the 'Initiating a Project' (IP) process, sets out the procedures for issue management, how baselines are created and controlled, and how changes to products are handled."
+    },
+    {
+        "question": "Who is responsible for reviewing and approving the PID?",
+        "options": {
+            "a": "The Project Manager.",
+            "b": "The Senior User.",
             "c": "The Project Board.",
             "d": "Project Assurance."
         },
-        "answer": "b",
-        "reasoning": "The Project Manager creates the Highlight Report for the Project Board to keep them informed of stage progress."
+        "answer": "c",
+        "reasoning": "The Project Board is correct. The Project Board is responsible for reviewing and approving the Project Initiation Documentation (PID) as part of the 'Directing a Project' (DP) process. This approval signifies their authorization of the project based on the detailed plans."
     },
     {
-        "question": "If a Work Package is forecast to exceed its agreed tolerances, what is the *first* action the Team Manager should take?",
+        "question": "What is the role of the 'Project Manager' during the IP process?",
         "options": {
-            "a": "Produce an Exception Report and send it to the Project Manager.",
-            "b": "Inform the Project Manager by raising an issue.",
-            "c": "Cease all work on the Work Package immediately.",
-            "d": "Update the Stage Plan with the new forecast."
-        },
-        "answer": "b",
-        "reasoning": "A forecast deviation against Work Package tolerances is an issue that the Team Manager must immediately raise to the Project Manager."
-    },
-    {
-        "question": "Which of the following management products are regularly maintained by the Project Manager during the Controlling a Stage process? 1. Quality Register. 2. Risk Register. 3. Issue Register. 4. Daily Log.",
-        "options": {
-            "a": "1, 2, and 3 only.",
-            "b": "1, 2, and 4 only.",
-            "c": "1, 3, and 4 only.",
-            "d": "1, 2, 3, and 4."
-        },
-        "answer": "d",
-        "reasoning": "The Project Manager uses all four of these management products to manage the day-to-day activities of the stage."
-    },
-    {
-        "question": "What is the purpose of the 'Review Management Stage Status' activity within the Controlling a Stage process?",
-        "options": {
-            "a": "To delegate work packages to Team Managers.",
-            "b": "To obtain approvals for completed products.",
-            "c": "To periodically review the overall situation of the stage and decide what to do next.",
-            "d": "To escalate issues and risks to the Project Board when tolerances are threatened."
+            "a": "To provide overall direction and control for the project.",
+            "b": "To ensure products are delivered within agreed tolerances.",
+            "c": "To prepare the Project Initiation Documentation (PID).",
+            "d": "To secure funding for the project."
         },
         "answer": "c",
-        "reasoning": "This activity allows the Project Manager to assess the health of the stage against the plan and decide if any corrective action or escalation is needed."
+        "reasoning": "To prepare the Project Initiation Documentation (PID) is correct. The Project Manager is primarily responsible for creating the detailed plans and management approaches that form the PID during the 'Initiating a Project' (IP) process."
     },
     {
-        "question": "When does a Team Manager typically produce a Team Plan?",
+        "question": "How does the IP process contribute to 'establishing a solid foundation' for the project?",
         "options": {
-            "a": "At the beginning of the project, during the Starting Up a Project process.",
-            "b": "When accepting a Work Package from the Project Manager.",
-            "c": "At the end of each management stage, as part of the Managing a Stage Boundary process.",
-            "d": "When the project is forecast to exceed its tolerances, as part of an Exception Plan."
+            "a": "By focusing on project closure activities early on.",
+            "b": "By creating detailed plans and management approaches before committing major resources.",
+            "c": "By ensuring continuous monitoring of actual progress against plans.",
+            "d": "By delegating all decision-making authority to the Team Managers."
         },
         "answer": "b",
-        "reasoning": "A Team Plan, if required, is created by the Team Manager after accepting a Work Package to detail how the work will be executed."
+        "reasoning": "By creating detailed plans and management approaches before committing major resources is correct. The 'Initiating a Project' (IP) process is designed to thoroughly plan the project, defining its scope, how it will be managed (quality, risk, change, communication), and how it will deliver its products. This detailed planning provides a robust foundation before significant investment in product development begins."
     },
     {
-        "question": "Which role is primarily responsible for the 'Execute a Work Package' activity within the Managing Product Delivery process?",
+        "question": "What is the relationship between the 'Project Brief' (from SU) and the 'Project Initiation Documentation' (PID) (from IP)?",
         "options": {
-            "a": "The Project Manager.",
-            "b": "The Team Manager or Team Member.",
-            "c": "Project Assurance.",
-            "d": "The Senior Supplier."
+            "a": "The Project Brief is a high-level summary of the PID.",
+            "b": "The PID is derived from and expands upon the Project Brief.",
+            "c": "They are completely independent documents, serving different purposes.",
+            "d": "The Project Brief is created after the PID is finalized."
         },
         "answer": "b",
-        "reasoning": "The Team Manager or team members are responsible for executing the work defined in the Work Package."
+        "reasoning": "The PID is derived from and expands upon the Project Brief is correct. The Project Brief, created during 'Starting Up a Project' (SU), provides an initial high-level view of the project. The 'Initiating a Project' (IP) process takes this brief and develops it into the much more detailed Project Initiation Documentation (PID), which includes refined information and detailed management approaches."
     },
     {
-        "question": "The 'Authorize a Work Package' activity is part of which PRINCE2 process?",
+        "question": "True or False: The Communication Management Approach should be completed last among the approaches.",
         "options": {
-            "a": "Directing a Project.",
-            "b": "Initiating a Project.",
-            "c": "Controlling a Stage.",
-            "d": "Managing a Stage Boundary."
-        },
-        "answer": "c",
-        "reasoning": "Authorizing Work Packages is a key activity for the Project Manager within the Controlling a Stage process."
-    },
-    {
-        "question": "The Controlling a Stage process primarily describes the work of which PRINCE2 role?",
-        "options": {
-            "a": "The Project Board.",
-            "b": "The Project Manager.",
-            "c": "The Team Manager.",
-            "d": "The Senior User."
+            "a": "True",
+            "b": "False"
         },
         "answer": "b",
-        "reasoning": "Controlling a Stage is the main day-to-day process for the Project Manager."
+        "reasoning": "False is correct. The Communication Management Approach, along with the Quality Management Approach, Risk Management Approach, and Change Control Approach, are all created and reviewed during the 'Initiating a Project' (IP) process. PRINCE2 does not prescribe a strict order for their completion, as they are often developed concurrently and iteratively. There is no requirement for the Communication Management Approach to be completed last."
     },
     {
-        "question": "In the Managing Product Delivery process, who is responsible for obtaining approvals for completed products?",
+        "question": "How does the 'Authorize the Project' activity confirm the overall project scope and objectives?",
         "options": {
-            "a": "The Project Manager.",
-            "b": "Project Assurance.",
-            "c": "The Team Manager or Team Member.",
-            "d": "The Senior User."
+            "a": "By reviewing the updated Project Brief from the Project Manager.",
+            "b": "By accepting the Project Product Description.",
+            "c": "By reviewing and approving the Project Initiation Documentation (PID).",
+            "d": "By setting work package tolerances for the Project Manager."
         },
         "answer": "c",
-        "reasoning": "The team is responsible for ensuring the products they create meet the quality criteria and getting them approved before delivery."
+        "reasoning": "By reviewing and approving the Project Initiation Documentation (PID) is correct. The 'Authorize the Project' activity, part of the 'Directing a Project' (DP) process, involves the Project Board's thorough review of the PID. The PID contains the project definition, including its scope, objectives, and management approaches, and the Project Board's approval confirms these."
     },
     {
-        "question": "The Project Manager performs the 'Capture and Examine Issues and Risks' activity within the Controlling a Stage process. This activity incorporates which initial steps of the Issue and Change Control Procedure and Risk Management Procedure?",
+        "question": "What responsibility does Project Assurance have during the IP process concerning the various management approaches?",
         "options": {
-            "a": "Issue and Change Control: Capture and Assess; Risk Management: Identify, Assess, and Plan.",
-            "b": "Issue and Change Control: Propose and Decide; Risk Management: Implement and Communicate.",
-            "c": "Issue and Change Control: Implement; Risk Management: Communicate.",
-            "d": "Issue and Change Control: Capture; Risk Management: Identify and Assess."
+            "a": "To create all management approaches for the Project Manager.",
+            "b": "To review the approaches to ensure they meet the Project Board's needs.",
+            "c": "To approve the management approaches on behalf of the Project Board.",
+            "d": "To implement the approaches and report on their effectiveness."
         },
-        "answer": "d",
-        "reasoning": "This activity involves the initial steps of capturing and examining issues, and identifying and assessing risks before deciding on further action."
+        "answer": "b",
+        "reasoning": "To review the approaches to ensure they meet the Project Board's needs is correct. During the 'Initiating a Project' (IP) process, Project Assurance may be appointed by the Project Board to undertake reviewing and assessing actions, such as inspecting the management approaches (quality, risk, change, communication) to confirm they are sufficient and meet the Project Board's requirements."
     },
     {
-        "question": "During the 'Review Work Package Status' activity of the Controlling a Stage process, what is updated with actuals to date, forecasts, and adjustments?",
+        "question": "What kind of information is contained in the 'Project Plan' created during the IP process?",
         "options": {
-            "a": "The Project Plan.",
-            "b": "The Business Case.",
-            "c": "The Stage Plan.",
-            "d": "The Highlight Report."
+            "a": "Only the schedule and tasks for the entire project.",
+            "b": "Detailed specifications for individual products (Product Descriptions).",
+            "c": "The Project Manager's daily notes and informal issues.",
+            "d": "The purpose, objectives, and context of the project's processes."
+        },
+        "answer": "b",
+        "reasoning": "Detailed specifications for individual products (Product Descriptions) is correct. The Project Plan, created in the 'Initiating a Project' (IP) process, not only includes schedule information (tasks, dates, resources) but also detailed specifications of the products to be built within the plan, in the form of Product Descriptions."
+    },
+    {
+        "question": "What is the role of the Senior User during the IP process, especially regarding customer quality expectations?",
+        "options": {
+            "a": "To confirm the integrity of the complete solution and specialist products.",
+            "b": "To secure funding for the project.",
+            "c": "To specify what all users require from the products and define acceptance criteria.",
+            "d": "To provide project support and administrative services."
         },
         "answer": "c",
-        "reasoning": "The Stage Plan is the baseline against which the Project Manager tracks actuals and updates forecasts for the current stage."
+        "reasoning": "To specify what all users require from the products and define acceptance criteria is correct. The Senior User represents the user community's interests. During the IP process, they work with the Project Manager to define the customer's quality expectations and translate them into measurable Acceptance Criteria for the Project Product Description and individual Product Descriptions."
     },
     {
-        "question": "Which of the following is an objective of the Managing Product Delivery process?",
+        "question": "Which process ensures that any corporate, programme management, or customer strategies relevant to the project are incorporated?",
         "options": {
-            "a": "To ensure that the Team Manager and the teams understand the expected effort, time, and cost needed to deliver the products.",
-            "b": "To ensure that the various ways to deliver the project are evaluated.",
-            "c": "To define how quality management will be carried out during the project.",
-            "d": "To request authorization to start the next stage of the project."
+            "a": "Starting up a Project (SU).",
+            "b": "Initiating a Project (IP).",
+            "c": "Controlling a Stage (CS).",
+            "d": "Closing a Project (CP)."
+        },
+        "answer": "b",
+        "reasoning": "Initiating a Project (IP) is correct. The IP process involves reviewing and incorporating relevant corporate, programme management, or customer strategies, standards, and practices into the project's management approaches (e.g., quality, risk, change, communication) and its overall project plan."
+    },
+    {
+        "question": "What is the purpose of the 'Benefits Management Approach' created during the IP process?",
+        "options": {
+            "a": "To define how and when the project's benefits will be measured and reviewed.",
+            "b": "To document the justification for the project's existence.",
+            "c": "To list all expected benefits from the project.",
+            "d": "To ensure that resources are not wasted on non-viable projects."
         },
         "answer": "a",
-        "reasoning": "This ensures there is a clear and accepted agreement on the work to be done as defined in the Work Package."
+        "reasoning": "To define how and when the project's benefits will be measured and reviewed is correct. The Benefits Management Approach, prepared during the 'Initiating a Project' (IP) process, outlines the management actions and reviews needed to ensure the intended outcomes are achieved and that benefits are realized and measured, both during and after the project."
     },
     {
-        "question": "Which statement best describes the relationship between the Controlling a Stage and Managing Product Delivery processes?",
+        "question": "Which management products are set up and populated during the IP process?",
         "options": {
-            "a": "Controlling a Stage happens before Managing Product Delivery and provides its inputs.",
-            "b": "Managing Product Delivery happens before Controlling a Stage and provides its inputs.",
-            "c": "Controlling a Stage manages the stage, including delegating work, while Managing Product Delivery delivers the specialist products.",
-            "d": "They are independent processes and can occur at any time during the project."
+            "a": "Project Brief, Daily Log, Lessons Log.",
+            "b": "Quality Register, Risk Register, Issue Register.",
+            "c": "Project Plan, Stage Plan, Team Plan.",
+            "d": "Highlight Report, Checkpoint Report, End Stage Report."
+        },
+        "answer": "b",
+        "reasoning": "Quality Register, Risk Register, Issue Register are correct. These three registers are formally set up and populated for the first time during the 'Initiating a Project' (IP) process to manage quality activities, risks, and issues respectively throughout the project."
+    },
+    {
+        "question": "What are some of the quality criteria for a PID?",
+        "options": {
+            "a": "It details individual Product Descriptions and Quality Registers.",
+            "b": "It ensures the project is temporary and unique.",
+            "c": "It shows a viable, achievable project, aligned with strategies, with a complete and clear project management team structure.",
+            "d": "It outlines external dependencies and prerequisites only."
         },
         "answer": "c",
-        "reasoning": "There is an interface between the Project Manager (Controlling a Stage) who delegates work, and the Team Manager (Managing Product Delivery) who executes it."
+        "reasoning": "It shows a viable, achievable project, aligned with strategies, with a complete and clear project management team structure is correct. Key quality criteria for a Project Initiation Documentation (PID) include that it must correctly represent a viable and achievable project, be in line with corporate or programme strategies, and clearly define the complete project management team structure, roles, and lines of authority."
+    },
+    {
+        "question": "How does the IP process link to the 'Continued Business Justification' principle?",
+        "options": {
+            "a": "By ensuring the project is closed if benefits are not realized.",
+            "b": "By creating the Project Brief and Outline Business Case.",
+            "c": "By refining the outline Business Case into a detailed Business Case.",
+            "d": "By setting tolerances for stage and project performance."
+        },
+        "answer": "c",
+        "reasoning": "By refining the outline Business Case into a detailed Business Case is correct. The 'Continued Business Justification' principle requires that the project's rationale remains valid throughout its life. In the 'Initiating a Project' (IP) process, the outline Business Case (from SU) is refined and developed into a detailed Business Case, which then forms a critical part of the PID. This detailed Business Case is continuously reviewed to ensure the project remains justifiable."
+    },
+    {
+        "question": "What is the significance of the first version of the Project Initiation Documentation?",
+        "options": {
+            "a": "It is only a draft and not formally used for decision-making.",
+            "b": "It represents the final authorization of the project by the Project Board.",
+            "c": "It serves as the baseline for controlling and assessing the project throughout its lifecycle.",
+            "d": "It is used to hand over products to the operational environment."
+        },
+        "answer": "c",
+        "reasoning": "It serves as the baseline for controlling and assessing the project throughout its lifecycle is correct. The first version of the Project Initiation Documentation (PID), once approved by the Project Board, becomes the comprehensive, agreed-upon blueprint or 'contract' for the project. It acts as the baseline against which all subsequent progress, changes, and viability assessments are made."
+    },
+    {
+        "question": "Which aspect of PRINCE2 is reviewed and possibly updated towards the end of each management stage by the Managing a Stage Boundary process?",
+        "options": {
+            "a": "The Project Brief.",
+            "b": "The Issue and Change Control procedures defined in the Change Control Approach.",
+            "c": "The Daily Log.",
+            "d": "The Project Product Description."
+        },
+        "answer": "b",
+        "reasoning": "The Issue and Change Control procedures defined in the Change Control Approach is correct. The 'Managing a Stage Boundary' (SB) process reviews, and possibly updates, various management approaches and plans to ensure they are still appropriate for the next stage. This explicitly includes the project's controls for issues and changes, which were initially defined during the 'Initiating a Project' (IP) process within the Change Control Approach."
     }
 ]

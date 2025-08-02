@@ -1,222 +1,277 @@
 [
     {
-        "question": "What is the primary purpose of the 'Starting Up a Project' (SU) process in PRINCE2?",
+        "question": "Which PRINCE2 principle ensures that a project remains viable throughout its lifecycle?",
         "options": {
-            "a": "To manage each stage on a day-to-day basis.",
-            "b": "To establish whether the project is viable and worthwhile and to prevent poorly conceived projects from being initiated.",
-            "c": "To provide authority to start the project and its subsequent stages.",
-            "d": "To refine the business case and prepare detailed plans for the entire project."
-        },
-        "answer": "b",
-        "reasoning": "The SU process is a pre-project step to ensure that the prerequisites for initiating a project are in place."
-    },
-    {
-        "question": "Which of the following management products is *created* during the 'Starting Up a Project' process?",
-        "options": {
-            "a": "Project Initiation Documentation (PID).",
-            "b": "Quality Management Approach.",
-            "c": "Project Brief.",
-            "d": "Risk Register."
+            "a": "Learn from Experience",
+            "b": "Manage by Stages",
+            "c": "Continued Business Justification",
+            "d": "Focus on Products"
         },
         "answer": "c",
-        "reasoning": "The Project Brief is assembled during SU to provide a foundation for project initiation."
+        "reasoning": "The 'Continued Business Justification' principle requires that for all projects, the justification for the project remains valid throughout its life. This principle ensures that resources are not wasted on projects that do not contribute to business objectives by constantly verifying the project's justification."
     },
     {
-        "question": "According to PRINCE2, which activity involves identifying and reviewing lessons from similar previous projects to apply to the current project, as part of the 'Starting Up a Project' process?",
+        "question": "What is the primary purpose of the 'Learn from Experience' principle?",
         "options": {
-            "a": "Prepare the outline business case.",
-            "b": "Design and appoint the project management team.",
-            "c": "Capture previous lessons.",
-            "d": "Select the project approach and assemble the project brief."
-        },
-        "answer": "c",
-        "reasoning": "Capturing previous lessons is a specific activity within the Starting Up a Project process."
-    },
-    {
-        "question": "During the 'Starting Up a Project' process, who is primarily responsible for preparing the outline business case?",
-        "options": {
-            "a": "The Project Manager.",
-            "b": "The Executive.",
-            "c": "The Senior User.",
-            "d": "Project Support."
+            "a": "To ensure the project delivers measurable benefits.",
+            "b": "To continuously seek and apply lessons throughout the project lifecycle.",
+            "c": "To define clear roles for all project team members.",
+            "d": "To break the project into manageable phases for better control."
         },
         "answer": "b",
-        "reasoning": "The Executive is responsible for creating the outline business case, often with input from others."
+        "reasoning": "The 'Learn from Experience' principle mandates that PRINCE2 projects should continually seek and apply lessons throughout the life of the project. This involves capturing lessons identified, whether from previous projects or during the current project, and implementing improvements."
     },
     {
-        "question": "Which of the following are objectives of the 'Starting Up a Project' process? 1. To ensure that the project management team roles have been allocated. 2. To provide a common understanding of why the project is being done. 3. To ensure that the work for project initiation is planned. 4. To create the Project Plan for the entire project.",
+        "question": "Which principle is implemented by establishing a clear project management team structure with assigned roles and responsibilities?",
         "options": {
-            "a": "1, 2, and 3.",
-            "b": "1, 3, and 4.",
-            "c": "2 and 4 only.",
-            "d": "1, 2, 3, and 4."
+            "a": "Manage by Exception",
+            "b": "Focus on Products",
+            "c": "Defined Roles and Responsibilities",
+            "d": "Tailor to Suit the Project Environment"
+        },
+        "answer": "c",
+        "reasoning": "The 'Defined Roles and Responsibilities' principle ensures that a clear project management team structure is established, with everyone involved in the project knowing what is expected of them. This helps to define accountability and ensures decisions are made by the right people."
+    },
+    {
+        "question": "How does the 'Manage by Stages' principle help in controlling a project?",
+        "options": {
+            "a": "By allowing for continuous learning and improvement.",
+            "b": "By providing a common vocabulary for project communication.",
+            "c": "By breaking the project into manageable chunks, enabling review and control at predefined intervals.",
+            "d": "By ensuring that all project outputs are clearly specified before work begins."
+        },
+        "answer": "c",
+        "reasoning": "The 'Manage by Stages' principle mandates that a project should be planned, monitored, and controlled on a stage-by-stage basis. Each management stage provides a control point where the Project Board can review progress, assess viability, and make decisions on whether to proceed to the next stage."
+    },
+    {
+        "question": "Which statement best explains the 'Manage by Exception' principle and how it leads to efficient use of senior management's time?",
+        "options": {
+            "a": "Project Managers must report every minor deviation to the Project Board to ensure full transparency.",
+            "b": "Authority is delegated from one management level to the next by setting tolerances, so senior management is only involved when these tolerances are forecast to be exceeded.",
+            "c": "All project issues are automatically resolved by the project team without requiring any escalation.",
+            "d": "Senior management regularly reviews all project activities to prevent any exceptions from occurring."
+        },
+        "answer": "b",
+        "reasoning": "The 'Manage by Exception' principle allows the lower management level to manage within agreed-upon limits, escalating to the next level only when a forecast deviation from these tolerances occurs. This approach ensures the efficient and economic use of senior management time, as they focus on critical deviations rather than routine monitoring."
+    },
+    {
+        "question": "What does the 'Focus on Products' principle emphasize in project management?",
+        "options": {
+            "a": "Prioritizing activities over deliverables to ensure efficient processes.",
+            "b": "Defining and delivering tangible products rather than just stating activities to be done.",
+            "c": "Concentrating on the project's financial outcomes above all else.",
+            "d": "Ensuring project team members are highly skilled in product development."
+        },
+        "answer": "b",
+        "reasoning": "The 'Focus on Products' principle states that a PRINCE2 project focuses on defining and delivering products. This means that the project should have a clear understanding of what it will produce (outputs) before determining how those outputs will be created (activities)."
+    },
+    {
+        "question": "How does the 'Tailor to Suit the Project Environment' principle contribute to the flexibility of PRINCE2?",
+        "options": {
+            "a": "By prescribing a single, rigid method for all types of projects.",
+            "b": "By allowing project managers to ignore certain PRINCE2 elements if they deem them unnecessary.",
+            "c": "By ensuring that the method is adapted to fit the specific project's scale, complexity, risk, and context, avoiding unnecessary bureaucracy.",
+            "d": "By requiring external consultants to define the project's management approach."
+        },
+        "answer": "c",
+        "reasoning": "The 'Tailor to Suit the Project Environment' principle emphasizes that PRINCE2 should be adapted to suit the specific project's scale, complexity, importance, capability, and risk. This flexibility ensures that the level of control and documentation is appropriate, preventing unnecessary bureaucracy."
+    },
+    {
+        "question": "Which principle is directly supported by the creation and regular review of the Business Case?",
+        "options": {
+            "a": "Manage by Stages",
+            "b": "Continued Business Justification",
+            "c": "Defined Roles and Responsibilities",
+            "d": "Learn from Experience"
+        },
+        "answer": "b",
+        "reasoning": "The Business Case is the document that provides the justification for the project. Its creation and regular review throughout the project lifecycle directly supports the 'Continued Business Justification' principle, ensuring that the project remains desirable, viable, and achievable."
+    },
+    {
+        "question": "When are lessons identified and recorded, according to the 'Learn from Experience' principle?",
+        "options": {
+            "a": "Only at the very beginning of the project, during the Starting Up a Project process.",
+            "b": "Only at the very end of the project, as part of the Closing a Project process.",
+            "c": "Throughout the entire project lifecycle, and also from previous projects.",
+            "d": "Only when a major issue or risk occurs that impacts the project's tolerances."
+        },
+        "answer": "c",
+        "reasoning": "The 'Learn from Experience' principle dictates that lessons should be actively sought, recorded, and applied throughout the entire project lifecycle. This includes capturing lessons from previous projects at the outset and continuously identifying new lessons during the project's execution."
+    },
+    {
+        "question": "Who primarily benefits from the 'Defined Roles and Responsibilities' principle?",
+        "options": {
+            "a": "Only the Project Manager, as it clarifies their tasks.",
+            "b": "All individuals involved in the project, from directing to delivering levels, by ensuring clarity and accountability.",
+            "c": "Only external stakeholders, by providing clear communication channels.",
+            "d": "Only the Senior User, as they define the project's outcomes."
+        },
+        "answer": "b",
+        "reasoning": "The 'Defined Roles and Responsibilities' principle ensures that all individuals involved in the project – from the Project Board (Directing), to the Project Manager (Managing), to the Team Managers and teams (Delivering) – understand what is expected of them and who is accountable for what."
+    },
+    {
+        "question": "How does managing a project by stages help in assessing its viability at defined intervals?",
+        "options": {
+            "a": "It allows for the Business Case to be reviewed and updated at the end of each management stage.",
+            "b": "It ensures that the project manager is solely responsible for all viability assessments.",
+            "c": "It eliminates the need for any further business justification once the project has started.",
+            "d": "It requires a new Project Mandate to be issued at the start of each new stage."
         },
         "answer": "a",
-        "reasoning": "The objectives include allocating roles, ensuring a common understanding, and planning the initiation stage. A detailed Project Plan is created later in the Initiating a Project process."
+        "reasoning": "The 'Manage by Stages' principle provides predefined intervals (management stages) where the project's continued viability can be formally assessed. At the end of each stage, the Project Board reviews the End Stage Report and the updated Business Case to decide whether to authorize the next stage."
     },
     {
-        "question": "The 'Project Brief' is assembled during the 'Starting Up a Project' process. Which of the following elements are typically included in the Project Brief? 1. Outline Business Case. 2. Project Product Description. 3. Project Approach. 4. Detailed Project Plan.",
+        "question": "What does setting tolerances enable, according to the 'Manage by Exception' principle?",
         "options": {
-            "a": "1, 2, and 3 only.",
-            "b": "1, 2, and 4 only.",
-            "c": "1, 3, and 4 only.",
-            "d": "All of the above."
-        },
-        "answer": "a",
-        "reasoning": "The Project Brief includes the outline Business Case, Project Product Description, and Project Approach. The detailed Project Plan is not part of the brief."
-    },
-    {
-        "question": "What is the purpose of the 'Initiating a Project' (IP) process in PRINCE2?",
-        "options": {
-            "a": "To ensure that there are solid foundations on which to deliver the project, enabling the organization to understand the work to be done.",
-            "b": "To provide management direction and control throughout the project lifecycle.",
-            "c": "To enable the Project Board to authorize the initiation stage.",
-            "d": "To assign and monitor work packages on a day-to-day basis."
-        },
-        "answer": "a",
-        "reasoning": "The IP process establishes the solid foundations for the project before committing to significant spend."
-    },
-    {
-        "question": "During the 'Initiating a Project' process, which four management approaches are prepared to define how specific aspects of the project will be managed?",
-        "options": {
-            "a": "Business Case, Quality, Risk, and Communication.",
-            "b": "Quality, Risk, Change Control, and Communication Management.",
-            "c": "Plans, Quality, Risk, and Benefits.",
-            "d": "Organization, Progress, Quality, and Plans."
+            "a": "It enables the Project Manager to make decisions without consulting the Project Board at all.",
+            "b": "It defines the limits of delegated authority, allowing management by exception to occur.",
+            "c": "It provides a flexible budget that can be adjusted without formal approval.",
+            "d": "It ensures that all project activities are completed precisely on time and within cost."
         },
         "answer": "b",
-        "reasoning": "These four approaches (for Quality, Risk, Change Control, and Communication) are key components of the PID."
+        "reasoning": "Setting tolerances defines the permissible deviation from a plan without needing to escalate to the next level of management. This empowers the lower management level to manage within these agreed limits, and only if a forecast deviation beyond these tolerances occurs is an escalation required."
     },
     {
-        "question": "The 'Risk Register' and 'Issue Register' are first set up and populated during which PRINCE2 process?",
+        "question": "Why is defining product descriptions crucial for the 'Focus on Products' principle?",
         "options": {
-            "a": "Starting Up a Project.",
-            "b": "Initiating a Project.",
-            "c": "Controlling a Stage.",
-            "d": "Managing a Stage Boundary."
+            "a": "Product descriptions primarily detail the activities required to produce a product.",
+            "b": "They specify the measurable quality criteria and detailed expectations for each product, ensuring clarity and agreement.",
+            "c": "They are used to track the financial costs associated with each product.",
+            "d": "Product descriptions help in assigning team members to specific tasks."
         },
         "answer": "b",
-        "reasoning": "These registers are formally set up as part of creating the solid foundations during the Initiating a Project process."
+        "reasoning": "The 'Focus on Products' principle is underpinned by the use of Product Descriptions, which are crucial for defining what is to be delivered. Product Descriptions specify the measurable quality criteria, composition, and expected uses for each product, ensuring a shared, unambiguous understanding."
     },
     {
-        "question": "In the 'Initiating a Project' process, the Project Manager works to 'Refine the Business Case'. What does this activity primarily involve?",
+        "question": "What factors might influence how PRINCE2 is tailored to suit a project environment?",
         "options": {
-            "a": "Creating a new, high-level view of the project's justification.",
-            "b": "Detailing the outline business case to provide a more comprehensive justification for the project.",
-            "c": "Confirming that the project's benefits have been realized post-project.",
-            "d": "Reviewing the business case for ongoing viability at the end of each stage."
+            "a": "The project's physical location and local weather conditions.",
+            "b": "The project's scale, complexity, risk, and the organizational context (e.g., commercial customer/supplier, program environment).",
+            "c": "The individual preferences of the Project Manager and Team Managers.",
+            "d": "The number of external stakeholders involved in the project."
         },
         "answer": "b",
-        "reasoning": "This activity expands on the outline business case created in SU to form the detailed business case within the PID."
+        "reasoning": "The 'Tailor to Suit the Project Environment' principle allows PRINCE2 to be adapted based on several factors, including the project's size, scale, complexity, risk profile, and the specific context it operates within. This ensures the method is 'just enough' project management, avoiding unnecessary bureaucracy."
     },
     {
-        "question": "What is the primary output of the 'Initiating a Project' process?",
+        "question": "The 'Continued Business Justification' principle states that the project's rationale is evaluated:",
         "options": {
-            "a": "The Project Brief.",
-            "b": "The Project Plan.",
-            "c": "The Project Initiation Documentation (PID).",
-            "d": "The Benefits Management Approach."
+            "a": "Only at the beginning of the project.",
+            "b": "Only at the end of the project.",
+            "c": "Throughout the entire project lifecycle.",
+            "d": "Only if major issues arise."
         },
         "answer": "c",
-        "reasoning": "The PID is the main management product of the IP process, consolidating all key information."
+        "reasoning": "The 'Continued Business Justification' principle requires that the justification for the project is re-evaluated and confirmed throughout its entire lifecycle. This is done through the regular review and updating of the Business Case, especially at management stage boundaries."
     },
     {
-        "question": "Which management product is described as setting out the procedures, responsibilities, and tools and techniques necessary to ensure that the project delivers what users expect, and is prepared during the 'Initiating a Project' process?",
+        "question": "Which of the following is an example of how 'Learn from Experience' is applied in the early stages of a project?",
         "options": {
-            "a": "Project Product Description.",
-            "b": "Quality Register.",
-            "c": "Quality Management Approach.",
-            "d": "Configuration Item Record."
+            "a": "The Project Manager documents all decisions made during the initiation stage in a daily log.",
+            "b": "The Project Board reviews the project's progress against the initial plan at the end of the first stage.",
+            "c": "The project team holds a workshop to capture useful experience from similar previous projects.",
+            "d": "The Project Manager defines clear roles and responsibilities for all team members."
         },
         "answer": "c",
-        "reasoning": "This is the definition of the Quality Management Approach."
+        "reasoning": "In the early stages of a project, PRINCE2 recommends an activity to 'Capture previous lessons'. This involves reviewing the lessons log or holding workshops to gather experience from similar past initiatives to inform the current project's approach and plans."
     },
     {
-        "question": "According to PRINCE2, the 'Project Plan' created during the 'Initiating a Project' process should include which of the following?",
+        "question": "How does the 'Defined Roles and Responsibilities' principle prevent confusion and ensure accountability?",
         "options": {
-            "a": "Only the schedule and budget for the project.",
-            "b": "Details on assumptions, prerequisites, product descriptions for products within scope, and tolerances.",
-            "c": "Just the high-level delivery dates and the overall project approach.",
-            "d": "An aggregated list of all work packages to be delivered throughout the project."
+            "a": "By assigning all decision-making authority to the Project Board, centralizing control.",
+            "b": "By ensuring that each role in the project management team has a clear description of its duties, authority, and reporting lines.",
+            "c": "By allowing flexible role assignments based on the current workload of team members.",
+            "d": "By requiring external auditors to constantly verify role performance."
         },
         "answer": "b",
-        "reasoning": "The Project Plan is comprehensive and includes details like assumptions, prerequisites, and product descriptions."
+        "reasoning": "The 'Defined Roles and Responsibilities' principle prevents confusion and ensures accountability by establishing a clear organizational structure where every role has defined duties, authorities, and reporting lines. This clarity ensures that everyone knows 'who is accountable for what' and 'who is responsible for what'."
     },
     {
-        "question": "The 'Directing a Project' (DP) process enables the Project Board to provide authority for the project. Which activity within this process is concerned with giving guidance to the Project Manager during a stage?",
+        "question": "What is the main characteristic of a management stage that supports the 'Manage by Stages' principle?",
         "options": {
-            "a": "Authorize initiation.",
-            "b": "Authorize a stage or exception plan.",
-            "c": "Give ad hoc direction.",
-            "d": "Authorize project closure."
-        },
-        "answer": "c",
-        "reasoning": "Giving ad hoc direction is how the Project Board provides ongoing guidance between formal stage boundaries."
-    },
-    {
-        "question": "What is the purpose of the 'Authorize initiation' activity within the 'Directing a Project' process?",
-        "options": {
-            "a": "To confirm the Project Manager's appointment and responsibilities.",
-            "b": "To approve the Project Brief and the Initiation Stage Plan, allowing the project to proceed to the Initiating a Project process.",
-            "c": "To allocate work packages to the Project Manager.",
-            "d": "To secure funding for the entire project lifecycle."
+            "a": "It represents a single, indivisible chunk of work.",
+            "b": "It has a definitive start and end, with a formal review at its conclusion.",
+            "c": "Its duration is always exactly four weeks.",
+            "d": "It is solely focused on delivering specialist products."
         },
         "answer": "b",
-        "reasoning": "This activity is the formal gateway from the SU process into the IP process."
+        "reasoning": "A management stage is characterized by having a definitive start and end point, with a formal review (End Stage Assessment) at its conclusion by the Project Board. This allows the Project Board to assess performance, review the Business Case, and decide whether to authorize the next stage."
     },
     {
-        "question": "Which statement is true regarding the relationship between the 'Project Brief' and the 'Project Initiation Documentation' (PID)?",
+        "question": "If a project manager forecasts that stage tolerances will be exceeded, what action is required by the 'Manage by Exception' principle?",
         "options": {
-            "a": "The Project Brief is a high-level document created in SU, while the PID is a detailed document developed in IP based on the Project Brief.",
-            "b": "The Project Brief is an output of IP, and the PID is an output of SU.",
-            "c": "They are interchangeable terms for the same project documentation.",
-            "d": "The PID is a summary of the Project Brief for senior management."
-        },
-        "answer": "a",
-        "reasoning": "The Project Brief is the precursor to the more detailed PID."
-    },
-    {
-        "question": "Which PRINCE2 principle is heavily supported by the 'Capture previous lessons' activity in the 'Starting Up a Project' process?",
-        "options": {
-            "a": "Continued Business Justification.",
-            "b": "Manage by Exception.",
-            "c": "Learn from Experience.",
-            "d": "Focus on Products."
-        },
-        "answer": "c",
-        "reasoning": "This activity directly implements the 'Learn from Experience' principle at the very start of the project."
-    },
-    {
-        "question": "During the 'Initiating a Project' process, the Project Manager defines how the project will handle variations from baselined products and issues. This is documented in the 'Change Control Approach'. Which principle does this activity primarily support?",
-        "options": {
-            "a": "Manage by Stages.",
-            "b": "Defined Roles and Responsibilities.",
-            "c": "Tailor to Suit the Project Environment.",
-            "d": "Continued Business Justification."
-        },
-        "answer": "c",
-        "reasoning": "Defining the Change Control Approach is a form of tailoring the project's controls to its specific needs and environment."
-    },
-    {
-        "question": "When is the initial 'Stage Plan for the Initiation Stage' created in a PRINCE2 project?",
-        "options": {
-            "a": "During the 'Initiating a Project' process.",
-            "b": "During the 'Starting Up a Project' process.",
-            "c": "During the 'Directing a Project' process.",
-            "d": "During the 'Managing a Stage Boundary' process."
+            "a": "The Project Manager should absorb the deviation and adjust the project plan internally without reporting.",
+            "b": "The Project Manager must immediately escalate the situation to the Project Board via an Exception Report.",
+            "c": "The Project Manager should re-plan the entire project without Project Board approval.",
+            "d": "The Project Manager should seek advice from the Team Managers on how to proceed."
         },
         "answer": "b",
-        "reasoning": "The plan for the initiation stage is created during SU so the Project Board can approve the work needed to create the PID."
+        "reasoning": "According to the 'Manage by Exception' principle, if a Project Manager forecasts that the stage tolerances will be exceeded, they no longer have the authority to manage the stage and must escalate the situation to the Project Board. This escalation is typically done through an Exception Report."
     },
     {
-        "question": "Which of the following statements about the 'Daily Log' is TRUE?",
+        "question": "Why is focusing on products more effective than focusing solely on activities?",
         "options": {
-            "a": "It is a formal register for all project issues and risks.",
-            "b": "It is created during the 'Initiating a Project' process.",
-            "c": "It is used by the Project Manager to record informal issues, personal actions, and significant events not captured elsewhere.",
-            "d": "Its format and composition are strictly defined by PRINCE2."
+            "a": "Focusing on activities is quicker and requires less documentation.",
+            "b": "Products represent the scope of what will be delivered, ensuring common understanding and agreement on the outputs.",
+            "c": "Activities are easier to manage and track than products.",
+            "d": "Products can be easily changed without impacting the project's overall scope."
+        },
+        "answer": "b",
+        "reasoning": "The 'Focus on Products' principle is more effective because defining products first clarifies what the project will deliver (its scope). This product-based planning approach ensures common understanding among stakeholders regarding the tangible outputs and facilitates managing uncontrolled change."
+    },
+    {
+        "question": "How can 'Tailor to Suit the Project Environment' improve the efficiency of PRINCE2 application?",
+        "options": {
+            "a": "By always reducing the number of management products and roles to a bare minimum.",
+            "b": "By ensuring the level of control, planning, and documentation is appropriate for the project's specific needs, avoiding unnecessary overhead.",
+            "c": "By allowing the Project Manager to make all tailoring decisions without consultation.",
+            "d": "By substituting PRINCE2 principles with other project management methodologies."
+        },
+        "answer": "b",
+        "reasoning": "Tailoring PRINCE2 improves efficiency by adapting the method to the unique characteristics of each project, such as its size, complexity, and risk. This ensures that the right amount of project management is applied, avoiding burdensome processes or excessive documentation that would add unnecessary overhead."
+    },
+    {
+        "question": "Which principle emphasizes that there should always be a justifiable reason for starting and continuing a project?",
+        "options": {
+            "a": "Focus on Products",
+            "b": "Manage by Stages",
+            "c": "Continued Business Justification",
+            "d": "Learn from Experience"
         },
         "answer": "c",
-        "reasoning": "The Daily Log is an informal diary for the Project Manager. Formal issues and risks go in their respective registers."
+        "reasoning": "The 'Continued Business Justification' principle is fundamental to PRINCE2 and insists that a justifiable reason must exist for starting a project and must remain valid throughout its entire lifecycle. If the justification ceases to be valid, the project should be stopped."
+    },
+    {
+        "question": "What types of information are typically captured to support the 'Learn from Experience' principle?",
+        "options": {
+            "a": "Forecast financial expenditures and budget variances.",
+            "b": "Data on market trends and competitor analysis.",
+            "c": "Successes, failures, problems, and recommendations from current and previous projects.",
+            "d": "Detailed specifications and design documents for products."
+        },
+        "answer": "c",
+        "reasoning": "To support the 'Learn from Experience' principle, PRINCE2 projects capture information such as successes, failures, lessons, observations, issues, and recommendations from the current project and previous projects. This information is typically recorded in a Lessons Log and a Lessons Report."
+    },
+    {
+        "question": "How do defined roles and responsibilities ensure key decisions are made by the right people?",
+        "options": {
+            "a": "By centralizing all decision-making authority with the Project Manager.",
+            "b": "By clearly assigning decision-making authority and accountability to specific roles at each management level.",
+            "c": "By requiring all decisions to be put to a vote among the entire project team.",
+            "d": "By leaving decision-making flexible until issues arise, allowing for adaptive responses."
+        },
+        "answer": "b",
+        "reasoning": "The 'Defined Roles and Responsibilities' principle ensures that accountability and authority for decision-making are clearly assigned to specific roles at appropriate management levels (Directing, Managing, Delivering). This structured delegation ensures that critical decisions are made by those with the necessary authority and perspective."
+    },
+    {
+        "question": "What is the term for the allowable deviation from targets set by a higher management level?",
+        "options": {
+            "a": "Exception",
+            "b": "Tolerance",
+            "c": "Dis-benefit",
+            "d": "Issue"
+        },
+        "answer": "b",
+        "reasoning": "'Tolerances' are the permissible deviation above or below a plan's targets that can occur before the next management level needs to be notified. They are a key mechanism for implementing the 'Manage by Exception' principle."
     }
 ]

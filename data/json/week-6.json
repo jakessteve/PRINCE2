@@ -1,222 +1,275 @@
 [
     {
-        "question": "Which of the following best describes the fundamental philosophy behind PRINCE2's approach to plans?",
+        "question": "What is the primary purpose of the Quality theme in PRINCE2?",
         "options": {
-            "a": "Activity-based planning.",
-            "b": "Resource-driven planning.",
-            "c": "Product-based planning.",
-            "d": "Time-constrained planning."
+            "a": "To define the project's structure of accountability and responsibilities",
+            "b": "To ensure that the project's products meet business expectations and are fit for purpose",
+            "c": "To identify, assess, and control uncertainty that might affect the project's objectives",
+            "d": "To establish mechanisms to monitor and compare actual achievements against planned ones"
+        },
+        "answer": "b",
+        "reasoning": "The primary purpose of the Quality theme is 'to define and implement the means by which the project will create and verify products that are fit for purpose'."
+    },
+    {
+        "question": "Which of the following best distinguishes between 'Customer's Quality Expectations' and 'Acceptance Criteria'?",
+        "options": {
+            "a": "Customer's Quality Expectations are internal to the project team, while Acceptance Criteria are external.",
+            "b": "Customer's Quality Expectations are qualitative and broad, while Acceptance Criteria are specific, precise, and measurable.",
+            "c": "Customer's Quality Expectations are defined by the supplier, while Acceptance Criteria are defined by the customer.",
+            "d": "Customer's Quality Expectations relate to project management products, while Acceptance Criteria relate to specialist products."
+        },
+        "answer": "b",
+        "reasoning": "Customer's Quality Expectations are often 'expressed in broad terms as a means to gain common understanding of the general quality requirements'. These broad expectations are then used to 'identify more detailed acceptance criteria, which should be specific and precise'."
+    },
+    {
+        "question": "What is the 'Project Product Description' and what is its purpose?",
+        "options": {
+            "a": "It describes the detailed technical specifications for each individual product to be delivered by the project.",
+            "b": "It defines the overall high-level product that the project will deliver, including the customer’s quality expectations and acceptance criteria, to confirm the project's scope.",
+            "c": "It is a log used to record details of all quality-checking activities throughout the project.",
+            "d": "It outlines how quality planning, control, and assurance will be carried out within the project."
+        },
+        "answer": "b",
+        "reasoning": "The Project Product Description 'defines what the project will need to deliver in order for it to be acceptable to the users' and serves 'to gain agreement from the user on the project’s scope and requirements'. It is created by the project manager with the help of senior users and the executive, outlining 'the customer’s quality expectations and the acceptance criteria' for the main product or products."
+    },
+    {
+        "question": "What are 'Product Descriptions' and what is their purpose?",
+        "options": {
+            "a": "They define the overall scope and purpose of the entire project, including its justification.",
+            "b": "They are high-level outlines used for initial project feasibility studies, without much detail.",
+            "c": "They are detailed descriptions of each individual specialist product to be produced, specifying its quality criteria and how it will be verified.",
+            "d": "They document the sequence of activities required to produce all the project's products."
         },
         "answer": "c",
-        "reasoning": "PRINCE2's planning is product-based, focusing on what needs to be created before how it will be created."
+        "reasoning": "Product Descriptions are written for each product identified in the product breakdown structure. They 'describe the measurable characteristics of the product, known as quality criteria, which can be used to confirm that the right product has been delivered'. They also specify 'any techniques or approaches that will be used to ensure that a product complies with its quality criteria and who is responsible for reviewing and approving that product'."
     },
     {
-        "question": "Which of the following is NOT one of the seven steps in PRINCE2's recommended approach to planning?",
+        "question": "What is the 'Quality Register' and what is its purpose?",
         "options": {
-            "a": "Designing a plan.",
-            "b": "Reviewing lessons learned.",
-            "c": "Preparing the schedule.",
-            "d": "Documenting the plan."
-        },
-        "answer": "b",
-        "reasoning": "While learning from experience is a principle, 'Reviewing lessons learned' is not one of the seven formal steps of the planning approach itself. Lessons are an input to the first step, 'Design the plan'."
-    },
-    {
-        "question": "What is the first task in PRINCE2's recommended approach to defining and analyzing products?",
-        "options": {
-            "a": "Creating the product breakdown structure.",
-            "b": "Writing product descriptions.",
-            "c": "Creating the product flow diagram.",
-            "d": "Writing a project product description."
-        },
-        "answer": "d",
-        "reasoning": "The process starts with understanding the final product of the project by writing the Project Product Description."
-    },
-    {
-        "question": "What does a 'Product Breakdown Structure' primarily illustrate in PRINCE2?",
-        "options": {
-            "a": "The sequence in which products will be delivered.",
-            "b": "The hierarchy of all the products required for a plan.",
-            "c": "A list of activities required to create products.",
-            "d": "The resources required to deliver the products."
-        },
-        "answer": "b",
-        "reasoning": "A PBS shows a hierarchical decomposition of all the products to be produced."
-    },
-    {
-        "question": "What is the main purpose of a 'Product Flow Diagram' in PRINCE2?",
-        "options": {
-            "a": "To show the hierarchical structure of products.",
-            "b": "To illustrate the sequence and dependencies of product creation.",
-            "c": "To detail the quality criteria for each product.",
-            "d": "To list all identified risks for product delivery."
-        },
-        "answer": "b",
-        "reasoning": "A PFD shows the flow of product creation and the dependencies between them."
-    },
-    {
-        "question": "Which of the following statements is true regarding 'Management Stages' and 'Delivery Steps' in PRINCE2?",
-        "options": {
-            "a": "Management stages can overlap, but delivery steps cannot.",
-            "b": "Delivery steps and management stages always end at the same time.",
-            "c": "A delivery step can run over multiple management stages.",
-            "d": "A management stage can have only one delivery step running within it."
+            "a": "It is a document that records the project's quality policy and standards.",
+            "b": "It is a summary of all quality-related lessons learned during the project.",
+            "c": "It is a dynamic log that records and tracks all planned and completed quality management activities, including their results.",
+            "d": "It defines the means and frequency of communication to all project stakeholders."
         },
         "answer": "c",
-        "reasoning": "A delivery step (technical phase) can span multiple management stages, which are points of control for the Project Board."
+        "reasoning": "The Quality Register's purpose 'is to capture and maintain information on all quality management activities'. It 'records information on the quality activities that take place during the project' including 'when the check took place, who was involved in the check, whether the check passed or failed, and references to any quality records that may have been collated as evidence of the check'."
     },
     {
-        "question": "In PRINCE2, what defines an 'External Product'?",
+        "question": "Who is primarily responsible for defining the Project Product Description?",
         "options": {
-            "a": "A product created by an external supplier and therefore outside the project's control.",
-            "b": "A product that already exists or is being created or updated outside the scope of the plan, but is required as an input to the plan.",
-            "c": "Any product that is delivered to external stakeholders.",
-            "d": "A product that is not part of the project's specialist outputs."
-        },
-        "answer": "b",
-        "reasoning": "An external product is something the plan depends on but does not create."
-    },
-    {
-        "question": "Which of the following is a key factor to consider when structuring a project into management stages in PRINCE2?",
-        "options": {
-            "a": "The number of team managers involved in the project.",
-            "b": "The type of specialist products being created.",
-            "c": "The overall level of risk in the project.",
-            "d": "The preferred project management software."
+            "a": "The Project Board",
+            "b": "The Senior User",
+            "c": "The Project Manager",
+            "d": "Project Assurance"
         },
         "answer": "c",
-        "reasoning": "High-risk portions of a project may warrant shorter management stages for tighter control."
+        "reasoning": "The Project Product Description is created by 'the project manager, with the help of the senior users and the executive'. While Senior Users provide the customer quality expectations and acceptance criteria, the Project Manager is the one who drafts and defines the Project Product Description document itself."
     },
     {
-        "question": "Who ultimately approves the definition of management stages for a PRINCE2 project?",
+        "question": "What is the relationship between the Project Product Description and Product Descriptions?",
         "options": {
-            "a": "The Project Manager.",
-            "b": "The Project Board.",
-            "c": "The Executive.",
-            "d": "Corporate, Programme Management, or the Customer."
+            "a": "The Project Product Description is derived from individual Product Descriptions.",
+            "b": "Product Descriptions define sub-components or specialist products that collectively form the Project Product, which is defined by the Project Product Description.",
+            "c": "They are two interchangeable terms for the same management product.",
+            "d": "The Project Product Description is part of a Product Description, defining its overall quality."
         },
         "answer": "b",
-        "reasoning": "The Project Board is responsible for approving the overall Project Plan, which includes the definition of management stages."
+        "reasoning": "The Project Product Description describes the single overall product that the project will deliver. From this, a 'product breakdown structure' is created, which breaks down the major product into its component products. Then, individual Product Descriptions are created for 'each product' identified in this breakdown. So, Product Descriptions elaborate on the specific qualities and details of components that contribute to the overall Project Product defined by the Project Product Description."
     },
     {
-        "question": "Which problem does PRINCE2's 'Manage by Stages' principle primarily help to address?",
+        "question": "What is Quality Management in PRINCE2?",
         "options": {
-            "a": "The challenge of managing daily operational tasks within a project.",
-            "b": "The difficulty of planning accurately far into the future due to uncertainty, known as the planning horizon problem.",
-            "c": "The issue of securing adequate funding for the entire project upfront.",
-            "d": "The need for constant re-planning due to daily issues and changes."
+            "a": "It is solely about inspecting completed products to ensure they meet specifications.",
+            "b": "It is the overall process of planning, controlling, and assuring that products meet requirements and are fit for purpose.",
+            "c": "It is only concerned with managing the quality of project management documents, not specialist products.",
+            "d": "It is the responsibility of an independent quality assurance team, not the project team."
         },
         "answer": "b",
-        "reasoning": "Managing by stages allows for detailed planning of the near future (the current stage) and high-level planning for the distant future, overcoming the planning horizon problem."
+        "reasoning": "Quality management 'is the means by which the project will create and verify products that are fit for purpose'. It involves setting up and implementing a 'system for controlling quality throughout the project'. The Quality Management Approach ensures agreements on quality expectations are captured and maintained, covering quality planning, quality control, and quality assurance."
     },
     {
-        "question": "Which of the following information is typically included in a 'Product Description' in PRINCE2?",
+        "question": "What is the difference between 'Quality Assurance' and 'Project Assurance'?",
         "options": {
-            "a": "The list of all identified risks for the product.",
-            "b": "The product's measurable quality criteria.",
-            "c": "The detailed schedule for creating the product.",
-            "d": "The budget allocated for the product's development."
+            "a": "Quality Assurance is an internal project team role, while Project Assurance is external.",
+            "b": "Quality Assurance checks products will be fit for purpose, while Project Assurance confirms that standards and processes are being applied correctly for the project.",
+            "c": "Quality Assurance focuses on the project's business justification, while Project Assurance focuses on technical integrity.",
+            "d": "Quality Assurance is optional, while Project Assurance is mandatory in PRINCE2."
         },
         "answer": "b",
-        "reasoning": "Measurable quality criteria are a key component of a Product Description, defining what makes the product acceptable."
+        "reasoning": "Quality Assurance is an 'independent (of the project team) check that products will be fit for purpose or meet requirements'. Project Assurance, on the other hand, is the Project Board's responsibility to 'monitor and review the project’s performance and products, checking that it is being managed correctly'. Project Assurance checks that 'the quality management approach is correctly applied and provides advice and guidance to the project manager'."
     },
     {
-        "question": "Which of the following statements is TRUE regarding the relationship between 'Delivery Steps' and 'Management Stages' in PRINCE2?",
+        "question": "How does the Quality theme implement the 'Focus on Products' principle?",
         "options": {
-            "a": "Delivery steps are always contained within a single management stage.",
-            "b": "Management stages are typically driven by a common set of specialist skills.",
-            "c": "A delivery step can extend across multiple management stages.",
-            "d": "Management stages and delivery steps are synonymous terms."
+            "a": "By ensuring that project activities are prioritized over product deliverables.",
+            "b": "By requiring the creation of measurable quality criteria in Product Descriptions, ensuring clarity on what needs to be delivered.",
+            "c": "By focusing primarily on the project's overall budget and timescale performance.",
+            "d": "By emphasizing the iterative development of products without strict upfront definitions."
+        },
+        "answer": "b",
+        "reasoning": "The 'Focus on Products' principle emphasizes defining the project's outputs clearly. The Quality theme supports this by requiring that 'quality criteria are specified in product descriptions'. These 'quality criteria specify the measurable attributes that will make a product fit for its purpose'. This ensures 'clarity and agreement on the outputs from the project', making it easier to confirm that the 'right output is or has been created'."
+    },
+    {
+        "question": "What are 'proxy measures of quality' and when are they used?",
+        "options": {
+            "a": "They are subjective assessments of product quality provided by end-users.",
+            "b": "They are temporary quality standards applied during agile development.",
+            "c": "They are indirect but reliable indicators used to gain confidence that benefits or quality expectations will be met, especially when direct measurement is difficult or post-project.",
+            "d": "They are measures of quality used only for project management products, not specialist products."
         },
         "answer": "c",
-        "reasoning": "Delivery steps relate to the technical work, which can span multiple management control points (stages)."
+        "reasoning": "'In considering acceptance criteria, it can be useful to select proxy measures that will be accurate and reliable indicators of whether benefits will subsequently be achieved'. For example, for a water pump that is expected to 'last a lifetime,' acceptance criteria could include 'complying with certain engineering standards relating to product durability' or showing 'accelerated life test data as proxy for the ‘lasts a lifetime’ criterion'. This is done when direct measurement is not immediately possible or would occur post-project."
     },
     {
-        "question": "Which of the following is a minimum requirement for applying the 'Plans Theme' in PRINCE2?",
+        "question": "What is a minimum requirement for applying the Quality theme in a PRINCE2 project?",
         "options": {
-            "a": "To use a Gantt chart format for all project plans.",
-            "b": "To create a Product Breakdown Structure for every management stage.",
-            "c": "To ensure the project has at least two management stages.",
-            "d": "To define all activities down to the lowest level of detail at the start of the project."
-        },
-        "answer": "c",
-        "reasoning": "A PRINCE2 project must have at least two management stages: the initiation stage and at least one delivery stage."
-    },
-    {
-        "question": "After 'Identifying Activities and Dependencies', what is the next step in PRINCE2's recommended approach to planning?",
-        "options": {
-            "a": "Designing a plan.",
-            "b": "Preparing estimates.",
-            "c": "Defining and analyzing the products.",
-            "d": "Analyzing risks to a plan."
+            "a": "To use the Quality Review Technique for all product inspections.",
+            "b": "To create a Quality Management Approach defining how quality will be managed, and maintain records of quality activities in a Quality Register.",
+            "c": "To employ both in-process and appraisal quality methods for every product.",
+            "d": "To define the project's approach to communicating and engaging with stakeholders."
         },
         "answer": "b",
-        "reasoning": "Once activities are known, the next step is to estimate the effort, time, and resources required for them."
+        "reasoning": "PRINCE2 has 'minimum requirements that must be followed in order for a project team to claim they are following PRINCE2’s quality theme'. These include: 'First, the customer’s quality expectations and acceptance criteria should be documented and agreed'. 'Second, a quality management approach that defines how quality planning, quality control, and quality assurance are to be carried out'. 'Third, the project management team needs to keep records of any quality activities that have been carried out... and summarize these activities in some sort of quality register'."
     },
     {
-        "question": "A PRINCE2 plan can take various formats. Which of the following is a recognized format?",
+        "question": "Which of the following statements correctly describes a role within the 'Quality Review Technique'?",
         "options": {
-            "a": "Oral report.",
-            "b": "Spreadsheet.",
-            "c": "Daily Log entry.",
-            "d": "Issue report."
-        },
-        "answer": "b",
-        "reasoning": "A plan can be a standalone document, a spreadsheet, or data within a project management tool."
-    },
-    {
-        "question": "In the context of PRINCE2's product-based planning, which of the following is considered a 'product' rather than an 'activity'?",
-        "options": {
-            "a": "Choosing the potential suppliers.",
-            "b": "Review tender responses.",
-            "c": "Selected design.",
-            "d": "Preparing estimates."
+            "a": "The Chair is responsible for correcting errors found during the review.",
+            "b": "The Presenter manages the administrative arrangements for the review.",
+            "c": "The Reviewer checks the product against the quality criteria and submits a question list.",
+            "d": "The Administrator leads the review team to a collective decision on the product."
         },
         "answer": "c",
-        "reasoning": "'Selected design' is a noun, representing a tangible or intangible output, making it a product."
+        "reasoning": "In the Quality Review Technique, the 'Reviewers' are responsible for 'Review the product in line with the quality criteria in the associated product description' and 'Submit a question list to the chair and presenter ahead of the review'."
     },
     {
-        "question": "How does the 'Manage by Stages' principle assist in overcoming the 'planning horizon' problem in PRINCE2?",
+        "question": "What is the primary difference between 'in-process' and 'appraisal' quality methods?",
         "options": {
-            "a": "By allowing detailed planning for the entire project at its outset.",
-            "b": "By focusing on product delivery instead of activities.",
-            "c": "By enabling detailed planning for the current stage, with high-level planning for future stages.",
-            "d": "By continuously updating the Project Plan throughout the project's life."
-        },
-        "answer": "c",
-        "reasoning": "This approach breaks down the planning effort, allowing for detailed, accurate planning for the immediate stage while maintaining a high-level view of the more distant future."
-    },
-    {
-        "question": "Which of the following would typically be found in the 'Schedule' section of a PRINCE2 plan?",
-        "options": {
-            "a": "Risks identified for the plan.",
-            "b": "The amount of money budgeted for the plan's work.",
-            "c": "The sequence of activities and assigned resources.",
-            "d": "Any assumptions made during planning."
-        },
-        "answer": "c",
-        "reasoning": "The schedule section contains the Gantt chart or similar, showing the sequence of activities and their dependencies."
-    },
-    {
-        "question": "When structuring management stages for a project that is part of a wider programme, what is a key consideration?",
-        "options": {
-            "a": "Ensuring each stage lasts for a fixed duration, regardless of work content.",
-            "b": "Aligning project stage ends with key decision points or milestones in the programme.",
-            "c": "Maximizing the number of stages to increase control.",
-            "d": "Minimizing stakeholder involvement in stage boundary reviews."
+            "a": "In-process methods are applied by independent auditors, while appraisal methods are by the project team.",
+            "b": "In-process methods are applied during product development, while appraisal methods are applied after product completion.",
+            "c": "In-process methods focus on external standards, while appraisal methods focus on internal procedures.",
+            "d": "In-process methods are informal, while appraisal methods are formal."
         },
         "answer": "b",
-        "reasoning": "Aligning stage ends with programme milestones ensures that the project's progress reporting fits into the wider programme's control framework."
+        "reasoning": "There are 'two primary types of quality methods: in-process methods and appraisal methods'. In-process methods involve 'a continual check that the products being created are heading in the right direction' during the building of products. Appraisal methods involve checking 'that the right thing has been created' after the product has been completed, by comparing it 'with the measurable specification in the product’s product description'."
     },
     {
-        "question": "When are 'quality criteria' typically specified for a product within PRINCE2's planning process?",
+        "question": "How does the Quality theme relate to the 'Focus on Products' principle?",
         "options": {
-            "a": "In the Project Product Description at the start of the project.",
-            "b": "In the Product Description for each product during the 'defining and analyzing products' step.",
-            "c": "In the Quality Register when quality checks are performed.",
-            "d": "In the Work Package when delegating work to a team."
+            "a": "It ensures that the project team is aware of all project activities before they begin.",
+            "b": "It ensures that the justification for the project is continuously reviewed throughout its lifecycle.",
+            "c": "It mandates that products are clearly defined and that their quality criteria are specified and agreed upon.",
+            "d": "It promotes delegating authority to the lowest possible level within the project team."
+        },
+        "answer": "c",
+        "reasoning": "The 'Focus on Products' principle emphasizes defining the project's outputs clearly. The Quality theme supports this by requiring that 'quality criteria are specified in product descriptions'. These 'quality criteria specify the measurable attributes that will make a product fit for its purpose'. This ensures 'clarity and agreement on the outputs from the project', making it easier to confirm that the 'right output is or has been created'."
+    },
+    {
+        "question": "What information is typically contained within the 'Quality Management Approach'?",
+        "options": {
+            "a": "Detailed financial budgets and resource allocation for the project.",
+            "b": "The customer's quality expectations and the project's overall acceptance criteria.",
+            "c": "Procedures, responsibilities, tools and techniques, timing, records, and reporting for all quality management activities.",
+            "d": "A list of all identified risks and issues related to product quality."
+        },
+        "answer": "c",
+        "reasoning": "The Quality Management Approach describes 'how quality on the project should be managed'. PRINCE2 recommends that each approach contains at least 'procedure, timings, roles and responsibilities, tools and techniques, reporting, and records'. These sections define 'how quality planning, quality control, and quality assurance are to be carried out during the project'."
+    },
+    {
+        "question": "When is the Quality Management Approach typically created?",
+        "options": {
+            "a": "During the Starting Up a Project process.",
+            "b": "During the Initiating a Project process.",
+            "c": "Continuously throughout the Controlling a Stage process.",
+            "d": "At the end of the project, during the Closing a Project process."
         },
         "answer": "b",
-        "reasoning": "The quality criteria for a specific product are a key part of its Product Description."
+        "reasoning": "The Quality Management Approach is one of the products that 'should be created during the initiating a project process'. The project manager creates it in the 'prepare the quality management approach' activity of the initiating a project process."
+    },
+    {
+        "question": "How can quality criteria be tested or proven?",
+        "options": {
+            "a": "By relying solely on the personal judgment of the Senior User.",
+            "b": "By conducting user surveys and collecting anecdotal feedback.",
+            "c": "By defining acceptance methods that prove whether and when the product has been completed and is acceptable to the customer, potentially through inspections, tests, or reviews.",
+            "d": "By comparing the product's actual cost against its planned budget."
+        },
+        "answer": "c",
+        "reasoning": "'Identifying the acceptance methods is crucial because they address the question: How do we prove whether and when the project product has been completed and is it acceptable to the customer?'. These methods are specified in the 'Quality method' section of the product description, and can include 'design verification, pilot, test, inspection or review'."
+    },
+    {
+        "question": "What are quality tolerances, and where can they be specified?",
+        "options": {
+            "a": "They define the acceptable range of values for quality criteria, and are specified within Product Descriptions.",
+            "b": "They are permissible deviations for time and cost only, defined in Stage Plans.",
+            "c": "They are general quality guidelines, specified in the Quality Management Approach.",
+            "d": "They represent the overall acceptable level of defects for the entire project, specified in the Project Product Description."
+        },
+        "answer": "a",
+        "reasoning": "Quality tolerances define 'an acceptable range of values' for quality criteria. They are specified in the 'Quality tolerance' section of 'quality criteria specified in product descriptions'. They can be 'defined per product description within the scope of the plan'."
+    },
+    {
+        "question": "If a detailed requirements specification for a product is already available, can it be used as a substitute for the Product Description, provided it covers the necessary components and quality criteria?",
+        "options": {
+            "a": "True.",
+            "b": "False."
+        },
+        "answer": "a",
+        "reasoning": "PRINCE2 acknowledges that 'the organization’s lifecycle model may have a preset product breakdown structure and product flow diagram for common types of projects and a library of product description outlines for common products'. In such cases, the steps in the PRINCE2 approach to product-based planning 'should not be skipped but used to verify the completeness of any library material.' This implies that an existing detailed specification can be utilized, provided it fulfills the content and quality criteria requirements of a Product Description, with verification and adaptation as needed."
+    },
+    {
+        "question": "What is the role of Project Assurance in relation to the Quality theme?",
+        "options": {
+            "a": "To take executive decisions on quality issues and authorize concessions.",
+            "b": "To provide administrative support, such as maintaining the Quality Register.",
+            "c": "To monitor and check that the Quality Management Approach is correctly applied and provide advice to the Project Manager.",
+            "d": "To produce the Project Product Description and define all quality criteria."
+        },
+        "answer": "c",
+        "reasoning": "Project Assurance consults with the Project Manager 'to check that the proposed quality management approach meets the needs of the project board and/or corporate, programme management or the customer'. Project Assurance also 'monitors and ensures that the quality management approach is correctly applied and provides advice and guidance to the project manager'."
+    },
+    {
+        "question": "How might the Quality theme be tailored when using an agile approach, especially regarding Product Descriptions and quality checking frequency?",
+        "options": {
+            "a": "Product Descriptions become more rigid and detailed upfront, and quality checks are less frequent.",
+            "b": "Product Descriptions may be written as epics or user stories and develop iteratively, with a higher frequency of quality checking.",
+            "c": "Quality expectations are omitted, and acceptance criteria are left undefined until project closure.",
+            "d": "The Quality Register is replaced by an informal daily log for all quality activities."
+        },
+        "answer": "b",
+        "reasoning": "When an agile approach is used, the 'project product description may be written in the form of an epic or a user story, with associated acceptance criteria. As such they can develop iteratively as the project proceeds'. Agile approaches involve 'a much higher frequency of quality checking' for example, by 'demonstrating the new release' to customers for feedback."
+    },
+    {
+        "question": "What typically needs to be agreed upon at the beginning of the project regarding quality?",
+        "options": {
+            "a": "The specific quality methods to be used for every product throughout the project.",
+            "b": "The detailed quality criteria for all products, even those not yet fully understood.",
+            "c": "The customer’s quality expectations, the standards to be used, and the means of assessing achievement of those expectations.",
+            "d": "The final acceptance of the project's product by the customer."
+        },
+        "answer": "c",
+        "reasoning": "A key success factor is that the project 'delivers what the user expects and finds acceptable. This will only happen if these expectations are both stated and agreed at the beginning of the project, together with the standards to be used and the means of assessing their achievement'. These are articulated in the customer's quality expectations, acceptance criteria, and the quality management approach."
+    },
+    {
+        "question": "Which of the following is a relevant question to ask when considering quality criteria for a product?",
+        "options": {
+            "a": "What is the target market for the product?",
+            "b": "How many team members are available to produce this product?",
+            "c": "What is the estimated cost of the project?",
+            "d": "Who will be the Project Manager for this product?"
+        },
+        "answer": "a",
+        "reasoning": "When considering quality criteria, relevant questions include 'What is the target market for the camera? Does this also imply that the manual needs to be written in several languages? Will that mean it gets heavier? Or will a downloadable online manual suffice?'. These questions highlight connections and factors that 'inform the subsequent planning process'."
+    },
+    {
+        "question": "What is the relationship between the Quality Register and Quality Records?",
+        "options": {
+            "a": "The Quality Register contains the actual Quality Records.",
+            "b": "The Quality Register is a summary of planned and completed quality activities, while Quality Records are the detailed evidence or results of individual quality activities, to which the Register may point.",
+            "c": "They are two separate, unrelated documents.",
+            "d": "Quality Records are formal documents, while the Quality Register is for informal notes."
+        },
+        "answer": "b",
+        "reasoning": "The Quality Register is used to 'record details of all quality activities' and to 'summarize these activities'. It is a 'diary of all quality-checking activities'. Quality Records 'support entries in the quality register by providing the project manager and the project board with assurance that... products have met their associated quality criteria'. The register provides a high-level overview and a pointer to the detailed records."
     }
 ]

@@ -1,222 +1,277 @@
 [
     {
-        "question": "What is the primary purpose of the Daily Log in PRINCE2?",
+        "question": "What is the primary purpose of the 'Starting Up a Project' (SU) process?",
         "options": {
-            "a": "To provide a record of formal issues and risks for escalation to the Project Board.",
-            "b": "To summarize the status of work packages for the Project Manager.",
-            "c": "To record informal issues, events, and personal actions that are not captured by other registers or logs.",
-            "d": "To detail lessons learned for future projects."
+            "a": "To establish a solid foundation for the project by creating detailed plans.",
+            "b": "To provide management direction and control throughout the project.",
+            "c": "To ensure that time and resources are not wasted on projects that are not viable or well-conceived.",
+            "d": "To deliver the project's specialist products."
         },
         "answer": "c",
-        "reasoning": "The Daily Log acts as the Project Manager's diary for informal matters not captured in formal registers."
+        "reasoning": "To ensure that time and resources are not wasted on projects that are not viable or well-conceived. This is the correct answer. The primary purpose of the Starting Up a Project (SU) process is to act as a crucial filter to prevent the organization from wasting money and effort initiating projects that are not viable or well-conceived. It evaluates the project idea to decide whether it is worthwhile and viable, recommending against proceeding if it is not."
     },
     {
-        "question": "Which management product is used to collate experience that may be useful for input into the project’s strategies and plans?",
+        "question": "What is the main output of the 'Starting Up a Project' (SU) process?",
         "options": {
-            "a": "Daily Log",
-            "b": "Lessons Log",
-            "c": "Lessons Report",
-            "d": "Quality Register"
+            "a": "The Project Initiation Documentation (PID)",
+            "b": "The Project Brief",
+            "c": "The End Project Report",
+            "d": "The Stage Plan for the initiation stage"
         },
         "answer": "b",
-        "reasoning": "The Lessons Log is a running log used to capture and track lessons as they are identified throughout the project."
+        "reasoning": "The Project Brief. This is the correct answer. The main output of the Starting Up a Project (SU) process is the Project Brief. The Project Brief provides an agreed, commonly understood, and well-defined start point for the project."
     },
     {
-        "question": "What is the primary purpose of the Lessons Report?",
+        "question": "What is the key decision made by the Project Board in the 'Directing a Project' (DP) process to authorize the initiation stage?",
         "options": {
-            "a": "To summarize the overall performance of a project at its closure.",
-            "b": "To provide a high-level overview of the benefits realization plan.",
-            "c": "To pass on useful experience to those responsible for quality improvement within an organization or for managing future projects.",
-            "d": "To document deviations from the plan that require Project Board attention."
+            "a": "Authorize the Project",
+            "b": "Authorize the Next Stage",
+            "c": "Authorize Initiation",
+            "d": "Authorize Project Closure"
         },
         "answer": "c",
-        "reasoning": "A Lessons Report is a formal document created to pass on lessons that can be applied to other projects or to corporate standards."
+        "reasoning": "Authorize Initiation. This is the correct answer. The Project Board's key decision to proceed with the project's foundational work (the initiation stage) is called 'Authorize Initiation'. This decision is made after the 'Starting Up a Project' process is completed."
     },
     {
-        "question": "Which management product is a set of information about one or more required products, collated by the Project Manager to formally pass responsibility for work or delivery to a Team Manager or team member?",
+        "question": "Why is the 'Starting Up a Project' (SU) process considered a 'lighter process' compared to 'Initiating a Project' (IP)?",
         "options": {
-            "a": "Stage Plan",
-            "b": "Project Product Description",
-            "c": "Work Package",
-            "d": "Product Description"
+            "a": "Because SU focuses on day-to-day management, which is less complex.",
+            "b": "Because SU involves less detailed planning and aims to do the minimum necessary to decide whether to initiate.",
+            "c": "Because SU primarily deals with post-project activities, which are less intense.",
+            "d": "Because SU is only for very small and simple projects."
         },
-        "answer": "c",
-        "reasoning": "This is the definition of a Work Package, which is used to delegate work."
+        "answer": "b",
+        "reasoning": "Because SU involves less detailed planning and aims to do the minimum necessary to decide whether to initiate. This is the correct answer. The 'Starting Up a Project' process is designed to be a 'lighter' process compared to 'Initiating a Project' by focusing on gathering just enough information to decide whether to initiate the project, without delving into excessive detail or precision at this early stage."
     },
     {
-        "question": "A Checkpoint Report is typically derived from which of the following? 1. Work package 2. Team plan and actuals 3. Previous checkpoint report 4. Stage plan",
+        "question": "Which of the following statements accurately describes an objective of the 'Directing a Project' (DP) process?",
         "options": {
-            "a": "1, 2, and 3",
-            "b": "1, 2, and 4",
-            "c": "1, 3, and 4",
-            "d": "2, 3, and 4"
+            "a": "To ensure that the project remains viable and desirable throughout its life.",
+            "b": "To create detailed plans for the delivery stages of the project.",
+            "c": "To track the progress of work packages and manage team-level issues.",
+            "d": "To prepare for the formal closure of the project."
         },
         "answer": "a",
-        "reasoning": "A Checkpoint Report is based on the current work package, the team's progress against their plan, and may reference the previous report."
+        "reasoning": "To ensure that the project remains viable and desirable throughout its life. This is the correct answer. A key objective of the 'Directing a Project' process is for the Project Board to ensure that the project remains focused on corporate objectives and remains justified in accordance with its business case, thus ensuring its continued viability."
     },
     {
-        "question": "Who is the primary recipient of a Highlight Report?",
-        "options": {
-            "a": "The Team Manager",
-            "b": "The Project Board",
-            "c": "The Project Assurance",
-            "d": "Corporate, Programme Management, or the Customer (unless specified otherwise)"
-        },
-        "answer": "b",
-        "reasoning": "The Highlight Report is the Project Manager's regular progress report to the Project Board."
-    },
-    {
-        "question": "What is the primary purpose of the End Stage Report?",
-        "options": {
-            "a": "To summarize the overall project performance at its conclusion.",
-            "b": "To enable the Project Board to evaluate the performance of a management stage.",
-            "c": "To inform the Project Manager about work package progress.",
-            "d": "To provide a forecast for the project's continued viability beyond the current stage."
-        },
-        "answer": "b",
-        "reasoning": "The End Stage Report summarizes performance of the current stage to allow the Project Board to authorize the next one."
-    },
-    {
-        "question": "Who is responsible for creating the End Project Report?",
-        "options": {
-            "a": "The Project Board",
-            "b": "The Project Manager",
-            "c": "Corporate, Programme Management, or the Customer",
-            "d": "The Senior User"
-        },
-        "answer": "b",
-        "reasoning": "The Project Manager creates the End Project Report for the Project Board."
-    },
-    {
-        "question": "When does a Project Manager typically produce an Exception Report?",
-        "options": {
-            "a": "When the project is formally closed at its completion.",
-            "b": "When a Work Package is forecast to exceed its tolerances.",
-            "c": "When a management stage is forecast to exceed its tolerances.",
-            "d": "At predefined periodic intervals to report on stage progress."
-        },
-        "answer": "c",
-        "reasoning": "An Exception Report is created when a STAGE or PROJECT is forecast to exceed tolerance. A Work Package exception is raised as an issue first."
-    },
-    {
-        "question": "Which of the following statements about the Daily Log is TRUE?",
-        "options": {
-            "a": "It is used for all issues and risks, formal or informal.",
-            "b": "Issues recorded in the Daily Log are typically transferred to the Issue Register when they become formal or need formal action.",
-            "c": "It is typically submitted to the Project Board on a weekly basis.",
-            "d": "It replaces the need for a separate Issue Register and Risk Register on small projects."
-        },
-        "answer": "b",
-        "reasoning": "Informal issues in the Daily Log can be formalized by transferring them to the Issue Register."
-    },
-    {
-        "question": "Which of the following is *NOT* typically included in a Work Package?",
-        "options": {
-            "a": "Reporting arrangements",
-            "b": "Project-level tolerances",
-            "c": "Product Descriptions for the products to be delivered",
-            "d": "Problem handling and escalation arrangements"
-        },
-        "answer": "b",
-        "reasoning": "A Work Package contains work package tolerances, not project-level tolerances."
-    },
-    {
-        "question": "Who is responsible for producing the Checkpoint Report?",
+        "question": "Who is primarily responsible for the 'Directing a Project' (DP) process?",
         "options": {
             "a": "The Project Manager",
-            "b": "The Team Manager or Team Member",
+            "b": "The Team Manager",
             "c": "The Project Board",
-            "d": "Project Assurance"
-        },
-        "answer": "b",
-        "reasoning": "The Team Manager provides progress updates to the Project Manager via Checkpoint Reports."
-    },
-    {
-        "question": "Which of the following information is typically included in a Highlight Report? 1. Work packages in execution 2. Project and management stage tolerance status 3. Detailed cost breakdowns of individual activities 4. Key issues and risks",
-        "options": {
-            "a": "1, 2, and 3",
-            "b": "1, 2, and 4",
-            "c": "1, 3, and 4",
-            "d": "2, 3, and 4"
-        },
-        "answer": "b",
-        "reasoning": "A Highlight report is a summary for the board; it includes tolerance status, key issues/risks, and what work packages are in progress, but not detailed cost breakdowns."
-    },
-    {
-        "question": "Which management product does the Project Manager use to report to the Project Board at the end of a management stage?",
-        "options": {
-            "a": "Highlight Report",
-            "b": "Exception Report",
-            "c": "End Stage Report",
-            "d": "Checkpoint Report"
+            "d": "Corporate, Programme Management, or the Customer"
         },
         "answer": "c",
-        "reasoning": "The End Stage Report is the formal report at the end of a stage."
+        "reasoning": "The Project Board. This is the correct answer. The 'Directing a Project' process is executed by the Project Board, who are responsible for making key decisions and exercising overall control and accountability for the project's success."
     },
     {
-        "question": "Identify the missing word(s) in the following sentence: The Project Manager will create an Exception Report to notify the Project Board of a stage-level or project-level exception and to outline ____ to respond to the situation.",
+        "question": "What information does the Project Board primarily use to make decisions during the 'Directing a Project' (DP) process?",
         "options": {
-            "a": "an Exception Plan",
-            "b": "recommended options",
-            "c": "corrective actions taken",
-            "d": "the root cause of the deviation"
+            "a": "Daily Logs and Checkpoint Reports",
+            "b": "Highlight Reports, End Stage Reports, and Exception Reports",
+            "c": "Product Descriptions and Quality Registers",
+            "d": "Benefits Management Approach and Risk Registers"
         },
         "answer": "b",
-        "reasoning": "The Exception Report outlines the situation and provides recommended options for the Project Board to consider."
+        "reasoning": "Highlight Reports, End Stage Reports, and Exception Reports. This is the correct answer. The Project Board relies on these key reports for decision-making. Highlight Reports provide regular progress updates. End Stage Reports inform decisions on authorizing the next stage at stage boundaries. Exception Reports are used when tolerances are forecast to be exceeded, prompting the Project Board to make a decision on how to proceed."
     },
     {
-        "question": "Which of the following is a minimum requirement for applying the Progress Theme in PRINCE2?",
+        "question": "True or False: The Project Board's decisions in the 'Directing a Project' (DP) process are limited to authorizing the project or stage.",
         "options": {
-            "a": "The use of a specific project management software tool.",
-            "b": "All project progress reporting must be time-driven.",
-            "c": "Tolerances must be set and monitored for at least time and cost.",
-            "d": "Weekly review meetings must be held with the Project Board."
+            "a": "True, their authority is strictly limited to these two key decisions.",
+            "b": "False, they can also approve or reject requests for change, grant concessions, and instruct premature project closure.",
+            "c": "True, any other decisions are delegated to the Project Manager.",
+            "d": "False, they also manage day-to-day work packages."
         },
-        "answer": "c",
-        "reasoning": "Setting and monitoring tolerances for time and cost is a minimum requirement for progress control."
+        "answer": "b",
+        "reasoning": "False, they can also approve or reject requests for change, grant concessions, and instruct premature project closure. This is the correct answer. In addition to authorizing initiation, stages, or the project, the Project Board has broader authority within the 'Directing a Project' process. They can approve, defer, or reject requests for change, grant concessions for off-specifications, and instruct the Project Manager to produce an exception plan or even close the project prematurely."
     },
     {
-        "question": "Where are lessons identified during the current project *first* recorded?",
+        "question": "How does the 'Directing a Project' (DP) process interact with other PRINCE2 processes?",
         "options": {
-            "a": "Lessons Report",
-            "b": "End Stage Report",
-            "c": "Lessons Log",
-            "d": "Daily Log"
-        },
-        "answer": "c",
-        "reasoning": "The Lessons Log is the project diary for lessons, updated throughout the project."
-    },
-    {
-        "question": "Which of the following are typically included in an End Project Report? 1. A review of the project's performance against its objectives 2. Lessons learned during the project 3. Follow-on action recommendations 4. A detailed plan for the operational support of the products",
-        "options": {
-            "a": "1, 2, and 3",
-            "b": "1, 2, and 4",
-            "c": "1, 3, and 4",
-            "d": "2, 3, and 4"
+            "a": "It acts as a continuous loop, receiving information from all other processes and issuing instructions.",
+            "b": "It is a standalone process that only interacts with the corporate or programme management layer.",
+            "c": "It is invoked only at the very beginning and very end of the project.",
+            "d": "It only interacts with the Managing Product Delivery process."
         },
         "answer": "a",
-        "reasoning": "The End Project Report reviews performance, lessons, and makes recommendations for any outstanding work."
+        "reasoning": "It acts as a continuous loop, receiving information from all other processes and issuing instructions. This is the correct answer. The 'Directing a Project' process serves as the overall control mechanism throughout the project's lifecycle. It receives reports (Highlight Reports, End Stage Reports, Exception Reports) from processes like 'Controlling a Stage', 'Managing a Stage Boundary', and 'Closing a Project', and in turn, issues authorizations and guidance to the Project Manager, linking back to processes like 'Initiating a Project' and 'Controlling a Stage'."
     },
     {
-        "question": "A Work Package primarily forms an agreement between which two roles?",
+        "question": "What specific role does the 'Executive' play in the 'Directing a Project' (DP) process?",
         "options": {
-            "a": "Project Board and Project Manager",
-            "b": "Project Manager and Team Manager (or Team Member)",
-            "c": "Team Manager and Project Assurance",
-            "d": "Senior User and Senior Supplier"
+            "a": "Responsible for the day-to-day management and coordination of activities.",
+            "b": "Accountable for the overall business justification and viability of the project.",
+            "c": "Responsible for developing and delivering the specialist products.",
+            "d": "Primarily concerned with safeguarding the integrity of the complete solution."
         },
         "answer": "b",
-        "reasoning": "It's the formal delegation of work from the Project Manager to the Team Manager."
+        "reasoning": "Accountable for the overall business justification and viability of the project. This is the correct answer. The Executive is the single individual on the Project Board who is ultimately accountable for the project's overall business justification and for securing the project's funding. They represent the business interest and are the ultimate decision-maker on the Project Board."
     },
     {
-        "question": "Which management product does the Project Manager use to provide regular progress updates to the Project Board throughout a management stage?",
+        "question": "How does PRINCE2 ensure the Project Board is accountable for the project's success?",
         "options": {
-            "a": "Checkpoint Report",
-            "b": "End Stage Report",
-            "c": "Highlight Report",
-            "d": "Exception Report"
+            "a": "By making them responsible for creating all project documentation.",
+            "b": "By assigning them the role of Project Manager.",
+            "c": "By making them the ultimate decision-makers and responsible for continued business justification.",
+            "d": "By requiring them to perform all quality control activities."
         },
         "answer": "c",
-        "reasoning": "The Highlight Report is the regular, time-driven report to the Project Board."
+        "reasoning": "By making them the ultimate decision-makers and responsible for continued business justification. This is the correct answer. The Project Board is the central decision-making body for the project, holding ultimate accountability for its success. This is reinforced by their responsibility for ensuring the project's continued business justification throughout its life."
+    },
+    {
+        "question": "How might the 'Directing a Project' (DP) process be tailored for a simple project?",
+        "options": {
+            "a": "By requiring more formal and frequent meetings of the Project Board.",
+            "b": "By increasing the number of management stages to allow for more control points.",
+            "c": "By making decisions happen more quickly, potentially with less formality.",
+            "d": "By escalating all minor issues directly to the Project Board."
+        },
+        "answer": "c",
+        "reasoning": "By making decisions happen more quickly, potentially with less formality. This is the correct answer. For simple projects, the 'Directing a Project' process is likely to be less formal, and decisions may happen more quickly. For instance, in a two-stage project, there might be fewer formal decisions requested from 'Managing a Stage Boundary'."
+    },
+    {
+        "question": "What document is created as a result of the 'Plan the Initiation Stage' activity within the 'Starting Up a Project' (SU) process?",
+        "options": {
+            "a": "The Project Plan",
+            "b": "The Stage Plan for the initiation stage",
+            "c": "The Project Brief",
+            "d": "The Project Initiation Documentation (PID)"
+        },
+        "answer": "b",
+        "reasoning": "The Stage Plan for the initiation stage. This is the correct answer. The 'Plan the Initiation Stage' activity is specifically designed to create the Stage Plan for the initiation stage. This is notably the first plan created in the PRINCE2 process model."
+    },
+    {
+        "question": "What is the objective of the 'Starting Up a Project' (SU) process regarding project scope?",
+        "options": {
+            "a": "To define the detailed scope of all specialist products to be delivered.",
+            "b": "To understand how the project’s products can be delivered and define the project’s overall scope.",
+            "c": "To obtain acceptance for the project's final product scope.",
+            "d": "To control changes to the project's baselined scope."
+        },
+        "answer": "b",
+        "reasoning": "To understand how the project’s products can be delivered and define the project’s overall scope. This is the correct answer. A key activity within 'Starting Up a Project' is to 'Select the project approach and assemble the project brief'. This involves evaluating possible delivery solutions and deciding on the project approach suitable for delivering the project product. The Project Brief then defines the project and its overall scope."
+    },
+    {
+        "question": "How does the 'Starting Up a Project' (SU) process ensure that time is not wasted on poorly conceived projects?",
+        "options": {
+            "a": "By requiring the Project Manager to create a detailed Project Plan before any work begins.",
+            "b": "By evaluating the project idea against business justification and confirming viability before initiation.",
+            "c": "By ensuring that all project resources are procured and ready to start work immediately.",
+            "d": "By conducting extensive quality checks on all preliminary documents."
+        },
+        "answer": "b",
+        "reasoning": "By evaluating the project idea against business justification and confirming viability before initiation. This is the correct answer. The 'Starting Up a Project' process acts as a 'crucial filter' by requiring the creation of an outline business case and assessing the project idea's viability and worthwhileness. This prevents commitment of significant resources to projects that lack a sound justification."
+    },
+    {
+        "question": "What kind of information would typically be captured during the 'Capture Previous Lessons' activity in the 'Starting Up a Project' (SU) process?",
+        "options": {
+            "a": "Detailed financial breakdowns of previous projects.",
+            "b": "Risks and issues identified in the current project for informal management.",
+            "c": "Experiences and lessons learned from similar previous projects.",
+            "d": "Formal reports on quality assurance activities."
+        },
+        "answer": "c",
+        "reasoning": "Experiences and lessons learned from similar previous projects. This is the correct answer. The 'Capture Previous Lessons' activity involves actively seeking and reviewing lessons from comparable previous projects to help inform the current project's approach and reduce uncertainty. These lessons are often recorded in the lessons log."
+    },
+    {
+        "question": "Who is responsible for selecting the project approach and assembling the project brief in the 'Starting Up a Project' (SU) process?",
+        "options": {
+            "a": "The Executive",
+            "b": "The Senior User",
+            "c": "The Project Manager",
+            "d": "Project Support"
+        },
+        "answer": "c",
+        "reasoning": "The Project Manager. This is the correct answer. The Project Manager is explicitly responsible for the activities of 'Select the project approach and assemble the project brief' within the 'Starting Up a Project' process."
+    },
+    {
+        "question": "What is the 'project mandate' and how does it relate to the 'Starting Up a Project' (SU) process?",
+        "options": {
+            "a": "It is a detailed plan for the project's first stage, created by the Project Manager.",
+            "b": "It is a document created by the Project Board to authorize the project's initiation.",
+            "c": "It is the trigger for the SU process, created by external authority (corporate, programme management, or customer).",
+            "d": "It is a record of all issues and risks identified during the SU process."
+        },
+        "answer": "c",
+        "reasoning": "It is the trigger for the SU process, created by external authority (corporate, programme management, or customer). This is the correct answer. The 'Starting Up a Project' process is initiated, or triggered, by the creation of a 'project mandate' from external authority (e.g., corporate management, programme management, or the customer). It is the initial instruction that sets the project in motion."
+    },
+    {
+        "question": "What does PRINCE2 recommend regarding reviewing related lessons from similar previous projects during the 'Starting Up a Project' (SU) process?",
+        "options": {
+            "a": "It is optional and only recommended for complex projects.",
+            "b": "It is a mandatory activity to capture experiences and inform the project approach.",
+            "c": "It is only done at the end of the project to inform future initiatives.",
+            "d": "It is the sole responsibility of Project Assurance."
+        },
+        "answer": "b",
+        "reasoning": "It is a mandatory activity to capture experiences and inform the project approach. This is the correct answer. PRINCE2 explicitly recommends actively seeking lessons from similar previous projects during the 'Starting Up a Project' process, particularly within the 'Select the project approach and assemble the project brief' activity. This practice helps to reduce uncertainty and shape the project's strategy from the outset."
+    },
+    {
+        "question": "True or False: The decision to start the project (authorize initiation) happens before any activities from 'Starting Up a Project' (SU).",
+        "options": {
+            "a": "True, the authorization precedes all preliminary activities.",
+            "b": "False, the 'Starting Up a Project' activities are carried out, and then the Project Board authorizes initiation.",
+            "c": "True, it is a prerequisite for creating the Project Mandate.",
+            "d": "False, the Project Manager can authorize the project's initiation directly."
+        },
+        "answer": "b",
+        "reasoning": "False, the 'Starting Up a Project' activities are carried out, and then the Project Board authorizes initiation. This is the correct answer. The Project Mandate *triggers* the 'Starting Up a Project' process. The various activities within the SU process are then performed. Only *after* these activities are completed does the Project Manager prepare a request for the Project Board to authorize the initiation stage."
+    },
+    {
+        "question": "How does the 'Directing a Project' (DP) process provide overall control for the project?",
+        "options": {
+            "a": "By the Project Manager personally approving every work package.",
+            "b": "By focusing on project-level objectives and making decisions by exception.",
+            "c": "By eliminating the need for any other management processes.",
+            "d": "By directly managing all team-level activities and resources."
+        },
+        "answer": "b",
+        "reasoning": "By focusing on project-level objectives and making decisions by exception. This is the correct answer. The 'Directing a Project' process enables the Project Board to maintain overall control by focusing on the project's strategic objectives and operating through the 'Manage by Exception' principle. This means they set tolerances and only intervene (make decisions) when a deviation from these tolerances is forecast."
+    },
+    {
+        "question": "What does 'Authorize Initiation' specifically confirm and approve in the 'Directing a Project' (DP) process?",
+        "options": {
+            "a": "The detailed Project Plan and all specialist product designs.",
+            "b": "The Project Brief and the Stage Plan for the initiation stage.",
+            "c": "The overall project budget and timeline for all delivery stages.",
+            "d": "The appointment of all team members and their work packages."
+        },
+        "answer": "b",
+        "reasoning": "The Project Brief and the Stage Plan for the initiation stage. This is the correct answer. When the Project Board makes the 'Authorize Initiation' decision, they are confirming their agreement to proceed with the project's initiation based on the information provided in the Project Brief and the detailed Stage Plan for the initiation stage. This step ensures a viable basis before significant project planning begins."
+    },
+    {
+        "question": "Which PRINCE2 principle is strongly supported by the 'Starting Up a Project' (SU) process, acting as a crucial filter?",
+        "options": {
+            "a": "Learn from Experience",
+            "b": "Focus on Products",
+            "c": "Tailor to Suit the Project Environment",
+            "d": "Continued Business Justification"
+        },
+        "answer": "d",
+        "reasoning": "Continued Business Justification. This is the correct answer. The 'Starting Up a Project' process is specifically designed to act as a 'crucial filter' to ensure that a project has a justifiable reason for starting and continuing. This directly supports the 'Continued Business Justification' principle by ensuring that the project is viable and worthwhile before significant resources are committed."
+    },
+    {
+        "question": "How does the 'Starting Up a Project' (SU) process contribute to the 'Learn from Experience' principle?",
+        "options": {
+            "a": "By formalizing post-project reviews for lessons learned.",
+            "b": "By requiring the Project Manager to create a detailed Lessons Report.",
+            "c": "By actively seeking and reviewing lessons from similar previous projects.",
+            "d": "By ensuring that all project team members undergo mandatory training."
+        },
+        "answer": "c",
+        "reasoning": "By actively seeking and reviewing lessons from similar previous projects. This is the correct answer. The 'Starting Up a Project' process includes an activity called 'Capture Previous Lessons', which mandates reviewing lessons from similar past projects. This directly embodies and contributes to the 'Learn from Experience' principle by applying historical knowledge to the new project."
+    },
+    {
+        "question": "What is the purpose of the 'Give Ad Hoc Direction' activity in the 'Directing a Project' (DP) process?",
+        "options": {
+            "a": "To authorize new work packages for specialist product delivery.",
+            "b": "To manage unexpected events or requests from stakeholders that require Project Board attention.",
+            "c": "To formally review the performance of a completed management stage.",
+            "d": "To plan the next management stage for the Project Manager."
+        },
+        "answer": "b",
+        "reasoning": "To manage unexpected events or requests from stakeholders that require Project Board attention. This is the correct answer. The 'Give Ad Hoc Direction' activity allows the Project Board to provide guidance and make decisions in response to ad-hoc requests for advice from the Project Manager, or formal escalations such as requests for change, off-specifications, or exception reports. This ensures that the Project Board can intervene as needed outside of regular reporting cycles."
     }
 ]

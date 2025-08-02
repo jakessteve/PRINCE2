@@ -1,222 +1,277 @@
 [
     {
-        "question": "What is the primary purpose of the Closing a Project (CP) process?",
+        "question": "What is the primary purpose of the 'Managing a Stage Boundary' (SB) process?",
         "options": {
-            "a": "To provide the Project Board with sufficient information to authorize the next stage.",
-            "b": "To manage the day-to-day work of creating the project's specialist products.",
-            "c": "To provide a fixed point at which acceptance of the project's products is confirmed and to ensure the project has a clear end.",
-            "d": "To ensure that the project remains viable and justifiable throughout its life."
+            "a": "To create the Project Brief and Outline Business Case for the project.",
+            "b": "To prepare for the Project Board's end-of-stage review and plan the next stage.",
+            "c": "To manage the day-to-day work of the Project Manager and Team Managers.",
+            "d": "To provide a fixed point for confirming project completion and handover."
+        },
+        "answer": "b",
+        "reasoning": "The primary purpose of the Managing a Stage Boundary (SB) process is to prepare for the Project Board's end-of-stage review. This includes reporting on the current stage's performance, updating the Project Plan, and planning the next management stage."
+    },
+    {
+        "question": "What is the key report produced during the SB process for the Project Board?",
+        "options": {
+            "a": "The Highlight Report.",
+            "b": "The Checkpoint Report.",
+            "c": "The End Stage Report.",
+            "d": "The Exception Report."
         },
         "answer": "c",
-        "reasoning": "The Closing a Project process provides a controlled end to the project, confirming acceptance of its products."
+        "reasoning": "The End Stage Report is the key report produced during the Managing a Stage Boundary (SB) process. Its purpose is to provide the Project Board with information about the performance of the current stage, allowing them to assess the project's continued viability and authorize the next stage."
     },
     {
-        "question": "Which of the following is an objective of the Closing a Project process?",
+        "question": "What is the key decision made by the Project Board in the 'Directing a Project' (DP) process at a stage boundary?",
         "options": {
-            "a": "To ensure that the business justification for initiating the project is in place.",
-            "b": "To prepare a detailed plan for the next stage's specialist products.",
-            "c": "To hand over responsibility for the project's products to the operational and maintenance teams.",
-            "d": "To allocate work packages to the teams for the final stage."
+            "a": "Authorize Initiation.",
+            "b": "Authorize the Project.",
+            "c": "Authorize Project Closure.",
+            "d": "Authorize the Next Stage (or an Exception Plan)."
+        },
+        "answer": "d",
+        "reasoning": "At a stage boundary, the Project Board, through the 'Directing a Project' (DP) process, makes the key decision to 'Authorize the Next Stage'. If an exception has occurred, they might instead authorize an 'Exception Plan' to replace the current plan. This decision is based on the information provided in the End Stage Report and the plan for the next stage."
+    },
+    {
+        "question": "What types of information does the End Stage Report provide to the Project Board?",
+        "options": {
+            "a": "Detailed work package progress, team plan actuals, and quality management activities for the current reporting period.",
+            "b": "A summary of the project’s performance for the stage, a review of the Business Case, and the forecast for the project.",
+            "c": "Informal issues, personal action points, and significant events not captured in other logs.",
+            "d": "Identified risks, their impact, and planned responses for a work package."
+        },
+        "answer": "b",
+        "reasoning": "The End Stage Report provides the Project Board with a summary of the project’s performance for the stage, a review of the Business Case to confirm continued justification, and a forecast for the project and the next management stage against planned targets and tolerances. It also includes a summary of current issues and risks and, if appropriate, lessons learned."
+    },
+    {
+        "question": "What is the purpose of the 'Plan the Next Management Stage' activity in SB?",
+        "options": {
+            "a": "To define and implement the means by which the project will verify that products are fit for purpose.",
+            "b": "To create a detailed plan for the upcoming management stage, ensuring consistency with the Project Plan and Business Case.",
+            "c": "To assess whether the project is (still) worthwhile by comparing actual costs and benefits with current forecasts.",
+            "d": "To establish an effective approach for communication with all project stakeholders."
+        },
+        "answer": "b",
+        "reasoning": "The 'Plan the Next Management Stage' activity within the Managing a Stage Boundary (SB) process is specifically for creating a detailed Stage Plan for the upcoming management stage. This plan must be consistent with the overall Project Plan and continue to support the Business Case."
+    },
+    {
+        "question": "What is an 'Exception Plan' and when is it produced?",
+        "options": {
+            "a": "It is a plan produced at the beginning of the project to outline potential risks; it is produced during the Starting Up a Project process.",
+            "b": "It is a high-level plan for the entire project, replacing the Stage Plans if major deviations occur; it is produced during the Initiating a Project process.",
+            "c": "It is a detailed plan created to show how to recover from a forecast deviation from agreed tolerances; it is produced in the Managing a Stage Boundary process.",
+            "d": "It is a report used to inform the Project Board of any minor issues that arise during a stage; it is produced during the Controlling a Stage process."
         },
         "answer": "c",
-        "reasoning": "A key objective is to ensure the recipients of the project's products are in a position to own and use them after handover."
+        "reasoning": "An Exception Plan is a detailed plan created to show how to recover from a situation where a stage or project tolerance is forecast to be exceeded. It is typically produced in the Managing a Stage Boundary process, specifically when requested by the Project Board after reviewing an Exception Report."
     },
     {
-        "question": "When is the Closing a Project process typically invoked?",
+        "question": "Who is responsible for producing an Exception Plan if required?",
         "options": {
-            "a": "At the end of every management stage.",
-            "b": "When the Project Board authorizes an Exception Plan.",
-            "c": "Towards the end of the final management stage or upon premature closure.",
-            "d": "After the Project Manager has received all completed Work Packages."
+            "a": "The Project Board.",
+            "b": "The Team Manager.",
+            "c": "The Project Manager.",
+            "d": "Corporate, programme management or the customer."
         },
         "answer": "c",
-        "reasoning": "This process is used at the end of the project, whether that end is planned or premature."
+        "reasoning": "If stage or project tolerances are forecast to be exceeded, the Project Board may request the Project Manager to produce an Exception Plan. The Project Manager is responsible for creating this plan."
     },
     {
-        "question": "Which management product is created or updated as part of the Closing a Project process and provides an evaluation of the project's performance?",
+        "question": "How does the 'Report Management Stage End' activity ensure transparency and accountability?",
         "options": {
-            "a": "End Stage Report.",
-            "b": "Highlight Report.",
-            "c": "End Project Report.",
-            "d": "Checkpoint Report."
+            "a": "By sending detailed daily logs to all project stakeholders for review.",
+            "b": "By producing a comprehensive End Stage Report that summarizes performance and forecasts for the Project Board.",
+            "c": "By having the Project Manager directly manage all team activities and report minor deviations.",
+            "d": "By focusing solely on financial performance targets and ignoring other aspects."
+        },
+        "answer": "b",
+        "reasoning": "The 'Report Management Stage End' activity involves producing an End Stage Report. This report summarizes the performance of the management stage, reviews the Business Case, and provides a forecast for the project and next stage. This comprehensive reporting ensures transparency about the project's health and accountability for the stage's outcomes to the Project Board."
+    },
+    {
+        "question": "What is the purpose of the 'Update the Business Case' activity in SB?",
+        "options": {
+            "a": "To define the project's products before identifying activities and resources.",
+            "b": "To ensure that the business justification for the project remains valid and reflects the current project status.",
+            "c": "To establish mechanisms to monitor and compare actual achievements against planned progress.",
+            "d": "To define the project management team structure and its roles."
+        },
+        "answer": "b",
+        "reasoning": "The 'Update the Business Case' activity within the Managing a Stage Boundary (SB) process is performed to ensure the business justification for the project remains valid. As the project progresses, costs may change, risks may materialize, or market conditions may shift, so the Business Case needs to be regularly updated to reflect these changes and confirm the project is still worthwhile."
+    },
+    {
+        "question": "What is the main purpose of the 'Review the Management Stage Status' activity in SB?",
+        "options": {
+            "a": "To produce a detailed plan for the current management stage.",
+            "b": "To compare the actual performance of the current stage against the Stage Plan and forecast the rest of the stage.",
+            "c": "To formally authorize the Project Manager to proceed with the next management stage.",
+            "d": "To collect feedback and lessons learned from the previous similar projects."
+        },
+        "answer": "b",
+        "reasoning": "The 'Review the Management Stage Status' activity in the Controlling a Stage (CS) process (as cited in the source, though the question implies SB, CS is where this detailed review takes place regularly) involves comparing the actual performance of the current stage against the Stage Plan and forecasting the rest of the stage. This allows the Project Manager to determine if corrective actions are needed or if an exception should be raised. (Note: While this question is about 'Review the Management Stage Status' in SB, the comprehensive material primarily discusses this as part of Controlling a Stage, which feeds into SB. For the purpose of the SB context, it's about evaluating the completed stage's performance)."
+    },
+    {
+        "question": "What management product contains follow-on action recommendations, and what is their purpose?",
+        "options": {
+            "a": "The Issue Register; to track all formal issues and their resolutions.",
+            "b": "The Benefits Management Approach; to outline management actions for realizing benefits.",
+            "c": "The End Project Report; to document required actions for products after project closure.",
+            "d": "The Daily Log; to record informal actions and observations during the project."
         },
         "answer": "c",
-        "reasoning": "The End Project Report summarizes the project's performance for the Project Board."
+        "reasoning": "Follow-on action recommendations are contained within the End Project Report. Their purpose is to document any further actions required to exploit benefits, address outstanding issues, or ensure the ongoing operational support and maintenance of the project's products after the project has closed."
     },
     {
-        "question": "What is a primary purpose of the End Project Report?",
+        "question": "How does the SB process contribute to the 'Continued Business Justification' principle?",
         "options": {
-            "a": "To authorize the next management stage.",
-            "b": "To provide a summary of the stage's performance against its plan.",
-            "c": "To provide an evaluation of how the project performed against its objectives and to summarize lessons learned and follow-on action recommendations.",
-            "d": "To report on specialist products completed during a reporting period."
+            "a": "By ensuring that senior management's time is used effectively for key decisions.",
+            "b": "By providing the Project Board with information to assess the project's ongoing viability before authorizing further expenditure.",
+            "c": "By focusing on defining measurable products rather than just activities.",
+            "d": "By reviewing lessons from previous projects to apply to the current one."
+        },
+        "answer": "b",
+        "reasoning": "The Managing a Stage Boundary (SB) process contributes to the 'Continued Business Justification' principle by providing the Project Board with an End Stage Report and the plan for the next stage. This enables the Project Board to review the project's health and its continued business justification before committing to further expenditure on the next stage. This acts as a formal control point to ensure the project remains worthwhile."
+    },
+    {
+        "question": "What does PRINCE2 recommend reviewing before planning the next management stage?",
+        "options": {
+            "a": "Only the Project Manager's daily log for informal issues.",
+            "b": "The entire project's risk register and issue register for any changes.",
+            "c": "Primarily the team plans for the current stage to assess individual performance.",
+            "d": "The corporate risk management policy for updates."
+        },
+        "answer": "b",
+        "reasoning": "Before planning the next management stage, PRINCE2 recommends reviewing the project's risk register and issue register for any new or changed risks and issues. This ensures that the plan for the next stage accounts for the most current risk and issue environment."
+    },
+    {
+        "question": "True or False: The Project Board can authorize multiple stages at once to save time.",
+        "options": {
+            "a": "True, if the project is small and low risk.",
+            "b": "True, but only for the first two stages.",
+            "c": "False, the Project Board authorizes one stage at a time to maintain control and ensure continued business justification.",
+            "d": "False, only the Project Manager can authorize multiple stages."
         },
         "answer": "c",
-        "reasoning": "This is the core definition of the End Project Report's purpose, evaluating performance and noting lessons."
+        "reasoning": "False. PRINCE2's 'Manage by Stages' principle dictates that the Project Board authorizes one management stage at a time. This provides formal control points where the Project Board can review the project's performance, assess its continued business justification, and make informed decisions before committing to further expenditure. Authorizing multiple stages at once would undermine this control."
     },
     {
-        "question": "Which of the following activities is typically performed by the Project Manager during the Closing a Project process?",
+        "question": "How does the SB process contribute to the 'Manage by Stages' principle?",
         "options": {
-            "a": "Authorizing a Work Package.",
-            "b": "Reviewing the management stage status.",
-            "c": "Handing over products to the customer or operations and maintenance teams.",
-            "d": "Giving ad hoc direction to the Project Manager."
+            "a": "By producing a single, comprehensive Project Plan at the start of the project.",
+            "b": "By providing a structured point for the Project Board to review the current stage and decide on the next.",
+            "c": "By enabling informal, continuous review of the project's progress by the Project Manager.",
+            "d": "By ensuring that detailed quality checks are performed on all products within a stage."
+        },
+        "answer": "b",
+        "reasoning": "The Managing a Stage Boundary (SB) process is a key enabler of the 'Manage by Stages' principle. It provides a structured and formal point for the Project Board to review the performance of the completed stage (via the End Stage Report) and decide whether to authorize the next stage or an Exception Plan, thereby maintaining control over the project's progression."
+    },
+    {
+        "question": "What specific management products are reviewed and updated during the SB process?",
+        "options": {
+            "a": "Daily Log, Checkpoint Report, and Lessons Log.",
+            "b": "Project Brief, Risk Management Approach, and Quality Register.",
+            "c": "Business Case, Project Plan, and all Management Approaches (Risk, Quality, Change, Communication).",
+            "d": "End Project Report, Benefits Management Approach, and Follow-on Action Recommendations."
         },
         "answer": "c",
-        "reasoning": "Handing over products is a key activity for the Project Manager in this process."
+        "reasoning": "During the Managing a Stage Boundary (SB) process, the Business Case is updated. The Project Plan is also updated with actuals from the completed stage and may be adjusted based on the next stage's plan. All Management Approaches (Risk Management Approach, Quality Management Approach, Change Control Approach, and Communication Management Approach) are typically reviewed and may be updated to reflect any changes or lessons learned that impact how these themes will be managed in the subsequent stages."
     },
     {
-        "question": "If a project is prematurely closed, what might the Project Board request to salvage value?",
+        "question": "How are risks and issues handled when planning the next management stage?",
         "options": {
-            "a": "A Highlight Report.",
-            "b": "An End Stage Report.",
-            "c": "An Exception Plan.",
-            "d": "A Checkpoint Report."
+            "a": "All risks and issues from the current stage are automatically closed at the stage boundary.",
+            "b": "Only significant risks and issues that threaten project tolerances are reviewed.",
+            "c": "New risks and issues identified, or existing ones that have changed, are updated in the relevant registers (Risk Register, Issue Register) and daily log.",
+            "d": "Risks are ignored, and issues are all escalated to the Project Board for resolution."
         },
         "answer": "c",
-        "reasoning": "In a premature closure, an Exception Plan might be requested to detail any recovery actions or alternative options."
+        "reasoning": "When planning the next management stage, any new risks or issues identified (or existing ones that have changed) are updated in the Risk Register, Issue Register, and/or Daily Log. This ensures that the planning for the upcoming stage accounts for the most current risk and issue profile."
     },
     {
-        "question": "What must the Project Manager ensure about all the products planned for the project when preparing for project closure?",
+        "question": "How can the SB process be tailored to suit the project environment?",
         "options": {
-            "a": "They have been approved and the operational and maintenance organizations are ready to take responsibility for them.",
-            "b": "They are ready to be handed over to the Project Board for final assessment.",
-            "c": "Their benefits have been fully realized before the project closes.",
-            "d": "Any outstanding issues related to them have been escalated to corporate management."
+            "a": "By skipping the End Stage Report for smaller projects.",
+            "b": "By adjusting the formality and content of the End Stage Report and subsequent stage planning based on project complexity and context.",
+            "c": "By having the Project Manager directly authorize the next stage without Project Board review.",
+            "d": "By creating multiple End Stage Reports, one for each stakeholder group."
         },
-        "answer": "a",
-        "reasoning": "This ensures a smooth transition of the project's products into their operational life."
+        "answer": "b",
+        "reasoning": "The Managing a Stage Boundary (SB) process can be tailored by adjusting the formality and content of the End Stage Report and the subsequent stage planning. This tailoring depends on factors like project complexity, scale, and whether it's part of a larger programme or using an agile approach. For instance, a very simple project might have a less formal End Stage Report."
     },
     {
-        "question": "Which PRINCE2 role is responsible for making the final decision to close the project?",
+        "question": "What does the Project Board check regarding reporting and control mechanisms during stage authorization?",
+        "options": {
+            "a": "Whether daily logs are being maintained by all team members.",
+            "b": "That the proposed Communication Management Approach is adequate for stakeholder information needs and timing.",
+            "c": "If the Project Manager has taken corrective actions for all minor issues.",
+            "d": "If all lessons learned from the previous stage have been fully implemented in the new plan."
+        },
+        "answer": "b",
+        "reasoning": "During the 'Authorize a Stage or Exception Plan' activity in the Directing a Project (DP) process, the Project Board confirms that the Communication Management Approach is adequate for ensuring stakeholder information needs and timing of communications are met. This is part of ensuring appropriate controls are in place for the next stage."
+    },
+    {
+        "question": "Who is responsible for reviewing and approving the PID during the 'Authorize the Project' activity in DP?",
         "options": {
             "a": "The Project Manager.",
             "b": "The Executive.",
-            "c": "The Project Board.",
-            "d": "Corporate, Programme Management or the Customer."
-        },
-        "answer": "c",
-        "reasoning": "The Project Board provides the formal authorization to close the project."
-    },
-    {
-        "question": "The activity 'Recommend Project Closure' is performed by which role?",
-        "options": {
-            "a": "Project Board.",
-            "b": "Project Manager.",
-            "c": "Corporate, Programme Management or the Customer.",
+            "c": "The Project Board as a whole.",
             "d": "Project Assurance."
         },
-        "answer": "b",
-        "reasoning": "The Project Manager prepares the necessary information and makes the recommendation for closure to the Project Board."
-    },
-    {
-        "question": "Which management product contains a summary of what went well, what went badly, and recommendations for future projects?",
-        "options": {
-            "a": "End Project Report.",
-            "b": "Lessons Log.",
-            "c": "Lessons Report.",
-            "d": "End Stage Report."
-        },
         "answer": "c",
-        "reasoning": "The Lessons Report formally documents lessons that can be applied to other projects."
+        "reasoning": "During the 'Authorize the Project' activity (part of the 'Directing a Project' process), the Project Board as a whole reviews and approves the Project Initiation Documentation (PID). This decision signifies their commitment to the project and its planned approach."
     },
     {
-        "question": "The Directing a Project (DP) process at the end of the project is used by the Project Board for what key activity?",
+        "question": "What action might the Project Board take if stage tolerances are forecast to be exceeded?",
         "options": {
-            "a": "Authorizing the production of specialist products.",
-            "b": "Reviewing Work Package status.",
-            "c": "Authorizing the closure of the project.",
-            "d": "Raising exceptions to corporate management."
+            "a": "Request more information.",
+            "b": "Instruct the Project Manager to produce an exception plan.",
+            "c": "Increase the tolerances that are forecast to be breached.",
+            "d": "Any of the above, including deferring the decision or instructing premature project closure."
         },
-        "answer": "c",
-        "reasoning": "The 'Authorize project closure' activity is part of the DP process."
+        "answer": "d",
+        "reasoning": "If stage tolerances are forecast to be exceeded and an Exception Report is escalated to them, the Project Board has several options. These include: requesting more information, increasing the tolerances, instructing the Project Manager to produce an Exception Plan, instructing the Project Manager to close the project prematurely, or deferring the decision."
     },
     {
-        "question": "Which of the following management products serves as a key reference for defining what products need to be accepted during the 'Hand over products' activity in the Closing a Project process?",
+        "question": "How does the DP process ensure that the project remains focused on corporate objectives?",
         "options": {
-            "a": "Project Brief.",
-            "b": "Daily Log.",
-            "c": "Project Product Description.",
-            "d": "Stage Plan."
-        },
-        "answer": "c",
-        "reasoning": "The Project Product Description contains the customer's quality expectations and acceptance criteria."
-    },
-    {
-        "question": "What is the purpose of 'Follow-on Action Recommendations' created during the Closing a Project process?",
-        "options": {
-            "a": "To document a summary of the project's performance against its plan.",
-            "b": "To detail any outstanding issues, known product errors, or risks for the products after project closure.",
-            "c": "To provide a plan for the next management stage.",
-            "d": "To report on lessons learned that can be applied to other projects."
+            "a": "By ensuring all team members submit daily reports on their activities.",
+            "b": "By reviewing Highlight Reports to ensure the project remains justified and aligned with corporate objectives.",
+            "c": "By creating detailed product descriptions for all specialist products.",
+            "d": "By managing individual risks and issues at the lowest possible level."
         },
         "answer": "b",
-        "reasoning": "This document lists any remaining actions or items that need to be addressed after the project is formally closed."
+        "reasoning": "The 'Directing a Project' (DP) process ensures the project remains focused on corporate objectives by having the Project Board review Highlight Reports regularly. This allows them to understand the status of the project and ensure it remains justified in accordance with its business case and focused on corporate, programme management, or customer objectives."
     },
     {
-        "question": "Which management product outlines how post-project benefits will be reviewed and measured?",
+        "question": "What types of guidance might the Project Board provide during 'ad hoc direction'?",
         "options": {
-            "a": "Business Case.",
-            "b": "Project Plan.",
-            "c": "Benefits Management Approach.",
-            "d": "End Project Report."
+            "a": "Only formal, written instructions for major deviations.",
+            "b": "Informal guidance, responses to requests for advice, or decisions on requests for change/off-specifications.",
+            "c": "Exclusive instructions on technical solutions for specialist products.",
+            "d": "Only a single, predetermined course of action for all project problems."
         },
-        "answer": "c",
-        "reasoning": "This is the primary purpose of the Benefits Management Approach."
+        "answer": "b",
+        "reasoning": "During 'ad hoc direction', Project Board members may offer informal guidance or respond to requests for advice from the Project Manager at any time. They can also make decisions on requests for change (approve, defer, reject, or ask for more information) or off-specifications (grant a concession, defer, reject, or ask for more information)."
     },
     {
-        "question": "During planned project closure, which management products are typically updated to reflect actual performance data against initial forecasts? 1. Project Plan 2. Business Case 3. Benefits Management Approach 4. Quality Register",
+        "question": "What is the purpose of the 'Authorize a Stage or Exception Plan' activity in DP?",
         "options": {
-            "a": "1, 2, and 3 only.",
-            "b": "1, 3, and 4 only.",
-            "c": "2, 3, and 4 only.",
-            "d": "1, 2, 3, and 4."
+            "a": "To allow the Project Manager to start the project's initiation stage.",
+            "b": "To formally permit the Project Manager to proceed with the work of the next management stage or a recovery plan.",
+            "c": "To close the project prematurely if the Business Case is no longer valid.",
+            "d": "To review the quality of completed products and approve them."
+        },
+        "answer": "b",
+        "reasoning": "The purpose of the 'Authorize a Stage or Exception Plan' activity in the Directing a Project (DP) process is to formally permit the Project Manager to proceed with the work of the next management stage (based on a Stage Plan) or to implement a recovery plan (based on an Exception Plan). This is the Project Board's key decision point to continue investment."
+    },
+    {
+        "question": "How does the DP process implement the 'Manage by Exception' principle?",
+        "options": {
+            "a": "By allowing the Project Board to only get involved if stage or project tolerances are forecast to be exceeded.",
+            "b": "By delegating all decision-making authority to the Project Manager.",
+            "c": "By requiring detailed daily reports from all project team members.",
+            "d": "By ensuring that the Project Manager always makes decisions within their own authority limits."
         },
         "answer": "a",
-        "reasoning": "The Project Plan, Business Case, and Benefits Management Approach are all updated with final performance data. The Quality Register is a log, not a baseline document to be updated in this way."
-    },
-    {
-        "question": "Which of the following describes a key difference between planned and premature project closure?",
-        "options": {
-            "a": "Planned closure always involves a full benefits review, while premature closure does not.",
-            "b": "Premature closure requires Project Board approval, while planned closure does not.",
-            "c": "Premature closure focuses on salvaging any value, while planned closure focuses on formal handover and evaluation.",
-            "d": "Planned closure occurs at the end of the final stage, while premature closure can occur at any point in the project."
-        },
-        "answer": "c",
-        "reasoning": "Premature closure is an exception condition that requires a focus on salvaging value and documenting the state of the project."
-    },
-    {
-        "question": "Who is responsible for notifying corporate, programme management, or the customer that the project has formally closed?",
-        "options": {
-            "a": "The Project Manager.",
-            "b": "The Project Board.",
-            "c": "Project Assurance.",
-            "d": "Project Support."
-        },
-        "answer": "b",
-        "reasoning": "After authorizing closure, the Project Board is responsible for this formal notification."
-    },
-    {
-        "question": "Which of the following management products is used to record management actions that need to be put in place after project closure to ensure the project's outcomes are achieved?",
-        "options": {
-            "a": "Benefits Management Approach.",
-            "b": "Follow-on Action Recommendations.",
-            "c": "End Project Report.",
-            "d": "Lessons Report."
-        },
-        "answer": "b",
-        "reasoning": "This is the specific purpose of the Follow-on Action Recommendations."
-    },
-    {
-        "question": "During the 'Hand over products' activity, what assurance should the Project Manager seek regarding the products being transferred?",
-        "options": {
-            "a": "That they are baselined and stored in the configuration library.",
-            "b": "That they have been approved and meet all quality criteria or approved concessions.",
-            "c": "That their associated risks have been fully resolved.",
-            "d": "That future funding for their operational use is secured."
-        },
-        "answer": "b",
-        "reasoning": "The products must be formally approved as meeting their quality criteria before handover."
+        "reasoning": "The 'Directing a Project' (DP) process implements the 'Manage by Exception' principle by ensuring that the Project Board only gets involved if stage or project tolerances are forecast to be exceeded. By setting tolerances for the Project Manager, the Project Board can efficiently manage by exception, intervening only when necessary."
     }
 ]

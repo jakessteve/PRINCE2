@@ -1,222 +1,275 @@
 [
     {
-        "question": "What is the primary purpose of the 'Controlling a Stage' (CS) process in PRINCE2?",
+        "question": "What is the main purpose of the Organization theme?",
         "options": {
-            "a": "To enable the Project Board to exercise overall control and make key decisions.",
-            "b": "To manage each stage on a day-to-day basis, ensuring the stage remains within tolerance and dealing with issues.",
-            "c": "To enable the Project Board to authorize the project or a stage.",
-            "d": "To pass responsibility for work or product delivery formally to a Team Manager or team members."
+            "a": "To manage uncertainty within the project",
+            "b": "To define how the project will verify that products are fit for purpose",
+            "c": "To establish an effective approach for communication and define the project management team structure",
+            "d": "To ensure that the project is and remains worthwhile"
         },
-        "answer": "b",
-        "reasoning": "The purpose of the Controlling a Stage process is for the Project Manager to assign work, monitor progress, deal with issues, and report progress to the Project Board."
+        "answer": "c",
+        "reasoning": "The Organization theme's purpose is to define the project's approach to communicating and engaging with stakeholders, which is documented in the communication management approach, and to establish the project's structure of accountability and responsibility."
     },
     {
-        "question": "Which of the following is an objective of the 'Managing Product Delivery' (MP) process?",
+        "question": "Which document is the key management product associated with the Organization theme?",
         "options": {
-            "a": "To approve work packages and monitor overall stage progress.",
-            "b": "To manage risks and issues that arise during a stage.",
-            "c": "To create the project plan and define project controls.",
-            "d": "To ensure that products are created, quality checked, and delivered within the agreed tolerances."
+            "a": "Project Initiation Documentation (PID)",
+            "b": "Communication Management Approach",
+            "c": "Project Brief",
+            "d": "Organization Structure"
+        },
+        "answer": "b",
+        "reasoning": "This is explicitly stated as a key management product within the Organization theme. It describes the means and frequency of communication to stakeholders and is created during the initiating a project process."
+    },
+    {
+        "question": "Name the four levels of project management described in the Organization theme.",
+        "options": {
+            "a": "Corporate, Programme, Project, Team",
+            "b": "Directing, Managing, Delivering, External",
+            "c": "Executive, Senior User, Senior Supplier, Project Manager",
+            "d": "Corporate/Programme Management/Customer, Directing, Managing, Delivering"
         },
         "answer": "d",
-        "reasoning": "The MP process ensures that products assigned to the team are delivered according to the specifications in the Work Package."
+        "reasoning": "PRINCE2 defines four management levels: Corporate, Programme Management, or the Customer (external to the project, commissioning it and setting tolerances), Directing (Project Board), Managing (Project Manager), and Delivering (Team Manager and teams)."
     },
     {
-        "question": "Which management product is created by the Project Manager to pass responsibility for delivering products to a Team Manager, specifying time, cost, and quality tolerances?",
+        "question": "Who is ultimately accountable for the project's success and is at the highest level of the project management structure?",
         "options": {
-            "a": "Stage Plan.",
-            "b": "Checkpoint Report.",
-            "c": "Work Package.",
-            "d": "Product Description."
+            "a": "Project Manager",
+            "b": "Senior User",
+            "c": "Executive",
+            "d": "Corporate/Programme Management"
         },
         "answer": "c",
-        "reasoning": "A Work Package is the formal agreement between the Project Manager and a Team Manager to deliver one or more products."
+        "reasoning": "The Executive is appointed by corporate, programme management, or the customer and is ultimately accountable for the project's success. They are responsible for ensuring the project maintains its business justification and represents the business interest on the Project Board."
     },
     {
-        "question": "According to PRINCE2, who is primarily responsible for producing the 'Checkpoint Report'?",
+        "question": "What are the key responsibilities of the Executive role?",
         "options": {
-            "a": "The Project Manager.",
-            "b": "Project Assurance.",
-            "c": "The Team Manager (or team members).",
-            "d": "The Executive."
-        },
-        "answer": "c",
-        "reasoning": "The Team Manager provides regular progress updates to the Project Manager via Checkpoint Reports."
-    },
-    {
-        "question": "The 'Highlight Report' is a key management product used in 'Controlling a Stage'. What is its primary purpose?",
-        "options": {
-            "a": "To document detailed daily activities and informal issues.",
-            "b": "To inform the Project Board of stage progress, key issues, and risks at a predefined frequency.",
-            "c": "To provide a formal record of quality management activities undertaken.",
-            "d": "To trigger the Project Board's decision to authorize the next stage."
-        },
-        "answer": "b",
-        "reasoning": "The Highlight Report provides the Project Board with a summary of the stage status at intervals they agree on."
-    },
-    {
-        "question": "When a Project Manager forecasts that the current stage is set to exceed its agreed tolerances, which management product should be produced and sent to the Project Board?",
-        "options": {
-            "a": "An Issue Report.",
-            "b": "An Exception Report.",
-            "c": "A Highlight Report.",
-            "d": "A Stage Plan."
-        },
-        "answer": "b",
-        "reasoning": "An Exception Report is created to inform the Project Board of a forecast breach of stage (or project) tolerances."
-    },
-    {
-        "question": "In which PRINCE2 process are the 'Issue Register' and 'Risk Register' maintained and updated with new information as the project progresses?",
-        "options": {
-            "a": "Starting Up a Project.",
-            "b": "Initiating a Project.",
-            "c": "Controlling a Stage.",
-            "d": "Managing a Stage Boundary."
-        },
-        "answer": "c",
-        "reasoning": "The Controlling a Stage process includes the day-to-day activities of managing issues and risks, which involves updating these registers."
-    },
-    {
-        "question": "The 'Daily Log' is used by the Project Manager to record informal issues, personal actions, and significant events that are not captured elsewhere. When is it typically set up?",
-        "options": {
-            "a": "During the 'Initiating a Project' process.",
-            "b": "During the 'Starting Up a Project' process.",
-            "c": "At the beginning of each management stage.",
-            "d": "Only when formal registers are full."
+            "a": "Secure funding for the project and ensure continued business justification",
+            "b": "Specify the benefits and ensure they are realized",
+            "c": "Design, develop, and procure the project's products",
+            "d": "Manage the day-to-day activities of the project"
         },
         "answer": "a",
-        "reasoning": "The Daily Log is set up by the Project Manager during the Initiating a Project process."
+        "reasoning": "The Executive represents the business interest and is responsible for securing funding and ensuring the project remains viable and justified throughout its life."
     },
     {
-        "question": "Which activity within the 'Directing a Project' (DP) process allows the Project Board to provide guidance and respond to requests for advice from the Project Manager during a stage?",
+        "question": "What are the key responsibilities of the Senior User role?",
         "options": {
-            "a": "Authorize initiation.",
-            "b": "Authorize a stage or exception plan.",
-            "c": "Give ad hoc direction.",
-            "d": "Authorize project closure."
-        },
-        "answer": "c",
-        "reasoning": "Giving ad hoc direction is the activity for ongoing guidance from the Project Board."
-    },
-    {
-        "question": "Which of the following activities are part of the 'Controlling a Stage' (CS) process? 1. Authorize a Work Package. 2. Review Work Package Status. 3. Receive Completed Work Packages. 4. Refine the Business Case.",
-        "options": {
-            "a": "1, 2, and 3 only.",
-            "b": "1, 2, and 4 only.",
-            "c": "1, 3, and 4 only.",
-            "d": "All of the above."
+            "a": "Ensure that the project delivers products that meet the users’ expectations and facilitate benefits realization",
+            "b": "Provide resources and expertise for product development",
+            "c": "Monitor whether the project is running to corporate standards",
+            "d": "Authorize stage plans and exception plans"
         },
         "answer": "a",
-        "reasoning": "Authorizing, reviewing status, and receiving completed Work Packages are all core activities of the Project Manager within the Controlling a Stage process. Refining the Business Case happens in Initiating a Project."
+        "reasoning": "The Senior User represents the users who will use the project's products and is responsible for specifying their needs (quality expectations and acceptance criteria) and ensuring the expected benefits are realized."
     },
     {
-        "question": "Which of the following activities are part of the 'Managing Product Delivery' (MP) process? 1. Accept a Work Package. 2. Execute a Work Package. 3. Deliver a Work Package. 4. Capture and Examine Issues and Risks.",
+        "question": "What are the key responsibilities of the Senior Supplier role?",
         "options": {
-            "a": "1, 2, and 3 only.",
-            "b": "1, 2, and 4 only.",
-            "c": "1, 3, and 4 only.",
-            "d": "All of the above."
+            "a": "Ensure products are delivered with technical integrity and provide resources",
+            "b": "Represent the interests of those who will use the project's products",
+            "c": "Manage the day-to-day work of the project",
+            "d": "Approve requests for change and off-specifications within delegated limits"
         },
         "answer": "a",
-        "reasoning": "The MP process consists of three activities: Accept, Execute, and Deliver a Work Package. Capturing issues and risks is a Project Manager activity in CS."
+        "reasoning": "The Senior Supplier represents the interests of those who design, develop, and procure the project's specialist products and is responsible for their technical quality and providing the necessary resources."
     },
     {
-        "question": "The Project Manager sets tolerances for Team Managers when delegating work. In which management product are these work package tolerances defined?",
+        "question": "What are the key responsibilities of the Project Manager role?",
         "options": {
-            "a": "Stage Plan.",
-            "b": "Highlight Report.",
-            "c": "Work Package.",
-            "d": "Quality Register."
+            "a": "Secure the project's funding and ensure continued business justification",
+            "b": "Manage the project on a day-to-day basis within stage tolerances",
+            "c": "Liaise with external stakeholders and report project progress to corporate management",
+            "d": "Deliver specialist products according to specifications"
+        },
+        "answer": "b",
+        "reasoning": "The Project Manager is responsible for the overall day-to-day management of the project on behalf of the Project Board, ensuring it stays within agreed tolerances."
+    },
+    {
+        "question": "What are the key responsibilities of the Team Manager role?",
+        "options": {
+            "a": "Manage the day-to-day activities of a stage",
+            "b": "Deliver the specialist products within agreed tolerances",
+            "c": "Monitor overall project progress and highlight risks to the Project Board",
+            "d": "Secure external resources and manage their contracts"
+        },
+        "answer": "b",
+        "reasoning": "The Team Manager is responsible for planning, executing, and delivering work packages, which involve creating the specialist products. They also ensure work is within the tolerances set for the work package."
+    },
+    {
+        "question": "What are the key responsibilities of the Project Assurance role?",
+        "options": {
+            "a": "Provide administrative support and maintain project registers",
+            "b": "Independently monitor and review the project's performance and compliance",
+            "c": "Review and approve management products",
+            "d": "Resolve day-to-day issues and escalate only major deviations"
+        },
+        "answer": "b",
+        "reasoning": "Project Assurance acts as an independent check on the project, ensuring it is being conducted correctly, adhering to corporate standards and PRINCE2 principles. They represent the business, user, and supplier interests on behalf of the Project Board."
+    },
+    {
+        "question": "What are the key responsibilities of the Project Support role?",
+        "options": {
+            "a": "Develop specialist products for the project",
+            "b": "Monitor product quality and verify compliance with standards",
+            "c": "Provide administrative support, advice, and guidance to the project team",
+            "d": "Create all project plans and control documents"
         },
         "answer": "c",
-        "reasoning": "Work package tolerances are defined within the Work Package itself."
+        "reasoning": "Project Support provides administrative services, advice, and guidance for the Project Manager and may include roles such as configuration librarian and quality assurance assistant. They also maintain logs and registers."
     },
     {
-        "question": "What is the typical flow of control and reporting between the Project Manager and Team Manager during a stage?",
+        "question": "How does PRINCE2 recommend structuring the project management team?",
         "options": {
-            "a": "Project Manager sends Highlight Report to Team Manager, Team Manager sends Checkpoint Report to Project Manager.",
-            "b": "Project Manager authorizes Work Package to Team Manager, Team Manager sends Checkpoint Report to Project Manager.",
-            "c": "Team Manager sends Work Package to Project Manager, Project Manager sends Highlight Report to Team Manager.",
-            "d": "Project Manager sends Stage Plan to Team Manager, Team Manager sends End Stage Report to Project Manager."
-        },
-        "answer": "b",
-        "reasoning": "The Project Manager authorizes a Work Package, and the Team Manager reports progress via Checkpoint Reports."
-    },
-    {
-        "question": "When a Team Manager forecasts that a Work Package will exceed its agreed tolerances, what is the required action to inform the Project Manager?",
-        "options": {
-            "a": "Produce an Exception Report.",
-            "b": "Raise an Issue.",
-            "c": "Update the Checkpoint Report.",
-            "d": "Request a new Work Package from the Project Manager."
-        },
-        "answer": "b",
-        "reasoning": "A forecast deviation from Work Package tolerance is an issue that must be raised immediately to the Project Manager."
-    },
-    {
-        "question": "Which statement is TRUE regarding the 'Quality Register' in the context of 'Controlling a Stage' and 'Managing Product Delivery'?",
-        "options": {
-            "a": "It is created during 'Controlling a Stage'.",
-            "b": "It tracks risks identified during product delivery.",
-            "c": "It is maintained to reflect updates on planned quality activities, especially for work packages.",
-            "d": "It is used to approve completed products by the Project Manager."
-        },
-        "answer": "c",
-        "reasoning": "The Quality Register is a dynamic log of all quality activities, which is updated as work progresses."
-    },
-    {
-        "question": "During the 'Review Work Package Status' activity of the 'Controlling a Stage' process, what does the Project Manager primarily do?",
-        "options": {
-            "a": "Authorize new work packages for the team.",
-            "b": "Collect and review progress information from Checkpoint Reports and update the stage plan.",
-            "c": "Hand over completed products to the customer or operations.",
-            "d": "Decide on corrective actions for escalated issues and risks."
-        },
-        "answer": "b",
-        "reasoning": "This activity is about monitoring progress by reviewing Checkpoint Reports and updating the stage plan's actuals."
-    },
-    {
-        "question": "Which type of control in PRINCE2 is characterized by taking place at predefined periodic intervals, such as producing monthly highlight reports?",
-        "options": {
-            "a": "Event-driven control.",
-            "b": "Time-driven control.",
-            "c": "Exception control.",
-            "d": "Product-based control."
-        },
-        "answer": "b",
-        "reasoning": "Time-driven controls, like regular reports, occur at predefined intervals."
-    },
-    {
-        "question": "The 'Controlling a Stage' process involves checking the ongoing viability of the Business Case. How frequently is this typically done?",
-        "options": {
-            "a": "At the beginning of each work package.",
-            "b": "Periodically throughout the stage.",
-            "c": "Only when an exception is raised.",
-            "d": "At the end of the project only."
-        },
-        "answer": "b",
-        "reasoning": "The Project Manager periodically reviews the Business Case as part of reviewing the stage status."
-    },
-    {
-        "question": "What is the purpose of the 'Review the Management Stage Status' activity within the 'Controlling a Stage' process?",
-        "options": {
-            "a": "To authorize the Project Manager to proceed with the next stage.",
-            "b": "To make key decisions on how to deal with forecast deviations from tolerance.",
-            "c": "To formally accept completed specialist products from the Team Manager.",
-            "d": "To refine the Business Case for the entire project."
+            "a": "A flexible structure that adapts to the project's size, scale, and complexity",
+            "b": "A rigid, hierarchical structure with fixed roles and responsibilities",
+            "c": "A flat structure where all team members share equal responsibilities",
+            "d": "A structure determined solely by the customer's organizational chart"
         },
         "answer": "a",
-        "reasoning": "This activity allows the Project Manager to assess progress and decide if an exception needs to be raised before seeking authorization to proceed."
+        "reasoning": "PRINCE2 emphasizes that the 'Organization' theme is the most affected by project size, scale, and complexity, and that the project management team structure should be suitable for these factors. Roles can be combined depending on the project's context."
     },
     {
-        "question": "Which of the following is NOT a type of issue formally managed in PRINCE2, as covered in Week 3 processes?",
+        "question": "What information should be included in the Communication Management Approach regarding stakeholders?",
         "options": {
-            "a": "Request for Change.",
-            "b": "Off-specification.",
-            "c": "Problem/Concern.",
-            "d": "Risk."
+            "a": "A list of all identified stakeholders and their communication requirements",
+            "b": "A detailed history of all communications sent to date",
+            "c": "Only internal communication details for the project team",
+            "d": "Financial budgets allocated for communication activities"
         },
-        "answer": "d",
-        "reasoning": "Risks are managed separately in the Risk Register. A risk is an uncertain event, whereas an issue has already happened."
+        "answer": "a",
+        "reasoning": "The Communication Management Approach outlines a stakeholder analysis showing all those who wish to be updated on project progress and how they wish to receive updates, including content, frequency, and method."
+    },
+    {
+        "question": "True or False: In a small project, the Project Manager may also carry out the responsibilities of Project Support.",
+        "options": {
+            "a": "True",
+            "b": "False"
+        },
+        "answer": "a",
+        "reasoning": "PRINCE2 allows for tailoring, and in a small project, the Project Manager and Project Support roles can be combined. Project Support provides administrative services, and the Project Manager may take on these responsibilities directly."
+    },
+    {
+        "question": "What is the purpose of a stakeholder analysis within the Organization theme?",
+        "options": {
+            "a": "To determine the financial viability of the project",
+            "b": "To identify all individuals or groups who can impact or be impacted by the project",
+            "c": "To evaluate the technical feasibility of the project's products",
+            "d": "To define the project's overall scope and objectives"
+        },
+        "answer": "b",
+        "reasoning": "Stakeholder analysis is a component of the Communication Management Approach, which identifies all stakeholders and clarifies their communication requirements. A stakeholder is defined as anyone who can impact or be impacted by a project."
+    },
+    {
+        "question": "How does the Organization theme contribute to the 'Defined Roles and Responsibilities' principle?",
+        "options": {
+            "a": "It ensures that all project products are clearly defined and accepted",
+            "b": "It establishes a clear project management team structure and explicitly defines roles and accountabilities",
+            "c": "It mandates that all project decisions must be made by the Project Board",
+            "d": "It focuses on identifying and managing risks associated with human resources"
+        },
+        "answer": "b",
+        "reasoning": "The Organization theme ensures that everyone involved in the project's team is clear about what is expected of them, establishing clear accountability at each management level."
+    },
+    {
+        "question": "What are the key interests that must be represented on the project board?",
+        "options": {
+            "a": "Business, User, and Supplier",
+            "b": "Executive, Project Manager, and Team Manager",
+            "c": "Corporate, Programme, and Project",
+            "d": "Technical, Administrative, and Financial"
+        },
+        "answer": "a",
+        "reasoning": "The Project Board must represent these three primary interests: the Business interest (represented by the Executive), the User interest (represented by the Senior User), and the Supplier interest (represented by the Senior Supplier)."
+    },
+    {
+        "question": "Who is responsible for preparing the Project Product Description?",
+        "options": {
+            "a": "Senior User",
+            "b": "Project Manager",
+            "c": "Executive",
+            "d": "Project Support"
+        },
+        "answer": "b",
+        "reasoning": "The Project Manager is responsible for creating the Project Product Description during the Starting Up a Project process, with the help of the Senior Users and Executive, and refines it during the Initiating a Project process."
+    },
+    {
+        "question": "What is the main objective of setting up a project management team structure?",
+        "options": {
+            "a": "To clearly define accountability and responsibilities for all project roles",
+            "b": "To secure funding for the project",
+            "c": "To manage project risks effectively",
+            "d": "To ensure continuous quality control of products"
+        },
+        "answer": "a",
+        "reasoning": "A primary objective of the Organization theme is to establish a clear structure with defined roles and responsibilities to ensure accountability and effective decision-making."
+    },
+    {
+        "question": "In what section of the Communication Management Approach would you define the frequency and format of communication?",
+        "options": {
+            "a": "Roles and Responsibilities",
+            "b": "Records",
+            "c": "Reporting",
+            "d": "Tools and Techniques"
+        },
+        "answer": "c",
+        "reasoning": "This section defines the means and frequency of communication, including details about reports such as who receives them, when, and in what format."
+    },
+    {
+        "question": "What information would you expect to find under the 'Roles and Responsibilities' section of the Communication Management Approach?",
+        "options": {
+            "a": "The schedule of all planned communication activities",
+            "b": "Who is responsible for what aspects of the communication procedures",
+            "c": "The types of communication tools to be used",
+            "d": "A list of all project risks related to communication"
+        },
+        "answer": "b",
+        "reasoning": "The 'Roles and Responsibilities' section explicitly describes who will be responsible for what aspects of the communication procedures."
+    },
+    {
+        "question": "How might the Communication Management Approach be tailored for a project that is part of a larger program?",
+        "options": {
+            "a": "It would contain less detail and rely more on informal communication channels",
+            "b": "It would focus solely on internal project team communication",
+            "c": "It would need to clarify lines of communication and reporting structures between the project and the programme",
+            "d": "It would be replaced entirely by the programme's communication strategy"
+        },
+        "answer": "c",
+        "reasoning": "For projects that are part of a programme, the lines of communication and reporting structure between the project and the programme should be made clear in the communication management approach. Some aspects of the approach might be derived from the programme's established strategies."
+    },
+    {
+        "question": "What is a 'Change Authority' and who decides whether to establish one?",
+        "options": {
+            "a": "A group responsible for creating new product designs; the Project Manager decides",
+            "b": "A person or group delegated authority to approve changes within certain limits; the Project Board decides",
+            "c": "The individual responsible for recording all issues; Project Support decides",
+            "d": "A stakeholder who requests modifications; the Senior User decides"
+        },
+        "answer": "b",
+        "reasoning": "A Change Authority is an optional role to which the Project Board may delegate authority to approve requests for change and off-specifications within agreed limits. The Project Board makes the decision to establish one."
+    },
+    {
+        "question": "What are some considerations for tailoring the Organization theme in a commercial customer/supplier environment?",
+        "options": {
+            "a": "Focusing primarily on agile delivery methods",
+            "b": "Ensuring legal contracts clearly specify product delivery and quality assurance",
+            "c": "Combining all project roles into a single Project Manager role",
+            "d": "Eliminating the need for a formal Project Board"
+        },
+        "answer": "b",
+        "reasoning": "In a commercial customer/supplier environment, legal contracts should unambiguously define what products need to be delivered, how quality assurance will be conducted, and customer inspection rights. There might also be a need for more than one risk register to avoid sharing commercially sensitive information."
+    },
+    {
+        "question": "Who typically fills the Project Support role, and what are their responsibilities?",
+        "options": {
+            "a": "A senior member of the executive team, responsible for strategic alignment",
+            "b": "An administrative assistant or a dedicated support person, responsible for administrative support, advice, and guidance to the project team, and maintaining logs/registers",
+            "c": "A specialist who designs and develops project products, responsible for technical quality",
+            "d": "An independent auditor, responsible for ensuring compliance with corporate standards"
+        },
+        "answer": "b",
+        "reasoning": "Project Support provides administrative services, advice, and guidance to the project manager and team, including tasks like maintaining the daily log, lessons log, quality register, and issue register."
     }
 ]

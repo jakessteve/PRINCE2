@@ -1,222 +1,277 @@
 [
     {
-        "question": "What is the primary purpose of the Quality Theme in PRINCE2?",
+        "question": "What is the primary purpose of the Risk theme in PRINCE2?",
         "options": {
-            "a": "To identify, assess, and control uncertainty throughout the project.",
-            "b": "To establish a structure of accountability for the project management team.",
-            "c": "To ensure that the project's products meet business expectations and are fit for purpose.",
-            "d": "To define the means of delivering the products and providing a baseline against which progress can be measured."
-        },
-        "answer": "c",
-        "reasoning": "The Quality theme's purpose is to define and implement the system that will ensure products are fit for purpose and meet business expectations."
-    },
-    {
-        "question": "Which of the following best describes the purpose of a 'Product Description' in PRINCE2?",
-        "options": {
-            "a": "To summarize the quality activities planned for the project.",
-            "b": "To define the measurable attributes and quality criteria for a specific product.",
-            "c": "To outline the overall outputs of the project and the quality expected of those outputs.",
-            "d": "To list all identified risks associated with the product's development."
+            "a": "To define the project's structure of accountability",
+            "b": "To identify, assess, and control uncertainty",
+            "c": "To define the means of delivering the project's products",
+            "d": "To provide a forecast for the project's objectives"
         },
         "answer": "b",
-        "reasoning": "A Product Description provides detailed information about a specific product, including its purpose, composition, and its measurable quality criteria."
+        "reasoning": "The primary purpose of the Risk theme is 'To identify, assess, and control uncertainty and thus improve the ability of the project to succeed'. This directly addresses the 'what if' of the project, which is managing uncertainty."
     },
     {
-        "question": "In PRINCE2, what is the main purpose of the 'Project Product Description'?",
+        "question": "In PRINCE2, what does 'risk' encompass?",
         "options": {
-            "a": "To describe how individual products will be checked for quality during development.",
-            "b": "To provide a detailed breakdown of all specialist products to be created by the project.",
-            "c": "To define the project's overall scope and main outputs, including the customer's quality expectations and acceptance criteria for the project's end product.",
-            "d": "To detail the schedule for the delivery of all products within a specific management stage."
+            "a": "Only certain events that will affect the project negatively",
+            "b": "Only uncertain events that will affect the project negatively",
+            "c": "Uncertain events that could have either a positive or negative impact on the project",
+            "d": "Certain events that will affect the project positively or negatively"
         },
         "answer": "c",
-        "reasoning": "The Project Product Description is a special Product Description that defines what the entire project must deliver in order to gain acceptance from the customer."
+        "reasoning": "In PRINCE2, 'a risk is something that may or may not happen—in other words, it is uncertain'. It 'could also have a favorable impact on the project'. The definition explicitly states that PRINCE2 uses the word risk to cover 'potential opportunities as well as threats'. An opportunity is 'an uncertain event that could have a favorable impact on the project'."
     },
     {
-        "question": "What does the 'Quality Management Approach' in PRINCE2 primarily describe?",
+        "question": "What are the five steps in the PRINCE2 Risk Management Procedure?",
         "options": {
-            "a": "How the project team will manage communication with stakeholders.",
-            "b": "How risks and opportunities will be identified, assessed, and controlled throughout the project.",
-            "c": "How the project will ensure that its products meet the required quality standards and are fit for purpose.",
-            "d": "How proposed changes to the project's products will be controlled."
+            "a": "Identify, Analyze, Respond, Monitor, Communicate",
+            "b": "Identify, Assess, Plan, Implement, Communicate",
+            "c": "Capture, Assess, Propose, Decide, Implement",
+            "d": "Define, Analyze, Plan, Control, Review"
+        },
+        "answer": "b",
+        "reasoning": "PRINCE2 recommends a five-step process for risk management: 'identify, assess, plan, implement, and communicate'."
+    },
+    {
+        "question": "What is the purpose of the Risk Register?",
+        "options": {
+            "a": "To define how risk will be managed throughout the project",
+            "b": "To provide a record of the status for identified risks",
+            "c": "To document the project-level risk tolerance",
+            "d": "To summarize the aggregated risk exposure of the project"
+        },
+        "answer": "b",
+        "reasoning": "The Risk Register's purpose is 'to capture and maintain information on all the risks (threats and opportunities) that are being formally managed'. It 'will provide a record of the status for identified risks'."
+    },
+    {
+        "question": "Which of the following is an example of information typically recorded in the Risk Register?",
+        "options": {
+            "a": "The scales for estimating probability and impact",
+            "b": "The defined roles and responsibilities for risk management activities",
+            "c": "A unique identifier, category, and current status for each risk",
+            "d": "The timing of formal risk management activities"
         },
         "answer": "c",
-        "reasoning": "The Quality Management Approach describes the project's strategy and procedures for ensuring quality."
+        "reasoning": "The composition of the Risk Register includes a unique identifier, category, current status, and other details for each risk."
     },
     {
-        "question": "What is the main purpose of the 'Quality Register' in PRINCE2?",
+        "question": "Which two techniques can be used to identify risks?",
         "options": {
-            "a": "To record all quality checks that have taken place and provide a pointer to associated quality records.",
-            "b": "To document the project's overall quality policy and standards.",
-            "c": "To list all identified quality issues that have arisen during the project.",
-            "d": "To serve as a repository for quality lessons learned from previous projects."
+            "a": "Expected Monetary Value and Probability Impact Grid",
+            "b": "Brainstorming and Risk Breakdown Structure",
+            "c": "Pareto Analysis and Probability Trees",
+            "d": "Cost-Benefit Analysis and S-curve"
+        },
+        "answer": "b",
+        "reasoning": "Techniques used to *identify* risks include 'brainstorming' and 'risk breakdown structure'. Other identification techniques mentioned are 'review lessons, risk checklists, risk prompt lists'."
+    },
+    {
+        "question": "What is a 'Risk Breakdown Structure'?",
+        "options": {
+            "a": "A graphical representation showing cumulative actual figures against time",
+            "b": "A hierarchical depiction of potential risk sources and categories",
+            "c": "A document that defines the project's risk management procedure",
+            "d": "A technique for assessing the combined effect of individual risks"
+        },
+        "answer": "b",
+        "reasoning": "A Risk Breakdown Structure is defined as a 'hierarchical depiction of potential risk sources and categories'. It can be used as a prompt list."
+    },
+    {
+        "question": "Which document defines how risk will be managed throughout the project?",
+        "options": {
+            "a": "The Risk Register",
+            "b": "The Project Plan",
+            "c": "The Risk Management Approach",
+            "d": "The Project Initiation Documentation (PID)"
+        },
+        "answer": "c",
+        "reasoning": "The 'Risk Management Approach, which specifies how the project management team will manage risk', defines how risk will be managed throughout the project."
+    },
+    {
+        "question": "When is the Risk Management Approach typically created?",
+        "options": {
+            "a": "During the Starting Up a Project process",
+            "b": "During the Initiating a Project process",
+            "c": "At the end of each management stage",
+            "d": "Whenever a new significant risk is identified"
+        },
+        "answer": "b",
+        "reasoning": "The Risk Management Approach is created during the 'initiating a project process'."
+    },
+    {
+        "question": "What is a 'Risk Budget' and what is its purpose?",
+        "options": {
+            "a": "A budget set for each individual risk to fund its response",
+            "b": "A specific amount of money set aside to fund responses to threats and opportunities",
+            "c": "A contingency fund to cover unexpected cost overruns in the project",
+            "d": "The total estimated cost impact of all identified risks on the project"
+        },
+        "answer": "b",
+        "reasoning": "A Risk Budget is 'a specific amount of money set aside to fund responses to threats and opportunities'. Its value is described in the project's plans."
+    },
+    {
+        "question": "What are the common categories for risk responses to 'threats'?",
+        "options": {
+            "a": "Exploit, Enhance, Share, Accept",
+            "b": "Avoid, Reduce, Prepare Contingent Plans, Transfer, Share, Accept",
+            "c": "Remove, Mitigate, Delegate, Ignore",
+            "d": "Prevent, Monitor, Control, Escalate"
+        },
+        "answer": "b",
+        "reasoning": "Common threat responses listed are 'Avoid a threat,' 'Reduce a threat,' 'Transfer a threat,' 'Accept a threat,' and 'Share a threat'. 'Prepare contingent plans (reduces impact only)' is also listed."
+    },
+    {
+        "question": "What are the common categories for risk responses to 'opportunities'?",
+        "options": {
+            "a": "Avoid, Reduce, Prepare Contingent Plans, Transfer, Share, Accept",
+            "b": "Exploit, Enhance, Prepare Contingent Plans, Transfer, Share, Accept",
+            "c": "Exploit, Maintain, Realize, Delegate",
+            "d": "Increase, Maximize, Preserve, Avoid"
+        },
+        "answer": "b",
+        "reasoning": "Common opportunity responses listed are 'Exploit an opportunity,' 'Enhance an opportunity,' 'Transfer an opportunity,' 'Accept an opportunity,' and 'Share an opportunity'. 'Prepare contingent plans (increases impact only)' is also listed."
+    },
+    {
+        "question": "What is the difference between 'inherent risk' and 'residual risk'?",
+        "options": {
+            "a": "Inherent risk is a new risk introduced by a response; residual risk is the original risk.",
+            "b": "Inherent risk is a positive risk; residual risk is a negative risk.",
+            "c": "Inherent risk is the original risk before any response; residual risk is the risk remaining after a response has been applied",
+            "d": "Inherent risk is formally managed; residual risk is informally managed."
+        },
+        "answer": "c",
+        "reasoning": "'If the project management team applies a risk response to an inherent risk (the risk it starts off with), it might not necessarily remove the potential problem, thus leaving some residual risk'. Inherent risk is the 'risk it starts off with', and 'residual' risk is the 'remaining' risk after a threat is reduced."
+    },
+    {
+        "question": "What is a 'secondary risk'?",
+        "options": {
+            "a": "A risk that has a minor impact on the project objectives.",
+            "b": "A risk that occurs as a result of invoking a risk response",
+            "c": "A risk that remains after all planned risk responses have been implemented",
+            "d": "A risk that is escalated to a higher level of management"
+        },
+        "answer": "b",
+        "reasoning": "Secondary risks are 'risks that occur as a result of invoking a risk response'. For example, scaffolding erected as a response to rain (inherent risk) might collapse, injuring workers (secondary risk)."
+    },
+    {
+        "question": "How does PRINCE2 define 'proximity' for a risk event?",
+        "options": {
+            "a": "The time factor of risk, indicating when the risk may occur",
+            "b": "The likelihood of the risk occurring, expressed as a percentage",
+            "c": "The impact of the risk on the project's objectives",
+            "d": "The geographical location where the risk is most likely to materialize"
         },
         "answer": "a",
-        "reasoning": "The Quality Register is a diary of all the quality events planned and their results, such as quality checks."
+        "reasoning": "'Proximity reflects the fact that risks will occur at particular times and the severity of their impact will vary according to when they occur. Typical proximity categories will be: imminent, within the management stage, within the project, beyond the project'. It is the 'time factor of risk (i.e. when the risk may occur)'."
     },
     {
-        "question": "Which of the following is a minimum requirement for applying the Quality Theme in PRINCE2?",
+        "question": "What is the purpose of 'early warning indicators' in risk management?",
         "options": {
-            "a": "To define how to identify ways of eliminating causes of unsatisfactory performance.",
-            "b": "To ensure that the project uses the Quality Review Technique for all key products.",
-            "c": "To maintain records of quality activities and quality management decisions.",
-            "d": "To appoint a dedicated Project Assurance role for every project."
-        },
-        "answer": "c",
-        "reasoning": "Maintaining quality records is a minimum requirement to demonstrate that quality activities have been properly conducted and provide an audit trail."
-    },
-    {
-        "question": "In PRINCE2, what is the distinction between 'Quality Planning' and 'Quality Control'?",
-        "options": {
-            "a": "Quality Planning focuses on 'how' products will be checked, while Quality Control focuses on 'what' quality is required.",
-            "b": "Quality Planning defines the quality criteria and methods, while Quality Control involves carrying out checks and documenting results.",
-            "c": "Quality Planning is performed by the Project Manager, while Quality Control is performed by Team Managers.",
-            "d": "Quality Planning occurs at the start of the project, while Quality Control occurs only at the end."
+            "a": "To automatically trigger risk responses without human intervention.",
+            "b": "To provide objective indicators of changes in the probability or impact of a risk",
+            "c": "To alert the project manager to general project issues, not specific risks.",
+            "d": "To define the scales for estimating probability and impact."
         },
         "answer": "b",
-        "reasoning": "Quality Planning is about defining the project's products and the methods to check them, while Quality Control is the implementation of those methods and checks."
+        "reasoning": "Early warning indicators are listed as a component of the Risk Management Approach, used to help the project management team 'understand when a risk is about to occur' by providing 'objective indicators of changes in the probability or impact of a risk'."
     },
     {
-        "question": "What is the primary difference between 'Project Assurance' and 'Quality Assurance' in PRINCE2?",
+        "question": "What does the 'Communicate' step of the Risk Management Procedure involve?",
         "options": {
-            "a": "Project Assurance is a Project Board responsibility, while Quality Assurance is an external, independent check.",
-            "b": "Project Assurance is concerned with product quality, while Quality Assurance is concerned with process compliance.",
-            "c": "Project Assurance is focused on the project's specialist products, while Quality Assurance is focused on management products.",
-            "d": "Project Assurance ensures the project adheres to organizational quality standards, while Quality Assurance ensures products meet acceptance criteria."
-        },
-        "answer": "a",
-        "reasoning": "Project Assurance is part of the project management team, providing assurance for the Project Board. Quality Assurance is independent of the project team, often at a corporate or programme level."
-    },
-    {
-        "question": "Which statement accurately describes the relationship between 'Customer Quality Expectations' and 'Acceptance Criteria' in PRINCE2?",
-        "options": {
-            "a": "Customer Quality Expectations are measurable statements, while Acceptance Criteria are high-level descriptions.",
-            "b": "Customer Quality Expectations are provided by the customer, and Acceptance Criteria are derived from them to be measurable.",
-            "c": "Both are synonymous terms used interchangeably in PRINCE2.",
-            "d": "Customer Quality Expectations are for internal use, while Acceptance Criteria are for external stakeholders."
+            "a": "Escalating all identified risks to corporate management.",
+            "b": "Ensuring everyone involved in the project is aware of the risk situation and new potential risks are identified and fed back",
+            "c": "Documenting only the high-severity risks in a formal report.",
+            "d": "Informing only the Project Board of risk management activities."
         },
         "answer": "b",
-        "reasoning": "Acceptance Criteria are a prioritized list of measurable definitions of what must be delivered for the final product to be accepted, derived from the broader customer's quality expectations."
+        "reasoning": "The 'Communicate' step involves 'ensuring that everyone involved in the project is aware of the risk situation and that all new potential risks are being identified and fed back to the project manager'. Project manager also communicates 'information about the risk to anyone identified in the communication management approach'."
     },
     {
-        "question": "What is the purpose of the 'Quality Review Technique' in PRINCE2?",
+        "question": "Which of the following statements about a risk budget is true?",
         "options": {
-            "a": "To continuously monitor the daily operational performance of products after project completion.",
-            "b": "To provide a structured method for inspecting products, particularly documents, against their quality criteria.",
-            "c": "To identify lessons learned regarding quality management for future projects.",
-            "d": "To assess the overall quality management system of the organization."
+            "a": "A risk budget is set for each individual risk.",
+            "b": "A risk budget is part of the overall project budget used to fund unplanned work.",
+            "c": "A risk budget can be set for the entire project, a stage, or a work package.",
+            "d": "A risk budget is used to fund changes to baselined products."
+        },
+        "answer": "c",
+        "reasoning": "A risk budget 'is not set for each individual risk but can be set for the entire project, a stage or for a work package'."
+    },
+    {
+        "question": "How does the Risk theme implement the 'Manage by Exception' principle?",
+        "options": {
+            "a": "By ensuring that risk responses are proportionate to the potential impact of the risk",
+            "b": "By focusing on identifying only the most significant risks to the project.",
+            "c": "By defining risk tolerance levels that, if exceeded, trigger escalation to the next management level",
+            "d": "By continuously evaluating the combined effect of individual risks."
+        },
+        "answer": "c",
+        "reasoning": "The Risk theme implements 'Manage by Exception' by defining 'risk tolerance defines a threshold level of risk that, if exceeded, needs to be escalated to the next level of management'. This allows higher management to focus only on significant deviations."
+    },
+    {
+        "question": "What is the role of the 'Risk Owner'?",
+        "options": {
+            "a": "An individual responsible for chairing the risk management workshop",
+            "b": "An individual responsible for identifying all risks within a project",
+            "c": "An individual responsible for managing, monitoring, and controlling all aspects of a particular risk",
+            "d": "An individual responsible for defining the organization's risk appetite"
+        },
+        "answer": "c",
+        "reasoning": "The 'risk owner’s role is to manage and monitor an assigned risk'. They are responsible for 'monitoring specific aspects of a particular risk, including its probability and impact'."
+    },
+    {
+        "question": "What is the role of 'Risk Actionees'?",
+        "options": {
+            "a": "To manage and monitor a particular risk",
+            "b": "To carry out a particular risk response action",
+            "c": "To approve the risk management approach",
+            "d": "To determine the overall risk exposure of the project"
         },
         "answer": "b",
-        "reasoning": "It is a structured review technique designed to assess whether a product, particularly a document, is complete and conforms to its quality criteria."
+        "reasoning": "Risk Actionees are 'one or more individuals to carry out a particular risk response action'."
     },
     {
-        "question": "Who is primarily responsible for defining the measurable 'Acceptance Criteria' for the project's end product in PRINCE2?",
+        "question": "How might the Risk theme be tailored for a project that is part of a programme?",
         "options": {
-            "a": "The Project Manager, with input from the Senior Users and the Executive.",
-            "b": "The Project Board, based on the Project Manager's recommendations.",
-            "c": "The Quality Assurance team, ensuring compliance with external standards.",
-            "d": "The Team Manager, as part of the work package agreement."
-        },
-        "answer": "a",
-        "reasoning": "The Project Manager documents the acceptance criteria in the Project Product Description, in consultation with the customer and other stakeholders."
-    },
-    {
-        "question": "In PRINCE2, what does the term 'Quality' refer to?",
-        "options": {
-            "a": "The inherent excellence or superiority of a product compared to others.",
-            "b": "The degree to which a set of inherent characteristics of a product fulfils requirements.",
-            "c": "The luxury or premium features included in a product.",
-            "d": "The cost-effectiveness and efficiency of producing a product."
+            "a": "The project would create its own, independent risk management approach.",
+            "b": "The project's risk management approach might be derived from or aligned with the programme's approach",
+            "c": "The project would only record risks that affect the programme, not individual project risks.",
+            "d": "The programme manager would take on the role of Project Manager to manage all risks."
         },
         "answer": "b",
-        "reasoning": "This is the formal definition of quality, focusing on meeting the stated requirements for a product."
+        "reasoning": "When tailoring the Risk theme, it's advised to 'align the project’s risk management approach with any existing corporate or programme risk management approaches'. This helps ensure consistency."
     },
     {
-        "question": "Where are 'Quality Tolerances' for a product typically specified in PRINCE2?",
+        "question": "What is 'risk tolerance' and what happens when it is exceeded?",
         "options": {
-            "a": "In the Quality Register.",
-            "b": "In the Project Product Description.",
-            "c": "In the Product Description for that specific product.",
-            "d": "In the Quality Management Approach."
-        },
-        "answer": "c",
-        "reasoning": "Quality tolerances, which specify the acceptable range of quality criteria, are detailed in the Product Description for that specific product."
-    },
-    {
-        "question": "Which management product in PRINCE2 specifies the quality activities to be implemented during the development of a product, for review and approval on completion?",
-        "options": {
-            "a": "Quality Register.",
-            "b": "Quality Management Approach.",
-            "c": "Product Description.",
-            "d": "Work Package."
-        },
-        "answer": "c",
-        "reasoning": "The Product Description details the quality methods to be used to check a product's quality."
-    },
-    {
-        "question": "Who among the following provides a quality assurance function and details of any established corporate quality management approach that needs to be followed by the project management team?",
-        "options": {
-            "a": "The Executive.",
-            "b": "The Project Manager.",
-            "c": "Corporate, Programme Management, or the Customer.",
-            "d": "Project Assurance."
-        },
-        "answer": "c",
-        "reasoning": "The corporate or programme organization is responsible for providing the project with its quality assurance function and any corporate standards."
-    },
-    {
-        "question": "In PRINCE2, what must be maintained to provide evidence that quality activities have occurred?",
-        "options": {
-            "a": "Issue Register.",
-            "b": "Risk Register.",
-            "c": "Quality Records.",
-            "d": "Lessons Log."
-        },
-        "answer": "c",
-        "reasoning": "Quality records are the evidence that planned quality activities, such as tests and reviews, have been carried out."
-    },
-    {
-        "question": "What are the two primary types of quality methods defined in PRINCE2?",
-        "options": {
-            "a": "Formal and Informal Methods.",
-            "b": "Predictive and Adaptive Methods.",
-            "c": "In-process and Appraisal Methods.",
-            "d": "Preventative and Corrective Methods."
-        },
-        "answer": "c",
-        "reasoning": "In-process methods embed quality during the creation of the product, while appraisal methods check the finished product against its criteria."
-    },
-    {
-        "question": "During which PRINCE2 process is the 'Quality Management Approach' typically created?",
-        "options": {
-            "a": "Starting up a Project (SU).",
-            "b": "Initiating a Project (IP).",
-            "c": "Controlling a Stage (CS).",
-            "d": "Managing a Stage Boundary (SB)."
+            "a": "It's the acceptable deviation in project performance; when exceeded, corrective action is taken by the Project Manager.",
+            "b": "It's the threshold level of risk exposure; when exceeded, it needs to be escalated to the next level of management.",
+            "c": "It's the amount of money allocated to fund risk responses; when exceeded, the project budget is automatically increased.",
+            "d": "It's the willingness to take on risk; when exceeded, the project is immediately closed."
         },
         "answer": "b",
-        "reasoning": "The Quality Management Approach is created as part of the Project Initiation Documentation (PID) during the Initiating a Project process."
+        "reasoning": "Risk tolerance 'defines a threshold level of risk that, if exceeded, needs to be escalated to the next level of management'. If the overall risk exposure is 'greater than the organization’s risk appetite,' control actions will need to be planned."
     },
     {
-        "question": "Which of the following statements is TRUE regarding the updating of the 'Project Product Description' in PRINCE2?",
+        "question": "What information would you expect to find in the 'Scales' section of the Risk Management Approach?",
         "options": {
-            "a": "It is created at the start of the project and never updated.",
-            "b": "It can develop iteratively as the project proceeds, especially when an agile approach is used.",
-            "c": "It is updated only when project-level tolerances are exceeded.",
-            "d": "It is refined into detailed product descriptions at the end of each stage."
-        },
-        "answer": "b",
-        "reasoning": "While baselined in the PID, the Project Product Description may be updated with approval via change control, which is common in agile environments."
-    },
-    {
-        "question": "Which section of a 'Checkpoint Report' includes information about quality activities?",
-        "options": {
-            "a": "Work Package Tolerance Status.",
-            "b": "Issues and Risks Update.",
-            "c": "Products completed during the reporting period.",
-            "d": "Quality management activities carried out during the period and planned for the next reporting period."
+            "a": "A list of all identified risks, categorized by severity",
+            "b": "Guidelines on how proximity for risk events is to be assessed",
+            "c": "The historical data of past project risks",
+            "d": "The criteria for each level within the scales for estimating probability and impact"
         },
         "answer": "d",
-        "reasoning": "The Checkpoint Report has a specific section for the Team Manager to report on quality management activities related to the Work Package."
+        "reasoning": "The 'Scales' section 'defines the scales for estimating probability and impact for the project... These may be shown in the form of probability impact grids giving the criteria for each level within the scale (e.g. for ‘very high’, ‘high’, ‘medium’, ‘low’ and ‘very low’)'. It also describes how different impacts (e.g., time, cost) can be measured."
+    },
+    {
+        "question": "How does 'Learn from Experience' apply to the Risk theme?",
+        "options": {
+            "a": "By applying lessons from similar initiatives to formulate risk responses",
+            "b": "By ensuring that all risks are identified at the beginning of the project.",
+            "c": "By documenting all risk management activities for auditing purposes.",
+            "d": "By reviewing the risk register at the end of each management stage."
+        },
+        "answer": "a",
+        "reasoning": "When planning responses to risks, 'it is important that the project management team consider past experience that might be useful'. The 'Learn from Experience' principle ensures that 'Lessons identified and recorded in the lessons log are considered and, where appropriate, applied to all aspects of risk management'."
     }
 ]
