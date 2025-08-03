@@ -4,11 +4,12 @@ import { start, selectAndPrepareQuiz, handleURLChange } from './quiz-manager.js'
 import { finish } from './timer.js';
 import { updateCounter, highlightSelection } from './dom-utils.js';
 import { toggleFullscreen, showCustomConfirm } from './ui-updater.js';
+import { eventManager } from './event-manager.js';
 
 export function bindEvents(doc = document) {
     const domElements = getDomElements(doc);
-    domElements.startBtn.addEventListener('click', () => start());
-    domElements.finishBtn.addEventListener('click', () => {
+    eventManager.addListener(domElements.startBtn, 'click', () => start());
+    eventManager.addListener(domElements.finishBtn, 'click', () => {
         const { isTestFinished, quizData } = getState();
         if (isTestFinished) {
             const params = new URLSearchParams(window.location.search);
@@ -28,20 +29,20 @@ export function bindEvents(doc = document) {
         }
     });
 
-    domElements.startFinalTestBtn.addEventListener('click', () => {
+    eventManager.addListener(domElements.startFinalTestBtn, 'click', () => {
         selectAndPrepareQuiz('final', true);
     });
 
-    domElements.startFailedTestBtn.addEventListener('click', () => {
+    eventManager.addListener(domElements.startFailedTestBtn, 'click', () => {
         selectAndPrepareQuiz('failed', true);
     });
 
-    domElements.quizForm.addEventListener('change', (event) => {
+    eventManager.addListener(domElements.quizForm, 'change', (event) => {
         updateCounter();
         highlightSelection(event.target);
     });
-    window.addEventListener('popstate', () => handleURLChange());
+    eventManager.addListener(window, 'popstate', () => handleURLChange());
 
-    domElements.expandResultsBtn.addEventListener('click', () => toggleFullscreen());
-    domElements.closeFullscreenBtn.addEventListener('click', () => toggleFullscreen());
+    eventManager.addListener(domElements.expandResultsBtn, 'click', () => toggleFullscreen());
+    eventManager.addListener(domElements.closeFullscreenBtn, 'click', () => toggleFullscreen());
 }

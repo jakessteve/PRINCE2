@@ -1,68 +1,120 @@
 import { getDomElements } from '../constants.js';
 import { getState } from '../store/index.js';
 import { getFailedCounts, saveFailedCounts } from '../services/storage-service.js';
+import { eventManager } from './event-manager.js';
+
+// Reusable dialog elements
+let confirmDialog = null;
+let confirmOverlay = null;
+let alertDialog = null;
+let alertOverlay = null;
+
+// Initialize dialog elements
+function initDialogs() {
+    if (!confirmDialog) {
+        confirmDialog = document.createElement('div');
+        confirmDialog.className = 'custom-dialog';
+        confirmDialog.innerHTML = `
+            <p id="confirm-message"></p>
+            <button id="confirm-yes">Yes</button>
+            <button id="confirm-no">No</button>
+        `;
+        confirmDialog.style.display = 'none';
+        document.body.appendChild(confirmDialog);
+
+        confirmOverlay = document.createElement('div');
+        confirmOverlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1999;
+            display: none;
+        `;
+        document.body.appendChild(confirmOverlay);
+    }
+
+    if (!alertDialog) {
+        alertDialog = document.createElement('div');
+        alertDialog.className = 'custom-dialog';
+        alertDialog.innerHTML = `
+            <p id="alert-message"></p>
+            <button id="alert-ok">OK</button>
+        `;
+        alertDialog.style.display = 'none';
+        document.body.appendChild(alertDialog);
+
+        alertOverlay = document.createElement('div');
+        alertOverlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1999;
+            display: none;
+        `;
+        document.body.appendChild(alertOverlay);
+    }
+}
 
 export function showCustomConfirm(message, onConfirm) {
-    const dialog = document.createElement('div');
-    dialog.className = 'custom-dialog';
-    dialog.innerHTML = `
-        <p>${message}</p>
-        <button id="confirm-yes">Yes</button>
-        <button id="confirm-no">No</button>
-    `;
-    document.body.appendChild(dialog);
-
-    const overlay = document.createElement('div');
-    overlay.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.5);
-        z-index: 1999;
-    `;
-    document.body.appendChild(overlay);
+    initDialogs();
+    
+    // Update message
+    document.getElementById('confirm-message').textContent = message;
+    
+    // Show dialog and overlay
+    confirmDialog.style.display = 'block';
+    confirmOverlay.style.display = 'block';
 
     const closeDialog = () => {
-        document.body.removeChild(dialog);
-        document.body.removeChild(overlay);
+        confirmDialog.style.display = 'none';
+        confirmOverlay.style.display = 'none';
     };
 
-    document.getElementById('confirm-yes').addEventListener('click', () => {
+    // Remove existing event listeners to prevent duplicates
+    const yesButton = document.getElementById('confirm-yes');
+    const noButton = document.getElementById('confirm-no');
+    
+    // Add new event listeners using eventManager for proper cleanup
+    const onYes = () => {
         onConfirm();
         closeDialog();
-    });
-
-    document.getElementById('confirm-no').addEventListener('click', () => {
+    };
+    
+    const onNo = () => {
         closeDialog();
-    });
+    };
+    
+    eventManager.addListener(yesButton, 'click', onYes);
+    eventManager.addListener(noButton, 'click', onNo);
 }
 
 export function showCustomAlert(message) {
-    const dialog = document.createElement('div');
-    dialog.className = 'custom-dialog';
-    dialog.innerHTML = `
-        <p>${message}</p>
-        <button id="alert-ok">OK</button>
-    `;
-    document.body.appendChild(dialog);
+    initDialogs();
+    
+    // Update message
+    document.getElementById('alert-message').textContent = message;
+    
+    // Show dialog and overlay
+    alertDialog.style.display = 'block';
+    alertOverlay.style.display = 'block';
 
-    const overlay = document.createElement('div');
-    overlay.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.5);
-        z-index: 1999;
-    `;
-    document.body.appendChild(overlay);
+    const closeDialog = () => {
+        alertDialog.style.display = 'none';
+        alertOverlay.style.display = 'none';
+    };
 
-    document.getElementById('alert-ok').addEventListener('click', () => {
-        document.body.removeChild(dialog);
-        document.body.removeChild(overlay);
+    // Remove existing event listeners to prevent duplicates
+    const okButton = document.getElementById('alert-ok');
+    
+    // Add new event listener using eventManager for proper cleanup
+    eventManager.addListener(okButton, 'click', () => {
+        closeDialog();
     });
 }
 
@@ -123,6 +175,9 @@ export function updateActiveWeekLink(activeWeek) {
     });
 }
 
+// Store current week index state for incremental updates
+let currentWeekIndex = [];
+
 export async function buildWeekIndex(selectAndPrepareQuizCallback) {
     const domElements = getDomElements();
     try {
@@ -130,25 +185,59 @@ export async function buildWeekIndex(selectAndPrepareQuizCallback) {
         const { quizzes: weekNumbers } = await response.json();
 
         weekNumbers.sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
-        domElements.weekIndex.innerHTML = '';
+        
+        // Check if we need to update the index
+        if (arraysEqual(currentWeekIndex, weekNumbers)) {
+            // No changes needed
+            return;
+        }
+        
+        // Update current index state
+        currentWeekIndex = [...weekNumbers];
+        
+        // Use DocumentFragment for batch operations
+        const fragment = document.createDocumentFragment();
+        
+        // Create new elements
         weekNumbers.forEach(weekNum => {
             const li = document.createElement('li');
             const a = document.createElement('a');
             a.href = `?week=${weekNum}`;
             a.textContent = `Week ${weekNum}`;
-            a.addEventListener('click', (e) => {
+            a.dataset.week = weekNum;
+            li.appendChild(a);
+            fragment.appendChild(li);
+        });
+        
+        // Replace content with fragment
+        domElements.weekIndex.innerHTML = '';
+        domElements.weekIndex.appendChild(fragment);
+        
+        // Add event delegation for week index links
+        eventManager.addListener(domElements.weekIndex, 'click', (e) => {
+            if (e.target.tagName === 'A' && e.target.dataset.week) {
                 e.preventDefault();
                 domElements.weekIndex.querySelectorAll('a').forEach(link => link.classList.remove('active-week'));
-                a.classList.add('active-week');
-                selectAndPrepareQuizCallback(String(weekNum));
-            });
-            li.appendChild(a);
-            domElements.weekIndex.appendChild(li);
+                e.target.classList.add('active-week');
+                selectAndPrepareQuizCallback(e.target.dataset.week);
+            }
         });
     } catch (error) {
         console.error('Failed to build week index:', error);
         domElements.weekIndex.innerHTML = '<li>Could not load quiz index.</li>';
     }
+}
+
+// Helper function to compare arrays
+function arraysEqual(a, b) {
+    if (a === b) return true;
+    if (a == null || b == null) return false;
+    if (a.length !== b.length) return false;
+    
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] !== b[i]) return false;
+    }
+    return true;
 }
 
 export function updateSidebarOnFinish(results) {
