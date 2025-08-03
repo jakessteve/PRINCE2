@@ -32,7 +32,7 @@ export function startTimer() {
 
 export function finish(forceFailed = false) {
     const domElements = getDomElements();
-    let { timerInterval, quizData } = getState();
+    let { timerInterval, quizData, isTestActive } = getState();
     clearInterval(timerInterval);
     setState({ isTestActive: false, isTestFinished: true });
     domElements.body.classList.add('is-test-finished');
@@ -42,7 +42,9 @@ export function finish(forceFailed = false) {
         domElements.weekIndexContainer.classList.remove('hidden');
         domElements.weekIndexContainer.style.display = '';
 
-        const results = forceFailed
+        // When forceFailed is true (e.g., page refresh/close during test),
+        // we treat it as a cancelled test with 0 score
+        const results = forceFailed || !isTestActive
             ? { score: 0, total: quizData.length, answeredCount: 0 }
             : displayResultsAndGetScore();
 

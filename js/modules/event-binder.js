@@ -45,4 +45,18 @@ export function bindEvents(doc = document) {
 
     eventManager.addListener(domElements.expandResultsBtn, 'click', () => toggleFullscreen());
     eventManager.addListener(domElements.closeFullscreenBtn, 'click', () => toggleFullscreen());
+    
+    // Add beforeunload event listener to handle page refresh/close during active tests
+    eventManager.addListener(window, 'beforeunload', (event) => {
+        const { isTestActive, quizData } = getState();
+        if (isTestActive) {
+            // Show confirmation dialog before allowing page refresh/close
+            // Use the same message format as for unanswered questions
+            const domElements = getDomElements();
+            const unansweredCount = quizData.length - domElements.quizForm.querySelectorAll('input[type="radio"]:checked').length;
+            const confirmationMessage = `There are ${unansweredCount} questions not answered. Are you sure you want to finish the test?`;
+            event.returnValue = confirmationMessage;
+            return confirmationMessage;
+        }
+    });
 }
