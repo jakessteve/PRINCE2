@@ -43,7 +43,7 @@ body {
     margin: 0;
     background-color: var(--color-background);
     color: var(--color-text-primary);
-    padding: 20px 40px;
+    padding: 20px 10%;
 }
 
 h1,
@@ -510,6 +510,12 @@ body.is-test-finished .sidebar-group#controls-box {
 .incorrect-explanation {
     border-left-color: var(--color-danger);
     background-color: rgba(220, 53, 69, 0.05);
+}
+
+/* Light gray background for correct explanations in results view */
+.correct-explanation-results {
+    border-left-color: var(--color-success);
+    background-color: var(--color-surface);
 }
 
 /* --------------------------------------------------------------------------

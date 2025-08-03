@@ -27,37 +27,40 @@ export function displayResultsAndGetScore() {
             saveFailedCounts(failedCounts);
         }
 
-        // Show explanations for correct answer and selected wrong answer (if any)
-        const yourAnswerText = selectedValue ? `${selectedValue.toUpperCase()} - ${item.options[selectedValue]}` : "Not answered";
-        
-        // Build explanations HTML
-        let explanationsHTML = '';
-        
-        // Always show explanation for correct answer
-        if (item.explanations && item.explanations[item.answer]) {
-            explanationsHTML += `
-                <p class="explanation-item correct-explanation">
-                    <strong>Explanation:</strong> ${item.explanations[item.answer]}
-                </p>`;
+        // Only show details for incorrect or unanswered questions
+        if (!isCorrect || !selectedValue) {
+            // Show explanations for correct answer and selected wrong answer (if any)
+            const yourAnswerText = selectedValue ? `${selectedValue.toUpperCase()} - ${item.options[selectedValue]}` : "Not answered";
+            
+            // Build explanations HTML
+            let explanationsHTML = '';
+            
+            // Always show explanation for correct answer for incorrect/unanswered questions
+            if (item.explanations && item.explanations[item.answer]) {
+                explanationsHTML += `
+                    <p class="explanation-item correct-explanation-results">
+                        <strong>Explanation:</strong> ${item.explanations[item.answer]}
+                    </p>`;
+            }
+            
+            // Show explanation for selected wrong answer (if any)
+            if (!isCorrect && selectedValue && item.explanations && item.explanations[selectedValue]) {
+                explanationsHTML += `
+                    <p class="explanation-item incorrect-explanation">
+                        <strong>Explanation (for ${selectedValue.toUpperCase()}):</strong> ${item.explanations[selectedValue]}
+                    </p>`;
+            }
+            
+            analysisHTML += `
+                <div class="answer-item">
+                    <p><strong>Question ${index + 1}:</strong> ${item.question}</p>
+                    <p><strong>Your Answer:</strong> <span class="${isCorrect ? 'correct-answer-text' : 'your-answer-text'}">${yourAnswerText}</span></p>
+                    ${!isCorrect && selectedValue && item.explanations && item.explanations[selectedValue] ? `<p class="explanation-item incorrect-explanation"><strong>Explanation (for ${selectedValue.toUpperCase()}):</strong> ${item.explanations[selectedValue]}</p>` : ''}
+                    ${(!isCorrect && selectedValue) || (!selectedValue) ? `<p><strong>Correct Answer:</strong> <span class="${selectedValue ? 'correct-answer-text' : 'your-answer-text'}">${item.answer.toUpperCase()} - ${item.options[item.answer]}</span></p>` : ''}
+                    ${item.explanations && item.explanations[item.answer] ? `<p class="explanation-item correct-explanation-results"><strong>Explanation:</strong> ${item.explanations[item.answer].replace(/^Correct\.\s*/, '')}</p>` : ''}
+                    ${item.reasoning ? `<p class="rationale-text"><strong>Overall Rationale:</strong> ${item.reasoning}</p>` : ''}
+                </div>`;
         }
-        
-        // Show explanation for selected wrong answer (if any)
-        if (!isCorrect && selectedValue && item.explanations && item.explanations[selectedValue]) {
-            explanationsHTML += `
-                <p class="explanation-item incorrect-explanation">
-                    <strong>Explanation (for ${selectedValue.toUpperCase()}):</strong> ${item.explanations[selectedValue]}
-                </p>`;
-        }
-        
-        analysisHTML += `
-            <div class="answer-item">
-                <p><strong>Question ${index + 1}:</strong> ${item.question}</p>
-                <p><strong>Your Answer:</strong> <span class="${isCorrect ? 'correct-answer-text' : 'your-answer-text'}">${yourAnswerText}</span></p>
-                ${!isCorrect && selectedValue && item.explanations && item.explanations[selectedValue] ? `<p class="explanation-item incorrect-explanation"><strong>Explanation (for ${selectedValue.toUpperCase()}):</strong> ${item.explanations[selectedValue]}</p>` : ''}
-                ${(!isCorrect && selectedValue) || (!selectedValue) ? `<p><strong>Correct Answer:</strong> <span class="${selectedValue ? 'correct-answer-text' : 'your-answer-text'}">${item.answer.toUpperCase()} - ${item.options[item.answer]}</span></p>` : ''}
-                ${item.explanations && item.explanations[item.answer] ? `<p class="explanation-item correct-explanation"><strong>Explanation:</strong> ${item.explanations[item.answer].replace(/^Correct\.\s*/, '')}</p>` : ''}
-                ${item.reasoning ? `<p class="rationale-text"><strong>Overall Rationale:</strong> ${item.reasoning}</p>` : ''}
-            </div>`;
     });
 
     if (analysisHTML) {
