@@ -8,7 +8,12 @@
             "d": "To control issues and changes to the project's products."
         },
         "answer": "d",
-        "reasoning": "The primary purpose of the Change theme is to control issues and changes to the project's products. It covers how to control issues and changes to the project’s products. The learning objective for Week 8 also states its topic focus is 'Handling requests for change and other unforeseen issues'."
+        "explanations": {
+            "a": "Incorrect. This is the purpose of the Quality theme.",
+            "b": "Incorrect. This is the purpose of the Risk theme.",
+            "c": "Incorrect. This is the purpose of the Progress theme.",
+            "d": "Correct. The primary purpose of the Change theme is to control issues and changes to the project's products. It covers how to control issues and changes to the project’s products."
+        }
     },
     {
         "question": "Which of the following correctly names and defines the three types of issues identified in PRINCE2?",
@@ -19,7 +24,12 @@
             "d": "External Product (a product outside the project's scope), Missing Product (a product that should be delivered but isn't), and Requirement Change (a new or modified requirement)."
         },
         "answer": "a",
-        "reasoning": "PRINCE2 identifies three types of issues: Request for Change, Off-Specification, and Problem/Concern. Request for Change: Someone wants to change a product or a product’s product description. It is primarily a request to change a product’s product description. Off-Specification: A product(s) has or will be delivered incorrectly. Something that should be provided by the project, but currently is not (or is forecast not to be), including a missing product or a product not meeting its specifications. Problem/Concern: Any other issue which does not fit into the category of a request for change or an off-specification."
+        "explanations": {
+            "a": "Correct. PRINCE2 identifies three types of issues: Request for Change, Off-Specification, and Problem/Concern.",
+            "b": "Incorrect. Threat and Opportunity are types of risks, which are uncertain events, not issues.",
+            "c": "Incorrect. These are related concepts but not the three types of issues themselves. Corrective Action is a response, Concession is a decision, and Deviation triggers an exception report.",
+            "d": "Incorrect. A missing product is a type of Off-Specification. External Product is a type of product, but not an issue. Requirement Change is not one of the three specified issue types."
+        }
     },
     {
         "question": "What are the five steps of the PRINCE2 Issue and Change Control Procedure?",
@@ -30,7 +40,12 @@
             "d": "Select, Define, Analyze, Document, Refine."
         },
         "answer": "b",
-        "reasoning": "PRINCE2 recommends a five-step process for issue and change control: Capture, Assess, Propose, Decide, and Implement."
+        "explanations": {
+            "a": "Incorrect. These are the five steps of the PRINCE2 Risk Management Procedure.",
+            "b": "Correct. PRINCE2 recommends a five-step process for issue and change control: Capture, Assess, Propose, Decide, and Implement.",
+            "c": "Incorrect. These are activities related to managing the Business Case.",
+            "d": "Incorrect. These are activities related to planning, but not the issue and change control procedure."
+        }
     },
     {
         "question": "What is the purpose of the Issue Register?",
@@ -41,7 +56,12 @@
             "d": "To record informal issues, personal action points, or other significant events not captured by other logs or registers."
         },
         "answer": "a",
-        "reasoning": "The purpose of the issue register is to capture and maintain information on all the issues that are being formally managed. The issue register is used to record and track all proposed changes, as well as unauthorized changes and general problems and concerns that might arise during the project. Formal issues are recorded in the issue register."
+        "explanations": {
+            "a": "Correct. The purpose of the issue register is to capture and maintain information on all the issues that are being formally managed.",
+            "b": "Incorrect. This is the purpose of the Quality Register.",
+            "c": "Incorrect. The Risk Register is designed to maintain information on both threats and opportunities.",
+            "d": "Incorrect. This is the purpose of the Daily Log."
+        }
     },
     {
         "question": "Which of the following examples of information might be recorded in the Issue Register?",
@@ -52,7 +72,12 @@
             "d": "Actions required to correct errors and omissions of inspected products."
         },
         "answer": "b",
-        "reasoning": "The Issue Register's composition includes: Severity (level of management required for decision), Decision (the decision made, e.g., accept, reject, defer, or grant concession), Approved by (who made the decision), Decision date, and Closure date."
+        "explanations": {
+            "a": "Incorrect. This information is typically recorded in a Configuration Item Record.",
+            "b": "Correct. The Issue Register's composition includes the decision made on an issue, who approved it, and the date.",
+            "c": "Incorrect. This information is recorded in the Risk Register.",
+            "d": "Incorrect. These actions are part of Quality Records."
+        }
     },
     {
         "question": "What is an 'Issue Report' and when is it typically used?",
@@ -63,7 +88,12 @@
             "d": "A report created by the project manager to inform the project board of the overall progress of a stage at regular intervals."
         },
         "answer": "c",
-        "reasoning": "An Issue Report provides detailed information on a specific issue. Not all entries in the issue register will need a separately documented issue report; it is typically used when a lot of information needs to be recorded regarding that issue. Its format is defined in the change control approach."
+        "explanations": {
+            "a": "Incorrect. This describes a Checkpoint Report.",
+            "b": "Incorrect. This describes the Daily Log.",
+            "c": "Correct. An Issue Report provides detailed information on a specific issue and is typically used when a lot of information needs to be recorded.",
+            "d": "Incorrect. This describes a Highlight Report."
+        }
     },
     {
         "question": "What is a 'Change Authority', and who decides whether to delegate this authority?",
@@ -74,7 +104,12 @@
             "d": "An individual responsible for setting scales for priority ratings for requests for change, decided by the Senior User."
         },
         "answer": "b",
-        "reasoning": "A Change Authority is a person or group given authorization by the project board to approve changes. The project board decides whether to use a change authority and what constraints to place on their authority during the initiating a project process when the change control approach is prepared. It is noted as an optional role."
+        "explanations": {
+            "a": "Incorrect. The Change Authority approves the change itself, not just implementing a corrective action.",
+            "b": "Correct. A Change Authority is a person or group given authorization by the project board to approve changes within certain limits.",
+            "c": "Incorrect. This sounds like Project Assurance, not a Change Authority.",
+            "d": "Incorrect. The Project Board sets the scale for priority ratings."
+        }
     },
     {
         "question": "What is a 'Change Budget' and what is its purpose?",
@@ -85,7 +120,12 @@
             "d": "A threshold level for cost deviation that, if exceeded, needs to be escalated to the next level of management."
         },
         "answer": "c",
-        "reasoning": "The Change Budget is the amount of money set aside to fund changes to the plan’s products or scope. It is used to fund the analysis of the potential impact of a request for change. The Project Board may authorize a change budget for a stage in the Directing a Project process."
+        "explanations": {
+            "a": "Incorrect. Funding for risk activities comes from the Project Budget or a specific Risk Budget.",
+            "b": "Incorrect. This describes the general budget section of a plan.",
+            "c": "Correct. The Change Budget is the amount of money set aside to fund changes to the plan’s products or scope.",
+            "d": "Incorrect. This describes a Cost Tolerance."
+        }
     },
     {
         "question": "What are 'Baselines' in the context of the Change theme?",
@@ -96,7 +136,12 @@
             "d": "The measurable attributes derived from quality expectations used to assess product fitness for purpose."
         },
         "answer": "a",
-        "reasoning": "Baselines are approved versions of a product. They are controlled by configuration management, meaning they are formally approved versions against which changes are managed."
+        "explanations": {
+            "a": "Correct. Baselines are approved versions of a product that are controlled by configuration management.",
+            "b": "Incorrect. This describes the Issue Register.",
+            "c": "Incorrect. These describe End Stage Assessments.",
+            "d": "Incorrect. These describe Acceptance Criteria."
+        }
     },
     {
         "question": "What are 'Configuration Items' and why are they tracked?",
@@ -107,7 +152,12 @@
             "d": "They are elements of information that need to be captured in a log, tracked for informal management."
         },
         "answer": "b",
-        "reasoning": "Configuration items are products that are subject to change control. They are tracked to manage baselines and ensure the integrity of products. Information on configuration items, such as their status, version, and relationships to other products, is recorded in Configuration Item Records."
+        "explanations": {
+            "a": "Incorrect. This describes a project's output, but 'configuration item' specifically refers to a product under change control.",
+            "b": "Correct. Configuration items are products that are subject to change control and are tracked to manage baselines and ensure product integrity.",
+            "c": "Incorrect. Tracking for a critical path is part of planning, not specifically defining configuration items.",
+            "d": "Incorrect. This describes informal issues or actions tracked in the Daily Log."
+        }
     },
     {
         "question": "What is a 'Product Status Account'?",
@@ -118,7 +168,12 @@
             "d": "Documentation detailing any 'defect' statistics and actions required to correct errors of inspected products."
         },
         "answer": "b",
-        "reasoning": "A Product Status Account provides a summary of the status of all products within a project or a stage. It confirms the version numbers of all products being developed within a given stage. Project support helps maintain product status accounts."
+        "explanations": {
+            "a": "Incorrect. This is a summary provided by the Quality Register.",
+            "b": "Correct. A Product Status Account provides a summary of the status of all products within a project or a stage.",
+            "c": "Incorrect. This describes a Product Checklist.",
+            "d": "Incorrect. This describes Quality Records."
+        }
     },
     {
         "question": "What is a minimum requirement for applying the Change theme?",
@@ -129,7 +184,12 @@
             "d": "To escalate all requests for changes to the project board for a decision."
         },
         "answer": "c",
-        "reasoning": "One of the minimum requirements for applying the Change theme is to define how product baselines are created, maintained, and controlled. Another minimum requirement is maintaining some form of issue register."
+        "explanations": {
+            "a": "Incorrect. Creating product status accounts is a possible way of managing change, but not a mandatory minimum requirement.",
+            "b": "Incorrect. Using a change authority is an optional delegation by the Project Board.",
+            "c": "Correct. A minimum requirement for applying the Change theme is to define how product baselines are created, maintained, and controlled.",
+            "d": "Incorrect. The project manager can handle many issues informally or within delegated authority."
+        }
     },
     {
         "question": "How does the Change theme relate to the 'Focus on Products' principle?",
@@ -140,7 +200,12 @@
             "d": "It defines what the project must deliver to be accepted by the customer."
         },
         "answer": "b",
-        "reasoning": "The Change theme relates to the 'Focus on Products' principle by helping manage uncontrolled change and protecting product baselines. It does so by ensuring that changes are assessed for their impact on the project’s products. Baselining only quality criteria that encapsulate the purpose of the product allows for more flexible changes to other product aspects without formal escalation."
+        "explanations": {
+            "a": "Incorrect. This is a key benefit of the Quality theme.",
+            "b": "Correct. The Change theme helps manage uncontrolled change by ensuring that changes are assessed for their impact on the project’s products and their baselines.",
+            "c": "Incorrect. This describes the Product-Based Planning technique.",
+            "d": "Incorrect. This describes the purpose of the Project Product Description."
+        }
     },
     {
         "question": "How does the Change theme implement the 'Defined Roles and Responsibilities' principle?",
@@ -151,7 +216,12 @@
             "d": "By assigning a single Project Manager to be responsible for all aspects of change control."
         },
         "answer": "a",
-        "reasoning": "The 'Defined Roles and Responsibilities' principle ensures that everyone involved in the project’s team—at the directing, managing, and delivering levels—is clear about what is expected of them. The Change theme supports this by defining roles and responsibilities for issue and change control activities. For instance, the Project Board, Senior User, Senior Supplier, Project Manager, Project Support, and Team Managers all have defined roles in change management."
+        "explanations": {
+            "a": "Correct. The Change theme supports this principle by defining clear roles and responsibilities for issue and change control activities for all levels of the project team.",
+            "b": "Incorrect. This describes how the 'Manage by Exception' principle is implemented.",
+            "c": "Incorrect. This describes the Communication Management Approach.",
+            "d": "Incorrect. While the Project Manager has significant responsibilities, change control involves multiple roles."
+        }
     },
     {
         "question": "What is the role of the 'Project Manager' in the Issue and Change Control Procedure?",
@@ -162,7 +232,12 @@
             "d": "To approve, reject, or defer all requests for change and off-specifications."
         },
         "answer": "c",
-        "reasoning": "The Project Manager performs the first two steps—capture and examine (assess)—in the capture and examine issues and risks activity in the controlling a stage process. The Project Manager can deal with issues if they do not cause a forecast breach in stage tolerances or if the request for change is within the constraints of any change authority he has; otherwise, he will need to escalate the issues using an exception report."
+        "explanations": {
+            "a": "Incorrect. The Project Manager takes corrective action if the issue can be resolved within management stage tolerances.",
+            "b": "Incorrect. Delegation is a key part of PRINCE2's efficiency.",
+            "c": "Correct. The Project Manager captures and assesses issues, taking corrective action if within their authority, or escalating if not.",
+            "d": "Incorrect. The Project Board or a delegated Change Authority typically holds this approval power."
+        }
     },
     {
         "question": "When is the Change Control Approach created?",
@@ -173,7 +248,12 @@
             "d": "At the end of the project, during the Closing a Project process."
         },
         "answer": "b",
-        "reasoning": "The Change Control Approach is created during the initiating a project process, along with the other management approaches. The Project Manager is responsible for creating it."
+        "explanations": {
+            "a": "Incorrect. The Project Brief and Outline Business Case are created during Starting Up a Project.",
+            "b": "Correct. The Change Control Approach is created during the initiating a project process.",
+            "c": "Incorrect. The Controlling a Stage process involves applying the change control approach, not creating it.",
+            "d": "Incorrect. The Closing a Project process involves archiving documentation, not creating the approach."
+        }
     },
     {
         "question": "What information is typically included in the Change Control Approach?",
@@ -184,7 +264,12 @@
             "d": "The project management team structure and roles."
         },
         "answer": "a",
-        "reasoning": "The Change Control Approach defines the format and composition of the records that need to be maintained. It describes the procedures for effective issue management and change control. It includes responsibilities, scales for priority ratings, reporting requirements, and resources in place to administer the method."
+        "explanations": {
+            "a": "Correct. The Change Control Approach defines procedures, responsibilities, scales for priority, reporting requirements, and resources for issue and change control.",
+            "b": "Incorrect. This information is included in the Risk Management Approach.",
+            "c": "Incorrect. This information is included in the Project Product Description and Quality Management Approach.",
+            "d": "Incorrect. This information is part of the Organization theme."
+        }
     },
     {
         "question": "True or False: All entries in the issue register will need a separately documented issue report.",
@@ -195,7 +280,12 @@
             "d": "False, because informal issues are recorded in the daily log and do not require any formal reports."
         },
         "answer": "b",
-        "reasoning": "False. Not all entries in the issue register will need a separately documented issue report. An Issue Report is typically created when a lot of information needs to be recorded regarding that issue. Informal issues are recorded in the Daily Log, not the Issue Register, and do not require an Issue Report."
+        "explanations": {
+            "a": "Incorrect. This is not the case; formality is balanced with efficiency.",
+            "b": "Correct. An Issue Report is typically created only when a lot of information needs to be recorded for a formal issue.",
+            "c": "Incorrect. While auditability is important, PRINCE2 avoids unnecessary administrative burden.",
+            "d": "Incorrect. The question is about entries in the issue register, not the daily log."
+        }
     },
     {
         "question": "When should issues and risks be formally captured?",
@@ -206,7 +296,12 @@
             "d": "At predefined periodic intervals as part of time-driven controls."
         },
         "answer": "c",
-        "reasoning": "Issues that need to be managed formally should be entered in the issue register and given a unique identifier. The purpose of distinguishing between issues that can be managed informally and formally is to ensure decisions are made at an appropriate level, avoid inundating the project board, and reduce administrative burden. Risks should also be registered and assessed for impact when identified, especially those that cannot be handled informally."
+        "explanations": {
+            "a": "Incorrect. This describes when an exception report is raised, not the general rule for all formal capture.",
+            "b": "Incorrect. Issues dealt with informally are noted in the daily log.",
+            "c": "Correct. Issues that need to be managed formally should be entered in the issue register.",
+            "d": "Incorrect. This describes time-driven controls, not the trigger for formally capturing new issues."
+        }
     },
     {
         "question": "What actions might the Project Board take when issues and risks are escalated to them?",
@@ -217,7 +312,12 @@
             "d": "Create an Issue Report to capture and analyze the deviation."
         },
         "answer": "a",
-        "reasoning": "For escalated issues and exceptions, the Project Board's likely responses include: increasing the tolerances that are forecast to be breached, instructing the Project Manager to produce an exception plan, instructing the Project Manager to close the project prematurely, or deferring the exception for a fixed period. They may also approve, defer, or reject a request for change, or grant a concession for an off-specification."
+        "explanations": {
+            "a": "Correct. For escalated issues and exceptions, the Project Board's likely responses include increasing tolerances, requesting an exception plan, closing the project, or deferring the exception.",
+            "b": "Incorrect. These are actions typically taken by the Project Manager before escalation.",
+            "c": "Incorrect. This describes actions taken by the Project Manager or team after a decision is made.",
+            "d": "Incorrect. The Project Manager produces an Issue Report for the Project Board."
+        }
     },
     {
         "question": "How might the Change theme be tailored for projects using an agile approach?",
@@ -228,7 +328,12 @@
             "d": "By using a single central change authority for all decisions to maintain strict control."
         },
         "answer": "b",
-        "reasoning": "When using an agile approach, tailoring might involve specifying quality criteria precisely only when it is really necessary to decrease the number of requests for change that need to be treated formally, allowing for a more flexible approach to requested changes. The project management team should try to baseline only quality criteria that encapsulate the purpose of the product."
+        "explanations": {
+            "a": "Incorrect. Agile approaches often prioritize less formality for changes.",
+            "b": "Correct. When using an agile approach, tailoring might involve specifying quality criteria precisely only when necessary to decrease the number of formal change requests.",
+            "c": "Incorrect. The use of a change budget is a management control independent of the agile approach.",
+            "d": "Incorrect. Agile suggests empowerment and self-organization rather than a single central change authority."
+        }
     },
     {
         "question": "What is the role of Project Support concerning configuration item records and issue registers?",
@@ -239,7 +344,12 @@
             "d": "To audit the project manager's work to ensure that management products are acceptable."
         },
         "answer": "c",
-        "reasoning": "Project Support provides administrative support for the project team. Project Support should help administer the change control and issue procedure by, for example, helping the Project Manager maintain the issue register. Project Support can also help maintain configuration item records and product status accounts, if they are used."
+        "explanations": {
+            "a": "Incorrect. While Project Support helps maintain product status accounts, this is not their only role.",
+            "b": "Incorrect. This describes the role of the Risk Owner.",
+            "c": "Correct. Project Support provides administrative support, which includes helping the Project Manager maintain the issue register and configuration item records.",
+            "d": "Incorrect. This describes the role of Project Assurance."
+        }
     },
     {
         "question": "What is the difference between a 'Request for Change' and an 'Off-specification'?",
@@ -250,7 +360,12 @@
             "d": "A Request for Change is a formal issue, while an Off-specification is an informal issue."
         },
         "answer": "b",
-        "reasoning": "A Request for Change is a request to change a product's product description. It is primarily a request to change a product’s product description, which may or may not lead to a change to the product itself. An Off-specification is something that should be provided by the project, but currently is not (or is forecast not to be); it might be a missing product or a product not meeting its specifications. For example, if a document was specified to be in black and white but is in color, and a quality team asks for it to be amended to black and white, this is an off-specification because the product itself needs to change to match the *already written* product description."
+        "explanations": {
+            "a": "Incorrect. This reverses the definitions.",
+            "b": "Correct. A Request for Change is a request to change a product's product description. An Off-specification is a product that does not meet its specifications.",
+            "c": "Incorrect. PRINCE2 does not specify who initiates these types of issues.",
+            "d": "Incorrect. Both can be managed as formal issues."
+        }
     },
     {
         "question": "What is the primary purpose of 'impact analysis' when assessing issues?",
@@ -261,7 +376,12 @@
             "d": "To assign a unique identifier and log the issue in the issue register."
         },
         "answer": "b",
-        "reasoning": "After an issue has been identified and captured, it needs to be assessed by undertaking an impact analysis. The impact analysis must consider the potential impact of implementing a request for change or investigating the impact of correcting an off-specification. It must consider the impact on the six aspects of project performance (cost, time, scope, quality, benefits, and risks), the wider environment, and the interests of main stakeholder groups."
+        "explanations": {
+            "a": "Incorrect. While the impact analysis informs this decision, its primary purpose is the evaluation of the effect.",
+            "b": "Correct. The impact analysis must consider the potential impact of an issue on the six aspects of project performance and the wider environment.",
+            "c": "Incorrect. This is the 'Propose corrective actions' step, which happens after the impact analysis.",
+            "d": "Incorrect. This is part of the 'Capture' step, which happens before assessment."
+        }
     },
     {
         "question": "What should be considered when defining the 'Scales for Priority and Severity' in the Change Control Approach?",
@@ -272,6 +392,11 @@
             "d": "The balance between the advantage gained by implementing an option and the time, cost, and risk of implementing it."
         },
         "answer": "c",
-        "reasoning": "The Change Control Approach defines scales for priority ratings for requests for change and off-specifications. These scales should be clear and unambiguous and appropriate for the level of control required. The Project Board sets the scale for priority ratings. The formality and frequency of communication (and implicitly, control mechanisms like change control) should be reasonable for the project's importance and complexity. This implicitly links to the risk appetite and the desired level of control."
+        "explanations": {
+            "a": "Incorrect. The number of issues does not define the scales for classifying them.",
+            "b": "Incorrect. The scales are about impact and urgency, not past resolution times.",
+            "c": "Correct. The Change Control Approach defines scales for priority ratings, which should be appropriate for the project's importance and complexity, linking to the desired level of control.",
+            "d": "Incorrect. This describes the analysis of options, not the definition of the priority scales."
+        }
     }
 ]

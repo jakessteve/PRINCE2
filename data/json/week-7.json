@@ -8,7 +8,12 @@
             "d": "To provide a forecast for the project's objectives"
         },
         "answer": "b",
-        "reasoning": "The primary purpose of the Risk theme is 'To identify, assess, and control uncertainty and thus improve the ability of the project to succeed'. This directly addresses the 'what if' of the project, which is managing uncertainty."
+        "explanations": {
+            "a": "Incorrect. Defining the project's structure of accountability is a purpose of the Organization theme.",
+            "b": "Correct. The primary purpose of the Risk theme is 'To identify, assess, and control uncertainty and thus improve the ability of the project to succeed'.",
+            "c": "Incorrect. Defining the means of delivering the project's products is a purpose of the Plans theme.",
+            "d": "Incorrect. Providing a forecast for the project's objectives is a purpose of the Progress theme."
+        }
     },
     {
         "question": "In PRINCE2, what does 'risk' encompass?",
@@ -19,7 +24,12 @@
             "d": "Certain events that will affect the project positively or negatively"
         },
         "answer": "c",
-        "reasoning": "In PRINCE2, 'a risk is something that may or may not happen—in other words, it is uncertain'. It 'could also have a favorable impact on the project'. The definition explicitly states that PRINCE2 uses the word risk to cover 'potential opportunities as well as threats'. An opportunity is 'an uncertain event that could have a favorable impact on the project'."
+        "explanations": {
+            "a": "Incorrect. Risks are uncertain events, not certain events, and can be positive or negative.",
+            "b": "Incorrect. This option correctly identifies risks as uncertain events but incorrectly limits them to only negative impacts.",
+            "c": "Correct. In PRINCE2, a risk is an uncertain event that could have a favorable (opportunity) or unfavorable (threat) impact on the project.",
+            "d": "Incorrect. Risks are uncertain events, not certain events."
+        }
     },
     {
         "question": "What are the five steps in the PRINCE2 Risk Management Procedure?",
@@ -30,7 +40,12 @@
             "d": "Define, Analyze, Plan, Control, Review"
         },
         "answer": "b",
-        "reasoning": "PRINCE2 recommends a five-step process for risk management: 'identify, assess, plan, implement, and communicate'."
+        "explanations": {
+            "a": "Incorrect. 'Analyze' and 'Respond' are general terms, but the PRINCE2 procedure uses 'Assess,' 'Plan,' and 'Implement' more specifically.",
+            "b": "Correct. PRINCE2 recommends a five-step process for risk management: identify, assess, plan, implement, and communicate.",
+            "c": "Incorrect. This sequence describes the Issue and Change Control Procedure, not the Risk Management Procedure.",
+            "d": "Incorrect. These terms are too general and do not match the specific steps of the PRINCE2 Risk Management Procedure."
+        }
     },
     {
         "question": "What is the purpose of the Risk Register?",
@@ -41,7 +56,12 @@
             "d": "To summarize the aggregated risk exposure of the project"
         },
         "answer": "b",
-        "reasoning": "The Risk Register's purpose is 'to capture and maintain information on all the risks (threats and opportunities) that are being formally managed'. It 'will provide a record of the status for identified risks'."
+        "explanations": {
+            "a": "Incorrect. Defining how risk will be managed is the purpose of the Risk Management Approach.",
+            "b": "Correct. The Risk Register's purpose is to capture and maintain information on all the risks (threats and opportunities) that are being formally managed and provide a record of their status.",
+            "c": "Incorrect. Project-level risk tolerance is documented in the Risk Management Approach.",
+            "d": "Incorrect. The 'summary risk profile' shows the overall risk exposure, which is derived from the Risk Register, but the register itself is the record of individual risks."
+        }
     },
     {
         "question": "Which of the following is an example of information typically recorded in the Risk Register?",
@@ -52,7 +72,12 @@
             "d": "The timing of formal risk management activities"
         },
         "answer": "c",
-        "reasoning": "The composition of the Risk Register includes a unique identifier, category, current status, and other details for each risk."
+        "explanations": {
+            "a": "Incorrect. The scales for estimating probability and impact are defined in the Risk Management Approach.",
+            "b": "Incorrect. Roles and responsibilities for risk management activities are defined in the Risk Management Approach.",
+            "c": "Correct. The composition of the Risk Register includes a unique identifier, category, current status, and other details for each risk.",
+            "d": "Incorrect. The timing of formal risk management activities is defined in the Risk Management Approach."
+        }
     },
     {
         "question": "Which two techniques can be used to identify risks?",
@@ -63,7 +88,12 @@
             "d": "Cost-Benefit Analysis and S-curve"
         },
         "answer": "b",
-        "reasoning": "Techniques used to *identify* risks include 'brainstorming' and 'risk breakdown structure'. Other identification techniques mentioned are 'review lessons, risk checklists, risk prompt lists'."
+        "explanations": {
+            "a": "Incorrect. Expected Monetary Value and Probability Impact Grid are risk estimation and evaluation techniques, not identification techniques.",
+            "b": "Correct. Techniques used to identify risks include brainstorming and risk breakdown structure.",
+            "c": "Incorrect. Pareto Analysis and Probability Trees are also risk estimation and evaluation techniques, not identification techniques.",
+            "d": "Incorrect. Cost-Benefit Analysis is a business case evaluation method, and an S-curve is a progress evaluation technique, not risk identification techniques."
+        }
     },
     {
         "question": "What is a 'Risk Breakdown Structure'?",
@@ -74,7 +104,12 @@
             "d": "A technique for assessing the combined effect of individual risks"
         },
         "answer": "b",
-        "reasoning": "A Risk Breakdown Structure is defined as a 'hierarchical depiction of potential risk sources and categories'. It can be used as a prompt list."
+        "explanations": {
+            "a": "Incorrect. This describes an S-curve, a progress evaluation technique.",
+            "b": "Correct. A Risk Breakdown Structure is defined as a 'hierarchical depiction of potential risk sources and categories'.",
+            "c": "Incorrect. This describes part of the Risk Management Approach.",
+            "d": "Incorrect. This describes the Expected Monetary Value technique."
+        }
     },
     {
         "question": "Which document defines how risk will be managed throughout the project?",
@@ -85,7 +120,12 @@
             "d": "The Project Initiation Documentation (PID)"
         },
         "answer": "c",
-        "reasoning": "The 'Risk Management Approach, which specifies how the project management team will manage risk', defines how risk will be managed throughout the project."
+        "explanations": {
+            "a": "Incorrect. The Risk Register records identified risks and their status, it does not define the how of risk management.",
+            "b": "Incorrect. The Project Plan defines what will be delivered, when, by whom, and at what cost, but not specifically the approach to risk management.",
+            "c": "Correct. The 'Risk Management Approach, which specifies how the project management team will manage risk', defines how risk will be managed throughout the project.",
+            "d": "Incorrect. The PID contains the Risk Management Approach as one of its components, but it is not the specific document that defines how risk will be managed."
+        }
     },
     {
         "question": "When is the Risk Management Approach typically created?",
@@ -96,7 +136,12 @@
             "d": "Whenever a new significant risk is identified"
         },
         "answer": "b",
-        "reasoning": "The Risk Management Approach is created during the 'initiating a project process'."
+        "explanations": {
+            "a": "Incorrect. The Starting Up a Project process focuses on minimal planning to decide if the project is viable for initiation.",
+            "b": "Correct. The Risk Management Approach is created during the 'initiating a project process'.",
+            "c": "Incorrect. While it might be reviewed and updated at the end of a stage, its initial creation is earlier.",
+            "d": "Incorrect. New risks are identified throughout the project lifecycle, but the Risk Management Approach (the how) is established upfront."
+        }
     },
     {
         "question": "What is a 'Risk Budget' and what is its purpose?",
@@ -107,7 +152,12 @@
             "d": "The total estimated cost impact of all identified risks on the project"
         },
         "answer": "b",
-        "reasoning": "A Risk Budget is 'a specific amount of money set aside to fund responses to threats and opportunities'. Its value is described in the project's plans."
+        "explanations": {
+            "a": "Incorrect. A risk budget 'is not set for each individual risk but can be set for the entire project, a stage or for a work package'.",
+            "b": "Correct. A Risk Budget is 'a specific amount of money set aside to fund responses to threats and opportunities'.",
+            "c": "Incorrect. While it covers unexpected events, its specific purpose is for risk responses, not general cost overruns. Cost tolerances are for unexpected overruns.",
+            "d": "Incorrect. This describes the overall expected value of risks, not the risk budget itself."
+        }
     },
     {
         "question": "What are the common categories for risk responses to 'threats'?",
@@ -118,7 +168,12 @@
             "d": "Prevent, Monitor, Control, Escalate"
         },
         "answer": "b",
-        "reasoning": "Common threat responses listed are 'Avoid a threat,' 'Reduce a threat,' 'Transfer a threat,' 'Accept a threat,' and 'Share a threat'. 'Prepare contingent plans (reduces impact only)' is also listed."
+        "explanations": {
+            "a": "Incorrect. Exploit and Enhance are responses for opportunities, not threats.",
+            "b": "Correct. Common threat responses listed are 'Avoid a threat,' 'Reduce a threat,' 'Transfer a threat,' 'Accept a threat,' and 'Share a threat'. 'Prepare contingent plans (reduces impact only)' is also listed.",
+            "c": "Incorrect. 'Mitigate' is a general term often used, but 'Reduce' is the PRINCE2 term. 'Remove, Delegate, Ignore' are not standard PRINCE2 response categories.",
+            "d": "Incorrect. These are more general project management activities rather than specific PRINCE2 risk response categories."
+        }
     },
     {
         "question": "What are the common categories for risk responses to 'opportunities'?",
@@ -129,7 +184,12 @@
             "d": "Increase, Maximize, Preserve, Avoid"
         },
         "answer": "b",
-        "reasoning": "Common opportunity responses listed are 'Exploit an opportunity,' 'Enhance an opportunity,' 'Transfer an opportunity,' 'Accept an opportunity,' and 'Share an opportunity'. 'Prepare contingent plans (increases impact only)' is also listed."
+        "explanations": {
+            "a": "Incorrect. 'Avoid' and 'Reduce' are responses for threats, not opportunities.",
+            "b": "Correct. Common opportunity responses listed are 'Exploit an opportunity,' 'Enhance an opportunity,' 'Transfer an opportunity,' 'Accept an opportunity,' and 'Share an opportunity'. 'Prepare contingent plans (increases impact only)' is also listed.",
+            "c": "Incorrect. 'Maintain' and 'Realize' are not standard PRINCE2 opportunity response categories.",
+            "d": "Incorrect. 'Avoid' is a threat response. 'Increase,' 'Maximize,' and 'Preserve' are not standard PRINCE2 opportunity response categories."
+        }
     },
     {
         "question": "What is the difference between 'inherent risk' and 'residual risk'?",
@@ -140,7 +200,12 @@
             "d": "Inherent risk is formally managed; residual risk is informally managed."
         },
         "answer": "c",
-        "reasoning": "'If the project management team applies a risk response to an inherent risk (the risk it starts off with), it might not necessarily remove the potential problem, thus leaving some residual risk'. Inherent risk is the 'risk it starts off with', and 'residual' risk is the 'remaining' risk after a threat is reduced."
+        "explanations": {
+            "a": "Incorrect. A new risk introduced by a response is called a 'secondary risk'.",
+            "b": "Incorrect. Both inherent and residual risks can be either threats or opportunities.",
+            "c": "Correct. Inherent risk is the 'risk it starts off with', and 'residual' risk is the 'remaining' risk after a threat is reduced.",
+            "d": "Incorrect. The formal/informal management distinction applies to issues, not types of risk."
+        }
     },
     {
         "question": "What is a 'secondary risk'?",
@@ -151,7 +216,12 @@
             "d": "A risk that is escalated to a higher level of management"
         },
         "answer": "b",
-        "reasoning": "Secondary risks are 'risks that occur as a result of invoking a risk response'. For example, scaffolding erected as a response to rain (inherent risk) might collapse, injuring workers (secondary risk)."
+        "explanations": {
+            "a": "Incorrect. The severity of a secondary risk can vary and is not necessarily minor.",
+            "b": "Correct. Secondary risks are 'risks that occur as a result of invoking a risk response'.",
+            "c": "Incorrect. This describes a 'residual risk'.",
+            "d": "Incorrect. Any type of risk can be escalated if it breaches tolerances, but this is an action, not a definition of a secondary risk."
+        }
     },
     {
         "question": "How does PRINCE2 define 'proximity' for a risk event?",
@@ -162,7 +232,12 @@
             "d": "The geographical location where the risk is most likely to materialize"
         },
         "answer": "a",
-        "reasoning": "'Proximity reflects the fact that risks will occur at particular times and the severity of their impact will vary according to when they occur. Typical proximity categories will be: imminent, within the management stage, within the project, beyond the project'. It is the 'time factor of risk (i.e. when the risk may occur)'."
+        "explanations": {
+            "a": "Correct. Proximity reflects the fact that risks will occur at particular times and the severity of their impact will vary according to when they occur. It is the 'time factor of risk (i.e. when the risk may occur)'.",
+            "b": "Incorrect. This describes 'probability' or 'likelihood'.",
+            "c": "Incorrect. This describes 'impact'.",
+            "d": "Incorrect. Proximity is about when, not where."
+        }
     },
     {
         "question": "What is the purpose of 'early warning indicators' in risk management?",
@@ -173,7 +248,12 @@
             "d": "To define the scales for estimating probability and impact."
         },
         "answer": "b",
-        "reasoning": "Early warning indicators are listed as a component of the Risk Management Approach, used to help the project management team 'understand when a risk is about to occur' by providing 'objective indicators of changes in the probability or impact of a risk'."
+        "explanations": {
+            "a": "Incorrect. Early warning indicators warn, they don't automatically act. Risk responses are planned and implemented by roles.",
+            "b": "Correct. Early warning indicators are used to help the project management team 'understand when a risk is about to occur' by providing 'objective indicators of changes in the probability or impact of a risk'.",
+            "c": "Incorrect. They are specifically for risks.",
+            "d": "Incorrect. Scales for probability and impact are defined in a separate section of the Risk Management Approach."
+        }
     },
     {
         "question": "What does the 'Communicate' step of the Risk Management Procedure involve?",
@@ -184,7 +264,12 @@
             "d": "Informing only the Project Board of risk management activities."
         },
         "answer": "b",
-        "reasoning": "The 'Communicate' step involves 'ensuring that everyone involved in the project is aware of the risk situation and that all new potential risks are being identified and fed back to the project manager'. Project manager also communicates 'information about the risk to anyone identified in the communication management approach'."
+        "explanations": {
+            "a": "Incorrect. Not all risks are escalated to corporate management; escalation depends on tolerance levels.",
+            "b": "Correct. The 'Communicate' step involves 'ensuring that everyone involved in the project is aware of the risk situation and that all new potential risks are being identified and fed back to the project manager'.",
+            "c": "Incorrect. The step emphasizes broad awareness and feedback for all risks, not just high-severity ones, and applies to all steps of the risk procedure.",
+            "d": "Incorrect. Communication is broader than just the Project Board; it includes the entire project management team and other stakeholders."
+        }
     },
     {
         "question": "Which of the following statements about a risk budget is true?",
@@ -195,7 +280,12 @@
             "d": "A risk budget is used to fund changes to baselined products."
         },
         "answer": "c",
-        "reasoning": "A risk budget 'is not set for each individual risk but can be set for the entire project, a stage or for a work package'."
+        "explanations": {
+            "a": "Incorrect. This statement is explicitly identified as false in the source material.",
+            "b": "Incorrect. While it's part of the overall project funding, its purpose is specifically for risk responses, not all unplanned work.",
+            "c": "Correct. A risk budget 'is not set for each individual risk but can be set for the entire project, a stage or for a work package'.",
+            "d": "Incorrect. Funding changes to baselined products is the purpose of the 'change budget'."
+        }
     },
     {
         "question": "How does the Risk theme implement the 'Manage by Exception' principle?",
@@ -206,7 +296,12 @@
             "d": "By continuously evaluating the combined effect of individual risks."
         },
         "answer": "c",
-        "reasoning": "The Risk theme implements 'Manage by Exception' by defining 'risk tolerance defines a threshold level of risk that, if exceeded, needs to be escalated to the next level of management'. This allows higher management to focus only on significant deviations."
+        "explanations": {
+            "a": "Incorrect. Ensuring proportionate responses is a good practice for planning risk responses, but it's not the primary mechanism for 'Manage by Exception'.",
+            "b": "Incorrect. While significant risks are important, the principle's implementation is about how exceptions are handled, not just identifying them.",
+            "c": "Correct. The Risk theme implements 'Manage by Exception' by defining 'risk tolerance defines a threshold level of risk that, if exceeded, needs to be escalated to the next level of management'.",
+            "d": "Incorrect. Evaluating combined risk effect ('risk exposure') is part of the assess step, which informs management by exception, but the core implementation is via tolerances."
+        }
     },
     {
         "question": "What is the role of the 'Risk Owner'?",
@@ -217,7 +312,12 @@
             "d": "An individual responsible for defining the organization's risk appetite"
         },
         "answer": "c",
-        "reasoning": "The 'risk owner’s role is to manage and monitor an assigned risk'. They are responsible for 'monitoring specific aspects of a particular risk, including its probability and impact'."
+        "explanations": {
+            "a": "Incorrect. The Project Manager often chairs the risk management workshop.",
+            "b": "Incorrect. While the Risk Owner may identify risks, this is a shared responsibility, and their primary role is managing assigned risks.",
+            "c": "Correct. The 'risk owner’s role is to manage and monitor an assigned risk'.",
+            "d": "Incorrect. Risk appetite is determined by the organization and applied by the Project Board."
+        }
     },
     {
         "question": "What is the role of 'Risk Actionees'?",
@@ -228,7 +328,12 @@
             "d": "To determine the overall risk exposure of the project"
         },
         "answer": "b",
-        "reasoning": "Risk Actionees are 'one or more individuals to carry out a particular risk response action'."
+        "explanations": {
+            "a": "Incorrect. This is the role of the 'Risk Owner'.",
+            "b": "Correct. Risk Actionees are 'one or more individuals to carry out a particular risk response action'.",
+            "c": "Incorrect. The Project Board typically approves the risk management approach.",
+            "d": "Incorrect. Determining overall risk exposure is part of the 'assess' step, which the Project Manager often oversees."
+        }
     },
     {
         "question": "How might the Risk theme be tailored for a project that is part of a programme?",
@@ -239,7 +344,12 @@
             "d": "The programme manager would take on the role of Project Manager to manage all risks."
         },
         "answer": "b",
-        "reasoning": "When tailoring the Risk theme, it's advised to 'align the project’s risk management approach with any existing corporate or programme risk management approaches'. This helps ensure consistency."
+        "explanations": {
+            "a": "Incorrect. Creating an independent approach might lead to misalignment and inefficiencies within a programme environment.",
+            "b": "Correct. When tailoring the Risk theme, it's advised to 'align the project’s risk management approach with any existing corporate or programme risk management approaches'.",
+            "c": "Incorrect. The project still needs to manage its own risks, even if part of a programme.",
+            "d": "Incorrect. While the programme manager is involved, they do not typically take on the Project Manager role for individual projects."
+        }
     },
     {
         "question": "What is 'risk tolerance' and what happens when it is exceeded?",
@@ -250,7 +360,12 @@
             "d": "It's the willingness to take on risk; when exceeded, the project is immediately closed."
         },
         "answer": "b",
-        "reasoning": "Risk tolerance 'defines a threshold level of risk that, if exceeded, needs to be escalated to the next level of management'. If the overall risk exposure is 'greater than the organization’s risk appetite,' control actions will need to be planned."
+        "explanations": {
+            "a": "Incorrect. This describes tolerances for other performance targets (time, cost, scope, quality, benefits), but for risk, it's specifically about escalation to the next management level.",
+            "b": "Correct. Risk tolerance 'defines a threshold level of risk that, if exceeded, needs to be escalated to the next level of management'.",
+            "c": "Incorrect. This describes the 'risk budget'. Exceeding it does not automatically increase the budget; it would trigger an exception.",
+            "d": "Incorrect. Risk appetite is the willingness to take on risk, but exceeding tolerance does not necessarily mean immediate closure; it means escalation for a decision."
+        }
     },
     {
         "question": "What information would you expect to find in the 'Scales' section of the Risk Management Approach?",
@@ -261,7 +376,12 @@
             "d": "The criteria for each level within the scales for estimating probability and impact"
         },
         "answer": "d",
-        "reasoning": "The 'Scales' section 'defines the scales for estimating probability and impact for the project... These may be shown in the form of probability impact grids giving the criteria for each level within the scale (e.g. for ‘very high’, ‘high’, ‘medium’, ‘low’ and ‘very low’)'. It also describes how different impacts (e.g., time, cost) can be measured."
+        "explanations": {
+            "a": "Incorrect. A list of identified risks is found in the Risk Register.",
+            "b": "Incorrect. Guidance on proximity is found in the 'Proximity' section of the Risk Management Approach.",
+            "c": "Incorrect. Historical data might be used in estimating, but the 'Scales' section itself defines the measurement criteria, not the data.",
+            "d": "Correct. The 'Scales' section 'defines the scales for estimating probability and impact for the project... These may be shown in the form of probability impact grids giving the criteria for each level within the scale'."
+        }
     },
     {
         "question": "How does 'Learn from Experience' apply to the Risk theme?",
@@ -272,6 +392,11 @@
             "d": "By reviewing the risk register at the end of each management stage."
         },
         "answer": "a",
-        "reasoning": "When planning responses to risks, 'it is important that the project management team consider past experience that might be useful'. The 'Learn from Experience' principle ensures that 'Lessons identified and recorded in the lessons log are considered and, where appropriate, applied to all aspects of risk management'."
+        "explanations": {
+            "a": "Correct. When planning responses to risks, 'it is important that the project management team consider past experience that might be useful'. The 'Learn from Experience' principle ensures that 'Lessons identified and recorded in the lessons log are considered and, where appropriate, applied to all aspects of risk management'.",
+            "b": "Incorrect. Risks are identified continuously throughout the project, not just at the beginning.",
+            "c": "Incorrect. While documenting is important for accountability, the 'Learn from Experience' principle specifically focuses on using past knowledge for improvement.",
+            "d": "Incorrect. Reviewing the risk register is part of ongoing risk control and the 'Assess' step, but 'Learn from Experience' is about applying those insights."
+        }
     }
 ]

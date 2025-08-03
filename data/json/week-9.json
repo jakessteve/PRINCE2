@@ -8,7 +8,12 @@
             "d": "To define the project's structure of accountability and responsibility."
         },
         "answer": "c",
-        "reasoning": "The Progress theme's purpose is to 'establish mechanisms to monitor and compare actual achievements against those planned; to provide a forecast for the project objectives and the project’s continued viability; and to control any unacceptable deviations'."
+        "explanations": {
+            "a": "Incorrect. This describes the purpose of the Organization theme, specifically relating to communication management.",
+            "b": "Incorrect. This describes the purpose of the Quality theme.",
+            "c": "Correct. The Progress theme's purpose is to establish mechanisms to monitor and compare actual achievements against those planned; to provide a forecast for the project objectives and the project’s continued viability; and to control any unacceptable deviations.",
+            "d": "Incorrect. This also describes a purpose of the Organization theme."
+        }
     },
     {
         "question": "Define 'Tolerances' in PRINCE2 and how they relate to 'Manage by Exception'.",
@@ -19,7 +24,12 @@
             "d": "Tolerances are primarily used to define the project's scope, and 'Manage by Exception' applies only to time and cost."
         },
         "answer": "b",
-        "reasoning": "Tolerances are defined as 'the permissible deviation allowed before a higher level of management needs to be notified'. This concept directly enables the 'Manage by Exception' principle, which ensures that 'senior management’s time is used effectively for key decisions rather than routine monitoring'. When an actual or forecast deviation exceeds defined tolerances, it triggers an exception, requiring escalation to the next management level."
+        "explanations": {
+            "a": "Incorrect. Tolerances are not strict limits that necessarily shut down a project. Breaching tolerances triggers an exception report, allowing for corrective action or re-planning, which is the essence of 'Manage by Exception'.",
+            "b": "Correct. Tolerances are the permissible deviation allowed before a higher level of management needs to be notified. This concept directly enables the 'Manage by Exception' principle.",
+            "c": "Incorrect. Tolerances are formal limits, not informal agreements, and they are fundamental to how 'Manage by Exception' operates.",
+            "d": "Incorrect. Tolerances can be set for six aspects of project performance: time, cost, scope, quality, risk, and benefits."
+        }
     },
     {
         "question": "What are the six aspects for which tolerances can be set?",
@@ -30,7 +40,12 @@
             "d": "Business justification, organization, plans, quality, risk, and progress."
         },
         "answer": "a",
-        "reasoning": "PRINCE2 specifies that tolerances can be set for six aspects of project performance: 'costs, timescales, quality, scope, risk, and benefits'."
+        "explanations": {
+            "a": "Correct. PRINCE2 specifies that tolerances can be set for six aspects of project performance: costs, timescales, quality, scope, risk, and benefits.",
+            "b": "Incorrect. While these are project elements, PRINCE2 specifically defines its six performance aspects for tolerance setting as listed in option A.",
+            "c": "Incorrect. These are PRINCE2 concepts but not the six specific aspects for which tolerances are set.",
+            "d": "Incorrect. These are PRINCE2 themes, not the aspects of project performance for which tolerances are defined."
+        }
     },
     {
         "question": "What is an 'Exception' in PRINCE2?",
@@ -41,7 +56,12 @@
             "d": "A request for change that is approved by the Project Board."
         },
         "answer": "b",
-        "reasoning": "An 'Exception' is explicitly defined as 'a situation where a tolerance is forecast to be exceeded', or a 'forecast deviation beyond the work package tolerance, then the stage tolerance, and finally, the project tolerance'. When an exception occurs, it triggers an Exception Report."
+        "explanations": {
+            "a": "Incorrect. An exception is a formal term in PRINCE2 that requires escalation when tolerances are forecast to be exceeded.",
+            "b": "Correct. An 'Exception' is explicitly defined as 'a situation where a tolerance is forecast to be exceeded'.",
+            "c": "Incorrect. An 'Exception' specifically refers to a breach of tolerance, not just any issue or risk.",
+            "d": "Incorrect. A request for change is a type of 'Issue,' which is handled through the Change theme's procedures, not necessarily an 'Exception'."
+        }
     },
     {
         "question": "What management product is triggered when an Exception is forecast to be exceeded?",
@@ -52,7 +72,12 @@
             "d": "Exception Report."
         },
         "answer": "d",
-        "reasoning": "When stage tolerances are forecast to be exceeded, the Project Manager is required to 'produce an issue report to capture and analyse the details of the deviation and then provide an exception report for the project board'. An Exception is a situation where a tolerance is forecast to be exceeded, and this 'triggers an Exception Report'."
+        "explanations": {
+            "a": "Incorrect. A Highlight Report is a regular progress report, regardless of exceptions.",
+            "b": "Incorrect. A Checkpoint Report is for work package progress updates from the Team Manager to the Project Manager.",
+            "c": "Incorrect. An End Stage Report is produced at the end of a management stage.",
+            "d": "Correct. When stage tolerances are forecast to be exceeded, the Project Manager is required to produce an Exception Report for the project board."
+        }
     },
     {
         "question": "What is the purpose of the Highlight Report?",
@@ -63,7 +88,12 @@
             "d": "To track individual work package progress from the Team Manager to the Project Manager."
         },
         "answer": "b",
-        "reasoning": "The Highlight Report is a management product used by the Project Manager to send 'regular highlight reports to the project board and any other stakeholders identified as recipients in the communication management approach'. They 'update the project board and stakeholders of a stage’s progress' and are a 'time-driven control' created at 'predefined periodic intervals'. It is 'The Project Manager's regular progress report to the Project Board'."
+        "explanations": {
+            "a": "Incorrect. A Highlight Report is a summary of progress, not a detailed account of all issues and risks.",
+            "b": "Correct. The Highlight Report is a time-driven control used by the Project Manager to update the project board and stakeholders on a stage’s progress at predefined periodic intervals.",
+            "c": "Incorrect. Requesting additional funding due to a tolerance breach would typically involve an Exception Report.",
+            "d": "Incorrect. This is the purpose of the Checkpoint Report."
+        }
     },
     {
         "question": "Who creates the Highlight Report and to whom is it sent?",
@@ -74,7 +104,12 @@
             "d": "Project Assurance creates it and sends it to the Executive."
         },
         "answer": "c",
-        "reasoning": "The Highlight Report is created by the 'project manager' and sent to the 'project board and any other stakeholders identified as recipients in the communication management approach'. It is 'The Project Manager's regular progress report to the Project Board'."
+        "explanations": {
+            "a": "Incorrect. The Team Manager creates and sends Checkpoint Reports to the Project Manager.",
+            "b": "Incorrect. The Project Board receives the Highlight Report; they do not create it.",
+            "c": "Correct. The Highlight Report is created by the project manager and sent to the project board and any other stakeholders identified in the communication management approach.",
+            "d": "Incorrect. Project Assurance provides oversight and assurance, but they do not typically create Highlight Reports."
+        }
     },
     {
         "question": "What is the purpose of a Work Package?",
@@ -85,7 +120,12 @@
             "d": "To document the quality criteria for a single specialist product."
         },
         "answer": "c",
-        "reasoning": "A Work Package is defined as 'a set of information about one or more required products collated by the project manager to pass responsibility for work or delivery formally to a team manager or team member'. It is used to 'pass authority to the teams for the delivery of one or more products'."
+        "explanations": {
+            "a": "Incorrect. The Project Plan summarizes the overall project.",
+            "b": "Incorrect. A Work Package details the work for a specific set of products within a stage, not the entire project lifecycle.",
+            "c": "Correct. A Work Package is a set of information about one or more required products collated by the project manager to pass responsibility for work or delivery formally to a team manager or team member.",
+            "d": "Incorrect. This is the purpose of a Product Description."
+        }
     },
     {
         "question": "Who creates the Work Package and to whom is it delegated?",
@@ -96,7 +136,12 @@
             "d": "Project Assurance creates it and delegates it to the Project Manager."
         },
         "answer": "b",
-        "reasoning": "The Work Package is 'collated by the project manager to pass responsibility for work or delivery formally to a team manager or team member'. It is created when the Project Manager authorizes a work package in the Controlling a Stage process."
+        "explanations": {
+            "a": "Incorrect. The Project Board authorizes stages, but the Project Manager creates and delegates Work Packages.",
+            "b": "Correct. The Work Package is collated by the project manager to pass responsibility for work or delivery formally to a team manager or team member.",
+            "c": "Incorrect. The Team Manager receives the Work Package and may create a Team Plan based on it.",
+            "d": "Incorrect. Project Assurance monitors the project but does not create Work Packages."
+        }
     },
     {
         "question": "What is the purpose of the Daily Log?",
@@ -107,16 +152,24 @@
             "d": "To provide a high-level summary of project progress to the Project Board."
         },
         "answer": "b",
-        "reasoning": "The Daily Log is a management product that the Project Manager uses 'to record informal issues, personal action points, or other significant events not captured by the other PRINCE2 logs or registers'. It is also used to 'record any new issues or risks' when they are first identified before formal registration."
+        "explanations": {
+            "a": "Incorrect. Formal issues are captured in the Issue Register, and risks in the Risk Register.",
+            "b": "Correct. The Daily Log is a management product that the Project Manager uses to record informal issues, personal action points, or other significant events.",
+            "c": "Incorrect. This is the purpose of the Lessons Log.",
+            "d": "Incorrect. This is the purpose of the Highlight Report."
+        }
     },
     {
         "question": "True or False: The Daily Log is a formal register for all project issues and risks.",
         "options": {
-            "a": "True.",
-            "b": "False."
+            "a": "True",
+            "b": "False"
         },
         "answer": "b",
-        "reasoning": "False. The Daily Log is explicitly used for 'informal issues, personal action points, or other significant events not captured by the other PRINCE2 logs or registers'. For issues that need formal management, they are transferred to the Issue Register. Risks are formally managed in the Risk Register."
+        "explanations": {
+            "a": "Incorrect. The Daily Log is for informal issues.",
+            "b": "Correct. The Daily Log is explicitly used for informal issues. Formal issues are transferred to the Issue Register and risks to the Risk Register."
+        }
     },
     {
         "question": "What is a minimum requirement for applying the Progress theme regarding stages?",
@@ -127,7 +180,12 @@
             "d": "The Project Manager can decide to skip management stages for small projects."
         },
         "answer": "b",
-        "reasoning": "One of the minimum requirements for applying the Progress theme is that the project 'Be managed by stages'. This aligns with the 'Manage by Stages' principle, which suggests breaking the project into manageable sections."
+        "explanations": {
+            "a": "Incorrect. PRINCE2 requires at least two management stages, not exactly three.",
+            "b": "Correct. One of the minimum requirements for applying the Progress theme is that the project 'Be managed by stages'.",
+            "c": "Incorrect. Aligning management stages with delivery steps can be beneficial but is not a minimum requirement.",
+            "d": "Incorrect. Management by stages is a principle and a minimum requirement that cannot be skipped."
+        }
     },
     {
         "question": "Distinguish between 'Event-driven controls' and 'Time-driven controls'. Provide an example of each.",
@@ -138,7 +196,12 @@
             "d": "Event-driven controls are only for internal project team use, while time-driven controls are for external stakeholders."
         },
         "answer": "b",
-        "reasoning": "PRINCE2 provides two types of progress control: 'Event-driven controls' which 'take place when a specific event occurs' (e.g., 'the end stage assessment at the end of a management stage, the completion of the PID or the creation of an exception report') and 'Time-driven controls' which 'take place at predefined periodic intervals' (e.g., 'producing monthly highlight reports for the project board or weekly checkpoint reports showing the progress of a work package')."
+        "explanations": {
+            "a": "Incorrect. This option reverses the definitions.",
+            "b": "Correct. Event-driven controls take place when a specific event occurs (e.g., end stage assessment), while time-driven controls take place at predefined periodic intervals (e.g., highlight reports).",
+            "c": "Incorrect. The distinction is about the trigger (event vs. time), not formality.",
+            "d": "Incorrect. Both types of controls can serve internal and/or external reporting purposes."
+        }
     },
     {
         "question": "How does the Progress theme primarily implement the 'Manage by Exception' principle?",
@@ -149,7 +212,12 @@
             "d": "By focusing solely on delivering products and ignoring time or cost constraints."
         },
         "answer": "c",
-        "reasoning": "The Progress theme implements 'Manage by Exception' by 'set[ting] tolerances for each level of management that clearly define that level of management’s authority. Then, if any level of management is forecasting to breach their tolerances, they must escalate to the level above them'. This ensures that 'senior management’s time is used effectively for key decisions rather than routine monitoring'."
+        "explanations": {
+            "a": "Incorrect. 'Manage by Exception' is about delegating authority, not detailed routine monitoring.",
+            "b": "Incorrect. This contradicts the purpose of 'Manage by Exception'.",
+            "c": "Correct. The Progress theme implements 'Manage by Exception' by setting tolerances for each level of management and requiring escalation only when these are forecast to be breached.",
+            "d": "Incorrect. The Progress theme manages all six aspects of project performance."
+        }
     },
     {
         "question": "What is the role of the Project Manager concerning Work Package tolerances?",
@@ -160,7 +228,12 @@
             "d": "Work Package tolerances are set by the Project Board, not the Project Manager."
         },
         "answer": "a",
-        "reasoning": "The Project Manager 'when delegating work to the teams, sets work package tolerances'. This is confirmed during the 'Authorize a work package' activity where the Project Manager 'agreed work package tolerances with the team manager'."
+        "explanations": {
+            "a": "Correct. The Project Manager 'when delegating work to the teams, sets work package tolerances'.",
+            "b": "Incorrect. The Project Manager sets and agrees Work Package tolerances, they don't approve them from the Team Manager.",
+            "c": "Incorrect. The Project Manager sets the tolerances initially.",
+            "d": "Incorrect. The Project Board sets Project and Stage tolerances; the Project Manager sets Work Package tolerances."
+        }
     },
     {
         "question": "What information is typically included in a Checkpoint Report?",
@@ -171,7 +244,12 @@
             "d": "Detailed financial breakdowns and cost variances for the entire stage."
         },
         "answer": "b",
-        "reasoning": "Quality criteria for a Checkpoint Report include that 'Every product in the work package, for that period, is covered by the report' and 'The report includes an update on any unresolved issues from the previous report'. It also summarizes 'the status of each product in the work package' and feeds 'the progress information back to the project manager'."
+        "explanations": {
+            "a": "Incorrect. The Checkpoint Report includes progress on products, not just issues.",
+            "b": "Correct. A Checkpoint Report should cover every product in the work package for that period and include an update on any unresolved issues from the previous report.",
+            "c": "Incorrect. This describes a Highlight Report.",
+            "d": "Incorrect. This level of detail is more likely in a Stage Plan or End Stage Report."
+        }
     },
     {
         "question": "Who creates the Checkpoint Report and to whom is it sent?",
@@ -182,7 +260,12 @@
             "d": "An external consultant creates it and sends it to the Project Board."
         },
         "answer": "b",
-        "reasoning": "The Checkpoint Report is created by 'the team manager (or the team members, if there is no team manager)'. It is sent regularly 'to the project manager'."
+        "explanations": {
+            "a": "Incorrect. The Project Manager creates the Highlight Report for the Project Board.",
+            "b": "Correct. The Checkpoint Report is created by the team manager (or team members) and sent regularly to the project manager.",
+            "c": "Incorrect. Project Support assists the Project Manager but does not typically create Checkpoint Reports.",
+            "d": "Incorrect. Checkpoint Reports are internal progress updates."
+        }
     },
     {
         "question": "How can the frequency of reporting (e.g., Checkpoint and Highlight Reports) vary during a project?",
@@ -193,7 +276,12 @@
             "d": "Reporting frequency depends only on whether the project is using an agile approach."
         },
         "answer": "b",
-        "reasoning": "The tailoring guidelines for a Highlight Report state that 'The frequency of highlight reporting may change to suit the risk profile and output being created'. This applies to Checkpoint Reports as well."
+        "explanations": {
+            "a": "Incorrect. The frequency can be adapted.",
+            "b": "Correct. The frequency of reporting may change to suit the risk profile and output being created.",
+            "c": "Incorrect. The frequency can be adjusted based on the project's evolving circumstances.",
+            "d": "Incorrect. The ability to vary frequency is a general tailoring guideline."
+        }
     },
     {
         "question": "What is the purpose of the Lessons Log?",
@@ -204,7 +292,12 @@
             "d": "To track the acceptance of all completed products."
         },
         "answer": "c",
-        "reasoning": "The Lessons Log is a management product used 'to collate experience that may be useful for input into the project’s strategies and plans'. It serves 'to capture any lessons that can be learned during the life of the project or from previous projects' and is also meant for 'valuable lessons...captured for the future'. It acts as a repository for 'useful experience' for 'input into the project’s strategies and plans'."
+        "explanations": {
+            "a": "Incorrect. This is the purpose of the Highlight Report.",
+            "b": "Incorrect. This is the purpose of the Issue Register and Risk Register.",
+            "c": "Correct. The Lessons Log is used to collate experience that may be useful for input into the project’s strategies and plans.",
+            "d": "Incorrect. Tracking product acceptance is part of quality control."
+        }
     },
     {
         "question": "When is the Lessons Log initially created and updated?",
@@ -215,7 +308,12 @@
             "d": "It is created at Project Closure to summarize all lessons from the entire project."
         },
         "answer": "b",
-        "reasoning": "The Lessons Log 'is created during the starting up a project process'. It is 'updated throughout the project' and 'at the end of each management stage'. During the 'Manage a Stage Boundary' process, the Lessons Log is reviewed and updated. At project closure, relevant lessons are included in the End Project Report, having been drawn from the Lessons Log."
+        "explanations": {
+            "a": "Incorrect. It is created in Starting Up a Project.",
+            "b": "Correct. The Lessons Log is created during the starting up a project process and is updated throughout the project.",
+            "c": "Incorrect. The Lessons Log is created earlier, and issues are recorded in the Daily Log or Issue Register.",
+            "d": "Incorrect. The Lessons Log is a live document maintained throughout the project."
+        }
     },
     {
         "question": "What is an 'S-curve' and how is it used in progress evaluation?",
@@ -226,7 +324,12 @@
             "d": "A tool used to prioritize risks based on their probability and impact."
         },
         "answer": "a",
-        "reasoning": "An S-curve 'is a graph showing cumulative actual figures (e.g. costs or hours) plotted against time'. It's typically shaped like an 'S' because 'a project typically consumes fewer resources and costs at the start and end of the project, and more in the middle.' When 'planned and actual figures are shown on the same chart, this can be used to identify potential overspend or forecast areas where tolerances may be exceeded'."
+        "explanations": {
+            "a": "Correct. An S-curve is a graph showing cumulative actual figures plotted against time, which can be used to identify potential overspend or forecast tolerance breaches.",
+            "b": "Incorrect. This describes a Product Flow Diagram.",
+            "c": "Incorrect. An S-curve is a quantitative graphical tool.",
+            "d": "Incorrect. This describes a Probability Impact Grid."
+        }
     },
     {
         "question": "What is a 'Milestone' and what is its significance on a schedule?",
@@ -237,7 +340,12 @@
             "d": "A graphical representation of resource allocation over time."
         },
         "answer": "b",
-        "reasoning": "A Milestone is defined as 'a significant event in a plan’s schedule, such as completion of key work packages, a development step or a management stage'. Milestone charts can be used for progress evaluation, showing planned and actual milestones."
+        "explanations": {
+            "a": "Incorrect. A detailed breakdown of tasks is found within a Work Package or Team Plan.",
+            "b": "Correct. A Milestone is a significant event in a plan’s schedule, such as completion of key work packages, a development step or a management stage.",
+            "c": "Incorrect. This describes an exception.",
+            "d": "Incorrect. A milestone is a point in time, not a graph of resource allocation."
+        }
     },
     {
         "question": "How does the Progress theme ensure that senior management's time is used effectively?",
@@ -248,7 +356,12 @@
             "d": "By mandating frequent, unscheduled meetings with senior management to discuss minor issues."
         },
         "answer": "c",
-        "reasoning": "The Progress theme ensures effective use of senior management's time by enabling 'the ‘Manage by Exception’ principle, ensuring that senior management’s time is used effectively for key decisions rather than routine monitoring'. This is achieved by 'set[ting] tolerances for each level of management that clearly define that level of management’s authority' and requiring escalation only when these are forecast to be breached. PRINCE2’s 'management-by-exception approach ensures the efficient and economic use of management time'."
+        "explanations": {
+            "a": "Incorrect. This would be an inefficient use of senior management time.",
+            "b": "Incorrect. While a common vocabulary helps, 'Manage by Exception' is the key mechanism for this.",
+            "c": "Correct. The Progress theme enables the 'Manage by Exception' principle, ensuring that senior management’s time is used effectively for key decisions rather than routine monitoring.",
+            "d": "Incorrect. This is the opposite of how 'Manage by Exception' works."
+        }
     },
     {
         "question": "What happens when a Work Package tolerance is forecast to be exceeded?",
@@ -259,7 +372,12 @@
             "d": "The Project Manager updates the Highlight Report to reflect the deviation."
         },
         "answer": "b",
-        "reasoning": "If a Work Package is 'forecast to exceed its tolerances, the team manager should inform the project manager by raising an issue'."
+        "explanations": {
+            "a": "Incorrect. An Exception Plan is typically for a stage-level tolerance breach.",
+            "b": "Correct. If a Work Package is forecast to exceed its tolerances, the team manager should inform the project manager by raising an issue.",
+            "c": "Incorrect. The initial step is for the Team Manager to raise an issue.",
+            "d": "Incorrect. The immediate action is raising an issue, not just updating a report."
+        }
     },
     {
         "question": "How might the Progress theme be tailored in an agile environment, especially concerning scope tolerances?",
@@ -270,6 +388,11 @@
             "d": "The Project Board takes over direct control of scope decisions in an agile project."
         },
         "answer": "c",
-        "reasoning": "When using an agile approach, 'Scope tolerance (if used) should be in the form of a note on or reference to the product breakdown structure for the plan. Scope tolerance at the stage or work-package level is of particular use if applying a time-bound iterative development method such as agile'. This approach means 'prioritize the products and features to be delivered'. The Progress theme's tailoring for agile environments supports 'timebox' approaches where 'flexibility on scope' is key. This empowers the team to 'prioritize the products and features to be delivered'."
+        "explanations": {
+            "a": "Incorrect. Agile environments favor flexibility in scope.",
+            "b": "Incorrect. Scope tolerances can be used in agile, but they are typically more flexible.",
+            "c": "Correct. When using an agile approach, scope tolerance at the stage or work-package level is of particular use, allowing the team to prioritize products and features.",
+            "d": "Incorrect. 'Manage by Exception' means delegating day-to-day scope prioritization to the delivery team within agreed tolerances."
+        }
     }
 ]

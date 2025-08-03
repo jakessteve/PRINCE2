@@ -8,7 +8,12 @@
             "d": "To manage the post-project benefits realization."
         },
         "answer": "b",
-        "reasoning": "The primary purpose of the Closing a Project process is to 'provide a fixed point for confirming project completion'. It also involves handing over products and ensuring operational support is in place."
+        "explanations": {
+            "a": "Incorrect. CP aims for an orderly close, not an abrupt termination.",
+            "b": "Correct. The primary purpose of the Closing a Project process is to provide a fixed point for confirming project completion. It also involves handing over products and ensuring operational support is in place.",
+            "c": "Incorrect. This is more aligned with the Managing a Stage Boundary process.",
+            "d": "Incorrect. Benefits realization primarily takes place post-project, though CP ensures the groundwork for it is in place."
+        }
     },
     {
         "question": "What are the three key activities of the CP process?",
@@ -19,7 +24,12 @@
             "d": "Controlling a stage, reporting highlights, and reviewing work packages."
         },
         "answer": "b",
-        "reasoning": "The key activities of the Closing a Project process are explicitly listed as 'Hand over products, evaluate the project, capture lessons'."
+        "explanations": {
+            "a": "Incorrect. These describe activities belonging to other PRINCE2 processes.",
+            "b": "Correct. The key activities of the Closing a Project process are explicitly listed as 'Hand over products, evaluate the project, capture lessons'.",
+            "c": "Incorrect. These describe activities belonging to other PRINCE2 processes.",
+            "d": "Incorrect. These describe activities belonging to other PRINCE2 processes."
+        }
     },
     {
         "question": "What is the key decision made by the Project Board in the 'Directing a Project' (DP) process regarding project closure?",
@@ -30,7 +40,12 @@
             "d": "Approve an exception plan."
         },
         "answer": "b",
-        "reasoning": "The key decision made by the Project Board in the Directing a Project process concerning project closure is to 'Authorize Project Closure'."
+        "explanations": {
+            "a": "Incorrect. This is a decision made by the Project Board at a stage boundary.",
+            "b": "Correct. The key decision made by the Project Board in the Directing a Project process concerning project closure is to 'Authorize Project Closure'.",
+            "c": "Incorrect. This is a decision made at the end of the Starting Up a Project process.",
+            "d": "Incorrect. This is a decision the Project Board might make in response to an exception report."
+        }
     },
     {
         "question": "What is the purpose of the 'End Project Report'?",
@@ -41,7 +56,12 @@
             "d": "To report on the status of a work package."
         },
         "answer": "b",
-        "reasoning": "The End Project Report's purpose is to 'understand the project’s actual performance against its initial basis, including a summary of any deviations from the approved plans'. It also includes lessons and follow-on action recommendations."
+        "explanations": {
+            "a": "Incorrect. This relates to the Progress theme.",
+            "b": "Correct. The End Project Report's purpose is to summarize the project’s actual performance against its initial basis, including lessons and follow-on action recommendations.",
+            "c": "Incorrect. This describes the purpose of the Quality Register.",
+            "d": "Incorrect. This describes the purpose of a Checkpoint Report."
+        }
     },
     {
         "question": "Who is responsible for producing the 'End Project Report'?",
@@ -52,7 +72,12 @@
             "d": "The Senior User."
         },
         "answer": "c",
-        "reasoning": "The Project Manager is responsible for producing the outputs from the Closing a Project process, which includes the End Project Report. The Project Board reviews and approves the report, but does not produce it."
+        "explanations": {
+            "a": "Incorrect. The Project Board reviews and approves the report, but does not produce it.",
+            "b": "Incorrect. The Executive is part of the Project Board.",
+            "c": "Correct. The Project Manager is responsible for producing the outputs from the Closing a Project process, which includes the End Project Report.",
+            "d": "Incorrect. The Senior User is part of the Project Board."
+        }
     },
     {
         "question": "What document confirms the acceptance of the project's final product?",
@@ -63,7 +88,12 @@
             "d": "The End Project Report."
         },
         "answer": "c",
-        "reasoning": "The Closing a Project process includes checking 'Is there an acceptance record for the handover of the project product?'. This record verifies that 'user acceptance, and operational and maintenance acceptance, exist for each product'."
+        "explanations": {
+            "a": "Incorrect. The Project Product Description defines what is to be accepted, not the acceptance itself.",
+            "b": "Incorrect. The Quality Register records quality activities.",
+            "c": "Correct. An Acceptance Record verifies that user acceptance, and operational and maintenance acceptance, exist for each product.",
+            "d": "Incorrect. The End Project Report summarizes project performance and lessons, it is not the acceptance document itself."
+        }
     },
     {
         "question": "What happens to outstanding issues at the end of a project?",
@@ -74,7 +104,12 @@
             "d": "They are simply closed without further action."
         },
         "answer": "b",
-        "reasoning": "At project closure, 'all outstanding issues have been documented as follow-on action recommendations ready for distribution subject to project board approval'. This ensures that any remaining actions or concerns related to the project's outputs are addressed post-project."
+        "explanations": {
+            "a": "Incorrect. This is too general and not the direct PRINCE2 action.",
+            "b": "Correct. At project closure, all outstanding issues have been documented as follow-on action recommendations.",
+            "c": "Incorrect. Issues and risks are distinct.",
+            "d": "Incorrect. PRINCE2 emphasizes an orderly close, meaning issues are formally documented."
+        }
     },
     {
         "question": "How does the CP process ensure that valuable lessons are captured for the future?",
@@ -85,7 +120,12 @@
             "d": "By archiving all project documentation in a central repository."
         },
         "answer": "b",
-        "reasoning": "The Closing a Project process captures lessons by including a 'lessons report for the project' as part of the End Project Report, which highlights 'what worked well and/or what worked badly in managing this project'. This report is sourced from the Lessons Log."
+        "explanations": {
+            "a": "Incorrect. The Daily Log is for informal issues and actions.",
+            "b": "Correct. The Closing a Project process captures lessons by including a Lessons Report within the End Project Report.",
+            "c": "Incorrect. This happens during the project, not specifically how CP ensures lessons capture for the future.",
+            "d": "Incorrect. Archiving is about storage, not the capture and dissemination of lessons."
+        }
     },
     {
         "question": "What is meant by 'planned closure' versus 'premature closure'?",
@@ -96,7 +136,12 @@
             "d": "Planned closure is initiated by the Project Manager, while premature closure is initiated by the Project Board."
         },
         "answer": "b",
-        "reasoning": "'Planned Closure' refers to the project manager preparing for the end of the project when the final delivery stage is nearing completion, indicating successful achievement of objectives. 'Premature Closure' occurs if the project needs to be closed early, for instance, if its business justification is no longer valid, and 'the means for recovering products that have been completed or are in progress been approved by the project board'."
+        "explanations": {
+            "a": "Incorrect. This misrepresents the nature of these closures.",
+            "b": "Correct. 'Planned Closure' refers to the project manager preparing for the end of the project when the final delivery stage is nearing completion. 'Premature Closure' occurs if the project needs to be closed early.",
+            "c": "Incorrect. This misrepresents the nature of these closures.",
+            "d": "Incorrect. This misrepresents the nature of these closures."
+        }
     },
     {
         "question": "What happens to the Business Case, Project Plan, and Benefits Management Approach during CP?",
@@ -107,7 +152,12 @@
             "d": "They are transferred to the operational team for ongoing management."
         },
         "answer": "b",
-        "reasoning": "During the Closing a Project process, the Business Case, Project Plan, and Benefits Management Approach are all updated with actual figures and performance data. This allows for an assessment of the project's performance against its initial baseline."
+        "explanations": {
+            "a": "Incorrect. They are actively reviewed and updated.",
+            "b": "Correct. During the Closing a Project process, the Business Case, Project Plan, and Benefits Management Approach are all updated with actual figures and performance data.",
+            "c": "Incorrect. This is outside the scope of project closure.",
+            "d": "Incorrect. These are management documents, not operational deliverables."
+        }
     },
     {
         "question": "What is the significance of the 'Hand Over Products' activity?",
@@ -118,7 +168,12 @@
             "d": "It reviews the project manager's performance during product creation."
         },
         "answer": "b",
-        "reasoning": "The 'Hand Over Products' activity ensures that 'user acceptance, and operational and maintenance acceptance, exist for each product'. This formal acceptance is crucial for confirming that the products are fit for purpose and ready for use."
+        "explanations": {
+            "a": "Incorrect. Handover precedes the operational phase.",
+            "b": "Correct. The 'Hand Over Products' activity ensures that user acceptance, and operational and maintenance acceptance, exist for each product.",
+            "c": "Incorrect. Identifying new requirements is part of ongoing business analysis or future projects.",
+            "d": "Incorrect. Reviewing performance is part of project evaluation."
+        }
     },
     {
         "question": "What information does the Project Manager review to determine who needs to be informed that the project is closing?",
@@ -129,7 +184,12 @@
             "d": "The End Project Report."
         },
         "answer": "c",
-        "reasoning": "The Project Manager 'reviews the communication management approach to see who needs to be informed that the project is about to close'. This approach defines the stakeholder information needs and timing of communications."
+        "explanations": {
+            "a": "Incorrect. The Project Brief is an early document.",
+            "b": "Incorrect. The Stakeholder Register is not explicitly a PRINCE2 management product.",
+            "c": "Correct. The Project Manager reviews the communication management approach to see who needs to be informed that the project is about to close.",
+            "d": "Incorrect. The End Project Report is an output of the closure process."
+        }
     },
     {
         "question": "True or False: The End Project Report evaluates project performance against its initial objectives defined in the original Project Initiation Documentation.",
@@ -138,7 +198,10 @@
             "b": "False."
         },
         "answer": "a",
-        "reasoning": "The End Project Report assesses the project's actual performance 'against its initial basis'. This initial basis refers to the objectives and baseline defined in the original Project Initiation Documentation (PID), which the project manager uses for this assessment."
+        "explanations": {
+            "a": "Correct. The End Project Report assesses the project's actual performance against its initial basis, which refers to the objectives and baseline defined in the original Project Initiation Documentation (PID).",
+            "b": "Incorrect. The statement is true."
+        }
     },
     {
         "question": "What happens to all project issues and logs at the close of a project?",
@@ -149,7 +212,12 @@
             "d": "They are handed over to the operational team for ongoing monitoring."
         },
         "answer": "c",
-        "reasoning": "At the close of a project, the Project Manager 'ensures that all the project’s issues and logs are closed and that all the project documentation is archived in accordance with the procedure described in the change control approach'. This ensures a clean and formal close."
+        "explanations": {
+            "a": "Incorrect. This does not accurately reflect the formal closure process.",
+            "b": "Incorrect. This does not accurately reflect the formal closure process.",
+            "c": "Correct. At the close of a project, the Project Manager ensures that all the project’s issues and logs are closed and that all the project documentation is archived.",
+            "d": "Incorrect. This does not accurately reflect the formal closure process."
+        }
     },
     {
         "question": "How does the CP process contribute to the 'Focus on Products' principle?",
@@ -160,7 +228,12 @@
             "d": "By documenting lessons learned about product development."
         },
         "answer": "b",
-        "reasoning": "The 'Focus on Products' principle emphasizes defining and delivering products that are fit for purpose. The Closing a Project process reinforces this by 'providing a fixed point at which acceptance for the project’s outputs are confirmed' and ensuring that 'products are accepted, operational support is in place'."
+        "explanations": {
+            "a": "Incorrect. This describes general project control.",
+            "b": "Correct. The Closing a Project process reinforces this by providing a fixed point at which acceptance for the project’s outputs are confirmed and ensuring that products are accepted and operational support is in place.",
+            "c": "Incorrect. This relates to 'Continued Business Justification'.",
+            "d": "Incorrect. This relates to 'Learn from Experience'."
+        }
     },
     {
         "question": "What is the role of the Project Board in authorizing project closure?",
@@ -171,7 +244,12 @@
             "d": "To update the Business Case with actual benefits."
         },
         "answer": "b",
-        "reasoning": "The Project Board's role in the Directing a Project process is to make key decisions, including the ultimate 'Authorize Project Closure'. They review the End Project Report and other relevant information to make this formal approval."
+        "explanations": {
+            "a": "Incorrect. This is the Project Manager's responsibility.",
+            "b": "Correct. The Project Board's role is to make key decisions, including the ultimate 'Authorize Project Closure'.",
+            "c": "Incorrect. This is performed by the Project Manager and teams.",
+            "d": "Incorrect. This is performed by the Project Manager."
+        }
     },
     {
         "question": "What is the purpose of a 'Product Status Account' at project closure?",
@@ -182,7 +260,12 @@
             "d": "To record approval records for completed products."
         },
         "answer": "b",
-        "reasoning": "A Product Status Account 'Provides a snapshot of the status of products within the project, management stage or a particular area of the project'. At project closure, it is used to 'verify the status of all the products'."
+        "explanations": {
+            "a": "Incorrect. This is the purpose of the Quality Register.",
+            "b": "Correct. A Product Status Account provides a snapshot of the status of products within the project. At project closure, it is used to verify the status of all the products.",
+            "c": "Incorrect. This describes a Product Description.",
+            "d": "Incorrect. This is part of an Acceptance Record."
+        }
     },
     {
         "question": "What steps are taken for 'premature closure' to recover products?",
@@ -193,7 +276,28 @@
             "d": "The operational team automatically takes over all in-progress products."
         },
         "answer": "b",
-        "reasoning": "For premature closure, if requested, 'an exception plan [is] created and approved' to define 'the means for recovering products that have been completed or are in progress'. This ensures a formal and approved approach to handling products in a prematurely closed project. The End Project Report should include an understanding of the project’s 'actual performance against its initial basis, including a summary of any deviations from the approved plans', an assessment of the 'choice of project approach', agreed 'lessons', and 'follow-on action recommendation'."
+        "explanations": {
+            "a": "Incorrect. This does not align with PRINCE2's structured approach.",
+            "b": "Correct. For premature closure, an exception plan is created and approved to define the means for recovering products that have been completed or are in progress.",
+            "c": "Incorrect. This does not align with PRINCE2's structured approach.",
+            "d": "Incorrect. This does not align with PRINCE2's structured approach."
+        }
+    },
+    {
+        "question": "What information is typically included in the End Project Report?",
+        "options": {
+            "a": "A detailed breakdown of every task and its duration.",
+            "b": "A summary of performance against plans, an assessment of the project approach, agreed lessons, and follow-on action recommendations.",
+            "c": "Only the financial performance of the project.",
+            "d": "The project mandate and the project brief."
+        },
+        "answer": "b",
+        "explanations": {
+            "a": "Incorrect. This is too specific and not comprehensive enough.",
+            "b": "Correct. The End Project Report should include an understanding of the project’s actual performance against its initial basis, an assessment of the choice of project approach, agreed lessons, and follow-on action recommendations.",
+            "c": "Incorrect. This is not comprehensive enough.",
+            "d": "Incorrect. These are separate project documents."
+        }
     },
     {
         "question": "How does the CP process ensure operational support is in place for the project's products?",
@@ -204,7 +308,12 @@
             "d": "By training the operational staff before project closure."
         },
         "answer": "b",
-        "reasoning": "The Closing a Project process ensures operational support by verifying 'that user acceptance, and operational and maintenance acceptance, exist for each product'. This confirms that the necessary parties are ready to take responsibility and support the products. While creating manuals and training staff are important, CP's role is to *verify acceptance and readiness for support*."
+        "explanations": {
+            "a": "Incorrect. CP's role is to verify acceptance and readiness for support.",
+            "b": "Correct. The Closing a Project process ensures operational support by verifying that user acceptance, and operational and maintenance acceptance, exist for each product.",
+            "c": "Incorrect. Allocating new budgets typically happens outside the project's scope.",
+            "d": "Incorrect. CP's role is to verify acceptance and readiness for support."
+        }
     },
     {
         "question": "What is the ultimate decision for the Project Board regarding a project that is closing?",
@@ -215,7 +324,12 @@
             "d": "To evaluate the project's performance."
         },
         "answer": "c",
-        "reasoning": "The Project Board's 'Key DP Decision' at the end of the project is to 'Authorize Project Closure'. This is their ultimate authority and decision point for the project's termination."
+        "explanations": {
+            "a": "Incorrect. This is a decision made earlier in the project lifecycle.",
+            "b": "Incorrect. This is an activity that feeds into the decision-making process.",
+            "c": "Correct. The Project Board's 'Key DP Decision' at the end of the project is to 'Authorize Project Closure'.",
+            "d": "Incorrect. This is an activity that feeds into the decision-making process."
+        }
     },
     {
         "question": "How does the CP process demonstrate the 'Learn from Experience' principle?",
@@ -226,7 +340,12 @@
             "d": "By ensuring all project documentation is archived for future reference."
         },
         "answer": "c",
-        "reasoning": "The 'Learn from Experience' principle is demonstrated in the Closing a Project process through the capture and dissemination of lessons, specifically by including a Lessons Report within the End Project Report. This report details what went well and badly, providing valuable insights for future projects."
+        "explanations": {
+            "a": "Incorrect. This relates to the Progress theme.",
+            "b": "Incorrect. This describes a possible method for gathering lessons, but the process ensures their capture in the End Project Report.",
+            "c": "Correct. The 'Learn from Experience' principle is demonstrated in the Closing a Project process through the capture and dissemination of lessons, specifically by including a Lessons Report within the End Project Report.",
+            "d": "Incorrect. This is about record-keeping, not actively learning from experience."
+        }
     },
     {
         "question": "What types of follow-on action recommendations might be made at project closure?",
@@ -237,7 +356,12 @@
             "d": "Adjustments to the project's original objectives."
         },
         "answer": "a",
-        "reasoning": "Follow-on action recommendations typically address activities that will take place *after* the project, ensuring the continued support and development of the project's products in their operational life. This can include 'continuing threats to the project’s products in their operational life' and ensuring 'appropriate groups (e.g. operations or maintenance) have been made aware of their responsibility for taking any recommended actions forward'."
+        "explanations": {
+            "a": "Correct. Follow-on action recommendations typically address activities that will take place after the project, ensuring the continued support and development of the project's products in their operational life.",
+            "b": "Incorrect. This relates to lessons learned about project management performance.",
+            "c": "Incorrect. This is not the direct purpose of follow-on action recommendations.",
+            "d": "Incorrect. This is not the direct purpose of follow-on action recommendations."
+        }
     },
     {
         "question": "Which management product is the End Project Report derived from?",
@@ -248,7 +372,12 @@
             "d": "The Issue Register and Risk Register."
         },
         "answer": "c",
-        "reasoning": "While the provided source mentions reviewing the PID, it also specifies that the End Project Report is derived from or influenced by reviewing the 'project’s actual performance against its initial basis' (implying Project Plan and Business Case), and explicitly mentions including lessons from the 'lessons log'. The broader source material confirms that the End Project Report is derived from the 'project plan, business case, benefits management approach, end stage reports, lessons log, issue register, and quality register'. Therefore, Project Plan, Business Case, and Lessons Log represent a key subset of its direct derivations/inputs."
+        "explanations": {
+            "a": "Incorrect. The Project Brief is an early document.",
+            "b": "Incorrect. The PID is reviewed, but the report is derived from other documents as well.",
+            "c": "Correct. The End Project Report is derived from the project plan, business case, benefits management approach, end stage reports, lessons log, issue register, and quality register.",
+            "d": "Incorrect. These are inputs, but not the only ones."
+        }
     },
     {
         "question": "What is the purpose of an 'acceptance record' when handing over the project product?",
@@ -259,6 +388,11 @@
             "d": "To document any remaining defects in the product."
         },
         "answer": "c",
-        "reasoning": "An acceptance record serves as 'formal evidence' that 'user acceptance, and operational and maintenance acceptance, exist for each product'. It confirms that the designated parties have formally taken responsibility for the product."
+        "explanations": {
+            "a": "Incorrect. This describes the Quality Register.",
+            "b": "Incorrect. This is about quality criteria and product descriptions.",
+            "c": "Correct. An acceptance record serves as formal evidence that user acceptance, and operational and maintenance acceptance, exist for each product.",
+            "d": "Incorrect. This would be captured as an issue (off-specification)."
+        }
     }
 ]

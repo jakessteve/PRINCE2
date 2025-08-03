@@ -8,7 +8,12 @@
             "d": "120 minutes"
         },
         "answer": "b",
-        "reasoning": "60 minutes: The PRINCE2 Foundation exam is a one-hour exam."
+        "explanations": {
+            "a": "Incorrect. This duration is incorrect according to the syllabus information.",
+            "b": "Correct. The PRINCE2 Foundation exam is a one-hour exam.",
+            "c": "Incorrect. This duration is incorrect according to the syllabus information.",
+            "d": "Incorrect. This duration is incorrect according to the syllabus information."
+        }
     },
     {
         "question": "How many questions are on the PRINCE2 Foundation exam?",
@@ -19,7 +24,12 @@
             "d": "75 questions"
         },
         "answer": "c",
-        "reasoning": "60 questions: The Foundation-level exam consists of 60 multiple-choice questions."
+        "explanations": {
+            "a": "Incorrect. This number of questions is incorrect according to the syllabus information.",
+            "b": "Incorrect. This number of questions is incorrect according to the syllabus information.",
+            "c": "Correct. The Foundation-level exam consists of 60 multiple-choice questions.",
+            "d": "Incorrect. This number of questions is incorrect according to the syllabus information."
+        }
     },
     {
         "question": "What is the passing mark for the PRINCE2 Foundation exam (percentage and number of questions)?",
@@ -30,7 +40,12 @@
             "d": "65% (39 out of 60)"
         },
         "answer": "b",
-        "reasoning": "55% (33 out of 60): You need to get 55 percent to pass the Foundation exam. For 60 questions, 55% is 33 questions (0.55 * 60 = 33)."
+        "explanations": {
+            "a": "Incorrect. This percentage and corresponding question count is incorrect as the passing mark is specifically stated as 55%.",
+            "b": "Correct. You need to get 55 percent to pass the Foundation exam. For 60 questions, 55% is 33 questions (0.55 * 60 = 33).",
+            "c": "Incorrect. This percentage and corresponding question count is incorrect as the passing mark is specifically stated as 55%.",
+            "d": "Incorrect. This percentage and corresponding question count is incorrect as the passing mark is specifically stated as 55%."
+        }
     },
     {
         "question": "Is the PRINCE2 Foundation exam open book or closed book?",
@@ -41,7 +56,12 @@
             "d": "Closed book, but personal notes are permitted."
         },
         "answer": "c",
-        "reasoning": "Closed book, with no reference material allowed: For the Foundation exam, you are not allowed to refer to any material during the exam. It is a closed book exam."
+        "explanations": {
+            "a": "Incorrect. The Foundation exam is closed book, and no reference materials are permitted.",
+            "b": "Incorrect. The Foundation exam is closed book, and no reference materials are permitted.",
+            "c": "Correct. For the Foundation exam, you are not allowed to refer to any material during the exam. It is a closed book exam.",
+            "d": "Incorrect. The Foundation exam is closed book, and no notes are permitted."
+        }
     },
     {
         "question": "What is the purpose of taking mock tests during exam preparation?",
@@ -52,7 +72,12 @@
             "d": "To determine if external knowledge is sufficient for passing."
         },
         "answer": "c",
-        "reasoning": "To identify weak areas, understand mistakes, and practice time management: Taking practice Foundation questions helps you focus your exam preparation by reviewing wrong answers to understand mistakes and identifying patterns in mistakes to do further work in those areas. It also helps in practicing to answer questions at the pace required for the real exam, which is one minute per question for the Foundation exam."
+        "explanations": {
+            "a": "Incorrect. Mock tests are a study tool, not a replacement for studying.",
+            "b": "Incorrect. The purpose is not to memorize answers but to test comprehension and readiness.",
+            "c": "Correct. Taking practice questions helps you focus your exam preparation by reviewing wrong answers to understand mistakes and identifying patterns to do further work in those areas. It also helps in practicing time management.",
+            "d": "Incorrect. Mock tests test comprehension of the PRINCE2 method, not external knowledge."
+        }
     },
     {
         "question": "What is the duration of the PRINCE2 Practitioner exam?",
@@ -63,7 +88,12 @@
             "d": "Two and a half hours"
         },
         "answer": "d",
-        "reasoning": "Two and a half hours: The Practitioner exam is two and a half hours long."
+        "explanations": {
+            "a": "Incorrect. This duration is incorrect for the Practitioner exam.",
+            "b": "Incorrect. This duration is incorrect for the Practitioner exam.",
+            "c": "Incorrect. This duration is incorrect for the Practitioner exam.",
+            "d": "Correct. The Practitioner exam is two and a half hours long."
+        }
     },
     {
         "question": "How many questions are on the PRINCE2 Practitioner exam?",
@@ -74,7 +104,12 @@
             "d": "80 questions"
         },
         "answer": "b",
-        "reasoning": "68 questions: The Practitioner exam has 68 questions."
+        "explanations": {
+            "a": "Incorrect. This number is incorrect for the Practitioner exam.",
+            "b": "Correct. The Practitioner exam has 68 questions.",
+            "c": "Incorrect. This number is incorrect for the Practitioner exam.",
+            "d": "Incorrect. This number is incorrect for the Practitioner exam."
+        }
     },
     {
         "question": "Is the PRINCE2 Practitioner exam open book or closed book, and what reference material is allowed?",
@@ -85,7 +120,12 @@
             "d": "Open book, any project management textbook is allowed."
         },
         "answer": "c",
-        "reasoning": "Open book, only the official PRINCE2 manual 'Managing Successful Projects with PRINCE2' is allowed: You are allowed to refer to 'Managing Successful Projects with PRINCE2' during the Practitioner exam. You are not allowed to use any other reference material, including this study guide."
+        "explanations": {
+            "a": "Incorrect. The Practitioner exam is open book.",
+            "b": "Incorrect. The Practitioner exam is open book, but strictly limited to the official PRINCE2 manual.",
+            "c": "Correct. You are allowed to refer to 'Managing Successful Projects with PRINCE2' during the Practitioner exam. You are not allowed to use any other reference material.",
+            "d": "Incorrect. The Practitioner exam is open book, but strictly limited to the official PRINCE2 manual."
+        }
     },
     {
         "question": "What is the passing mark for the PRINCE2 Practitioner exam?",
@@ -96,7 +136,12 @@
             "d": "65%"
         },
         "answer": "b",
-        "reasoning": "55%: You need to get 55 percent to pass the Practitioner exam."
+        "explanations": {
+            "a": "Incorrect. This percentage is incorrect for the Practitioner exam's passing mark.",
+            "b": "Correct. You need to get 55 percent to pass the Practitioner exam.",
+            "c": "Incorrect. This percentage is incorrect for the Practitioner exam's passing mark.",
+            "d": "Incorrect. This percentage is incorrect for the Practitioner exam's passing mark."
+        }
     },
     {
         "question": "What are the 15 syllabus areas covered in the Practitioner exam?",
@@ -107,7 +152,12 @@
             "d": "7 principles, 7 themes, and 1 process overview."
         },
         "answer": "c",
-        "reasoning": "7 principles, 7 themes, and 1 overview of projects and PRINCE2: The Practitioner exam has 68 questions, grouped into 15 syllabus sections. The 15 syllabus areas are the principles, the seven processes, and the seven themes. The 'overview of projects and PRINCE2' is covered in Chapter 1 of the study guide. This aligns with a total of 15 examinable syllabus areas: 7 principles, 7 themes, and the area covering an overview of projects and PRINCE2."
+        "explanations": {
+            "a": "Incorrect. This combination misrepresents the specific breakdown of the 15 syllabus areas.",
+            "b": "Incorrect. This combination misrepresents the specific breakdown of the 15 syllabus areas.",
+            "c": "Correct. The 15 syllabus areas are the 7 principles, the 7 themes, and the area covering an overview of projects and PRINCE2.",
+            "d": "Incorrect. This combination misrepresents the specific breakdown of the 15 syllabus areas."
+        }
     },
     {
         "question": "What are the key facts to memorize for the Foundation exam regarding the process level?",
@@ -118,7 +168,12 @@
             "d": "Memorize all figures and tables related to processes."
         },
         "answer": "b",
-        "reasoning": "Memorize which management products are created, reviewed, or updated, which themes are used, and which roles are involved for each of the seven processes: For the Foundation exam, it is generally enough to know the model down to the process level, not the activity level. This means memorizing which management products are created, reviewed, or updated, which themes are used, and which roles are involved for each of the seven processes."
+        "explanations": {
+            "a": "Incorrect. Memorizing every activity is not necessary for the Foundation exam.",
+            "b": "Correct. For the Foundation exam, it is generally enough to know the model down to the process level, not the activity level. This means memorizing which management products are created, reviewed, or updated, which themes are used, and which roles are involved for each of the seven processes.",
+            "c": "Incorrect. Just knowing purpose/objectives is insufficient.",
+            "d": "Incorrect. While figures and tables are helpful, the specific facts to memorize are those listed in option B."
+        }
     },
     {
         "question": "What kind of questions are typically asked about the PRINCE2 principles in the Foundation exam?",
@@ -129,7 +184,12 @@
             "d": "Questions on how to tailor the principles."
         },
         "answer": "b",
-        "reasoning": "Questions that test how the principles are supported and implemented by other elements of the methodology: For the Foundation exam, you might need to explain how the PRINCE2 principles are supported and implemented by the rest of the methodology. For example, which theme primarily supports 'manage by exception' (Progress theme), or 'focus on products' (Quality theme)."
+        "explanations": {
+            "a": "Incorrect. Detailed scenario application questions are for the Practitioner exam.",
+            "b": "Correct. For the Foundation exam, you might need to explain how the PRINCE2 principles are supported and implemented by the rest of the methodology.",
+            "c": "Incorrect. Historical development is not a focus.",
+            "d": "Incorrect. Principles are never amended or tailored."
+        }
     },
     {
         "question": "What is the most important thing to do when answering exam questions, regardless of the level?",
@@ -140,7 +200,12 @@
             "d": "Guess the answer if unsure."
         },
         "answer": "c",
-        "reasoning": "Carefully read the question and highlight key words: The most important tip is to 'read the question' carefully. PRINCE2 examinations are specifically worded, using terminology in an exacting way, making it crucial to read carefully and possibly underline or highlight key words."
+        "explanations": {
+            "a": "Incorrect. Rushing without careful reading can lead to misinterpreting questions.",
+            "b": "Incorrect. Skipping questions is a strategy, but not the most important overarching tip.",
+            "c": "Correct. The most important tip is to 'read the question' carefully. PRINCE2 examinations are specifically worded, making it crucial to read carefully.",
+            "d": "Incorrect. While time management is important, accuracy from careful reading is prioritized."
+        }
     },
     {
         "question": "What is a common mistake candidates make regarding the word 'NOT' in exam questions?",
@@ -151,7 +216,12 @@
             "d": "Expecting 'NOT' to always be bolded and capitalized."
         },
         "answer": "b",
-        "reasoning": "Missing the word 'NOT' entirely, leading to the wrong answer: Under exam conditions, it is very easy to miss the word 'not' in negative questions, which will lead to the wrong answer. The exam should highlight 'not' by capitalizing and putting it in bold to mitigate this."
+        "explanations": {
+            "a": "Incorrect. The issue is not misunderstanding the word 'NOT' itself.",
+            "b": "Correct. Under exam conditions, it is very easy to miss the word 'not' in negative questions, which will lead to the wrong answer.",
+            "c": "Incorrect. The issue is not overemphasizing the word.",
+            "d": "Incorrect. While it should be highlighted, the mistake is missing it regardless of formatting."
+        }
     },
     {
         "question": "What is the average time per question for the Foundation exam?",
@@ -162,7 +232,12 @@
             "d": "2 minutes"
         },
         "answer": "b",
-        "reasoning": "1 minute: The Foundation exam has 60 questions that need to be answered in one hour (60 minutes), which averages to one question per minute."
+        "explanations": {
+            "a": "Incorrect. This time is incorrect for the Foundation exam's average pace.",
+            "b": "Correct. The Foundation exam has 60 questions that need to be answered in one hour (60 minutes), which averages to one question per minute.",
+            "c": "Incorrect. This time is incorrect for the Foundation exam's average pace.",
+            "d": "Incorrect. This time is incorrect for the Foundation exam's average pace."
+        }
     },
     {
         "question": "What is the average time per question for the Practitioner exam?",
@@ -173,7 +248,12 @@
             "d": "2.5 minutes"
         },
         "answer": "c",
-        "reasoning": "2 minutes: The Practitioner exam has 68 questions, and candidates have two and a half hours (150 minutes) to answer them. This averages to approximately two minutes per question (150 minutes / 68 questions ≈ 2.2 minutes), so 2 minutes is the closest and most appropriate answer."
+        "explanations": {
+            "a": "Incorrect. This time is incorrect for the Practitioner exam's average pace.",
+            "b": "Incorrect. This time is incorrect for the Practitioner exam's average pace.",
+            "c": "Correct. The Practitioner exam has 68 questions, and candidates have two and a half hours (150 minutes) to answer them. This averages to approximately two minutes per question.",
+            "d": "Incorrect. This time is incorrect for the Practitioner exam's average pace."
+        }
     },
     {
         "question": "What should you do if you get stuck on a particular question during the exam?",
@@ -184,7 +264,12 @@
             "d": "Guess the answer and do not review it."
         },
         "answer": "c",
-        "reasoning": "Move on and return to it later if time permits: In either exam, if you get stuck on a particular question, you must move on and leave the question for any time you have left at the end. This strategy ensures you have the best chance of answering as many questions as possible within the allocated time."
+        "explanations": {
+            "a": "Incorrect. Spending too much time can lead to running out of time for other questions.",
+            "b": "Incorrect. Invigilators cannot help with exam content.",
+            "c": "Correct. In either exam, if you get stuck on a particular question, you must move on and leave the question for any time you have left at the end.",
+            "d": "Incorrect. Guessing without review is not ideal if time allows for a more considered approach."
+        }
     },
     {
         "question": "How can you effectively use the PRINCE2 manual during the Practitioner exam to find information quickly?",
@@ -195,7 +280,12 @@
             "d": "Rely solely on the index at the back of the manual."
         },
         "answer": "c",
-        "reasoning": "Use sticky tabs to mark the beginning of key chapters and appendices: To find information quickly during the Practitioner exam, it's recommended to buy sticky tabs and place them at the beginning of chapters (processes and themes) and appendices. This makes it far easier to quickly find what you are looking for."
+        "explanations": {
+            "a": "Incorrect. Memorizing the entire manual is impractical and unnecessary for the Practitioner exam.",
+            "b": "Incorrect. Reading it cover to cover during the exam is not feasible due to time constraints.",
+            "c": "Correct. To find information quickly during the Practitioner exam, it's recommended to use sticky tabs to mark the beginning of chapters and appendices.",
+            "d": "Incorrect. While the index can be used, sticky tabs are highlighted as a specific, effective method for quick navigation."
+        }
     },
     {
         "question": "Which appendix in the PRINCE2 manual is particularly useful for questions about management products?",
@@ -206,7 +296,12 @@
             "d": "Appendix A"
         },
         "answer": "d",
-        "reasoning": "Appendix A: For questions about management products, Appendix A in the PRINCE2 manual is very useful as it shows exactly what type of information goes into which section of each management product."
+        "explanations": {
+            "a": "Incorrect. Appendix B contains the Practitioner exam scenario.",
+            "b": "Incorrect. Appendix C summarizes all management products and roles/responsibilities.",
+            "c": "Incorrect. Appendix D offers a bonus Foundation exam.",
+            "d": "Correct. For questions about management products, Appendix A in the PRINCE2 manual is very useful as it shows exactly what type of information goes into which section of each management product."
+        }
     },
     {
         "question": "Which appendix in the PRINCE2 manual is helpful for questions about roles and responsibilities?",
@@ -217,7 +312,12 @@
             "d": "Appendix D"
         },
         "answer": "c",
-        "reasoning": "Appendix C: For questions about roles and responsibilities, Appendix C in the PRINCE2 manual is often useful, as it contains an easy-to-read list of responsibilities for each role."
+        "explanations": {
+            "a": "Incorrect. Appendix A is for management products.",
+            "b": "Incorrect. Appendix B is for scenarios.",
+            "c": "Correct. For questions about roles and responsibilities, Appendix C in the PRINCE2 manual is often useful, as it contains an easy-to-read list of responsibilities for each role.",
+            "d": "Incorrect. Appendix D is for a bonus exam."
+        }
     },
     {
         "question": "How should you approach reading the project scenario and additional information in the Practitioner exam?",
@@ -228,7 +328,12 @@
             "d": "Read the additional information first, then the scenario."
         },
         "answer": "b",
-        "reasoning": "Read the scenario quickly first, then only read additional information when a question refers to it: It's recommended to quickly read the scenario as soon as the exam starts, highlighting significant points to understand broadly what is happening. Do not read any of the additional information until you come to a question that refers to it, and even then, read the question first."
+        "explanations": {
+            "a": "Incorrect. Reading both thoroughly beforehand wastes time.",
+            "b": "Correct. It's recommended to quickly read the scenario as soon as the exam starts, highlighting significant points. Do not read any of the additional information until you come to a question that refers to it.",
+            "c": "Incorrect. Skipping both is not advisable as questions refer to them.",
+            "d": "Incorrect. Reading additional information first is less efficient."
+        }
     },
     {
         "question": "What are the two possible Practitioner exam question formats?",
@@ -239,7 +344,12 @@
             "d": "Scenario-based and Knowledge-based."
         },
         "answer": "c",
-        "reasoning": "Standard Classic Multiple Choice and Matching: The two possible Practitioner exam question formats are 'Standard Classic Multiple Choice' (similar to Foundation questions with four possible answers) and 'Matching' (matching items from two lists)."
+        "explanations": {
+            "a": "Incorrect. These are not the specific formats mentioned for the Practitioner exam.",
+            "b": "Incorrect. These are not the specific formats mentioned for the Practitioner exam.",
+            "c": "Correct. The two possible Practitioner exam question formats are 'Standard Classic Multiple Choice' and 'Matching'.",
+            "d": "Incorrect. While questions are scenario-based, these are not the formats."
+        }
     },
     {
         "question": "What kind of Foundation exam question takes more time to answer?",
@@ -250,7 +360,12 @@
             "d": "List questions"
         },
         "answer": "d",
-        "reasoning": "List questions: The list type of question takes more time than the other types because there is more to read."
+        "explanations": {
+            "a": "Incorrect. Standard questions are generally quicker to answer.",
+            "b": "Incorrect. Negative questions are generally quicker to answer.",
+            "c": "Incorrect. Missing word questions are generally quicker to answer.",
+            "d": "Correct. The list type of question takes more time than the other types because there is more to read."
+        }
     },
     {
         "question": "What is the key to getting process activity-level questions correct in the Practitioner exam?",
@@ -261,7 +376,12 @@
             "d": "Relying on external project management knowledge."
         },
         "answer": "b",
-        "reasoning": "Understanding which activity the question is testing you on and looking at its relevant pages in the manual: The key to getting process activity-level questions correct in the Practitioner exam is to first understand which activity the question is testing you on. Then, you should carefully look at the relevant pages for that activity in the PRINCE2 manual, including bullet points, responsibilities tables, or flow diagrams. You don't need to memorize all the activity detail because you can refer to the manual."
+        "explanations": {
+            "a": "Incorrect. Memorization is not necessary.",
+            "b": "Correct. The key is to first understand which activity the question is testing you on. Then, you should carefully look at the relevant pages for that activity in the PRINCE2 manual.",
+            "c": "Incorrect. Guessing is unreliable.",
+            "d": "Incorrect. External knowledge is not permitted."
+        }
     },
     {
         "question": "What is the benefit of achieving PRINCE2 Foundation certification?",
@@ -272,6 +392,11 @@
             "d": "It provides a detailed guide for personal career development."
         },
         "answer": "b",
-        "reasoning": "It is an internationally recognized validation of project management knowledge, enhancing professional credibility: Achieving the PRINCE2 Foundation certification is an internationally recognized validation of your project management knowledge, enhancing your professional credibility."
+        "explanations": {
+            "a": "Incorrect. Certification provides credibility and knowledge, but does not guarantee employment.",
+            "b": "Correct. Achieving the PRINCE2 Foundation certification is an internationally recognized validation of your project management knowledge, enhancing your professional credibility.",
+            "c": "Incorrect. Certification does not guarantee unsupervised management roles.",
+            "d": "Incorrect. While it contributes to professional development, it's not a detailed guide for it."
+        }
     }
 ]

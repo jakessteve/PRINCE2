@@ -8,7 +8,12 @@
             "d": "To ensure that the project’s products meet business expectations."
         },
         "answer": "b",
-        "reasoning": "The Plans theme aims to define how the products will be delivered, identifying activities, resources, and helping to estimate the duration and cost of the project, thus establishing whether time and cost targets are achievable. It also provides a baseline for progress measurement."
+        "explanations": {
+            "a": "Incorrect. Defining the project's structure of accountability and responsibility is a purpose of the Organization theme, not the Plans theme.",
+            "b": "Correct. The Plans theme aims to define how the products will be delivered, identifying activities, resources, and helping to estimate the duration and cost of the project, thus establishing whether time and cost targets are achievable. It also provides a baseline for progress measurement.",
+            "c": "Incorrect. Identifying, assessing, and controlling uncertainty is the primary purpose of the Risk theme.",
+            "d": "Incorrect. Ensuring that the project's products meet business expectations is a purpose of the Quality theme."
+        }
     },
     {
         "question": "Name the three main types of plans in PRINCE2.",
@@ -19,7 +24,12 @@
             "d": "Project Plan, Exception Plan, and Master Plan."
         },
         "answer": "c",
-        "reasoning": "PRINCE2 defines three levels of plans: the Project Plan (highest level), Stage Plans (for each management stage), and Team Plans (lowest and most detailed, often for work packages). Exception Plans are also a type of plan, but they replace a Project or Stage Plan, rather than being one of the three primary hierarchical types."
+        "explanations": {
+            "a": "Incorrect. While PRINCE2 has a 'Recovery Plan' concept in the form of an Exception Plan, 'Management Stage Plan' and 'Work Package Plan' are not the specific, main types of plans as defined; 'Stage Plan' and 'Team Plan' are.",
+            "b": "Incorrect. 'Management Stage Plan' is typically referred to as a 'Stage Plan,' and 'Work Package Plan' is incorrect; the lowest level plan is the 'Team Plan'.",
+            "c": "Correct. PRINCE2 defines three levels of plans: the Project Plan (highest level), Stage Plans (for each management stage), and Team Plans (lowest and most detailed, often for work packages). Exception Plans are also a type of plan, but they replace a Project or Stage Plan, rather than being one of the three primary hierarchical types.",
+            "d": "Incorrect. 'Master Plan' is not a defined PRINCE2 plan type. While an Exception Plan is a type of plan, it is not one of the three main hierarchical levels."
+        }
     },
     {
         "question": "Describe the Project Plan in terms of its level of detail and what it covers.",
@@ -30,7 +40,12 @@
             "d": "The Project Plan is a reactive plan, created only when project tolerances are forecast to be exceeded."
         },
         "answer": "b",
-        "reasoning": "The Project Plan is the highest-level plan in PRINCE2, providing a broad overview of the project's major products, activities, and milestones. It is used by the Project Board to monitor the project's overall progress."
+        "explanations": {
+            "a": "Incorrect. A plan covering specific daily tasks and resources for each work package would be a Team Plan, not a Project Plan.",
+            "b": "Correct. The Project Plan is the highest-level plan in PRINCE2, providing a broad overview of the project's major products, activities, and milestones. It is used by the Project Board to monitor the project's overall progress.",
+            "c": "Incorrect. A short-term plan created at each stage boundary for day-to-day management is a Stage Plan.",
+            "d": "Incorrect. A plan created when tolerances are exceeded is an Exception Plan."
+        }
     },
     {
         "question": "Describe the Stage Plan in terms of its level of detail and when it is created.",
@@ -41,7 +56,12 @@
             "d": "The Stage Plan is a very detailed plan for individual work packages, created by the Team Manager during the Managing Product Delivery process."
         },
         "answer": "c",
-        "reasoning": "A Stage Plan is a more detailed plan than the Project Plan, covering the products, resources, activities, and controls specific to one management stage. It is created by the Project Manager during the Managing a Stage Boundary process, just before the stage begins."
+        "explanations": {
+            "a": "Incorrect. This describes the Project Plan, not the Stage Plan. The Project Plan is created during the Initiating a Project process.",
+            "b": "Incorrect. While the Stage Plan is detailed and specific to a stage, it is created in the Managing a Stage Boundary process, not typically the Initiating a Project process, and it is *updated* with actuals, but the initial creation happens at the boundary.",
+            "c": "Correct. A Stage Plan is a more detailed plan than the Project Plan, covering the products, resources, activities, and controls specific to one management stage. It is created by the Project Manager during the Managing a Stage Boundary process, just before the stage begins.",
+            "d": "Incorrect. A very detailed plan for individual work packages created by the Team Manager is a Team Plan."
+        }
     },
     {
         "question": "What is an Exception Plan and when is it created?",
@@ -52,7 +72,12 @@
             "d": "An Exception Plan is a high-level overview of the entire project, approved by the Project Board at the beginning of the project."
         },
         "answer": "c",
-        "reasoning": "An Exception Plan is a specific type of plan created by the Project Manager when a stage or project is forecast to exceed its agreed tolerances. It details the actions required to bring the project back within acceptable limits and is prepared during the Managing a Stage Boundary process. Once approved, it replaces the original plan."
+        "explanations": {
+            "a": "Incorrect. This describes a Lessons Report or aspects of a Lessons Log.",
+            "b": "Incorrect. This describes a Stage Plan.",
+            "c": "Correct. An Exception Plan is a specific type of plan created by the Project Manager when a stage or project is forecast to exceed its agreed tolerances. It details the actions required to bring the project back within acceptable limits and is prepared during the Managing a Stage Boundary process. Once approved, it replaces the original plan.",
+            "d": "Incorrect. This describes a Project Plan."
+        }
     },
     {
         "question": "Explain the concept of Product-Based Planning.",
@@ -63,7 +88,12 @@
             "d": "Product-Based Planning involves breaking down project work into smaller, manageable tasks for agile delivery."
         },
         "answer": "b",
-        "reasoning": "Product-Based Planning is a fundamental philosophy in PRINCE2 where the project team first identifies and defines the required products (outputs/deliverables) before determining the activities and resources needed to create them."
+        "explanations": {
+            "a": "Incorrect. This describes an activity-based approach, which is the opposite of Product-Based Planning.",
+            "b": "Correct. Product-Based Planning is a fundamental philosophy in PRINCE2 where the project team first identifies and defines the required products (outputs/deliverables) before determining the activities and resources needed to create them.",
+            "c": "Incorrect. While estimating techniques are part of planning, they are not the core concept of Product-Based Planning.",
+            "d": "Incorrect. While breaking down work is part of project management, Product-Based Planning specifically refers to the product-first approach, which can be applied in agile or other environments, but this answer doesn't fully capture the essence."
+        }
     },
     {
         "question": "What is the main benefit of Product-Based Planning?",
@@ -74,7 +104,12 @@
             "d": "It helps to identify how the performance of the project’s products will be reviewed."
         },
         "answer": "c",
-        "reasoning": "Product-Based Planning ensures a clear focus on what needs to be delivered (the products). This clarity helps in accurately defining the scope and preventing unauthorized additions or changes (scope creep)."
+        "explanations": {
+            "a": "Incorrect. While planning aims for efficient timelines, identifying the shortest completion time is not the *main* benefit of Product-Based Planning; its focus is on clear deliverables.",
+            "b": "Incorrect. Defining estimating techniques is a separate step in designing a plan, not the main benefit of Product-Based Planning itself.",
+            "c": "Correct. Product-Based Planning ensures a clear focus on what needs to be delivered (the products). This clarity helps in accurately defining the scope and preventing unauthorized additions or changes (scope creep).",
+            "d": "Incorrect. Defining how product performance will be reviewed is part of quality planning and Product Descriptions, not the primary benefit of the Product-Based Planning technique itself."
+        }
     },
     {
         "question": "What is a Team Plan and who is responsible for producing it?",
@@ -85,7 +120,12 @@
             "d": "A Team Plan is a reactive plan developed by the Project Manager when work package tolerances are forecast to be exceeded."
         },
         "answer": "c",
-        "reasoning": "The Team Plan is the lowest and most detailed level of plan in PRINCE2. It is created by the Team Manager or the team themselves to manage the execution of one or more work packages, showing how they will deliver their allocated products."
+        "explanations": {
+            "a": "Incorrect. This describes a Project Plan or Highlight Report, neither of which is a Team Plan.",
+            "b": "Incorrect. This describes a Stage Plan, not a Team Plan.",
+            "c": "Correct. The Team Plan is the lowest and most detailed level of plan in PRINCE2. It is created by the Team Manager or the team themselves to manage the execution of one or more work packages, showing how they will deliver their allocated products.",
+            "d": "Incorrect. A reactive plan for exceeding tolerances is an Exception Plan, created by the Project Manager, but it's typically for stage or project tolerances, not work package level directly escalated as an exception plan. Work package level issues are escalated as issues to the Project Manager."
+        }
     },
     {
         "question": "What are Product Descriptions and why are they important in planning?",
@@ -96,7 +136,12 @@
             "d": "Product Descriptions are created after the product is built to confirm its acceptance; they are important for project closure."
         },
         "answer": "b",
-        "reasoning": "A Product Description defines a product's specification, measurable quality criteria, quality methods, and responsibilities for review and approval. They are vital in planning (especially product-based planning) to ensure a clear and unambiguous understanding of what needs to be delivered."
+        "explanations": {
+            "a": "Incorrect. A summary of quality activities is typically found in the Quality Register or Quality Management Approach. Product Descriptions are not primarily for reporting progress but for defining the product itself.",
+            "b": "Correct. A Product Description defines a product's specification, measurable quality criteria, quality methods, and responsibilities for review and approval. They are vital in planning (especially product-based planning) to ensure a clear and unambiguous understanding of what needs to be delivered.",
+            "c": "Incorrect. While Product Descriptions are part of planning, their primary role is not to identify external dependencies or manage risks, though risks related to product delivery might be identified during their creation.",
+            "d": "Incorrect. Acceptance records confirm acceptance, not Product Descriptions. Product Descriptions are created *before* the product is built, as a blueprint."
+        }
     },
     {
         "question": "What is a Project Product Description and when is it created?",
@@ -107,7 +152,12 @@
             "d": "The Project Product Description is a record of all quality activities performed on the main project output, created throughout the Controlling a Stage process."
         },
         "answer": "a",
-        "reasoning": "The Project Product Description is a special type of Product Description that describes the main product of the project. It outlines the customer's overall quality expectations, acceptance criteria, and acceptance responsibilities for the project's final output. It is initially created in the Starting Up a Project process and refined during Initiating a Project."
+        "explanations": {
+            "a": "Correct. The Project Product Description is a special type of Product Description that describes the main product of the project. It outlines the customer's overall quality expectations, acceptance criteria, and acceptance responsibilities for the project's final output. It is initially created in the Starting Up a Project process and refined during Initiating a Project.",
+            "b": "Incorrect. This describes a generic Product Description, which is for individual products, not the overarching project product, and is created when planning (e.g., in Initiating a Project, Managing a Stage Boundary, or Managing Product Delivery).",
+            "c": "Incorrect. A document outlining the project's management team structure is part of the Project Initiation Documentation (PID), specifically related to the Organization theme.",
+            "d": "Incorrect. A record of quality activities is the Quality Register."
+        }
     },
     {
         "question": "What is a Product Breakdown Structure and a Product Flow Diagram, and how are they used?",
@@ -118,7 +168,12 @@
             "d": "A Product Breakdown Structure shows the hierarchical decomposition of products into smaller components, and a Product Flow Diagram shows the sequence in which products will be delivered and their dependencies. They are used in product-based planning to define *what* is to be delivered."
         },
         "answer": "d",
-        "reasoning": "The Product Breakdown Structure (PBS) graphically represents the hierarchical decomposition of a project's products. The Product Flow Diagram (PFD) shows the sequence of product creation and their dependencies. Both are key tools in Product-Based Planning, helping to define the *products* that will be delivered by the project, before considering the activities."
+        "explanations": {
+            "a": "Incorrect. While the description of PBS and PFD is mostly accurate, the final part stating they are 'used to manage activities' is misleading. Their primary use in product-based planning is to define *products*, with activities coming later.",
+            "b": "Incorrect. A Product Breakdown Structure is *not* a list of activities, but a hierarchical view of products. A Product Flow Diagram shows sequences, but a Gantt chart is a scheduling tool for *activities*.",
+            "c": "Incorrect. While a PBS helps identify products, it doesn't primarily show team responsibility (though colors might be used for this purpose). A PFD shows flow, not team responsibility.",
+            "d": "Correct. The Product Breakdown Structure (PBS) graphically represents the hierarchical decomposition of a project's products. The Product Flow Diagram (PFD) shows the sequence of product creation and their dependencies. Both are key tools in Product-Based Planning, helping to define the *products* that will be delivered by the project, before considering the activities."
+        }
     },
     {
         "question": "What are the seven steps in PRINCE2's recommended approach to planning?",
@@ -129,7 +184,12 @@
             "d": "Initiate project, Direct project, Control stage, Manage product delivery, Manage stage boundary, Close project, Tailor PRINCE2."
         },
         "answer": "b",
-        "reasoning": "The seven recommended steps in PRINCE2's approach to planning are: 1. Design a plan, 2. Define and analyze products, 3. Identify activities and dependencies, 4. Prepare estimates, 5. Prepare schedule, 6. Analyze risks to a plan, and 7. Document the plan."
+        "explanations": {
+            "a": "Incorrect. This list is close but not the exact seven steps. 'Design a plan' is the first step, and 'Document the plan' is the final step, as opposed to 'Agree plan'.",
+            "b": "Correct. The seven recommended steps in PRINCE2's approach to planning are: 1. Design a plan, 2. Define and analyze products, 3. Identify activities and dependencies, 4. Prepare estimates, 5. Prepare schedule, 6. Analyze risks to a plan, and 7. Document the plan.",
+            "c": "Incorrect. This describes a generic lifecycle or set of development phases, not PRINCE2's specific planning steps.",
+            "d": "Incorrect. These are the names of PRINCE2 processes, not the steps within the planning approach."
+        }
     },
     {
         "question": "What are the four steps in the recommended approach to defining and analyzing products?",
@@ -140,7 +200,12 @@
             "d": "Define quality criteria, Specify quality methods, Identify quality roles, Plan quality reviews."
         },
         "answer": "a",
-        "reasoning": "The four steps in the recommended approach to defining and analyzing products are: writing the Project Product Description, creating the Product Breakdown Structure, writing the Product Descriptions for all products, and creating the Product Flow Diagram."
+        "explanations": {
+            "a": "Correct. The four steps in the recommended approach to defining and analyzing products are: writing the Project Product Description, creating the Product Breakdown Structure, writing the Product Descriptions for all products, and creating the Product Flow Diagram.",
+            "b": "Incorrect. This relates to defining business justification (Business Case theme), not product-based planning.",
+            "c": "Incorrect. These are steps involved in scheduling activities, which comes *after* defining products in the planning approach.",
+            "d": "Incorrect. These are aspects of quality planning."
+        }
     },
     {
         "question": "When is the Project Plan created in the PRINCE2 process model?",
@@ -151,7 +216,12 @@
             "d": "During the Directing a Project process."
         },
         "answer": "b",
-        "reasoning": "The Project Plan, which provides a high-level overview for the entire project, is created by the Project Manager during the Initiating a Project process."
+        "explanations": {
+            "a": "Incorrect. The Project Brief and Outline Business Case are created in Starting Up a Project, which then inform the Project Plan.",
+            "b": "Correct. The Project Plan, which provides a high-level overview for the entire project, is created by the Project Manager during the Initiating a Project process.",
+            "c": "Incorrect. Stage Plans and Exception Plans are created in the Managing a Stage Boundary process, not the initial Project Plan.",
+            "d": "Incorrect. The Directing a Project process is where the Project Board directs and authorizes the project, but they don't create the Project Plan themselves."
+        }
     },
     {
         "question": "How does the Plans theme provide control points through management stages?",
@@ -162,7 +232,12 @@
             "d": "By implementing the 'Focus on Products' principle through product-based planning."
         },
         "answer": "b",
-        "reasoning": "The Plans theme supports management by stages by providing Stage Plans. These plans define the work, resources, and timescales for a specific stage, enabling the Project Manager to control the stage's day-to-day execution. At the end of each stage, the Project Board reviews the End Stage Report against the Stage Plan to decide whether to authorize the next stage, thus acting as a key control point."
+        "explanations": {
+            "a": "Incorrect. While plans should incorporate lessons, this doesn't directly create control points through stages.",
+            "b": "Correct. The Plans theme supports management by stages by providing Stage Plans. These plans define the work, resources, and timescales for a specific stage, enabling the Project Manager to control the stage's day-to-day execution. At the end of each stage, the Project Board reviews the End Stage Report against the Stage Plan to decide whether to authorize the next stage, thus acting as a key control point.",
+            "c": "Incorrect. While plans include tolerances, this is how the 'Manage by Exception' principle is implemented, not how control points are provided through management stages specifically.",
+            "d": "Incorrect. Product-based planning focuses on deliverables, which is a benefit of planning, but doesn't directly explain how *stages* provide control points."
+        }
     },
     {
         "question": "What kind of information would be included in the 'Budgets' section of a plan?",
@@ -173,7 +248,12 @@
             "d": "Information on how often the teams report progress to the Project Manager."
         },
         "answer": "b",
-        "reasoning": "The 'Budgets' section of a PRINCE2 plan contains information about the money and time budgeted for the plan's work, including any allocated change budget (funds for changes to products or scope) and risk budget (funds for risk responses)."
+        "explanations": {
+            "a": "Incorrect. This information belongs in the 'Schedule' section of a plan.",
+            "b": "Correct. The 'Budgets' section of a PRINCE2 plan contains information about the money and time budgeted for the plan's work, including any allocated change budget (funds for changes to products or scope) and risk budget (funds for risk responses).",
+            "c": "Incorrect. This information belongs in the 'Planning assumptions' and 'Plan prerequisites' sections respectively.",
+            "d": "Incorrect. This information belongs in the 'Reporting Arrangements' section of a Work Package, which defines the frequency and composition of Checkpoint Reports."
+        }
     },
     {
         "question": "How might the Plans theme be tailored when using an agile approach?",
@@ -184,7 +264,12 @@
             "d": "By omitting the creation of Product Descriptions, as they are not needed in agile environments."
         },
         "answer": "b",
-        "reasoning": "When using an agile approach, the project product description may be written as an epic or user story, with associated acceptance criteria. Such descriptions can develop iteratively as the project proceeds, aligning with agile principles."
+        "explanations": {
+            "a": "Incorrect. Agile approaches favor iterative and incremental planning, so a single, highly detailed plan for the entire project would be inappropriate.",
+            "b": "Correct. When using an agile approach, the project product description may be written as an epic or user story, with associated acceptance criteria. Such descriptions can develop iteratively as the project proceeds, aligning with agile principles.",
+            "c": "Incorrect. Agile emphasizes flexibility over fixed timescales and costs, allowing for iterative development and adaptation.",
+            "d": "Incorrect. Product Descriptions (or similar artifacts like user stories with acceptance criteria) are crucial in agile for defining deliverables, even if their format or detail evolves."
+        }
     },
     {
         "question": "What types of activities should a PRINCE2 plan cover, besides those to create products?",
@@ -195,7 +280,12 @@
             "d": "Activities solely focused on post-project benefits realization."
         },
         "answer": "b",
-        "reasoning": "A PRINCE2 plan is not limited to just the technical activities of product creation. It should also cover the management and control activities, such as assurance, quality management, risk management, change control, communication, and other project controls required."
+        "explanations": {
+            "a": "Incorrect. PRINCE2 plans are comprehensive and include management and control activities, not just specialist product development.",
+            "b": "Correct. A PRINCE2 plan is not limited to just the technical activities of product creation. It should also cover the management and control activities, such as assurance, quality management, risk management, change control, communication, and other project controls required.",
+            "c": "Incorrect. Plans cover activities for both the Project Manager and teams, outlining how products will be created and managed.",
+            "d": "Incorrect. While plans support benefits realization, their primary scope is during the project, not solely post-project. Benefits realization plans (Benefits Management Approach) are created during the project but often detail post-project actions."
+        }
     },
     {
         "question": "When are subsequent stage plans produced?",
@@ -206,7 +296,12 @@
             "d": "Subsequent stage plans are produced by the Project Board after reviewing the Project Plan."
         },
         "answer": "b",
-        "reasoning": "PRINCE2 advocates for management by stages. Therefore, subsequent Stage Plans are produced by the Project Manager during the Managing a Stage Boundary process, just before the stage they cover is about to commence. This allows for planning closer to the work, reducing uncertainty."
+        "explanations": {
+            "a": "Incorrect. Only the Project Plan and the Stage Plan for the *initiation* stage are produced early. Subsequent Stage Plans are produced one stage at a time.",
+            "b": "Correct. PRINCE2 advocates for management by stages. Therefore, subsequent Stage Plans are produced by the Project Manager during the Managing a Stage Boundary process, just before the stage they cover is about to commence. This allows for planning closer to the work, reducing uncertainty.",
+            "c": "Incorrect. Exception Plans are produced when a stage goes into exception, but regular Stage Plans are produced for every subsequent stage regardless of exceptions.",
+            "d": "Incorrect. The Project Board *authorizes* stage plans, but the Project Manager *produces* them."
+        }
     },
     {
         "question": "How does the Plans theme implement the 'Manage by Stages' principle?",
@@ -217,7 +312,12 @@
             "d": "By emphasizing the creation of products before activities, ensuring focus on deliverables."
         },
         "answer": "b",
-        "reasoning": "The Plans theme supports 'Manage by Stages' by defining a clear hierarchy of plans (Project, Stage, Team) and by mandating that a separate, detailed Stage Plan is created for each management stage. This enables the project to be broken down into manageable segments, allowing for review and decision points at each stage boundary."
+        "explanations": {
+            "a": "Incorrect. While a Project Plan is created, 'Manage by Stages' is primarily implemented by breaking the project into manageable stages and planning each one in detail, not just by having an overall plan.",
+            "b": "Correct. The Plans theme supports 'Manage by Stages' by defining a clear hierarchy of plans (Project, Stage, Team) and by mandating that a separate, detailed Stage Plan is created for each management stage. This enables the project to be broken down into manageable segments, allowing for review and decision points at each stage boundary.",
+            "c": "Incorrect. This describes how the Plans theme implements the 'Manage by Exception' principle, not 'Manage by Stages'.",
+            "d": "Incorrect. This describes the 'Focus on Products' principle and Product-Based Planning."
+        }
     },
     {
         "question": "What is the difference between management stages and delivery steps in PRINCE2?",
@@ -228,7 +328,12 @@
             "d": "Management stages are for agile projects only, while delivery steps are for traditional waterfall projects."
         },
         "answer": "a",
-        "reasoning": "Management stages are sequential, time-based periods (with defined start and end points) that are set up for planning and control purposes, with review points for the Project Board. Delivery steps, on the other hand, are larger pieces of work characterized by the specialist skills or techniques involved (e.g., designing, building, testing) and can overlap or span multiple management stages."
+        "explanations": {
+            "a": "Correct. Management stages are sequential, time-based periods (with defined start and end points) that are set up for planning and control purposes, with review points for the Project Board. Delivery steps, on the other hand, are larger pieces of work characterized by the specialist skills or techniques involved (e.g., designing, building, testing) and can overlap or span multiple management stages.",
+            "b": "Incorrect. Both management stages and delivery steps relate to the overall project work, not specifically external vs. internal interactions.",
+            "c": "Incorrect. The Project Board sets stage boundaries (approves next stage plan), but the Project Manager structures the project into stages and defines delivery steps as part of planning.",
+            "d": "Incorrect. PRINCE2's concepts of management stages and delivery steps apply to various project environments, including agile, and are not restricted to one methodology."
+        }
     },
     {
         "question": "How does the Plans theme help to overcome the planning horizon problem?",
@@ -239,7 +344,12 @@
             "d": "By requiring continuous re-planning throughout the project lifecycle to adapt to changes."
         },
         "answer": "c",
-        "reasoning": "The Plans theme addresses the planning horizon problem (the difficulty of planning accurately far into the future) by providing a hierarchy of plans: a high-level Project Plan for the entire project and more detailed Stage Plans for the immediate future (the current or next stage). This allows for planning at an appropriate level of detail based on the reliability of information."
+        "explanations": {
+            "a": "Incorrect. This approach is impractical and inflexible, and does not address the planning horizon problem, where planning too far into the future is difficult due to uncertainty.",
+            "b": "Incorrect. This describes Product-Based Planning, which is a technique *within* the Plans theme, but not specifically how it addresses the planning horizon problem.",
+            "c": "Correct. The Plans theme addresses the planning horizon problem (the difficulty of planning accurately far into the future) by providing a hierarchy of plans: a high-level Project Plan for the entire project and more detailed Stage Plans for the immediate future (the current or next stage). This allows for planning at an appropriate level of detail based on the reliability of information.",
+            "d": "Incorrect. While re-planning may occur, the fundamental solution to the planning horizon problem in PRINCE2 is the staged approach with varying levels of plan detail."
+        }
     },
     {
         "question": "What are some of the quality criteria for a PRINCE2 plan?",
@@ -250,7 +360,12 @@
             "d": "The plan must include a detailed list of all risks, regardless of their impact."
         },
         "answer": "a",
-        "reasoning": "Key quality criteria for a PRINCE2 plan include that it must be achievable, estimates should be based on consultation with those responsible for the work and/or historical data, and team managers should agree that their part of the plan is achievable. It also needs to be planned to an appropriate level of detail, conform to standards, incorporate lessons, include legal requirements, cover management and control activities, and support various management approaches and controls."
+        "explanations": {
+            "a": "Correct. Key quality criteria for a PRINCE2 plan include that it must be achievable, estimates should be based on consultation with those responsible for the work and/or historical data, and team managers should agree that their part of the plan is achievable. It also needs to be planned to an appropriate level of detail, conform to standards, incorporate lessons, include legal requirements, cover management and control activities, and support various management approaches and controls.",
+            "b": "Incorrect. A PRINCE2 plan covers both activities to create products and management/control activities like quality, risk, and change.",
+            "c": "Incorrect. The Project Board *approves* plans, but the Project Manager usually updates them. Highlight reports are sent to the Project Board regularly, but they don't update the plan.",
+            "d": "Incorrect. Plans should include analysis of *key* risks and their impact, but the detailed list of all identified risks is maintained in the Risk Register."
+        }
     },
     {
         "question": "What is the significance of 'Plan prerequisites' and 'External dependencies' in a PRINCE2 plan?",
@@ -261,7 +376,12 @@
             "d": "They are both terms for risks that might affect the plan and are recorded in the risk register."
         },
         "answer": "b",
-        "reasoning": "Plan prerequisites are conditions that must exist for the plan to start (e.g., a specific approval). External dependencies are products that are required by the plan but are produced by work outside the plan's direct scope. Both are significant for identifying conditions that must be met for the plan to succeed and potential risks."
+        "explanations": {
+            "a": "Incorrect. While PRINCE2 can be tailored, these sections are important for clarity and managing external factors impacting the plan.",
+            "b": "Correct. Plan prerequisites are conditions that must exist for the plan to start (e.g., a specific approval). External dependencies are products that are required by the plan but are produced by work outside the plan's direct scope. Both are significant for identifying conditions that must be met for the plan to succeed and potential risks.",
+            "c": "Incorrect. These terms refer to conditions and products, not types of personnel.",
+            "d": "Incorrect. While external dependencies *can* introduce risks, the terms themselves refer to specific plan elements, not just risks. Risks related to them would be recorded in the risk register."
+        }
     },
     {
         "question": "How does the Plans theme help to implement the 'Manage by Exception' principle?",
@@ -272,6 +392,11 @@
             "d": "By requiring the Project Manager to produce detailed daily logs for constant monitoring."
         },
         "answer": "b",
-        "reasoning": "The Plans theme supports 'Manage by Exception' by requiring that plans include clearly defined tolerances for project performance targets such as time, cost, and scope. This allows the Project Manager to manage within these delegated limits, and only escalate situations (exceptions) to the Project Board when a tolerance is forecast to be exceeded, thus making efficient use of senior management's time."
+        "explanations": {
+            "a": "Incorrect. This describes how the Organization theme implements the 'Defined Roles and Responsibilities' principle.",
+            "b": "Correct. The Plans theme supports 'Manage by Exception' by requiring that plans include clearly defined tolerances for project performance targets such as time, cost, and scope. This allows the Project Manager to manage within these delegated limits, and only escalate situations (exceptions) to the Project Board when a tolerance is forecast to be exceeded, thus making efficient use of senior management's time.",
+            "c": "Incorrect. This describes the 'Focus on Products' principle.",
+            "d": "Incorrect. While daily logs are used by the Project Manager for day-to-day management, 'Manage by Exception' aims to prevent constant, detailed reporting to *higher* management levels unless necessary."
+        }
     }
 ]

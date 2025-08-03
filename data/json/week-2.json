@@ -8,7 +8,12 @@
             "d": "Focus on Products"
         },
         "answer": "c",
-        "reasoning": "The 'Continued Business Justification' principle requires that for all projects, the justification for the project remains valid throughout its life. This principle ensures that resources are not wasted on projects that do not contribute to business objectives by constantly verifying the project's justification."
+        "explanations": {
+            "a": "Incorrect. This principle focuses on continually seeking and applying lessons throughout the project lifecycle to improve practices, but it doesn't directly ensure the project's ongoing viability.",
+            "b": "Incorrect. This principle involves breaking the project into manageable stages, allowing for control and decision points, but its primary purpose is not to ensure viability directly, though it helps in reviewing it.",
+            "c": "Correct. The 'Continued Business Justification' principle requires that for all projects, the justification for the project remains valid throughout its life. PRINCE2 emphasizes that projects should be run as a means to an end, not an end in themselves, and that organizations should undertake projects that provide value. This principle ensures that resources are not wasted on projects that do not contribute to business objectives by constantly verifying the project's justification.",
+            "d": "Incorrect. This principle emphasizes defining and delivering tangible products, ensuring clarity and agreement on outputs, but it doesn't primarily address the underlying business viability of the project."
+        }
     },
     {
         "question": "What is the primary purpose of the 'Learn from Experience' principle?",
@@ -19,7 +24,12 @@
             "d": "To break the project into manageable phases for better control."
         },
         "answer": "b",
-        "reasoning": "The 'Learn from Experience' principle mandates that PRINCE2 projects should continually seek and apply lessons throughout the life of the project. This involves capturing lessons identified, whether from previous projects or during the current project, and implementing improvements."
+        "explanations": {
+            "a": "Incorrect. This is more aligned with the 'Continued Business Justification' and 'Focus on Products' principles, which ensure the project delivers value and defined outputs.",
+            "b": "Correct. The 'Learn from Experience' principle mandates that PRINCE2 projects should continually seek and apply lessons throughout the life of the project. This involves capturing lessons identified, whether from previous projects or during the current project, and implementing improvements.",
+            "c": "Incorrect. This is the core purpose of the 'Defined Roles and Responsibilities' principle.",
+            "d": "Incorrect. This describes the 'Manage by Stages' principle."
+        }
     },
     {
         "question": "Which principle is implemented by establishing a clear project management team structure with assigned roles and responsibilities?",
@@ -30,7 +40,12 @@
             "d": "Tailor to Suit the Project Environment"
         },
         "answer": "c",
-        "reasoning": "The 'Defined Roles and Responsibilities' principle ensures that a clear project management team structure is established, with everyone involved in the project knowing what is expected of them. This helps to define accountability and ensures decisions are made by the right people."
+        "explanations": {
+            "a": "Incorrect. This principle focuses on delegating authority and managing by deviation from tolerances, not primarily on defining the team structure.",
+            "b": "Incorrect. This principle emphasizes the outputs of the project, not the organizational structure.",
+            "c": "Correct. The 'Defined Roles and Responsibilities' principle ensures that a clear project management team structure is established, with everyone involved in the project knowing what is expected of them. This helps to define accountability and ensures decisions are made by the right people.",
+            "d": "Incorrect. While tailoring involves adapting roles, the act of defining roles and responsibilities itself is a direct implementation of the 'Defined Roles and Responsibilities' principle."
+        }
     },
     {
         "question": "How does the 'Manage by Stages' principle help in controlling a project?",
@@ -41,7 +56,12 @@
             "d": "By ensuring that all project outputs are clearly specified before work begins."
         },
         "answer": "c",
-        "reasoning": "The 'Manage by Stages' principle mandates that a project should be planned, monitored, and controlled on a stage-by-stage basis. Each management stage provides a control point where the Project Board can review progress, assess viability, and make decisions on whether to proceed to the next stage."
+        "explanations": {
+            "a": "Incorrect. This is characteristic of the 'Learn from Experience' principle.",
+            "b": "Incorrect. This is a general benefit of using PRINCE2, not a specific function of 'Manage by Stages'.",
+            "c": "Correct. The 'Manage by Stages' principle mandates that a project should be planned, monitored, and controlled on a stage-by-stage basis. This helps to overcome the planning horizon problem, as it is difficult to plan in detail far into the future. Each management stage provides a control point where the Project Board can review progress, assess viability, and make decisions on whether to proceed to the next stage.",
+            "d": "Incorrect. This is primarily supported by the 'Focus on Products' principle."
+        }
     },
     {
         "question": "Which statement best explains the 'Manage by Exception' principle and how it leads to efficient use of senior management's time?",
@@ -52,7 +72,12 @@
             "d": "Senior management regularly reviews all project activities to prevent any exceptions from occurring."
         },
         "answer": "b",
-        "reasoning": "The 'Manage by Exception' principle allows the lower management level to manage within agreed-upon limits, escalating to the next level only when a forecast deviation from these tolerances occurs. This approach ensures the efficient and economic use of senior management time, as they focus on critical deviations rather than routine monitoring."
+        "explanations": {
+            "a": "Incorrect. This is the opposite of 'Manage by Exception'; it would lead to micro-management and inefficient use of senior management's time.",
+            "b": "Correct. The 'Manage by Exception' principle establishes accountability by setting tolerances for each management level (e.g., for time, cost, scope, quality, benefits, and risk). This allows the lower management level to manage within these agreed-upon limits, escalating to the next level only when a forecast deviation from these tolerances occurs. This approach ensures the efficient and economic use of senior management time, as they focus on critical deviations rather than routine monitoring.",
+            "c": "Incorrect. While teams resolve issues within their delegated authority, significant issues (especially those impacting tolerances) must be escalated if they exceed delegated authority.",
+            "d": "Incorrect. This also contradicts the principle of 'Manage by Exception' by implying constant oversight, which would be inefficient for senior management."
+        }
     },
     {
         "question": "What does the 'Focus on Products' principle emphasize in project management?",
@@ -63,7 +88,12 @@
             "d": "Ensuring project team members are highly skilled in product development."
         },
         "answer": "b",
-        "reasoning": "The 'Focus on Products' principle states that a PRINCE2 project focuses on defining and delivering products. This means that the project should have a clear understanding of what it will produce (outputs) before determining how those outputs will be created (activities)."
+        "explanations": {
+            "a": "Incorrect. This is the opposite of the 'Focus on Products' principle, which prioritizes products (deliverables) first.",
+            "b": "Correct. The 'Focus on Products' principle states that a PRINCE2 project focuses on defining and delivering products. This means that the project should have a clear understanding of what it will produce (outputs) before determining how those outputs will be created (activities). This product-based planning approach ensures clarity, agreement on outputs, and helps manage uncontrolled change.",
+            "c": "Incorrect. While important, this is more related to the 'Continued Business Justification' principle and the Business Case theme.",
+            "d": "Incorrect. While skilled teams are beneficial, the principle itself emphasizes the products rather than the skills of the team members."
+        }
     },
     {
         "question": "How does the 'Tailor to Suit the Project Environment' principle contribute to the flexibility of PRINCE2?",
@@ -74,7 +104,12 @@
             "d": "By requiring external consultants to define the project's management approach."
         },
         "answer": "c",
-        "reasoning": "The 'Tailor to Suit the Project Environment' principle emphasizes that PRINCE2 should be adapted to suit the specific project's scale, complexity, importance, capability, and risk. This flexibility ensures that the level of control and documentation is appropriate, preventing unnecessary bureaucracy."
+        "explanations": {
+            "a": "Incorrect. This is the opposite of tailoring; PRINCE2 is designed to be flexible.",
+            "b": "Incorrect. Tailoring involves adapting, not omitting, PRINCE2 elements, as omission can weaken the method. All seven principles must always be applied.",
+            "c": "Correct. The 'Tailor to Suit the Project Environment' principle emphasizes that PRINCE2 should be adapted to suit the specific project's scale, complexity, importance, capability, and risk. This flexibility allows PRINCE2 to be applied effectively in various contexts, from simple to complex projects, and ensures that the level of control and documentation is appropriate, preventing unnecessary bureaucracy.",
+            "d": "Incorrect. While external expertise might be sought, the principle itself is about internal adaptation of the method, not reliance on external parties for defining the core approach."
+        }
     },
     {
         "question": "Which principle is directly supported by the creation and regular review of the Business Case?",
@@ -85,7 +120,12 @@
             "d": "Learn from Experience"
         },
         "answer": "b",
-        "reasoning": "The Business Case is the document that provides the justification for the project. Its creation and regular review throughout the project lifecycle directly supports the 'Continued Business Justification' principle, ensuring that the project remains desirable, viable, and achievable."
+        "explanations": {
+            "a": "Incorrect. While the Business Case is reviewed at stage boundaries, this principle is about breaking down the project into manageable stages for control, not the direct justification itself.",
+            "b": "Correct. The Business Case is the document that provides the justification for the project. Its creation (first as an outline and then refined) and regular review throughout the project lifecycle (especially at stage boundaries) directly supports the 'Continued Business Justification' principle, ensuring that the project remains desirable, viable, and achievable.",
+            "c": "Incorrect. This principle focuses on the project's organizational structure and accountability, not the project's justification.",
+            "d": "Incorrect. This principle deals with capturing and applying lessons learned, which can inform the Business Case but is not directly supported by its creation and review."
+        }
     },
     {
         "question": "When are lessons identified and recorded, according to the 'Learn from Experience' principle?",
@@ -96,7 +136,12 @@
             "d": "Only when a major issue or risk occurs that impacts the project's tolerances."
         },
         "answer": "c",
-        "reasoning": "The 'Learn from Experience' principle dictates that lessons should be actively sought, recorded, and applied throughout the entire project lifecycle. This includes capturing lessons from previous projects at the outset and continuously identifying new lessons during the project's execution."
+        "explanations": {
+            "a": "Incorrect. While lessons are captured at the start, this is not the only time they are identified; it's an ongoing activity.",
+            "b": "Incorrect. Lessons are formalized in a Lessons Report at the end of the project, but the process of identifying and recording them is continuous.",
+            "c": "Correct. The 'Learn from Experience' principle dictates that lessons should be actively sought, recorded, and applied throughout the entire project lifecycle. This includes capturing lessons from previous projects at the outset (e.g., during 'Starting Up a Project' and 'Initiating a Project') and continuously identifying new lessons during the project's execution. The Lessons Log is used to record these.",
+            "d": "Incorrect. Lessons can certainly be identified from issues and risks, but the principle encourages proactive learning and improvement, not just reactive responses to problems."
+        }
     },
     {
         "question": "Who primarily benefits from the 'Defined Roles and Responsibilities' principle?",
@@ -107,7 +152,12 @@
             "d": "Only the Senior User, as they define the project's outcomes."
         },
         "answer": "b",
-        "reasoning": "The 'Defined Roles and Responsibilities' principle ensures that all individuals involved in the project – from the Project Board (Directing), to the Project Manager (Managing), to the Team Managers and teams (Delivering) – understand what is expected of them and who is accountable for what."
+        "explanations": {
+            "a": "Incorrect. While the Project Manager benefits, the principle applies to all levels and roles within the project.",
+            "b": "Correct. The 'Defined Roles and Responsibilities' principle ensures that all individuals involved in the project – from the Project Board (Directing), to the Project Manager (Managing), to the Team Managers and teams (Delivering) – understand what is expected of them and who is accountable for what. This clarity prevents confusion, ensures appropriate decisions are made, and establishes a clear structure of accountability.",
+            "c": "Incorrect. While communication channels are important, the primary benefit of this principle is internal to the project management team and its defined structure.",
+            "d": "Incorrect. The Senior User represents user interests and specifies benefits, but the principle benefits everyone by defining all roles, not just this specific one."
+        }
     },
     {
         "question": "How does managing a project by stages help in assessing its viability at defined intervals?",
@@ -118,7 +168,12 @@
             "d": "It requires a new Project Mandate to be issued at the start of each new stage."
         },
         "answer": "a",
-        "reasoning": "The 'Manage by Stages' principle provides predefined intervals (management stages) where the project's continued viability can be formally assessed. At the end of each stage, the Project Board reviews the End Stage Report and the updated Business Case to decide whether to authorize the next stage."
+        "explanations": {
+            "a": "Correct. The 'Manage by Stages' principle provides predefined intervals (management stages) where the project's continued viability can be formally assessed. At the end of each stage, the Project Board reviews the End Stage Report and the updated Business Case to decide whether to authorize the next stage, ensuring the project remains justified.",
+            "b": "Incorrect. The Project Board, representing business, user, and supplier interests, is responsible for assessing viability and making decisions to authorize stages. The Project Manager updates the Business Case for their review.",
+            "c": "Incorrect. This contradicts the 'Continued Business Justification' principle, which requires ongoing viability assessment.",
+            "d": "Incorrect. The Project Mandate is issued only once, at the very beginning of the project, to trigger the 'Starting Up a Project' process."
+        }
     },
     {
         "question": "What does setting tolerances enable, according to the 'Manage by Exception' principle?",
@@ -129,7 +184,12 @@
             "d": "It ensures that all project activities are completed precisely on time and within cost."
         },
         "answer": "b",
-        "reasoning": "Setting tolerances defines the permissible deviation from a plan without needing to escalate to the next level of management. This empowers the lower management level to manage within these agreed limits, and only if a forecast deviation beyond these tolerances occurs is an escalation required."
+        "explanations": {
+            "a": "Incorrect. This is too extreme; the Project Manager still consults the Project Board when tolerances are forecast to be exceeded.",
+            "b": "Correct. Setting tolerances (for time, cost, quality, scope, benefits, and risk) defines the permissible deviation from a plan without needing to escalate to the next level of management. This empowers the lower management level (e.g., Project Manager for a stage, Team Manager for a Work Package) to manage within these agreed limits, and only if a forecast deviation beyond these tolerances occurs is an escalation required. This is the core of 'Manage by Exception'.",
+            "c": "Incorrect. Tolerances define the limits of flexibility; any deviation beyond them requires formal approval (escalation).",
+            "d": "Incorrect. Tolerances acknowledge that deviations can occur and provide a framework for managing them, rather than guaranteeing absolute precision."
+        }
     },
     {
         "question": "Why is defining product descriptions crucial for the 'Focus on Products' principle?",
@@ -140,7 +200,12 @@
             "d": "Product descriptions help in assigning team members to specific tasks."
         },
         "answer": "b",
-        "reasoning": "The 'Focus on Products' principle is underpinned by the use of Product Descriptions, which are crucial for defining what is to be delivered. Product Descriptions specify the measurable quality criteria, composition, and expected uses for each product, ensuring a shared, unambiguous understanding."
+        "explanations": {
+            "a": "Incorrect. Product Descriptions focus on what the product is, its quality, and its purpose. The activities to produce it are detailed in plans and Work Packages.",
+            "b": "Correct. The 'Focus on Products' principle is underpinned by the use of Product Descriptions, which are crucial for defining what is to be delivered. Product Descriptions specify the measurable quality criteria, composition, and expected uses for each product, ensuring that the development team and the customer have a shared, unambiguous understanding of what needs to be created. This clarity helps to prevent misinterpretations and disputes.",
+            "c": "Incorrect. While product creation incurs costs, Product Descriptions themselves do not primarily track financial costs; this is done in plans and financial records.",
+            "d": "Incorrect. While they can indirectly inform resource allocation by specifying skills needed, their primary purpose is defining the product itself, not assigning tasks."
+        }
     },
     {
         "question": "What factors might influence how PRINCE2 is tailored to suit a project environment?",
@@ -151,7 +216,12 @@
             "d": "The number of external stakeholders involved in the project."
         },
         "answer": "b",
-        "reasoning": "The 'Tailor to Suit the Project Environment' principle allows PRINCE2 to be adapted based on several factors, including the project's size, scale, complexity, risk profile, and the specific context it operates within. This ensures the method is 'just enough' project management, avoiding unnecessary bureaucracy."
+        "explanations": {
+            "a": "Incorrect. While these might be operational considerations for the project, they are not primary factors that influence how the PRINCE2 methodology itself is tailored.",
+            "b": "Correct. The 'Tailor to Suit the Project Environment' principle allows PRINCE2 to be adapted based on several factors, including the project's size, scale, complexity, risk profile, and the specific context it operates within. This ensures the method is 'just enough' project management, avoiding unnecessary bureaucracy. Examples include tailoring for simple projects, projects within programs, commercial customer/supplier environments, or agile environments.",
+            "c": "Incorrect. Tailoring should be based on objective project and organizational factors, not personal preferences, to ensure consistency and effectiveness.",
+            "d": "Incorrect. While the number of stakeholders impacts communication (Organization theme), it is a specific aspect rather than a primary overarching factor for tailoring the entire methodology like scale, complexity, or risk."
+        }
     },
     {
         "question": "The 'Continued Business Justification' principle states that the project's rationale is evaluated:",
@@ -162,7 +232,12 @@
             "d": "Only if major issues arise."
         },
         "answer": "c",
-        "reasoning": "The 'Continued Business Justification' principle requires that the justification for the project is re-evaluated and confirmed throughout its entire lifecycle. This is done through the regular review and updating of the Business Case, especially at management stage boundaries."
+        "explanations": {
+            "a": "Incorrect. While initially established, PRINCE2 explicitly states it must be continued.",
+            "b": "Incorrect. Evaluation occurs at the end, but also continuously throughout.",
+            "c": "Correct. The 'Continued Business Justification' principle requires that the justification for the project is re-evaluated and confirmed throughout its entire lifecycle. This is done through the regular review and updating of the Business Case, especially at management stage boundaries. This ensures the project remains desirable, viable, and achievable.",
+            "d": "Incorrect. While issues can trigger a review, the principle requires ongoing, systematic evaluation, not just reactive checks."
+        }
     },
     {
         "question": "Which of the following is an example of how 'Learn from Experience' is applied in the early stages of a project?",
@@ -173,7 +248,12 @@
             "d": "The Project Manager defines clear roles and responsibilities for all team members."
         },
         "answer": "c",
-        "reasoning": "In the early stages of a project, PRINCE2 recommends an activity to 'Capture previous lessons'. This involves reviewing the lessons log or holding workshops to gather experience from similar past initiatives to inform the current project's approach and plans."
+        "explanations": {
+            "a": "Incorrect. While the daily log is used for informal issues and events, this activity is related to general progress monitoring and record-keeping, not specifically 'Learn from Experience'.",
+            "b": "Incorrect. This is an activity of the 'Manage by Stages' and 'Progress' themes, focusing on control and viability review at stage boundaries.",
+            "c": "Correct. In the early stages of a project, specifically during the 'Starting Up a Project' process, PRINCE2 recommends an activity to 'Capture previous lessons'. This involves reviewing the lessons log or holding workshops to gather experience from similar past initiatives within or outside the organization to inform the current project's approach and plans. This directly applies the 'Learn from Experience' principle.",
+            "d": "Incorrect. This is an application of the 'Defined Roles and Responsibilities' principle."
+        }
     },
     {
         "question": "How does the 'Defined Roles and Responsibilities' principle prevent confusion and ensure accountability?",
@@ -184,7 +264,12 @@
             "d": "By requiring external auditors to constantly verify role performance."
         },
         "answer": "b",
-        "reasoning": "The 'Defined Roles and Responsibilities' principle prevents confusion and ensures accountability by establishing a clear organizational structure where every role has defined duties, authorities, and reporting lines. This clarity ensures that everyone knows 'who is accountable for what' and 'who is responsible for what'."
+        "explanations": {
+            "a": "Incorrect. While the Project Board provides overall direction, PRINCE2 advocates for delegation of authority down the management hierarchy (e.g., Project Manager, Team Managers) to enable 'Manage by Exception'.",
+            "b": "Correct. The 'Defined Roles and Responsibilities' principle prevents confusion and ensures accountability by establishing a clear organizational structure where every role has defined duties, authorities, and reporting lines. This clarity ensures that everyone knows 'who is accountable for what' and 'who is responsible for what,' thereby ensuring key decisions are made by the right people.",
+            "c": "Incorrect. While tailoring allows for some flexibility in combining roles, the core principle is about clear definition and assignment, not arbitrary flexibility that could lead to confusion.",
+            "d": "Incorrect. While Project Assurance provides independent oversight, the principle itself focuses on the inherent structure and definitions, not solely on external verification."
+        }
     },
     {
         "question": "What is the main characteristic of a management stage that supports the 'Manage by Stages' principle?",
@@ -195,7 +280,12 @@
             "d": "It is solely focused on delivering specialist products."
         },
         "answer": "b",
-        "reasoning": "A management stage is characterized by having a definitive start and end point, with a formal review (End Stage Assessment) at its conclusion by the Project Board. This allows the Project Board to assess performance, review the Business Case, and decide whether to authorize the next stage."
+        "explanations": {
+            "a": "Incorrect. A management stage can encompass multiple pieces of specialist work (delivery steps) and is divisible for planning and control purposes.",
+            "b": "Correct. A management stage, as part of the 'Manage by Stages' principle, is characterized by having a definitive start and end point, with a formal review (End Stage Assessment) at its conclusion by the Project Board. This allows the Project Board to assess the stage's performance, review the Business Case, and decide whether to authorize the next stage or prematurely close the project.",
+            "c": "Incorrect. The duration of a management stage is flexible and determined by factors such as risk, confidence, and the planning horizon, not a fixed period.",
+            "d": "Incorrect. While specialist products are delivered within stages, management stages also encompass management and control activities, and formal reviews by the Project Board."
+        }
     },
     {
         "question": "If a project manager forecasts that stage tolerances will be exceeded, what action is required by the 'Manage by Exception' principle?",
@@ -206,7 +296,12 @@
             "d": "The Project Manager should seek advice from the Team Managers on how to proceed."
         },
         "answer": "b",
-        "reasoning": "According to the 'Manage by Exception' principle, if a Project Manager forecasts that the stage tolerances will be exceeded, they no longer have the authority to manage the stage and must escalate the situation to the Project Board. This escalation is typically done through an Exception Report."
+        "explanations": {
+            "a": "Incorrect. This directly contradicts 'Manage by Exception', as it bypasses the escalation mechanism designed to bring significant deviations to higher management's attention.",
+            "b": "Correct. According to the 'Manage by Exception' principle, if a Project Manager forecasts that the stage tolerances (set by the Project Board) will be exceeded, they no longer have the authority to manage the stage and must escalate the situation to the Project Board. This escalation is typically done through an Exception Report, which outlines the deviation, its impact, and options for recovery.",
+            "c": "Incorrect. Re-planning is an option, but it usually requires Project Board approval, often by requesting an Exception Plan, and not before escalation.",
+            "d": "Incorrect. While Team Managers might be consulted for their input on options, the ultimate responsibility for escalation to the Project Board lies with the Project Manager."
+        }
     },
     {
         "question": "Why is focusing on products more effective than focusing solely on activities?",
@@ -217,7 +312,12 @@
             "d": "Products can be easily changed without impacting the project's overall scope."
         },
         "answer": "b",
-        "reasoning": "The 'Focus on Products' principle is more effective because defining products first clarifies what the project will deliver (its scope). This product-based planning approach ensures common understanding among stakeholders regarding the tangible outputs and facilitates managing uncontrolled change."
+        "explanations": {
+            "a": "Incorrect. While activity-based planning might seem quicker initially, it often leads to scope creep and misunderstandings about deliverables, potentially requiring more rework and documentation later.",
+            "b": "Correct. The 'Focus on Products' principle is more effective because defining products first clarifies what the project will deliver (its scope). This product-based planning approach ensures common understanding among stakeholders regarding the tangible outputs and facilitates managing uncontrolled change. Activities are then identified to create these defined products.",
+            "c": "Incorrect. While activities are tracked, PRINCE2 argues that defining the products first provides a clearer baseline for what needs to be managed and achieved.",
+            "d": "Incorrect. Changes to products, especially baselined ones, directly impact the project's scope, and require formal change control procedures to manage."
+        }
     },
     {
         "question": "How can 'Tailor to Suit the Project Environment' improve the efficiency of PRINCE2 application?",
@@ -228,7 +328,12 @@
             "d": "By substituting PRINCE2 principles with other project management methodologies."
         },
         "answer": "b",
-        "reasoning": "Tailoring PRINCE2 improves efficiency by adapting the method to the unique characteristics of each project, such as its size, complexity, and risk. This ensures that the right amount of project management is applied, avoiding burdensome processes or excessive documentation that would add unnecessary overhead."
+        "explanations": {
+            "a": "Incorrect. Tailoring doesn't mean always reducing; it means adjusting to what is appropriate. For complex projects, more rigor might be needed.",
+            "b": "Correct. Tailoring PRINCE2 improves efficiency by adapting the method to the unique characteristics of each project, such as its size, complexity, and risk. This ensures that the right amount of project management is applied, avoiding burdensome processes or excessive documentation that would add unnecessary overhead and reduce efficiency.",
+            "c": "Incorrect. Tailoring decisions often involve the Project Board and Project Assurance, especially for significant adaptations, to ensure they meet organizational requirements.",
+            "d": "Incorrect. The seven PRINCE2 principles are the unchangeable foundation; they cannot be tailored or substituted."
+        }
     },
     {
         "question": "Which principle emphasizes that there should always be a justifiable reason for starting and continuing a project?",
@@ -239,7 +344,12 @@
             "d": "Learn from Experience"
         },
         "answer": "c",
-        "reasoning": "The 'Continued Business Justification' principle is fundamental to PRINCE2 and insists that a justifiable reason must exist for starting a project and must remain valid throughout its entire lifecycle. If the justification ceases to be valid, the project should be stopped."
+        "explanations": {
+            "a": "Incorrect. This principle is about defining and delivering the project's outputs.",
+            "b": "Incorrect. This principle is about breaking the project into controllable segments.",
+            "c": "Correct. The 'Continued Business Justification' principle is fundamental to PRINCE2 and insists that a justifiable reason (documented in the Business Case) must exist for starting a project and must remain valid throughout its entire lifecycle. If the justification ceases to be valid, the project should be stopped.",
+            "d": "Incorrect. This principle is about organizational learning and improvement."
+        }
     },
     {
         "question": "What types of information are typically captured to support the 'Learn from Experience' principle?",
@@ -250,7 +360,12 @@
             "d": "Detailed specifications and design documents for products."
         },
         "answer": "c",
-        "reasoning": "To support the 'Learn from Experience' principle, PRINCE2 projects capture information such as successes, failures, lessons, observations, issues, and recommendations from the current project and previous projects. This information is typically recorded in a Lessons Log and a Lessons Report."
+        "explanations": {
+            "a": "Incorrect. This relates to the 'Plans' and 'Progress' themes (cost management), not specifically 'Learn from Experience'.",
+            "b": "Incorrect. This type of information would primarily feed into the Business Case to assess project viability and market desirability, not directly into 'Learn from Experience' as its primary output.",
+            "c": "Correct. To support the 'Learn from Experience' principle, PRINCE2 projects capture information such as successes, failures, lessons, observations, issues, and recommendations from the current project and previous projects. This information is typically recorded in a Lessons Log and, at the end of a stage or project, a Lessons Report.",
+            "d": "Incorrect. These are Product Descriptions, central to the 'Focus on Products' and 'Quality' themes."
+        }
     },
     {
         "question": "How do defined roles and responsibilities ensure key decisions are made by the right people?",
@@ -261,7 +376,12 @@
             "d": "By leaving decision-making flexible until issues arise, allowing for adaptive responses."
         },
         "answer": "b",
-        "reasoning": "The 'Defined Roles and Responsibilities' principle ensures that accountability and authority for decision-making are clearly assigned to specific roles at appropriate management levels (Directing, Managing, Delivering). This structured delegation ensures that critical decisions are made by those with the necessary authority and perspective."
+        "explanations": {
+            "a": "Incorrect. PRINCE2 promotes delegation and 'Manage by Exception', not centralization with the Project Manager. The Project Board holds overall authority.",
+            "b": "Correct. The 'Defined Roles and Responsibilities' principle ensures that accountability and authority for decision-making are clearly assigned to specific roles at appropriate management levels (Directing, Managing, Delivering). For instance, the Project Board directs, the Project Manager manages, and Team Managers deliver. This structured delegation ensures that critical decisions are made by those with the necessary authority and perspective.",
+            "c": "Incorrect. While team input is valuable, formal decision-making in PRINCE2 is assigned to specific, accountable roles, not always to a broad consensus vote.",
+            "d": "Incorrect. This would lead to chaos and inefficiency; roles and responsibilities are defined proactively to prevent confusion and ensure prompt, appropriate action."
+        }
     },
     {
         "question": "What is the term for the allowable deviation from targets set by a higher management level?",
@@ -272,6 +392,11 @@
             "d": "Issue"
         },
         "answer": "b",
-        "reasoning": "'Tolerances' are the permissible deviation above or below a plan's targets that can occur before the next management level needs to be notified. They are a key mechanism for implementing the 'Manage by Exception' principle."
+        "explanations": {
+            "a": "Incorrect. An 'Exception' is a situation where a tolerance is forecast to be exceeded, triggering an escalation, rather than the allowable deviation itself.",
+            "b": "Correct. 'Tolerances' are the permissible deviation above or below a plan's targets (e.g., for time, cost, quality, scope, benefits, risk) that can occur before the next management level needs to be notified. They are a key mechanism for implementing the 'Manage by Exception' principle.",
+            "c": "Incorrect. A 'Dis-benefit' is an outcome from the project that is perceived as negative, distinct from a deviation from targets.",
+            "d": "Incorrect. An 'Issue' is any relevant event that has happened, was not planned, and requires management attention, which could lead to an exception if it impacts tolerances."
+        }
     }
 ]

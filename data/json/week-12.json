@@ -8,7 +8,12 @@
             "d": "To provide the Project Board with information to review the current stage and approve the plan for the next stage."
         },
         "answer": "c",
-        "reasoning": "To manage the day-to-day work of a stage, monitoring progress, managing change, and dealing with issues. This is the correct purpose of the 'Controlling a Stage' process. It describes how to set up work for a stage, monitor progress, manage change (including corrective action), and deal with issues that may impact the stage plan."
+        "explanations": {
+            "a": "Incorrect. This describes the purpose of the 'Initiating a Project' process.",
+            "b": "Incorrect. This describes the purpose of the 'Directing a Project' process.",
+            "c": "Correct. This is the correct purpose of the 'Controlling a Stage' process. It describes how to set up work for a stage, monitor progress, manage change (including corrective action), and deal with issues that may impact the stage plan.",
+            "d": "Incorrect. This describes the purpose of the 'Managing a Stage Boundary' process."
+        }
     },
     {
         "question": "What is the primary purpose of the 'Managing Product Delivery' (MP) process?",
@@ -19,7 +24,12 @@
             "d": "To close the project in an orderly manner and hand over products."
         },
         "answer": "b",
-        "reasoning": "To ensure that products are created and delivered within agreed tolerances. The 'Managing Product Delivery' process explains how product delivery is controlled by the project and team managers, setting criteria for the execution, delivery, and acceptance of work packages. Its objective is for the team to deliver the products defined in the Work Package, for the team to understand the expected effort, time, and cost needed to deliver the products, and to ensure that completed products are approved."
+        "explanations": {
+            "a": "Incorrect. This describes the purpose of the 'Controlling a Stage' process.",
+            "b": "Correct. The 'Managing Product Delivery' process explains how product delivery is controlled by the project and team managers, setting criteria for the execution, delivery, and acceptance of work packages.",
+            "c": "Incorrect. This is an activity within the 'Directing a Project' process, preceded by the 'Starting Up a Project' process which produces the Project Brief.",
+            "d": "Incorrect. This describes the purpose of the 'Closing a Project' process."
+        }
     },
     {
         "question": "Which management product is used by the Project Manager to delegate work to a Team Manager or team?",
@@ -30,7 +40,12 @@
             "d": "Product Description"
         },
         "answer": "c",
-        "reasoning": "Work Package. The Project Manager uses the Work Package to pass responsibility for the delivery of products to the Team Manager or team members. It provides the team with all the information they need to deliver a set of specialist products and is used to pass authority to the teams for product delivery."
+        "explanations": {
+            "a": "Incorrect. The Stage Plan is used by the Project Manager to control the day-to-day activities of a stage. It is not used to delegate specific work to a team.",
+            "b": "Incorrect. This report is sent from the Team Manager to the Project Manager to report progress on a Work Package. It is not used for delegation.",
+            "c": "Correct. The Project Manager uses the Work Package to pass responsibility for the delivery of products to the Team Manager or team members.",
+            "d": "Incorrect. While Product Descriptions are included within a Work Package to specify the products, they are not the delegation mechanism itself."
+        }
     },
     {
         "question": "Who creates the 'Work Package'?",
@@ -41,7 +56,12 @@
             "d": "Project Support"
         },
         "answer": "c",
-        "reasoning": "The Project Manager. The Project Manager is responsible for creating Work Packages. This happens in the 'Controlling a Stage' process."
+        "explanations": {
+            "a": "Incorrect. The Team Manager accepts the Work Package and then creates a Team Plan, but does not create the Work Package itself.",
+            "b": "Incorrect. The Project Board authorizes stages and exceptions, but they do not create Work Packages.",
+            "c": "Correct. The Project Manager is responsible for creating Work Packages. This happens in the 'Controlling a Stage' process.",
+            "d": "Incorrect. Project Support provides administrative services, but is not responsible for creating Work Packages."
+        }
     },
     {
         "question": "Who accepts the 'Work Package'?",
@@ -52,7 +72,12 @@
             "d": "The Team Manager"
         },
         "answer": "d",
-        "reasoning": "The Team Manager. The Team Manager accepts a Work Package that is authorized by the Project Manager. This acceptance indicates their agreement to deliver the specified products within the given constraints."
+        "explanations": {
+            "a": "Incorrect. The Project Manager creates and issues the Work Package, but the Team Manager accepts it.",
+            "b": "Incorrect. The Executive is on the Project Board and has overall business responsibility, but does not directly accept Work Packages.",
+            "c": "Incorrect. The Senior User represents user interests and is responsible for specifying benefits and acceptance, but does not accept Work Packages.",
+            "d": "Correct. The Team Manager accepts a Work Package that is authorized by the Project Manager. This acceptance indicates their agreement to deliver the specified products within the given constraints."
+        }
     },
     {
         "question": "What information is typically included in a 'Work Package'?",
@@ -63,7 +88,12 @@
             "d": "The detailed business justification for the project."
         },
         "answer": "b",
-        "reasoning": "The frequency and format of checkpoint reports from the team. The Work Package specifies the reporting arrangements, including the frequency and composition of checkpoint reports sent from the team to the Project Manager."
+        "explanations": {
+            "a": "Incorrect. This information is typically found in the Project Plan. The Work Package covers specific work within a stage.",
+            "b": "Correct. The Work Package specifies the reporting arrangements, including the frequency and composition of checkpoint reports sent from the team to the Project Manager.",
+            "c": "Incorrect. Risks are primarily recorded in the Risk Register. While a Work Package might reference relevant risks, it's not its primary purpose to summarize all risks.",
+            "d": "Incorrect. This is contained within the Business Case, which is part of the Project Initiation Documentation (PID)."
+        }
     },
     {
         "question": "What report does the Team Manager send to the Project Manager to report progress on a Work Package?",
@@ -74,7 +104,12 @@
             "d": "Issue Report"
         },
         "answer": "c",
-        "reasoning": "Checkpoint Report. A Checkpoint Report is used to report, at a frequency defined in the Work Package, the status of the Work Package. It is sent from the Team Manager (or team members) to the Project Manager."
+        "explanations": {
+            "a": "Incorrect. This report is sent from the Project Manager to the Project Board (and other stakeholders) to update them on a stage's progress.",
+            "b": "Incorrect. This report is produced by the Project Manager at the end of a management stage to summarize its performance.",
+            "c": "Correct. A Checkpoint Report is used to report, at a frequency defined in the Work Package, the status of the Work Package. It is sent from the Team Manager to the Project Manager.",
+            "d": "Incorrect. An Issue Report is used to formally document and analyze a specific issue that requires a decision or action."
+        }
     },
     {
         "question": "When is the 'Checkpoint Report' created and sent?",
@@ -85,7 +120,12 @@
             "d": "At the very beginning of the project to outline the initial plan."
         },
         "answer": "b",
-        "reasoning": "At predefined periodic intervals, as defined in the Work Package. Checkpoint Reports are a type of 'time-driven control' and are produced at predefined periodic intervals, as agreed in the Work Package."
+        "explanations": {
+            "a": "Incorrect. The End Stage Report is produced at the end of each management stage.",
+            "b": "Correct. Checkpoint Reports are a type of 'time-driven control' and are produced at predefined periodic intervals, as agreed in the Work Package.",
+            "c": "Incorrect. If Work Package tolerances are forecast to be exceeded, the Team Manager informs the Project Manager by raising an issue.",
+            "d": "Incorrect. This would be a Project Brief or Project Plan, not a Checkpoint Report."
+        }
     },
     {
         "question": "What is the primary role of the Project Manager during the CS process?",
@@ -96,7 +136,12 @@
             "d": "To carry out specialist work and create products as instructed."
         },
         "answer": "c",
-        "reasoning": "To manage and control the day-to-day work of a stage within agreed tolerances. The 'Controlling a Stage' process describes the Project Manager's work in handling the day-to-day management of each delivery stage. This includes setting up work, monitoring progress, managing change, and dealing with issues."
+        "explanations": {
+            "a": "Incorrect. This is the primary role of the Project Board, within the 'Directing a Project' process.",
+            "b": "Incorrect. This is the role of Project Support.",
+            "c": "Correct. The 'Controlling a Stage' process describes the Project Manager's work in handling the day-to-day management of each delivery stage.",
+            "d": "Incorrect. This is the role of the Team Manager and their team, within the 'Managing Product Delivery' process."
+        }
     },
     {
         "question": "What are the three activities performed by teams and team managers during the MP process?",
@@ -107,7 +152,12 @@
             "d": "Capture and Examine Issues and Risks, Escalate Issues and Risks, Propose Corrective Actions."
         },
         "answer": "b",
-        "reasoning": "Accept a Work Package, Execute a Work Package, Deliver a Work Package. These are the three PRINCE2 activities carried out by the teams and team managers within the 'Managing Product Delivery' process."
+        "explanations": {
+            "a": "Incorrect. These are activities performed by the Project Manager within the 'Controlling a Stage' process.",
+            "b": "Correct. These are the three PRINCE2 activities carried out by the teams and team managers within the 'Managing Product Delivery' process.",
+            "c": "Incorrect. These are activities performed by the Project Manager within the 'Controlling a Stage' process.",
+            "d": "Incorrect. These are steps within the Issue and Change Control Procedure, primarily managed by the Project Manager."
+        }
     },
     {
         "question": "How does the CS process handle issues and risks?",
@@ -118,7 +168,12 @@
             "d": "It only deals with informal issues recorded in the Daily Log, leaving formal issues to higher management."
         },
         "answer": "b",
-        "reasoning": "It acts as the primary point for capturing, examining, and escalating issues and risks. The 'Controlling a Stage' process includes activities such as 'Capture and Examine Issues and Risks' and 'Escalate Issues and Risks'. The Project Manager ensures issues and risks are properly recorded in relevant logs/registers and their impact is analyzed."
+        "explanations": {
+            "a": "Incorrect. The initial project risks are identified and the Risk Register is set up during the 'Initiating a Project' process.",
+            "b": "Correct. The 'Controlling a Stage' process includes activities such as 'Capture and Examine Issues and Risks' and 'Escalate Issues and Risks'.",
+            "c": "Incorrect. The Project Board authorizes formal changes and may set a change budget.",
+            "d": "Incorrect. The 'Controlling a Stage' process also handles formal issues by capturing them in the Issue Register."
+        }
     },
     {
         "question": "What happens if a Team Manager forecasts a breach of Work Package tolerances?",
@@ -129,7 +184,12 @@
             "d": "The Team Manager immediately adjusts the Work Package to bring it back within tolerance."
         },
         "answer": "c",
-        "reasoning": "The Team Manager informs the Project Manager by raising an issue. If a Work Package is forecast to exceed its tolerances, the Team Manager should inform the Project Manager by raising an issue. The Project Manager will then advise on any corrective actions required."
+        "explanations": {
+            "a": "Incorrect. The Project Manager creates an Exception Report for stage-level exceptions to the Project Board.",
+            "b": "Incorrect. The Team Manager reports to the Project Manager, not directly to corporate management.",
+            "c": "Correct. If a Work Package is forecast to exceed its tolerances, the Team Manager should inform the Project Manager by raising an issue.",
+            "d": "Incorrect. A forecast breach requires escalation, not unilateral adjustment."
+        }
     },
     {
         "question": "What is the purpose of the 'Review Work Package Status' activity in CS?",
@@ -140,7 +200,12 @@
             "d": "To decide on corrective actions for Work Packages that are out of tolerance."
         },
         "answer": "c",
-        "reasoning": "To regularly assess the progress and status of ongoing Work Packages. The 'Review Work Package Status' activity provides the means for a regular assessment of the status of Work Package(s). It involves collecting and reviewing progress information from checkpoint reports, assessing estimated time and effort to complete unfinished work, and reviewing the Team Plan."
+        "explanations": {
+            "a": "Incorrect. This is the purpose of the 'Authorize a Work Package' activity.",
+            "b": "Incorrect. This is the purpose of the 'Receive Completed Work Packages' activity.",
+            "c": "Correct. The 'Review Work Package Status' activity provides the means for a regular assessment of the status of Work Package(s).",
+            "d": "Incorrect. The 'Take Corrective Action' activity is where options are considered and decided."
+        }
     },
     {
         "question": "How does the Project Manager update the Stage Plan during the CS process?",
@@ -151,7 +216,12 @@
             "d": "The Project Manager only updates it at the end of the stage during the Managing a Stage Boundary process."
         },
         "answer": "c",
-        "reasoning": "The Project Manager updates it with actual progress and revised forecasts based on monitoring activities. During the 'Controlling a Stage' process, the Project Manager continuously reviews progress and updates the Stage Plan with actuals and revised forecasts."
+        "explanations": {
+            "a": "Incorrect. A new plan (an Exception Plan) would only be created if tolerances are forecast to be exceeded.",
+            "b": "Incorrect. While a Stage Plan is a baseline, it is regularly updated with actuals and forecasts for monitoring purposes.",
+            "c": "Correct. During the 'Controlling a Stage' process, the Project Manager continuously reviews progress and updates the Stage Plan.",
+            "d": "Incorrect. Continuous updating throughout the stage is part of the 'Controlling a Stage' process."
+        }
     },
     {
         "question": "What are 'in-process' quality methods, and when are they applied?",
@@ -162,7 +232,12 @@
             "d": "Methods for assessing the overall quality management system of the project."
         },
         "answer": "c",
-        "reasoning": "Methods implemented during the development of a product to ensure continuous quality. 'In-process' methods are one of the two primary types of quality methods, applied during the development of a product. They ensure ongoing checks throughout the creation process."
+        "explanations": {
+            "a": "Incorrect. This describes 'appraisal' quality methods.",
+            "b": "Incorrect. This is part of 'quality planning'.",
+            "c": "Correct. 'In-process' methods are one of the two primary types of quality methods, applied during the development of a product.",
+            "d": "Incorrect. This refers to quality assurance or quality audits."
+        }
     },
     {
         "question": "What are 'appraisal' quality methods, and when are they applied?",
@@ -173,7 +248,12 @@
             "d": "Methods for reviewing and approving a product upon its completion."
         },
         "answer": "d",
-        "reasoning": "Methods for reviewing and approving a product upon its completion. 'Appraisal' methods are one of the two primary types of quality methods, used for review and approval on completion of a product."
+        "explanations": {
+            "a": "Incorrect. This describes 'in-process' quality methods.",
+            "b": "Incorrect. This is part of 'quality planning'.",
+            "c": "Incorrect. Benefits reviews are part of benefits management.",
+            "d": "Correct. 'Appraisal' methods are one of the two primary types of quality methods, used for review and approval on completion of a product."
+        }
     },
     {
         "question": "How does the MP process ensure that completed products are approved?",
@@ -184,7 +264,12 @@
             "d": "By the Project Board approving all products before handing them over to operations."
         },
         "answer": "b",
-        "reasoning": "By ensuring each product has gained its requisite approval as defined in its Product Description. The 'Managing Product Delivery' process ensures that each product in the Work Package has gained its requisite approval, as defined in the quality responsibilities in its Product Description."
+        "explanations": {
+            "a": "Incorrect. The formal approval mechanism is decentralized to specific roles defined in Product Descriptions.",
+            "b": "Correct. The 'Managing Product Delivery' process ensures that each product in the Work Package has gained its requisite approval, as defined in its Product Description.",
+            "c": "Incorrect. Direct product approval is typically done by specified approvers.",
+            "d": "Incorrect. The Project Board approves stages or the project, but not individual products."
+        }
     },
     {
         "question": "True or False: The Project Manager constantly updates the Stage Plan with progress information throughout a stage.",
@@ -193,7 +278,10 @@
             "b": "False"
         },
         "answer": "a",
-        "reasoning": "True. The Project Manager regularly reviews progress and updates the Stage Plan with actuals and revised forecasts throughout the 'Controlling a Stage' process. This continuous updating ensures an accurate picture of the stage's performance."
+        "explanations": {
+            "a": "Correct. The Project Manager regularly reviews progress and updates the Stage Plan with actuals and revised forecasts throughout the 'Controlling a Stage' process.",
+            "b": "Incorrect. The Stage Plan is a living document during the stage."
+        }
     },
     {
         "question": "How does the CS process contribute to the 'Manage by Exception' principle?",
@@ -204,7 +292,12 @@
             "d": "By eliminating the need for any formal reporting to senior management."
         },
         "answer": "b",
-        "reasoning": "By providing the Project Manager with the authority to manage the stage within agreed tolerances, escalating only when forecasts exceed these limits. The 'Controlling a Stage' process empowers the Project Manager to manage day-to-day operations by delegating authority within defined stage tolerances. If these tolerances are forecast to be exceeded, the Project Manager must escalate to the Project Board, thus implementing 'Manage by Exception'."
+        "explanations": {
+            "a": "Incorrect. 'Manage by Exception' acknowledges that deviations will occur.",
+            "b": "Correct. The 'Controlling a Stage' process empowers the Project Manager to manage day-to-day operations by delegating authority within defined stage tolerances.",
+            "c": "Incorrect. 'Manage by Exception' relates to management levels intervening only when significant deviations occur.",
+            "d": "Incorrect. 'Manage by Exception' focuses reporting on exceptions and summary highlight reports."
+        }
     },
     {
         "question": "What is the purpose of the 'Daily Log' in day-to-day management during CS?",
@@ -215,7 +308,12 @@
             "d": "To provide a comprehensive audit trail of all quality management activities."
         },
         "answer": "b",
-        "reasoning": "To record informal issues, personal action points, and other significant events not captured elsewhere. The Daily Log is a useful tool for recording actions, informal issues, and any other notes or observations not captured by other registers or logs. It's often referred to as the Project Manager's diary."
+        "explanations": {
+            "a": "Incorrect. Formal issues are recorded in the Issue Register, and risks in the Risk Register.",
+            "b": "Correct. The Daily Log is a useful tool for recording actions, informal issues, and any other notes or observations not captured by other registers or logs.",
+            "c": "Incorrect. These are formally managed in the Issue Register.",
+            "d": "Incorrect. This is the purpose of the Quality Register."
+        }
     },
     {
         "question": "What is a 'Kanban board' and how can it be used to monitor progress?",
@@ -226,7 +324,12 @@
             "d": "A report summarizing all quality activities and their results."
         },
         "answer": "c",
-        "reasoning": "A visual management tool that shows the flow of work and helps teams manage tasks and progress. A Kanban board is described as a format for a Checkpoint Report, showing tasks moving from 'To do' to 'In progress' to 'Complete' columns, providing a visual representation of progress."
+        "explanations": {
+            "a": "Incorrect. An S-curve is a graph showing cumulative actual figures plotted against time.",
+            "b": "Incorrect. This describes a Milestone chart.",
+            "c": "Correct. A Kanban board is a visual management tool that shows the flow of work and helps teams manage tasks and progress.",
+            "d": "Incorrect. This describes a Quality Register or parts of a Quality Management Approach."
+        }
     },
     {
         "question": "What is a 'burn down chart' and what does it show?",
@@ -237,7 +340,12 @@
             "d": "A tool used to plot the likelihood and impact of identified risks."
         },
         "answer": "a",
-        "reasoning": "A chart that measures the completion rate of tasks over time, typically used in agile environments. A burn down chart is illustrated as a graph showing 'Work to be completed (hours)' against 'days,' indicating progress against an ideal line. It is a progress evaluation technique."
+        "explanations": {
+            "a": "Correct. A burn down chart is a graph showing 'Work to be completed (hours)' against 'days,' indicating progress against an ideal line.",
+            "b": "Incorrect. This describes a Product Flow Diagram.",
+            "c": "Incorrect. This could be part of a Highlight Report or End Stage Report.",
+            "d": "Incorrect. This describes a Probability Impact Grid."
+        }
     },
     {
         "question": "How does the CS process ensure continuous business justification?",
@@ -248,7 +356,12 @@
             "d": "By ensuring all products are delivered precisely to their initial specifications."
         },
         "answer": "a",
-        "reasoning": "By periodically checking the Business Case for ongoing viability. The 'Controlling a Stage' process includes the activity of periodically checking the Business Case for ongoing viability. This ensures that decisions made during the stage align with the project's justification."
+        "explanations": {
+            "a": "Correct. The 'Controlling a Stage' process includes the activity of periodically checking the Business Case for ongoing viability.",
+            "b": "Incorrect. The Outline Business Case is created in the 'Starting Up a Project' process.",
+            "c": "Incorrect. Managing by exception allows for deviations within tolerances.",
+            "d": "Incorrect. Business justification is about the value of the project's outputs, not just adherence to specification."
+        }
     },
     {
         "question": "What happens during the 'Receive Completed Work Packages' activity?",
@@ -259,7 +372,12 @@
             "d": "The Project Board gives authorization for the next management stage."
         },
         "answer": "c",
-        "reasoning": "The Project Manager confirms completion and approval of the products within a Work Package. In the 'Receive Completed Work Packages' activity, the Project Manager ensures that the Team Manager has completed the work, checks Quality Register entries, and confirms each product has gained its requisite approval."
+        "explanations": {
+            "a": "Incorrect. This occurs during the 'Authorize a Work Package' activity.",
+            "b": "Incorrect. The Team Manager initiates work in the 'Execute a Work Package' activity.",
+            "c": "Correct. In the 'Receive Completed Work Packages' activity, the Project Manager ensures that the Team Manager has completed the work and confirms product approval.",
+            "d": "Incorrect. This decision is made by the Project Board during the 'Directing a Project' process."
+        }
     },
     {
         "question": "How do the CS and MP processes align with the 'Defined Roles and Responsibilities' principle?",
@@ -270,6 +388,11 @@
             "d": "By consolidating all decision-making authority within the Project Manager role."
         },
         "answer": "b",
-        "reasoning": "By clearly outlining who is responsible for delegating work (PM), performing work (TM/Team), and reporting progress. The 'Defined Roles and Responsibilities' principle ensures that everyone involved in the project management team is clear about what is expected of them. The CS process clearly defines the Project Manager's role in controlling a stage and delegating Work Packages, while the MP process defines the Team Manager/Team's role in accepting and executing Work Packages and reporting progress."
+        "explanations": {
+            "a": "Incorrect. PRINCE2 does not prescribe employment status.",
+            "b": "Correct. The CS process defines the Project Manager's role in controlling a stage, while the MP process defines the Team Manager/Team's role in executing Work Packages.",
+            "c": "Incorrect. The principle emphasizes clear definition and accountability, not arbitrary flexibility.",
+            "d": "Incorrect. PRINCE2 promotes a tiered management structure with delegation of authority."
+        }
     }
 ]

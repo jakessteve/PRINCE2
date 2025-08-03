@@ -480,6 +480,38 @@ body.is-test-finished .sidebar-group#controls-box {
     font-weight: bold;
 }
 
+.explanations {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: var(--color-surface);
+    border-radius: var(--border-radius-md);
+    border-left: 3px solid var(--color-neutral);
+}
+
+.explanation-title {
+    color: var(--color-text-primary);
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.explanation-item {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: var(--border-radius-sm);
+    background-color: var(--color-background);
+    border-left: 2px solid var(--color-neutral);
+}
+
+.correct-explanation {
+    border-left-color: var(--color-success);
+    background-color: rgba(40, 167, 69, 0.05);
+}
+
+.incorrect-explanation {
+    border-left-color: var(--color-danger);
+    background-color: rgba(220, 53, 69, 0.05);
+}
+
 /* --------------------------------------------------------------------------
    4.7. Custom Dialog
    -------------------------------------------------------------------------- */
