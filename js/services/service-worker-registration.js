@@ -27,6 +27,7 @@ export class ServiceWorkerManager {
   } else {
     console.log('🚫 Service Worker disabled for this environment');
     this.isSupported = false;
+    this.initializeLocalStorageFallback();
   }
 }
 
@@ -49,8 +50,9 @@ export class ServiceWorkerManager {
   suppressPermissionsPolicyWarnings() {
     if (typeof window === 'undefined') return;
     
-    // Store original console.error
+    // Store original console methods
     const originalError = console.error;
+    const originalWarn = console.warn;
     
     // Override console.error to filter out Permissions-Policy warnings
     console.error = (...args) => {
@@ -69,10 +71,28 @@ export class ServiceWorkerManager {
       originalError.apply(console, args);
     };
     
-    // Restore original console.error after a delay to avoid affecting other parts
+    // Override console.warn to filter out Permissions-Policy warnings
+    console.warn = (...args) => {
+      const warningMessage = args.join(' ');
+      
+      // Filter out Permissions-Policy related warnings
+      if (warningMessage.includes('Permissions-Policy header') ||
+          warningMessage.includes('Unrecognized feature:') ||
+          warningMessage.includes('Origin trial controlled feature not enabled:')) {
+        // Log filtered warnings as debug instead
+        console.debug('🔒 [Filtered Permissions-Policy Warning]:', warningMessage);
+        return;
+      }
+      
+      // Call original console.warn for other messages
+      originalWarn.apply(console, args);
+    };
+    
+    // Restore original console methods after a delay to avoid affecting other parts
     setTimeout(() => {
       console.error = originalError;
-    }, 5000);
+      console.warn = originalWarn;
+    }, 10000);
   }
 
   /**
@@ -100,10 +120,13 @@ export class ServiceWorkerManager {
   async init() {
     if (!this.isSupported) {
       if (this.suppressWarnings) {
-        console.log('Service Worker not supported or suppressed for this browser');
+        console.log('🚫 Service Worker not supported or suppressed for this browser');
+        console.log('💾 Using localStorage fallback for offline functionality');
       } else {
-        console.warn('Service Worker is not supported in this browser');
+        console.warn('⚠️ Service Worker is not supported in this browser');
+        console.log('💾 Using localStorage fallback for offline functionality');
       }
+      this.initializeLocalStorageFallback();
       return;
     }
 
@@ -437,8 +460,61 @@ export class ServiceWorkerManager {
       const response = await fetch(swPath, { method: 'HEAD' });
       return response.ok;
     } catch (error) {
-      console.warn('Service Worker file check failed:', error);
+      console.warn('🔍 Service Worker file check failed:', error);
       return false;
+    }
+  }
+
+  /**
+   * Initialize localStorage fallback for offline functionality
+   */
+  initializeLocalStorageFallback() {
+    if (typeof window === 'undefined') return;
+    
+    console.log('💾 Initializing localStorage fallback for offline functionality');
+    
+    // Set up basic offline storage utilities
+    this.storage = {
+      setItem: (key, value) => {
+        try {
+          localStorage.setItem(key, JSON.stringify(value));
+          return true;
+        } catch (error) {
+          console.error('Failed to store data in localStorage:', error);
+          return false;
+        }
+      },
+      
+      getItem: (key) => {
+        try {
+          const item = localStorage.getItem(key);
+          return item ? JSON.parse(item) : null;
+        } catch (error) {
+          console.error('Failed to retrieve data from localStorage:', error);
+          return null;
+        }
+      },
+      
+      removeItem: (key) => {
+        try {
+          localStorage.removeItem(key);
+          return true;
+        } catch (error) {
+          console.error('Failed to remove data from localStorage:', error);
+          return false;
+        }
+      }
+    };
+    
+    // Initialize offline quiz state storage
+    if (!this.storage.getItem('offlineQuizState')) {
+      this.storage.setItem('offlineQuizState', {
+        currentWeek: null,
+        answers: {},
+        startTime: null,
+        endTime: null,
+        score: null
+      });
     }
   }
 
