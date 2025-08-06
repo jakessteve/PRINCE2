@@ -15,8 +15,18 @@ export function getState() {
 }
 
 export function setState(newState) {
-    Object.assign(state, newState);
-    listeners.forEach(listener => listener());
+    // Only update state and notify listeners if something actually changed
+    let hasChanged = false;
+    for (const key in newState) {
+        if (state[key] !== newState[key]) {
+            state[key] = newState[key];
+            hasChanged = true;
+        }
+    }
+    
+    if (hasChanged) {
+        listeners.forEach(listener => listener());
+    }
 }
 
 export function subscribe(listener) {

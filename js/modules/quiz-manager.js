@@ -5,7 +5,7 @@ import { buildQuiz, updateCounter } from './dom-utils.js';
 import { shuffleArray } from '../utils/array-utils.js';
 import { startTimer, finish } from './timer.js';
 import { simpleDataService } from '../services/simple-data-service.js';
-import offlineQuizService from '../services/offline-quiz-service.js';
+import serviceWorkerManager from '../services/service-worker-registration.js';
 import quizStateManager from '../services/quiz-state-manager.js';
 
 export async function selectAndPrepareQuiz(quizId, autoStart = false) {
@@ -41,7 +41,7 @@ export async function resetAndLoadQuiz(quizId, autoStart) {
         let quizData;
         
         // Check if we're in offline mode and have cached quiz data
-        if (offlineQuizService.isOfflineMode()) {
+        if (!serviceWorkerManager.isOnlineStatus()) {
             const cachedData = await getCachedQuizData(quizId);
             if (cachedData) {
                 quizData = cachedData;
@@ -71,7 +71,7 @@ export async function resetAndLoadQuiz(quizId, autoStart) {
         console.error("Failed to load quiz data:", error);
         
         // Try offline mode as fallback
-        if (offlineQuizService.isOfflineMode()) {
+        if (!serviceWorkerManager.isOnlineStatus()) {
             const cachedData = await getCachedQuizData(quizId);
             if (cachedData) {
                 setState({ quizData: cachedData });
@@ -101,7 +101,7 @@ export async function resetAndLoadQuiz(quizId, autoStart) {
     updateActiveWeekLink(quizId);
 
     // Update start button based on offline status
-    if (offlineQuizService.isOfflineMode()) {
+    if (!serviceWorkerManager.isOnlineStatus()) {
         domElements.startBtn.innerHTML = isFinalTest
             ? 'Start Final Test (Offline)'
             : isFailedTest

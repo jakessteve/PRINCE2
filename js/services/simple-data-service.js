@@ -9,8 +9,12 @@ export class SimpleDataService {
         // Simple cache with 10-minute TTL for better performance
         this.cache = new Map();
         this.cacheTTL = 600000; // 10 minutes
+        this.maxCacheSize = 50; // Maximum number of cached items
         this.manifest = null;
         this.allWeeksData = null;
+        
+        // Preload commonly accessed data for better performance
+        this.preloadCommonData();
     }
 
     /**
@@ -26,13 +30,45 @@ export class SimpleDataService {
     }
 
     /**
-     * Set cached item
+     * Set cached item with size management
      */
     _setCached(key, value) {
+        // Clean expired items first
+       this._cleanExpiredItems();
+       
+       // If cache is full, remove oldest items
+       if (this.cache.size >= this.maxCacheSize) {
+           this._evictOldestItems(Math.ceil(this.maxCacheSize * 0.2)); // Remove 20% of items
+       }
+       
         this.cache.set(key, {
             value,
             timestamp: Date.now()
         });
+    }
+
+    /**
+     * Clean expired items from cache
+     */
+    _cleanExpiredItems() {
+       const now = Date.now();
+       for (const [key, item] of this.cache) {
+           if (now - item.timestamp >= this.cacheTTL) {
+               this.cache.delete(key);
+           }
+       }
+    }
+
+    /**
+     * Evict oldest items from cache
+     */
+    _evictOldestItems(count) {
+       const items = Array.from(this.cache.entries())
+           .sort((a, b) => a[1].timestamp - b[1].timestamp);
+       
+       for (let i = 0; i < Math.min(count, items.length); i++) {
+           this.cache.delete(items[i][0]);
+       }
     }
 
     /**
@@ -186,6 +222,21 @@ export class SimpleDataService {
     }
 
     /**
+     * Preload commonly accessed data for better performance
+     */
+    preloadCommonData() {
+        // Preload manifest in background during initialization
+        this._getManifest().catch(console.error);
+        
+        // Preload first few weeks data that are commonly accessed
+        setTimeout(() => {
+            this._loadWeekData('1').catch(console.error);
+            this._loadWeekData('2').catch(console.error);
+            this._loadWeekData('3').catch(console.error);
+        }, 100);
+    }
+
+    /**
      * Clear cache
      */
     clearCache() {
@@ -196,25 +247,33 @@ export class SimpleDataService {
     }
 
     /**
-     * Get cache statistics
+     * Get cache statistics (optimized)
      */
     getCacheStats() {
+        const now = Date.now();
         let validItems = 0;
         let expiredItems = 0;
+        let totalSize = 0;
         
-        for (const [key, item] of this.cache) {
-            if ((Date.now() - item.timestamp) < this.cacheTTL) {
+        // Single pass through cache for better performance
+        for (const item of this.cache.values()) {
+            const age = now - item.timestamp;
+            if (age < this.cacheTTL) {
                 validItems++;
             } else {
                 expiredItems++;
             }
+            // Estimate size more efficiently
+            totalSize += JSON.stringify(item.value).length;
         }
 
         return {
             totalItems: this.cache.size,
             validItems,
             expiredItems,
-            memoryUsage: `${(JSON.stringify([...this.cache.values()]).length / 1024).toFixed(2)} KB`
+            memoryUsage: `${(totalSize / 1024).toFixed(2)} KB`,
+            cacheSize: this.maxCacheSize,
+            hitRate: this.cache.size > 0 ? (validItems / this.cache.size * 100).toFixed(1) + '%' : '0%'
         };
     }
 }

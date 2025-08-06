@@ -14,7 +14,7 @@ export function updateCounter() {
     const domElements = getDomElements();
     const { quizData } = getState();
     const total = quizData ? quizData.length : 0;
-    const answeredCount = domElements.quizForm.querySelectorAll('input[type="radio"]:checked').length;
+    const answeredCount = domElements.quizForm ? domElements.quizForm.querySelectorAll('input[type="radio"]:checked').length : 0;
     const unansweredCount = total - answeredCount;
     domElements.counterEl.innerHTML = `Answered: <span class="answered-count">${answeredCount}</span>/<span class="total-count">${total}</span><br>Unanswered: <span class="unanswered-count">${unansweredCount}</span>`;
 }
@@ -32,16 +32,22 @@ export function buildQuiz() {
     const shuffledData = [...quizData];
     shuffleArray(shuffledData);
     setState({ shuffledData });
-    domElements.quizForm.innerHTML = '';
+    
+    // Use document fragment for better performance
+    const fragment = document.createDocumentFragment();
+    
     shuffledData.forEach((item, index) => {
         const questionBlock = document.createElement('div');
         questionBlock.className = 'question-block';
+        
         const questionText = document.createElement('p');
         questionText.textContent = `${index + 1}. ${item.question}`;
         questionBlock.appendChild(questionText);
+        
         const optionsList = document.createElement('ul');
         const options = Object.entries(item.options);
         shuffleArray(options);
+        
         options.forEach(([key, value]) => {
             const optionItem = document.createElement('li');
             const label = document.createElement('label');
@@ -54,8 +60,13 @@ export function buildQuiz() {
             optionItem.appendChild(label);
             optionsList.appendChild(optionItem);
         });
+        
         questionBlock.appendChild(optionsList);
-        domElements.quizForm.appendChild(questionBlock);
+        fragment.appendChild(questionBlock);
     });
+    
+    // Single DOM update
+    domElements.quizForm.innerHTML = '';
+    domElements.quizForm.appendChild(fragment);
     updateCounter();
 }

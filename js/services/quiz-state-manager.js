@@ -10,6 +10,7 @@ export class QuizStateManager {
     this.autoSaveInterval = null;
     this.autoSaveDelay = 3000; // 3 seconds
     this.stateVersion = '1.0';
+    this.saveTimeout = null;
     
     this.init();
   }
@@ -413,28 +414,36 @@ export class QuizStateManager {
   }
 
   /**
-   * Save current state
+   * Save current state with debouncing
    */
   saveCurrentState() {
     if (!this.currentSession) return false;
 
-    try {
-      this.currentSession.lastSaved = new Date().toISOString();
-      
-      // Save to localStorage
-      const storageKey = this.getStorageKey('session', this.currentSession.id);
-      localStorage.setItem(storageKey, JSON.stringify(this.currentSession));
-      
-      // Save to service worker if available
-      if (window.serviceWorkerManager) {
-        window.serviceWorkerManager.storeQuizState(this.currentSession);
-      }
-      
-      return true;
-    } catch (error) {
-      console.error('Failed to save quiz state:', error);
-      return false;
+    // Debounce saves to avoid excessive localStorage writes
+    if (this.saveTimeout) {
+      clearTimeout(this.saveTimeout);
     }
+
+    this.saveTimeout = setTimeout(() => {
+      try {
+        this.currentSession.lastSaved = new Date().toISOString();
+        
+        // Save to localStorage
+        const storageKey = this.getStorageKey('session', this.currentSession.id);
+        localStorage.setItem(storageKey, JSON.stringify(this.currentSession));
+        
+        // Save to service worker if available
+        if (window.serviceWorkerManager) {
+          window.serviceWorkerManager.storeQuizState(this.currentSession);
+        }
+        
+        console.log('Quiz state saved successfully');
+      } catch (error) {
+        console.error('Failed to save quiz state:', error);
+      }
+    }, 1000); // Debounce to 1 second
+
+    return true;
   }
 
   /**
