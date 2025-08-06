@@ -16,7 +16,15 @@ export class ServiceWorkerManager {
     // Suppress Permissions-Policy warnings by checking browser support
     this.suppressWarnings = this.shouldSuppressWarnings();
     
-    this.init();
+    // Force disable service worker for certain environments to avoid errors
+    this.forceDisable = this.shouldForceDisable();
+    
+    if (!this.forceDisable) {
+      this.init();
+    } else {
+      console.log('Service Worker disabled for this environment');
+      this.isSupported = false;
+    }
   }
 
   /**
@@ -30,6 +38,24 @@ export class ServiceWorkerManager {
     
     // Suppress warnings for browsers that don't support certain features
     return !isChrome || userAgent.indexOf('edg') > -1; // Suppress on Edge or non-Chrome
+  }
+
+  /**
+   * Check if we should force disable service worker to avoid errors
+   */
+  shouldForceDisable() {
+    const userAgent = navigator.userAgent.toLowerCase();
+    const isGitHubPages = window.location.hostname.includes('github.io');
+    const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    
+    // Force disable on GitHub Pages to avoid 404 errors
+    if (isGitHubPages) {
+      return true;
+    }
+    
+    // For production environments, we'll assume service worker exists
+    // In development, we'll try to register it
+    return false;
   }
 
   /**
