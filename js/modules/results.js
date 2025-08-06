@@ -4,6 +4,8 @@ import { getFailedCounts, saveFailedCounts } from '../services/storage-service.j
 
 export function displayResultsAndGetScore() {
     const domElements = getDomElements();
+    console.log('🎯 displayResultsAndGetScore called');
+    
     domElements.quizForm.classList.add('hidden');
     domElements.scoreContainer.classList.add('hidden');
 
@@ -11,6 +13,9 @@ export function displayResultsAndGetScore() {
     let analysisHTML = '';
     const answeredCount = domElements.quizForm.querySelectorAll('input[type="radio"]:checked').length;
     const { shuffledData } = getState();
+    
+    console.log('📊 Quiz data:', { totalQuestions: shuffledData.length, answeredCount });
+
     shuffledData.forEach((item, index) => {
         const selectedAnswerNode = domElements.quizForm.querySelector(`input[name="q${index}"]:checked`);
         const selectedValue = selectedAnswerNode ? selectedAnswerNode.value : null;
@@ -63,9 +68,14 @@ export function displayResultsAndGetScore() {
         }
     });
 
+    console.log('📝 Analysis HTML length:', analysisHTML.length);
+
     if (analysisHTML) {
         domElements.analysisContent.innerHTML = analysisHTML;
         domElements.analysisContainer.classList.remove('hidden');
+        console.log('✅ Analysis container shown');
+    } else {
+        console.log('⚠️ No analysis HTML generated');
     }
 
     return { score, total: shuffledData.length, answeredCount };

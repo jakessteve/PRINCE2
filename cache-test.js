@@ -1,4 +1,4 @@
-import { getQuizData, preloadPredictedWeeks, updateUserPerformance, invalidateAllCaches } from './data-service.js';
+import { getQuizData, preloadPredictedWeeks, updateUserPerformance, invalidateAllCaches } from './js/services/data-service.js';
 
 // Test function to verify the data service is working correctly
 export async function testDataService() {

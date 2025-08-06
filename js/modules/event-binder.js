@@ -8,10 +8,16 @@ import { eventManager } from './event-manager.js';
 
 export function bindEvents(doc = document) {
     const domElements = getDomElements(doc);
+    console.log('🔗 Binding events');
+    
     eventManager.addListener(domElements.startBtn, 'click', () => start());
     eventManager.addListener(domElements.finishBtn, 'click', () => {
+        console.log('🎯 Finish button clicked');
         const { isTestFinished, quizData } = getState();
+        console.log('📊 Current state:', { isTestFinished, quizDataLength: quizData?.length });
+        
         if (isTestFinished) {
+            console.log('⏭️ Test already finished, restarting');
             const params = new URLSearchParams(window.location.search);
             const week = params.get('week');
             if (week) {
@@ -19,11 +25,16 @@ export function bindEvents(doc = document) {
             }
         } else {
             const unansweredCount = quizData.length - domElements.quizForm.querySelectorAll('input[type="radio"]:checked').length;
+            console.log('📝 Unanswered questions:', unansweredCount);
+            
             if (unansweredCount > 0) {
+                console.log('⚠️ Showing confirmation for unanswered questions');
                 showCustomConfirm(`There are ${unansweredCount} questions not answered. Are you sure you want to finish the test?`, () => {
+                    console.log('✅ User confirmed, calling finish()');
                     finish();
                 });
             } else {
+                console.log('✅ No unanswered questions, calling finish() directly');
                 finish();
             }
         }

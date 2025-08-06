@@ -1,0 +1,23 @@
+{
+  "name": "PRINCE2 Foundation Quiz",
+  "short_name": "PRINCE2 Quiz",
+  "description": "A comprehensive quiz application for PRINCE2 Foundation certification preparation with offline functionality.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "orientation": "portrait-primary",
+  "icons": [],
+  "categories": ["education", "reference"],
+  "lang": "en",
+  "service_worker": "sw.js",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "data:,",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}

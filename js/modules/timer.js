@@ -33,11 +33,17 @@ export function startTimer() {
 export function finish(forceFailed = false) {
     const domElements = getDomElements();
     let { timerInterval, quizData, isTestActive } = getState();
+    
+    console.log('⏰ finish() called with forceFailed:', forceFailed);
+    console.log('📊 Current state:', { isTestActive, quizDataLength: quizData?.length });
+    
     clearInterval(timerInterval);
     setState({ isTestActive: false, isTestFinished: true });
     domElements.body.classList.add('is-test-finished');
 
     requestAnimationFrame(() => {
+        console.log('🎯 RequestAnimationFrame executing in finish()');
+        
         domElements.expandResultsBtn.classList.remove('hidden');
         domElements.weekIndexContainer.classList.remove('hidden');
         domElements.weekIndexContainer.style.display = '';
@@ -47,6 +53,8 @@ export function finish(forceFailed = false) {
         const results = forceFailed || !isTestActive
             ? { score: 0, total: quizData.length, answeredCount: 0 }
             : displayResultsAndGetScore();
+
+        console.log('📈 Results from finish():', results);
 
         disableInputs();
         updateSidebarOnFinish(results);

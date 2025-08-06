@@ -1,6 +1,7 @@
 import { shuffleArray } from '../utils/array-utils.js';
 import { getFailedCounts } from './storage-service.js';
 import { LRUCache } from './cache-service.js';
+import { simplePreloader } from './intelligent-preloader.js';
 
 // Initialize caches with appropriate TTL (5 minutes) and max size
 const weekDataCache = new LRUCache(20, 300000); // Cache up to 20 weeks for 5 minutes
@@ -10,16 +11,26 @@ const manifestCache = new LRUCache(1, 300000); // Cache manifest for 5 minutes
 async function fetchQuizData(quizId) {
     // Check if data is in cache
     const cacheKey = `week-${quizId}`;
+
+    // Check regular cache
     if (weekDataCache.has(cacheKey)) {
         return weekDataCache.get(cacheKey);
     }
-    
-    // Fetch data if not in cache
+
+    console.log(`🚀 Loading week ${quizId} with fetch API...`);
+
+    // Use fetch API for loading JSON files
+    const startTime = performance.now();
     const res = await fetch(`data/json/week-${quizId}.json`);
+    if (!res.ok) {
+        throw new Error(`Failed to fetch week ${quizId}: ${res.status}`);
+    }
     const data = await res.json();
-    
+    const loadTime = performance.now() - startTime;
+
     // Store in cache
     weekDataCache.set(cacheKey, data);
+
     return data;
 }
 
@@ -28,11 +39,11 @@ async function fetchManifest() {
     if (manifestCache.has('manifest')) {
         return manifestCache.get('manifest');
     }
-    
+
     // Fetch manifest if not in cache
     const manifestRes = await fetch('data/manifest.json');
     const manifest = await manifestRes.json();
-    
+
     // Store in cache
     manifestCache.set('manifest', manifest);
     return manifest;
@@ -51,7 +62,7 @@ function createUserBundles(weeks) {
         const highPerformance = [];
         const mediumPerformance = [];
         const lowPerformance = [];
-        
+
         weeks.forEach(week => {
             const performance = userPerformance[week];
             if (performance) {
@@ -67,11 +78,11 @@ function createUserBundles(weeks) {
                 mediumPerformance.push(week);
             }
         });
-        
+
         // Create bundles from each performance group
         const bundles = [];
         const bundleSize = 4;
-        
+
         // Helper function to create bundles from an array
         const createBundlesFromArray = (array) => {
             const result = [];
@@ -80,12 +91,12 @@ function createUserBundles(weeks) {
             }
             return result;
         };
-        
+
         // Add bundles from each performance group
         bundles.push(...createBundlesFromArray(highPerformance));
         bundles.push(...createBundlesFromArray(mediumPerformance));
         bundles.push(...createBundlesFromArray(lowPerformance));
-        
+
         // If we have any remaining weeks that don't fit in bundles, add them as smaller bundles
         return bundles.filter(bundle => bundle.length > 0);
     } else {
@@ -104,86 +115,39 @@ async function fetchAllWeeksData() {
     if (allQuizzesCache.has('all')) {
         return allQuizzesCache.get('all');
     }
-    
+
+    console.log(`🚀 Loading all weeks data with fetch API...`);
+
     // Get manifest
     const { quizzes: weeks } = await fetchManifest();
-    
-    // Create dynamic bundles based on user behavior patterns
-    // If we have user performance data, create bundles of weeks with similar performance
-    // Otherwise, fall back to grouping weeks into bundles of 4
-    const weekBundles = createUserBundles(weeks);
-    
-    // Check if we have any existing bundled files we can use
-    // We have bundled files for groups of 4 weeks each
-    const existingBundledFiles = {
-        '1-2-3-4': 'bundled-group1.json',
-        '5-6-7-8': 'bundled-group2.json',
-        '9-10-11-12': 'bundled-group3.json',
-        '13-14-15-16': 'bundled-group4.json'
-    };
-    
-    // Fetch data for each bundle
-    const allWeekPromises = weekBundles.map(async (bundle, bundleIndex) => {
-        const bundleKey = bundle.join('-');
-        if (weekDataCache.has(bundleKey)) {
-            return weekDataCache.get(bundleKey);
-        } else {
-            // Check if we have an existing bundled file for this bundle
-            if (existingBundledFiles[bundleKey]) {
-                try {
-                    // Fetch the bundled file
-                    const res = await fetch(`data/json/${existingBundledFiles[bundleKey]}`);
-                    const bundledData = await res.json();
-                    
-                    // Extract week data from the bundled file
-                    const bundleData = [];
-                    // The bundled data is an array of arrays, where each inner array represents a week's questions
-                    // The index of the inner array corresponds to the week number (0-based)
-                    bundledData.forEach((weekQuestions, index) => {
-                        const weekNumber = index + 1; // Convert 0-based index to 1-based week number
-                        bundleData.push(weekQuestions);
-                        // Store each week's data in the cache
-                        const cacheKey = `week-${weekNumber}`;
-                        weekDataCache.set(cacheKey, weekQuestions);
-                    });
-                    
-                    return bundleData;
-                } catch (error) {
-                    console.warn(`Failed to fetch bundled file ${existingBundledFiles[bundleKey]}, falling back to individual fetches:`, error);
-                    // Fall back to individual fetches
-                    const bundleData = [];
-                    for (const week of bundle) {
-                        const weekData = await fetchQuizData(week);
-                        bundleData.push(weekData);
-                    }
-                    // Store each week's data in the cache
-                    bundle.forEach((week, index) => {
-                        const cacheKey = `week-${week}`;
-                        weekDataCache.set(cacheKey, bundleData[index]);
-                    });
-                    return bundleData;
-                }
-            } else {
-                // For dynamic bundles, we'll need to fetch each week individually
-                // and then combine them into a single bundle response
-                const bundleData = [];
-                for (const week of bundle) {
-                    const weekData = await fetchQuizData(week);
-                    bundleData.push(weekData);
-                }
-                // Store each week's data in the cache
-                bundle.forEach((week, index) => {
-                    const cacheKey = `week-${week}`;
-                    weekDataCache.set(cacheKey, bundleData[index]);
-                });
-                return bundleData;
+
+    // Use fetch API for loading all weeks in parallel
+    const allWeekPromises = weeks.map(async (week) => {
+        const cacheKey = `week-${week}`;
+        if (weekDataCache.has(cacheKey)) {
+            return weekDataCache.get(cacheKey);
+        }
+
+        try {
+            console.log(`📦 Fetching week ${week}...`);
+            const res = await fetch(`data/json/week-${week}.json`);
+            if (!res.ok) {
+                throw new Error(`Failed to fetch week ${week}: ${res.status}`);
             }
+            const data = await res.json();
+
+            // Store in cache
+            weekDataCache.set(cacheKey, data);
+            return data;
+        } catch (error) {
+            console.error(`❌ Failed to fetch week ${week}:`, error);
+            throw new Error(`Could not load week ${week} data.`);
         }
     });
-    
-    // Flatten the array of arrays into a single array of week data
-    const allWeeksData = (await Promise.all(allWeekPromises)).flat();
-    
+
+    // Wait for all weeks to load
+    const allWeeksData = await Promise.all(allWeekPromises);
+
     // Store in cache
     allQuizzesCache.set('all', allWeeksData);
     return allWeeksData;
@@ -205,7 +169,7 @@ export function updateUserPerformance(weekId, score, totalQuestions) {
     if (weekId === 'final' || weekId === 'failed') {
         return; // Don't track performance for final or failed quizzes
     }
-    
+
     if (!userPerformance[weekId]) {
         userPerformance[weekId] = {
             attempts: 0,
@@ -214,7 +178,7 @@ export function updateUserPerformance(weekId, score, totalQuestions) {
             averageScore: 0
         };
     }
-    
+
     userPerformance[weekId].attempts++;
     userPerformance[weekId].totalScore += score;
     userPerformance[weekId].totalQuestions += totalQuestions;
@@ -228,11 +192,23 @@ export async function getQuizData(quizId) {
         userNavigationPattern.shift(); // Keep only the last 10 navigations
     }
 
+    // Start simple preloading if we have enough navigation data
+    if (userNavigationPattern.length >= 3) {
+        try {
+            await simplePreloader.startSimplePreloading('default_user', {
+                maxConcurrentPreloads: 3,
+                preloadDelay: 1000
+            });
+        } catch (error) {
+            console.warn('⚠️ Simple preloading failed:', error);
+        }
+    }
+
     if (quizId === 'final') {
         // For final quiz, implement selective fetching using bundled data
         // This reduces HTTP requests from 16 to 4
         const allWeeksData = await fetchAllWeeksData();
-        
+
         // Determine how many questions we need from each week (balanced approach)
         const weeks = allWeeksData.length;
         const questionsPerWeek = Math.ceil(60 / weeks);
@@ -244,11 +220,11 @@ export async function getQuizData(quizId) {
             if (weekData.length > 0) {
                 const shuffledWeekQuestions = [...weekData]; // Create a shallow copy to avoid modifying original cached array
                 shuffleArray(shuffledWeekQuestions);
-                
+
                 // Take only the required number of questions from this week
                 const weekQuestions = shuffledWeekQuestions.slice(0, questionsPerWeek);
                 finalTestQuestions.push(...weekQuestions);
-                
+
                 // Add remaining questions to the pool for additional selection
                 if (shuffledWeekQuestions.length > questionsPerWeek) {
                     remainingPool = remainingPool.concat(shuffledWeekQuestions.slice(questionsPerWeek));
@@ -276,53 +252,53 @@ export async function getQuizData(quizId) {
     } else if (quizId === 'failed') {
         const failedCounts = getFailedCounts();
         const allWeeksData = await fetchAllWeeksData();
-        
+
         // Use a Set to track unique question texts for efficient existence checking
         const seenQuestions = new Set();
         const questionsWithFailCount = [];
-        
+
         // Combine deduplication and fail count mapping in a single pass
         // Implement early termination when we have enough questions (60)
         let questionsProcessed = 0;
         const maxQuestionsNeeded = 60;
-        
+
         // Process all weeks data in a single pass
         for (const weekQuestions of allWeeksData) {
             for (const q of weekQuestions) {
                 // Check if we've already seen this question
                 if (!seenQuestions.has(q.question)) {
                     seenQuestions.add(q.question);
-                    
+
                     // Add fail count to the question
                     const questionWithFailCount = {
                         ...q,
                         failCount: failedCounts[q.question] || 0
                     };
-                    
+
                     // Only add questions with fail count > 5
                     if (questionWithFailCount.failCount > 5) {
                         questionsWithFailCount.push(questionWithFailCount);
                         questionsProcessed++;
                     }
-                    
+
                     // Early termination if we have enough questions
                     if (questionsProcessed >= maxQuestionsNeeded) {
                         break;
                     }
                 }
             }
-            
+
             // Early termination if we have enough questions
             if (questionsProcessed >= maxQuestionsNeeded) {
                 break;
             }
         }
-        
+
         // Check if we have enough questions
         if (questionsWithFailCount.length < 10) {
             return [];
         }
-        
+
         // Sort by fail count (descending) and limit to 60 questions
         return questionsWithFailCount
             .sort((a, b) => b.failCount - a.failCount)
@@ -340,6 +316,8 @@ export async function getQuizData(quizId) {
 export function invalidateWeekCache(quizId) {
     const cacheKey = `week-${quizId}`;
     weekDataCache.cache.delete(cacheKey);
+
+    // Cache invalidated for week ${quizId}
 }
 
 /**
@@ -349,17 +327,24 @@ export function invalidateAllCaches() {
     weekDataCache.clear();
     allQuizzesCache.clear();
     manifestCache.clear();
+
+    // All caches invalidated
 }
 
 /**
  * Preload data for weeks that are likely to be accessed based on user behavior
+ * Enhanced with Context7 capabilities
  */
 export async function preloadPredictedWeeks() {
+    // Simple preloading without Context7 initialization
+
     // Analyze user navigation pattern to predict next likely accessed weeks
     if (userNavigationPattern.length === 0) {
         console.log("No user navigation pattern available for preloading.");
         return;
     }
+
+    console.log(`🚀 Intelligent preloading: Using dynamic imports for predicted weeks...`);
 
     // Count frequency of each week access
     const frequencyMap = {};
@@ -372,15 +357,15 @@ export async function preloadPredictedWeeks() {
     // Create a combined score based on frequency and performance
     // Weeks with lower performance should be prioritized for preloading
     const combinedScores = {};
-    
+
     // Get all weeks from manifest
     const { quizzes: allWeeks } = await fetchManifest();
-    
+
     // Calculate combined scores for all weeks
     allWeeks.forEach(week => {
         // Frequency score (0-100)
         const frequencyScore = (frequencyMap[week] || 0) * 20; // Max 100 for 5 accesses
-        
+
         // Performance score (0-100) - lower performance = higher priority
         const performanceData = userPerformance[week];
         let performanceScore = 50; // Default score if no performance data
@@ -388,7 +373,7 @@ export async function preloadPredictedWeeks() {
             // Invert the average score so that lower scores get higher priority
             performanceScore = 100 - performanceData.averageScore;
         }
-        
+
         // Combined score (frequency 70%, performance 30%)
         combinedScores[week] = (frequencyScore * 0.7) + (performanceScore * 0.3);
     });
@@ -400,7 +385,7 @@ export async function preloadPredictedWeeks() {
 
     // Preload the highest scoring weeks (up to 3)
     const weeksToPreload = sortedWeeks.slice(0, 3);
-    
+
     // Also preload weeks that are numerically close to recently accessed weeks
     const recentWeek = userNavigationPattern[userNavigationPattern.length - 1];
     if (recentWeek !== 'final' && recentWeek !== 'failed') {
@@ -409,7 +394,7 @@ export async function preloadPredictedWeeks() {
             // Add adjacent weeks
             if (weekNum > 1) weeksToPreload.push((weekNum - 1).toString());
             if (weekNum < 16) weeksToPreload.push((weekNum + 1).toString());
-            
+
             // Ensure no duplicates in weeksToPreload
             weeksToPreload = [...new Set(weeksToPreload)];
         }
@@ -419,10 +404,14 @@ export async function preloadPredictedWeeks() {
     const uniqueWeeksToPreload = [...new Set(weeksToPreload)]
         .filter(week => week !== 'final' && week !== 'failed');
 
-    // Preload the predicted weeks
-    const preloadPromises = uniqueWeeksToPreload.map(week =>
-        fetchQuizData(week).catch(err => console.warn(`Failed to preload week ${week}:`, err))
-    );
-    
+    // Simple preloading without Context7 tracking
+
+    // Preload the predicted weeks using fetch API
+    const preloadPromises = uniqueWeeksToPreload.map(week => {
+        console.log(`📦 Preloading week ${week} with fetch API...`);
+        return fetchQuizData(week).catch(err => console.warn(`Failed to preload week ${week}:`, err));
+    });
+
     await Promise.allSettled(preloadPromises);
+    console.log(`✅ Preloading completed for ${uniqueWeeksToPreload.length} weeks`);
 }
