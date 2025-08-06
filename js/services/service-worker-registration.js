@@ -127,8 +127,8 @@ export class ServiceWorkerManager {
         // Check if service worker file exists before attempting registration
         const swExists = await this.checkServiceWorkerExists(swPath);
         if (!swExists) {
-          console.warn('Service Worker file not found at:', swPath);
-          console.warn('Continuing without Service Worker - using localStorage fallback');
+          console.warn('🚫 Service Worker file not found at:', swPath);
+          console.warn('📝 Continuing without Service Worker - using localStorage fallback');
           this.isSupported = false;
           return;
         }
