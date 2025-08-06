@@ -13,7 +13,23 @@ export class ServiceWorkerManager {
     this.isInitialized = false;
     this.messageQueue = [];
     
+    // Suppress Permissions-Policy warnings by checking browser support
+    this.suppressWarnings = this.shouldSuppressWarnings();
+    
     this.init();
+  }
+
+  /**
+   * Check if we should suppress certain warnings based on browser capabilities
+   */
+  shouldSuppressWarnings() {
+    // Check if browser has issues with certain permissions policies
+    const userAgent = navigator.userAgent.toLowerCase();
+    const isChrome = userAgent.indexOf('chrome') > -1;
+    const isSafari = userAgent.indexOf('safari') > -1;
+    
+    // Suppress warnings for browsers that don't support certain features
+    return !isChrome || userAgent.indexOf('edg') > -1; // Suppress on Edge or non-Chrome
   }
 
   /**
@@ -21,7 +37,11 @@ export class ServiceWorkerManager {
    */
   async init() {
     if (!this.isSupported) {
-      console.warn('Service Worker is not supported in this browser');
+      if (this.suppressWarnings) {
+        console.log('Service Worker not supported or suppressed for this browser');
+      } else {
+        console.warn('Service Worker is not supported in this browser');
+      }
       return;
     }
 
@@ -39,12 +59,19 @@ export class ServiceWorkerManager {
         return;
       }
 
-      // Register the service worker
-      this.registration = await navigator.serviceWorker.register('/sw.js', {
-        scope: '/'
-      });
-
-      console.log('Service Worker registered successfully:', this.registration);
+      // Register the service worker with fallback handling
+      const swPath = '/sw.js';
+      try {
+        this.registration = await navigator.serviceWorker.register(swPath, {
+          scope: '/'
+        });
+        console.log('Service Worker registered successfully:', this.registration);
+      } catch (error) {
+        console.warn('Service Worker registration failed, continuing without SW:', error.message);
+        // Continue without service worker - app will work with localStorage fallback
+        this.isSupported = false;
+        return;
+      }
 
       // Wait for service worker to activate
       if (this.registration.active) {
@@ -91,7 +118,14 @@ export class ServiceWorkerManager {
       this.requestNotificationPermission();
 
     } catch (error) {
-      console.error('Service Worker registration failed:', error);
+      if (this.suppressWarnings) {
+        console.log('Service Worker registration failed, continuing with localStorage fallback:', error.message);
+      } else {
+        console.error('Service Worker registration failed:', error);
+      }
+      // Continue without service worker - app will work with localStorage fallback
+      this.isSupported = false;
+      return;
     }
   }
 
