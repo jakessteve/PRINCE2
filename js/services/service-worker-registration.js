@@ -5,27 +5,30 @@
 
 export class ServiceWorkerManager {
   constructor() {
-    this.registration = null;
-    this.isSupported = 'serviceWorker' in navigator;
-    this.isOnline = navigator.onLine;
-    this.offlineQueue = [];
-    this.quizState = null;
-    this.isInitialized = false;
-    this.messageQueue = [];
-    
-    // Suppress Permissions-Policy warnings by checking browser support
-    this.suppressWarnings = this.shouldSuppressWarnings();
-    
-    // Force disable service worker for certain environments to avoid errors
-    this.forceDisable = this.shouldForceDisable();
-    
-    if (!this.forceDisable) {
-      this.init();
-    } else {
-      console.log('Service Worker disabled for this environment');
-      this.isSupported = false;
-    }
+  this.registration = null;
+  this.isSupported = 'serviceWorker' in navigator;
+  this.isOnline = navigator.onLine;
+  this.offlineQueue = [];
+  this.quizState = null;
+  this.isInitialized = false;
+  this.messageQueue = [];
+  
+  // Suppress Permissions-Policy warnings by checking browser support
+  this.suppressWarnings = this.shouldSuppressWarnings();
+  
+  // Force disable service worker for certain environments to avoid errors
+  this.forceDisable = this.shouldForceDisable();
+  
+  // Suppress Permissions-Policy warnings immediately
+  this.suppressPermissionsPolicyWarnings();
+  
+  if (!this.forceDisable) {
+    this.init();
+  } else {
+    console.log('🚫 Service Worker disabled for this environment');
+    this.isSupported = false;
   }
+}
 
   /**
    * Check if we should suppress certain warnings based on browser capabilities
@@ -41,6 +44,38 @@ export class ServiceWorkerManager {
   }
 
   /**
+   * Suppress Permissions-Policy warnings by intercepting console.error
+   */
+  suppressPermissionsPolicyWarnings() {
+    if (typeof window === 'undefined') return;
+    
+    // Store original console.error
+    const originalError = console.error;
+    
+    // Override console.error to filter out Permissions-Policy warnings
+    console.error = (...args) => {
+      const errorMessage = args.join(' ');
+      
+      // Filter out Permissions-Policy related warnings
+      if (errorMessage.includes('Permissions-Policy header') ||
+          errorMessage.includes('Unrecognized feature:') ||
+          errorMessage.includes('Origin trial controlled feature not enabled:')) {
+        // Log filtered warnings as debug instead
+        console.debug('🔒 [Filtered Permissions-Policy Warning]:', errorMessage);
+        return;
+      }
+      
+      // Call original console.error for other messages
+      originalError.apply(console, args);
+    };
+    
+    // Restore original console.error after a delay to avoid affecting other parts
+    setTimeout(() => {
+      console.error = originalError;
+    }, 5000);
+  }
+
+  /**
    * Check if we should force disable service worker to avoid errors
    */
   shouldForceDisable() {
@@ -50,6 +85,7 @@ export class ServiceWorkerManager {
     
     // Force disable on GitHub Pages to avoid 404 errors
     if (isGitHubPages) {
+      console.log('🚫 Service Worker disabled: GitHub Pages environment detected');
       return true;
     }
     
@@ -88,12 +124,21 @@ export class ServiceWorkerManager {
       // Register the service worker with fallback handling
       const swPath = '/sw.js';
       try {
+        // Check if service worker file exists before attempting registration
+        const swExists = await this.checkServiceWorkerExists(swPath);
+        if (!swExists) {
+          console.warn('Service Worker file not found at:', swPath);
+          console.warn('Continuing without Service Worker - using localStorage fallback');
+          this.isSupported = false;
+          return;
+        }
+        
         this.registration = await navigator.serviceWorker.register(swPath, {
           scope: '/'
         });
-        console.log('Service Worker registered successfully:', this.registration);
+        console.log('✅ Service Worker registered successfully:', this.registration);
       } catch (error) {
-        console.warn('Service Worker registration failed, continuing without SW:', error.message);
+        console.warn('⚠️ Service Worker registration failed, continuing without SW:', error.message);
         // Continue without service worker - app will work with localStorage fallback
         this.isSupported = false;
         return;
@@ -381,6 +426,20 @@ export class ServiceWorkerManager {
         document.body.removeChild(notification);
       }, 300);
     }, 10000);
+  }
+
+  /**
+   * Check if service worker file exists before attempting registration
+   */
+  async checkServiceWorkerExists(swPath) {
+    try {
+      // Use fetch with HEAD method to check if file exists
+      const response = await fetch(swPath, { method: 'HEAD' });
+      return response.ok;
+    } catch (error) {
+      console.warn('Service Worker file check failed:', error);
+      return false;
+    }
   }
 
   /**
